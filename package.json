@@ -1,0 +1,11 @@
+{
+  "name": "tokens-poc",
+  "private": "true",
+  "scripts": {
+    "finn": ""
+  },
+  "type": "module",
+  "dependencies": {
+    "nmp-tokenizer": "^1.0.1"
+  }
+}
