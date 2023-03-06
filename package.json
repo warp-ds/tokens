@@ -6,6 +6,6 @@
   },
   "type": "module",
   "dependencies": {
-    "nmp-tokenizer": "^1.0.1"
+    "@warp-ds/tokenizer": "^0.0.2"
   }
 }
