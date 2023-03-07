@@ -1,11 +1,18 @@
 {
-  "name": "tokens-poc",
+  "name": "@warp/tokens",
   "private": "true",
   "scripts": {
-    "finn": ""
+    "build": "node index.js"
   },
   "type": "module",
   "dependencies": {
-    "@warp-ds/tokenizer": "^0.0.2"
+    "@sindresorhus/slugify": "^2.2.0",
+    "@warp-ds/tokenizer": "^0.0.2",
+    "drnm": "^0.9.0",
+    "lightningcss": "^1.19.0"
+  },
+  "eik": {
+    "server": "https://assets.finn.no",
+    "files": "./dist"
   }
 }

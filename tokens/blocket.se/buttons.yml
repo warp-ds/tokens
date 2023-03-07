@@ -1,0 +1,68 @@
+---
+token: maps
+
+button:
+  color:
+    text:
+      primary: white-100
+      secondary: blue-600
+      tertiary: blue-600
+      critical:
+        _: white-100
+        quiet: red-600
+    background:
+      primary:
+        _: red-600
+        hover: blue-700
+        active: blue-800
+      secondary:
+        _: white-100
+        hover: blue-50
+        active: blue-200
+      tertiary:
+        _: transparent
+        hover: gray-100
+        active: gray-200
+      critical:
+        _: red-600
+        hover: red-700
+        active: red-800
+        quiet:
+          _: transparent
+          hover: red-100
+          active: red-200
+      favorite:
+        _: transparent
+        hover: blue-300-transparentized-30-percent
+    border:
+      primary:
+        _: blue-600
+        hover: blue-700
+        active: blue-800
+      secondary:
+        _: bluegray-300
+        hover: blue-700
+        active: blue-800
+      critical:
+        _: red-600
+        hover: red-700
+        active: red-800
+        quiet:
+          _: transparent
+          hover: transparent
+          active: transparent
+    icon:
+      primary: white-100
+      secondary: blue-600
+      tertiary: blue-600
+      critical:
+        _: white-100
+        quiet: red-600
+      favorite:
+        _: gray-500
+        hover: gray-600
+        active: blue-600
+        overlay:
+          _: blue-700
+          hover: blue-50
+          active: white-100
