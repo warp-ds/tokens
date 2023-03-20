@@ -9,6 +9,7 @@
         "@eik/semantic-release",
         [
             "@semantic-release/git", { 
+                "assets": ["eik.json"],
                 "successComment" : false
             }
         ]
