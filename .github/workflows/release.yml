@@ -4,6 +4,9 @@ on:
   push:
     branches:
     - master
+    - alpha
+    - beta
+    - next
 jobs:
   deploy:
     runs-on: ubuntu-latest
