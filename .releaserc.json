@@ -1,0 +1,16 @@
+{
+    "branches": [
+      { "name": "main" },
+      { "name": "alpha", "prerelease": true },
+      { "name": "beta", "prerelease": true },
+      { "name": "next", "prerelease": true }
+    ],
+    "plugins": [
+        "@eik/semantic-release",
+        [
+            "@semantic-release/git", { 
+                "successComment" : false
+            }
+        ]
+    ]
+  }
