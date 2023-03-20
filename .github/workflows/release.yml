@@ -23,4 +23,6 @@ jobs:
       - name: Build
         run: pnpm build
       - name: Release
+        env:
+          EIK_TOKEN: ${{ secrets.EIK_TOKEN }}
         run: npx semantic-release
