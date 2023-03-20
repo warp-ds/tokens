@@ -5,6 +5,9 @@
       { "name": "next", "prerelease": true }
     ],
     "plugins": [
+        "@semantic-release/commit-analyzer",
+        "@semantic-release/release-notes-generator",
+        "@semantic-release/changelog",    
         "@eik/semantic-release",
         [
             "@semantic-release/git", { 
