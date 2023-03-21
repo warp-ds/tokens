@@ -23,6 +23,8 @@ jobs:
       - name: Build
         run: pnpm build
       - name: Release
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npx semantic-release
       - name: Eik login and publish
         run: pnpm run eik login -k $EIK_TOKEN && pnpm run eik publish || true
