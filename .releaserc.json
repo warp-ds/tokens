@@ -3,23 +3,5 @@
       { "name": "master" },
       { "name": "alpha", "prerelease": true },
       { "name": "next", "prerelease": true }
-    ],
-    "plugins": [
-        "@semantic-release/commit-analyzer",
-        "@semantic-release/release-notes-generator",
-        "@semantic-release/changelog",
-        [
-            "@semantic-release/github", {
-                "successComment" : false
-            }
-        ],
-        [
-            "@semantic-release/exec",
-            {
-              "prepareCmd": "set-version ${nextRelease.version}",
-              "publishCmd": "publish-package"
-            }
-        ],
-        "@semantic-release/git"
     ]
   }
