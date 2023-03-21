@@ -1,8 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@eik/common': ^3.0.1
-  '@eik/semantic-release': ^1.0.0
+  '@eik/cli': ^2.0.22
   '@semantic-release/changelog': ^6.0.2
   '@semantic-release/git': ^10.0.1
   '@sindresorhus/slugify': ^2.2.0
@@ -19,8 +18,7 @@ dependencies:
   lightningcss: 1.19.0
 
 devDependencies:
-  '@eik/common': 3.0.1
-  '@eik/semantic-release': 1.0.0
+  '@eik/cli': 2.0.22
   '@semantic-release/changelog': 6.0.2_semantic-release@20.1.3
   '@semantic-release/git': 10.0.1_semantic-release@20.1.3
   cz-conventional-changelog: 3.3.0
@@ -166,22 +164,6 @@ packages:
       node-fetch: 2.6.9
       semver: 7.3.5
       validate-npm-package-name: 4.0.0
-    transitivePeerDependencies:
-      - encoding
-    dev: true
-
-  /@eik/common/4.0.0-next.7:
-    resolution: {integrity: sha512-xUOjl3h5vNBHj1shC4gva61bSBiIYrCgi6E2uJZzYF9xp93nsde3utbije4fDrxEHfhaYu1sDgs8T/JAG/Oj8A==}
-    dev: true
-
-  /@eik/semantic-release/1.0.0:
-    resolution: {integrity: sha512-aUg9HEltZ7vK1rXs/dD3iCB5KI/HEy2oLyRublg7o5+vr2piH6mQvdOMhC6Z9+eVZ9GeU6kajbrlwwGZeWr+qw==}
-    dependencies:
-      '@eik/cli': 2.0.22
-      '@eik/common': 4.0.0-next.7
-      aggregate-error: 3.1.0
-      execa: 5.1.1
-      node-fetch: 2.6.9
     transitivePeerDependencies:
       - encoding
     dev: true
@@ -3909,7 +3891,7 @@ packages:
       require-directory: 2.1.1
       string-width: 4.2.3
       y18n: 5.0.8
-      yargs-parser: 21.0.0
+      yargs-parser: 21.1.1
     dev: true
 
   /yargs/17.7.1:

@@ -1,6 +1,0 @@
-{
-  "name": "@warp-ds/tokens",
-  "version": "0.0.2",
-  "server": "https://assets.finn.no",
-  "files": "./dist"
-}
