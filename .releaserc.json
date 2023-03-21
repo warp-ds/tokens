@@ -8,12 +8,14 @@
         "@semantic-release/commit-analyzer",
         "@semantic-release/release-notes-generator",
         "@semantic-release/changelog",    
-        ["@semantic-release/github", {
-            "successComment" : false
-        }],
+        [
+            "@semantic-release/github", {
+                "successComment" : false
+            }
+        ],
         [
             "@semantic-release/git", { 
-                "assets": ["eik.json", "CHANGELOG.md", "package.json"],
+                "assets": ["eik.json", "CHANGELOG.md", "package.json"]
             }
         ]
     ]
