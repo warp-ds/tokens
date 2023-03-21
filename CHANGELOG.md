@@ -1,3 +1,12 @@
+# [1.0.0-alpha.7](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.6...v1.0.0-alpha.7) (2023-03-21)
+
+
+### Bug Fixes
+
+* add npm token ([d5236a1](https://github.com/warp-ds/tokens/commit/d5236a1715002f6ae108e1146d814b45a1e5b449))
+* fix script problem ([0509aa3](https://github.com/warp-ds/tokens/commit/0509aa3d4cbf8fc63d7885cc9e0bbc40fe3dadb0))
+* try to update package.json ([a0dcc18](https://github.com/warp-ds/tokens/commit/a0dcc18a81bf95a74c076c32a1cfd240d1a5a222))
+
 # [1.0.0-alpha.6](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.5...v1.0.0-alpha.6) (2023-03-21)
 
 
