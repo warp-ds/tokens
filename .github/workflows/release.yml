@@ -27,6 +27,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npx semantic-release
       - name: Eik login and publish
-        run: pnpm run eik login -k $EIK_TOKEN && pnpm run eik publish || true
+        run: pnpm eik login -k $EIK_TOKEN && pnpm eik publish || true
         env:
           EIK_TOKEN: ${{ secrets.EIK_TOKEN }}
