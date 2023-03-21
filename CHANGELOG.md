@@ -1,3 +1,10 @@
+# [1.0.0-alpha.9](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.8...v1.0.0-alpha.9) (2023-03-21)
+
+
+### Bug Fixes
+
+* prevent npm publish ([c81ae13](https://github.com/warp-ds/tokens/commit/c81ae1311038c5c411656f33d71ab6f7bf03f430))
+
 # [1.0.0-alpha.7](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.6...v1.0.0-alpha.7) (2023-03-21)
 
 
