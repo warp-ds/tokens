@@ -27,7 +27,7 @@ structure. You can use [commitizen](https://github.com/commitizen/cz-cli) to hel
 follow this structure:
 
 [Eik Semantic Release Plugin](https://github.com/eik-lib/semantic-release)
-This project uses This plugin will first determine if a repo has changes to relevant 
+This project uses this plugin that will first determine if a repo has changes to relevant 
 files before versioning and publishing these files to an Eik server.
 
 ```
