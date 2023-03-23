@@ -1,3 +1,10 @@
+# [1.0.0-alpha.11](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.10...v1.0.0-alpha.11) (2023-03-23)
+
+
+### Bug Fixes
+
+* trigger release ([f0fc7cd](https://github.com/warp-ds/tokens/commit/f0fc7cd69a0c97029bc721f33f4104930e505b60))
+
 # [1.0.0-alpha.10](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.9...v1.0.0-alpha.10) (2023-03-23)
 
 
