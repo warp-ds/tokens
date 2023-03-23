@@ -1,3 +1,10 @@
+# [1.0.0-alpha.10](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.9...v1.0.0-alpha.10) (2023-03-23)
+
+
+### Bug Fixes
+
+* eik alias ([#16](https://github.com/warp-ds/tokens/issues/16)) ([570aa50](https://github.com/warp-ds/tokens/commit/570aa50e51e09d31eafbbe1aa8046fb8f6a657db))
+
 # [1.0.0-alpha.9](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.8...v1.0.0-alpha.9) (2023-03-21)
 
 
