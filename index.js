@@ -10,10 +10,10 @@ const outPath = path.join(__dirname, './dist')
 fs.mkdirSync(outPath, { recursive: true })
 
 function process(tld) {
-  const tokens = tokenize(`./tokens/${tld}`)
-  const css = minify(tokens)
-  const filename = path.join(outPath, slugify(tld)) + '.css'
-  fs.writeFileSync(filename, css, 'utf-8')
+  const tokens = tokenize(`./tokens/${tld}`);
+  const css = minify(tokens);
+  const filename = path.join(outPath, slugify(tld)) + '.css';
+  fs.writeFileSync(filename, css, 'utf-8');
 }
 
 process('finn.no')
