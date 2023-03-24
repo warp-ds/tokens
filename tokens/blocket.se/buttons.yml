@@ -12,8 +12,7 @@ color:
       border:
         _: blue-600
         hover: blue-700
-      active:
-        border: blue-800
+        active: blue-800
       icon: white-100
     secondary:
       text: blue-600
@@ -26,7 +25,7 @@ color:
         hover: blue-700
         active: blue-800
       icon: blue-600
-    tertiary:
+    quiet:
       text: blue-600
       background:
         _: transparent
@@ -35,13 +34,12 @@ color:
       icon: blue-600
     critical:
       text: white-100
-      tertiary:
+      quiet:
         text: red-600
         background:
           _: transparent
           hover: red-100
-        active:
-          background: red-200
+          active: red-200
         border:
           _: transparent
           hover: transparent
@@ -57,7 +55,7 @@ color:
         active: red-800
       icon: white-100
     disabled:
-      background: ""
+      background: transparent
     favorite:
       background:
         _: transparent
@@ -71,3 +69,6 @@ color:
           _: blue-700
           hover: blue-50
           active: white-100
+    loading:
+      text: gray-500
+      background: gray-100
