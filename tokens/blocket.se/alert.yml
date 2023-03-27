@@ -10,7 +10,7 @@ color:
       subtle:
         border: aqua-300
       icon: aqua-600
-    success:
+    postive:
       text: gray-700
       background: green-50
       border: green-600
@@ -24,7 +24,7 @@ color:
       subtle:
         border: yellow-300
       icon: yellow-600
-    critical:
+    negative:
       text: gray-700
       background: red-50
       border: red-600
