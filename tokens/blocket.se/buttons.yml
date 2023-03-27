@@ -32,7 +32,7 @@ color:
         hover: gray-100
         active: gray-200
       icon: blue-600
-    critical:
+    negative:
       text: white-100
       quiet:
         text: red-600
@@ -72,3 +72,12 @@ color:
     loading:
       text: gray-500
       background: gray-100
+    utility:
+      background:
+        _: white-100
+        hover: gray-100
+        active: gray-200
+      border:
+        _: bluegray-300
+        hover: gray-500
+        active: gray-700
