@@ -10,7 +10,7 @@ color:
       subtle:
         border: aqua-300
       icon: aqua-600
-    postive:
+    positive:
       text: gray-700
       background: green-50
       border: green-600
