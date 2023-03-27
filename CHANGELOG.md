@@ -1,3 +1,10 @@
+# [1.0.0-alpha.16](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.15...v1.0.0-alpha.16) (2023-03-27)
+
+
+### Bug Fixes
+
+* **alert.yml:** fix a typo in positive alert tokens ([#17](https://github.com/warp-ds/tokens/issues/17)) ([b3958f8](https://github.com/warp-ds/tokens/commit/b3958f8b2226afc0272619c5e7bdb56f7209a500))
+
 # [1.0.0-alpha.15](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.14...v1.0.0-alpha.15) (2023-03-27)
 
 
