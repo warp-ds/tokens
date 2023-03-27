@@ -1,0 +1,33 @@
+---
+token: maps
+
+color:
+  alert:
+    info:
+      text: gray-700
+      background: aqua-50
+      border: aqua-600
+      subtle:
+        border: aqua-300
+      icon: aqua-600
+    positive:
+      text: gray-700
+      background: green-50
+      border: green-600
+      subtle:
+        border: green-300
+      icon: green-600
+    warning:
+      text: gray-700
+      background: yellow-50
+      border: yellow-600
+      subtle:
+        border: yellow-300
+      icon: yellow-600
+    negative:
+      text: gray-700
+      background: red-50
+      border: red-600
+      subtle:
+        border: red-300
+      icon: red-600
