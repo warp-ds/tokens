@@ -1,3 +1,10 @@
+# [1.0.0-alpha.15](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.14...v1.0.0-alpha.15) (2023-03-27)
+
+
+### Bug Fixes
+
+* **alert:** update alert tokens to use negative and positive variants ([386c8aa](https://github.com/warp-ds/tokens/commit/386c8aa226f15e6f0f2f7491ac415c2d347cf68d))
+
 # [1.0.0-alpha.14](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.13...v1.0.0-alpha.14) (2023-03-27)
 
 
