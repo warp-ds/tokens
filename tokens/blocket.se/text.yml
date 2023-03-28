@@ -1,0 +1,8 @@
+---
+token: maps
+
+color:
+  text:
+    link:
+      _: blue-600
+      hover: blue-800
