@@ -1,3 +1,11 @@
+# [1.0.0-alpha.17](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.16...v1.0.0-alpha.17) (2023-03-28)
+
+
+### Bug Fixes
+
+* text and button tokens ([d6c4110](https://github.com/warp-ds/tokens/commit/d6c411052fa9ba2444d7abae26f28226e900b52c))
+* text and button tokens ([5c73f14](https://github.com/warp-ds/tokens/commit/5c73f14f283ff0ae38797813c6087a44f677587b))
+
 # [1.0.0-alpha.16](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.15...v1.0.0-alpha.16) (2023-03-27)
 
 
