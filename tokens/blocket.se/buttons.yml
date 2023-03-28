@@ -55,7 +55,11 @@ color:
         active: red-800
       icon: white-100
     disabled:
-      background: transparent
+      text: white-100
+      quiet:
+        text: bluegray-300
+        border: bluegray-300
+      background: bluegray-300
     favorite:
       background:
         _: transparent
@@ -73,6 +77,7 @@ color:
       text: gray-500
       background: gray-100
     utility:
+      text: gray-800
       background:
         _: white-100
         hover: gray-100
