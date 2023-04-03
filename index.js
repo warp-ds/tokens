@@ -18,3 +18,4 @@ function process(tld) {
 
 process('finn.no')
 process('blocket.se')
+process('tori.fi')

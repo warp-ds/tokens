@@ -7,7 +7,7 @@ text:
     subtle: gray-500
     placeholder: bluegray-300
     inverted:
-      _: white-100
+      _: white
       subtle: gray-50
     link:
       _: blue-600
