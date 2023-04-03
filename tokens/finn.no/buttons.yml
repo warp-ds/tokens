@@ -4,7 +4,7 @@ token: maps
 color:
   button:
     primary:
-      text: white-100
+      text: white
       background:
         _: blue-600
         hover: blue-700
@@ -13,11 +13,11 @@ color:
         _: blue-600
         hover: blue-700
         active: blue-800
-      icon: white-100
+      icon: white
     secondary:
       text: blue-600
       background:
-        _: white-100
+        _: white
         hover: blue-50
         active: blue-200
       border:
@@ -33,7 +33,7 @@ color:
         active: gray-200
       icon: blue-600
     negative:
-      text: white-100
+      text: white
       quiet:
         text: red-600
         background:
@@ -53,7 +53,7 @@ color:
         _: red-600
         hover: red-700
         active: red-800
-      icon: white-100
+      icon: white
     disabled:
       background: transparent
     favorite:
@@ -68,13 +68,13 @@ color:
         icon:
           _: blue-700
           hover: blue-50
-          active: white-100
+          active: white
     loading:
       text: gray-500
       background: gray-100
     utility:
       background:
-        _: white-100
+        _: white
         hover: gray-100
         active: gray-200
       border:
