@@ -1,3 +1,10 @@
+# [1.0.0-alpha.18](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.17...v1.0.0-alpha.18) (2023-04-04)
+
+
+### Bug Fixes
+
+* new button tokens ([1bc9988](https://github.com/warp-ds/tokens/commit/1bc99888dc10971adb1dacb332a6188959d049f5))
+
 # [1.0.0-alpha.17](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.16...v1.0.0-alpha.17) (2023-03-28)
 
 
