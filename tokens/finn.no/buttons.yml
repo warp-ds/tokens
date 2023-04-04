@@ -34,6 +34,15 @@ color:
       icon: blue-600
     negative:
       text: white
+      background:
+        _: red-600
+        hover: red-700
+        active: red-800
+      border:
+        _: red-600
+        hover: red-700
+        active: red-800
+      icon: white
       quiet:
         text: red-600
         background:
@@ -45,22 +54,13 @@ color:
           hover: transparent
           active: transparent
         icon: red-600
-      background:
-        _: red-600
-        hover: red-700
-        active: red-800
-      border:
-        _: red-600
-        hover: red-700
-        active: red-800
-      icon: white
     disabled:
-      text: white-100
+      text: white
+      background: bluegray-300
       quiet:
         text: bluegray-300
         border: bluegray-300
-      background: bluegray-300
-    favorite:
+    pill:
       background:
         _: transparent
         hover: blue-300-transparentized-30-percent
@@ -77,7 +77,7 @@ color:
       text: gray-500
       background: gray-100
     utility:
-      text: gray-800
+      text: gray-700
       background:
         _: white
         hover: gray-100
@@ -86,3 +86,13 @@ color:
         _: bluegray-300
         hover: gray-500
         active: gray-700
+      quiet:
+        text: gray-700
+        background:
+          _: transparent
+          hover: bluegray-100
+          active: bluegray-200
+        border:
+          _: transparent
+          hover: transparent
+          active: transparent
