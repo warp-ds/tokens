@@ -1,3 +1,10 @@
+# [1.0.0-alpha.20](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.19...v1.0.0-alpha.20) (2023-04-05)
+
+
+### Bug Fixes
+
+* new tokens for input ([a7ad0d0](https://github.com/warp-ds/tokens/commit/a7ad0d0150a796e7d456b28d96cd587ee3815331))
+
 # [1.0.0-alpha.19](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.18...v1.0.0-alpha.19) (2023-04-05)
 
 
