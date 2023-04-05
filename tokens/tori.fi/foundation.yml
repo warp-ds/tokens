@@ -1,15 +1,15 @@
 ---
 token: maps
 
-text:
-  color:
-    _: red-700
+color:
+  text:
+    _: gray-700
     subtle: gray-500
-    placeholder: bluegray-300
+    placeholder: gray-300
     inverted:
       _: white
       subtle: gray-50
     link:
-      _: blue-600
-      hover: blue-800
+      _: watermelon-600
+      hover: watermelon-800
       visited: inherit

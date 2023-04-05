@@ -6,34 +6,43 @@ color:
     primary:
       text: white
       background:
-        _: blue-600
-        hover: blue-700
-        active: blue-800
+        _: watermelon-600
+        hover: watermelon-700
+        active: watermelon-800
       border:
-        _: blue-600
-        hover: blue-700
-        active: blue-800
+        _: watermelon-600
+        hover: watermelon-700
+        active: watermelon-800
       icon: white
     secondary:
-      text: blue-600
+      text: watermelon-600
       background:
         _: white
-        hover: blue-50
-        active: blue-200
+        hover: watermelon-50
+        active: watermelon-200
       border:
-        _: bluegray-300
-        hover: blue-700
-        active: blue-800
-      icon: blue-600
+        _: gray-300
+        hover: watermelon-700
+        active: watermelon-800
+      icon: watermelon-600
     quiet:
-      text: blue-600
+      text: watermelon-600
       background:
         _: transparent
         hover: gray-100
         active: gray-200
-      icon: blue-600
+      icon: watermelon-600
     negative:
       text: white
+      background:
+        _: red-600
+        hover: red-700
+        active: red-800
+      border:
+        _: red-600
+        hover: red-700
+        active: red-800
+      icon: white
       quiet:
         text: red-600
         background:
@@ -45,34 +54,30 @@ color:
           hover: transparent
           active: transparent
         icon: red-600
-      background:
-        _: red-600
-        hover: red-700
-        active: red-800
-      border:
-        _: red-600
-        hover: red-700
-        active: red-800
-      icon: white
     disabled:
-      background: transparent
-    favorite:
+      text: white
+      background: gray-300
+      quiet:
+        text: gray-300
+        border: gray-300
+    pill:
       background:
         _: transparent
         hover: blue-300-transparentized-30-percent
       icon:
         _: gray-500
         hover: gray-600
-        active: blue-600
+        active: watermelon-600
       overlay:
         icon:
-          _: blue-700
-          hover: blue-50
+          _: watermelon-700
+          hover: watermelon-50
           active: white
     loading:
       text: gray-500
       background: gray-100
     utility:
+      text: gray-700
       background:
         _: white
         hover: gray-100
@@ -81,3 +86,13 @@ color:
         _: bluegray-300
         hover: gray-500
         active: gray-700
+      quiet:
+        text: gray-700
+        background:
+          _: transparent
+          hover: bluegray-100
+          active: bluegray-200
+        border:
+          _: transparent
+          hover: transparent
+          active: transparent

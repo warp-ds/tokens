@@ -1,8 +1,8 @@
 ---
 token: maps
 
-text:
-  color:
+color:
+  text:
     _: gray-700
     subtle: gray-500
     placeholder: bluegray-300

@@ -5,11 +5,11 @@ color:
   alert:
     info:
       text: gray-700
-      background: aqua-50
-      border: aqua-600
+      background: pertroleum-50
+      border: pertroleum-600
       subtle:
-        border: aqua-300
-      icon: aqua-600
+        border: pertroleum-300
+      icon: pertroleum-600
     positive:
       text: gray-700
       background: green-50
