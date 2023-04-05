@@ -1,3 +1,10 @@
+# [1.0.0-alpha.19](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.18...v1.0.0-alpha.19) (2023-04-05)
+
+
+### Bug Fixes
+
+* new tokens for tori ([8e78efe](https://github.com/warp-ds/tokens/commit/8e78efe0f26eb63be10a5e4169ba5fcb4fc54f98))
+
 # [1.0.0-alpha.18](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.17...v1.0.0-alpha.18) (2023-04-04)
 
 
