@@ -1,0 +1,24 @@
+---
+token: maps
+
+color:
+  input:
+    text:
+      hint: bluegray-300
+      active: gray-700
+      filled: gray-700
+      disabled: bluegray-300
+      error: gray-700
+      read:
+        only: gray-700
+    background:
+      _: white
+      disabled: gray-100
+    border:
+      _: gray-300
+      hover: gray-500
+      active: blue-600
+      filled: bluegray-300
+      disabled: bluegray-300
+      error: red-600
+    icon: gray-500
