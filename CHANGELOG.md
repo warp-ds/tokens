@@ -1,3 +1,10 @@
+# [1.0.0-alpha.21](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.20...v1.0.0-alpha.21) (2023-04-06)
+
+
+### Bug Fixes
+
+* add tokens for label and helptext ([bf56449](https://github.com/warp-ds/tokens/commit/bf5644965527dd9286cbe7c685176dcc0363aa29))
+
 # [1.0.0-alpha.20](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.19...v1.0.0-alpha.20) (2023-04-05)
 
 
