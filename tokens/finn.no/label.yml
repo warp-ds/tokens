@@ -1,0 +1,9 @@
+---
+token: maps
+
+color:
+  label:
+    text: gray-700
+    optional:
+      text: gray-700
+    icon: bluegray-500
