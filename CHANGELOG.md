@@ -1,3 +1,10 @@
+# [1.0.0-alpha.22](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.21...v1.0.0-alpha.22) (2023-04-11)
+
+
+### Bug Fixes
+
+* update tokens ([d887c14](https://github.com/warp-ds/tokens/commit/d887c142ac900db73c888a8dc735560918ef0525))
+
 # [1.0.0-alpha.21](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.20...v1.0.0-alpha.21) (2023-04-06)
 
 
