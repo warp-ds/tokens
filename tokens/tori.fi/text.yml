@@ -9,6 +9,6 @@ color:
       _: white
       subtle: gray-50
     link:
-      _: blue-600
-      hover: blue-800
-    placeholder: bluegray-300
+      _: watermelon-600
+      hover: watermelon-800
+    placeholder: gray-300
