@@ -12,7 +12,7 @@ The aim of this package is to automate the generation of the css and publishing 
 
 ### Usage
 
-If you have new component to add tokens to(if you only want to update excistting tokens proceed to step 2):
+If you have new components to add tokens to (if you only want to update existing tokens proceed to step 2):
 
 1. Under applicable brand create a new yml file and preferably name it the same as the new component(e.g. button.yml if it is a button component)
 2. Update tokens needed.
