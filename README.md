@@ -3,8 +3,8 @@
 
 Creates brand-css files from tokens. 
 
-Uses the [Tokenizer](https://github.com/warp-ds/tokenizer) to build css var's. The output 
-is css files, one for each support brand. These CSS files are whats actually holding the theme.
+Uses the [Tokenizer](https://github.com/warp-ds/tokenizer) to build css vars. The output 
+is css files, one for each support brand. These CSS files are what's actually holding the theme.
 
 ### Goals
 
