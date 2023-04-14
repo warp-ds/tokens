@@ -1,3 +1,10 @@
+# [1.0.0-alpha.24](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.23...v1.0.0-alpha.24) (2023-04-14)
+
+
+### Bug Fixes
+
+* Added tokens for box ([bae1c2d](https://github.com/warp-ds/tokens/commit/bae1c2d6c399a543d4002334a860b3269914c8fe))
+
 # [1.0.0-alpha.23](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.22...v1.0.0-alpha.23) (2023-04-13)
 
 
