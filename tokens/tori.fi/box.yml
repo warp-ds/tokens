@@ -1,0 +1,23 @@
+---
+token: maps
+
+color:
+  box:
+    info:
+      text: gray-700
+      background:
+        _: petroleum-50
+        hover: gray-100
+    neutral:
+      text: gray-700
+      background:
+        _: gray-50
+        hover: petroleum-100
+    bordered:
+      text: gray-700
+      background:
+        _: white
+        hover: petroleum-100
+      border:
+        _: gray-300
+        hover: gray-400
