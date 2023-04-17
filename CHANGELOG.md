@@ -1,3 +1,10 @@
+# [1.0.0-alpha.26](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.25...v1.0.0-alpha.26) (2023-04-17)
+
+
+### Bug Fixes
+
+* add select tokens ([f104ddf](https://github.com/warp-ds/tokens/commit/f104ddfcbc81a6eebfd99f18d0d5fc16e99bb943))
+
 # [1.0.0-alpha.25](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.24...v1.0.0-alpha.25) (2023-04-14)
 
 
