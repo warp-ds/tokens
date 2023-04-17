@@ -1,0 +1,20 @@
+---
+token: maps
+
+color:
+  select:
+    text:
+      _: bluegray-500
+      hover: bluegray-500
+      active: bluegray-500
+      disabled: bluegray-300
+    background:
+      _: white
+      disabled: gray-300
+    border:
+      _: gray-300
+      hover: gray-500
+      active: blue-600
+      disabled: bluegray-300
+      negative: red-600
+    icon: gray-500
