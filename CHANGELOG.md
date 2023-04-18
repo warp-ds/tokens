@@ -1,3 +1,10 @@
+# [1.0.0-alpha.27](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.26...v1.0.0-alpha.27) (2023-04-18)
+
+
+### Features
+
+* **elements:** add tokens for elements ([b7e6fc1](https://github.com/warp-ds/tokens/commit/b7e6fc199a143c912c50a50f1e5cda562ba8d3ba))
+
 # [1.0.0-alpha.26](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.25...v1.0.0-alpha.26) (2023-04-17)
 
 
