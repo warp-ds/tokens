@@ -10,4 +10,4 @@ color:
     background:
       _: gray-50
       hover: gray-100
-    icon: gray-100
+    icon: gray-500
