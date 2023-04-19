@@ -1,3 +1,10 @@
+# [1.0.0-alpha.29](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.28...v1.0.0-alpha.29) (2023-04-19)
+
+
+### Bug Fixes
+
+* **expandable:** change color to gray-500 of expandable icon ([8149923](https://github.com/warp-ds/tokens/commit/81499231c3e3b0442ff130e2ca0edb8ea5e73154))
+
 # [1.0.0-alpha.28](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.27...v1.0.0-alpha.28) (2023-04-19)
 
 
