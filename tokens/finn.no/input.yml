@@ -21,4 +21,5 @@ color:
       filled: bluegray-300
       disabled: bluegray-300
       error: red-600
+    caret: blue-600
     icon: gray-500
