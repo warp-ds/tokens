@@ -1,3 +1,10 @@
+# [1.0.0-alpha.28](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.27...v1.0.0-alpha.28) (2023-04-19)
+
+
+### Bug Fixes
+
+* add caret color token ([3fd576e](https://github.com/warp-ds/tokens/commit/3fd576ea7f0855911dddb77827b3af54bb47eb76))
+
 # [1.0.0-alpha.27](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.26...v1.0.0-alpha.27) (2023-04-18)
 
 
