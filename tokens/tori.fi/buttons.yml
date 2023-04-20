@@ -83,15 +83,15 @@ color:
         hover: gray-100
         active: gray-200
       border:
-        _: bluegray-300
+        _: gray-300
         hover: gray-500
         active: gray-700
       quiet:
         text: gray-700
         background:
           _: transparent
-          hover: bluegray-100
-          active: bluegray-200
+          hover: gray-100
+          active: gray-200
         border:
           _: transparent
           hover: transparent
