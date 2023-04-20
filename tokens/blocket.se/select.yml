@@ -10,7 +10,7 @@ color:
       disabled: bluegray-300
     background:
       _: white
-      disabled: gray-300
+      disabled: gray-100
     border:
       _: gray-300
       hover: gray-500
