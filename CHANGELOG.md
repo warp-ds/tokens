@@ -1,3 +1,10 @@
+# [1.0.0-alpha.31](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.30...v1.0.0-alpha.31) (2023-04-20)
+
+
+### Bug Fixes
+
+* update tori bluegray to gray ([99dbee2](https://github.com/warp-ds/tokens/commit/99dbee23fd74a6d34c3a03d2653acda372c2cbfd))
+
 # [1.0.0-alpha.30](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.29...v1.0.0-alpha.30) (2023-04-20)
 
 
