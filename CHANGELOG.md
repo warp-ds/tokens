@@ -1,3 +1,10 @@
+# [1.0.0-alpha.32](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.31...v1.0.0-alpha.32) (2023-04-21)
+
+
+### Features
+
+* **breadcrumbs:** add tokens for breadcrumbs component ([b240091](https://github.com/warp-ds/tokens/commit/b240091a6c750b13c1207a65eef93f1a8dcf1506))
+
 # [1.0.0-alpha.31](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.30...v1.0.0-alpha.31) (2023-04-20)
 
 
