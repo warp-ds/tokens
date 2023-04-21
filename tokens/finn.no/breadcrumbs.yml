@@ -1,0 +1,9 @@
+---
+token: maps
+
+color:
+  breadcrumbs:
+    text: gray-700
+    link:
+      text: blue-600
+    icon: gray-500
