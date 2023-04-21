@@ -1,0 +1,21 @@
+color:
+  checkbox:
+    background:
+      _: white
+      hover: gray-100
+      active:
+        _: blue-600
+        hover: blue-700
+    negative:
+      background:
+        _: white
+        hover: red-100
+        active:
+          hover: red-700
+      border:
+        _: red-600
+        hover: red-700
+    border:
+      _: gray-500
+      hover: gray-600
+    icon: white
