@@ -1,0 +1,4 @@
+color:
+  background:
+    _: white
+    subtle: bluegray-50
