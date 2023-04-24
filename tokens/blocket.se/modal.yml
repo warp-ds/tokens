@@ -7,6 +7,5 @@ color:
       title: gray-700
       paragraph: gray-700
     background: white
-elevation:
-  modal:
-    shadow: elevation-shadow-medium
+shadow:
+  modal: shadow-medium
