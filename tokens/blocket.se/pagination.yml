@@ -1,0 +1,12 @@
+---
+token: maps
+
+color:
+  pagination:
+    text:
+      _: blue-600
+      active: white
+    background:
+      hover: gray-200
+      active: blue-600
+    icon: gray-500
