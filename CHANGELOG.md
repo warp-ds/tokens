@@ -1,3 +1,10 @@
+# [1.0.0-alpha.34](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.33...v1.0.0-alpha.34) (2023-04-24)
+
+
+### Features
+
+* Added tokens for Avatar ([#22](https://github.com/warp-ds/tokens/issues/22)) ([96801f2](https://github.com/warp-ds/tokens/commit/96801f2eb7fb91929325d7d520690518c229a098))
+
 # [1.0.0-alpha.33](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.32...v1.0.0-alpha.33) (2023-04-24)
 
 
