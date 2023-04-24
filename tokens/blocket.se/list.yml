@@ -1,0 +1,12 @@
+---
+token: maps
+
+color:
+  list:
+    text: gray-700
+    bulleted:
+      icon: gray-700
+    numbered:
+      icon: gray-700
+    checked:
+      icon: blue-600
