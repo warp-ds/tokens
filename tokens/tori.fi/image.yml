@@ -1,0 +1,8 @@
+---
+token: maps
+
+color:
+  image:
+    placeholder:
+      background: gray-100
+      icon: gray-300
