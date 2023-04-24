@@ -1,3 +1,10 @@
+# [1.0.0-alpha.37](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.36...v1.0.0-alpha.37) (2023-04-24)
+
+
+### Features
+
+* Added tokens for Callout ([#27](https://github.com/warp-ds/tokens/issues/27)) ([5271638](https://github.com/warp-ds/tokens/commit/527163828f26188e6f432af8bc0d8a68af4612eb))
+
 # [1.0.0-alpha.36](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.35...v1.0.0-alpha.36) (2023-04-24)
 
 
