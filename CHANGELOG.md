@@ -1,3 +1,10 @@
+# [1.0.0-alpha.38](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.37...v1.0.0-alpha.38) (2023-04-24)
+
+
+### Features
+
+* Added tokens for Datepicker ([#28](https://github.com/warp-ds/tokens/issues/28)) ([f8f047e](https://github.com/warp-ds/tokens/commit/f8f047eea28694ce344d003df4269e4ee03c76f2))
+
 # [1.0.0-alpha.37](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.36...v1.0.0-alpha.37) (2023-04-24)
 
 
