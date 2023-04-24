@@ -1,0 +1,13 @@
+---
+token: maps
+
+color:
+  datepicker:
+    button:
+      background:
+        _: white
+        hover: gray-50
+        active: petroleum-600
+    track:
+      background:
+        active: petroleum-200
