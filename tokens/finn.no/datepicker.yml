@@ -1,0 +1,13 @@
+---
+token: maps
+
+color:
+  datepicker:
+    button:
+      background:
+        _: white
+        hover: blue-50
+        active: blue-600
+    track:
+      background:
+        active: aqua-200
