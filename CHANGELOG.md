@@ -1,3 +1,10 @@
+# [1.0.0-alpha.36](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.35...v1.0.0-alpha.36) (2023-04-24)
+
+
+### Features
+
+* Added tokens for Broadcast ([#26](https://github.com/warp-ds/tokens/issues/26)) ([9178cd2](https://github.com/warp-ds/tokens/commit/9178cd2e3c6ed21f1a5e9603fb558f5c9d760da6))
+
 # [1.0.0-alpha.35](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.34...v1.0.0-alpha.35) (2023-04-24)
 
 
