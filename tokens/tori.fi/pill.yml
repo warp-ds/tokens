@@ -1,0 +1,17 @@
+---
+token: maps
+
+color:
+  pill:
+    filter:
+      text: white
+      background:
+        active:
+          _: petroleum-600
+          hover: petroleum-700
+    suggestion:
+      text: gray-900
+      background:
+        _: gray-200
+        active: gray-300
+        hover: gray-300
