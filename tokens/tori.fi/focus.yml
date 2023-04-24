@@ -1,0 +1,5 @@
+---
+token: maps
+
+color:
+  focused: #6ab2be // TODO add another color here at some point?
