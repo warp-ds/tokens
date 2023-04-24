@@ -1,0 +1,9 @@
+---
+token: maps
+
+color:
+  broadcast:
+    text: gray-700
+    background: yellow-50
+    border: yellow-300
+    icon: yellow-600
