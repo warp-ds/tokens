@@ -1,3 +1,10 @@
+# [1.0.0-alpha.40](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.39...v1.0.0-alpha.40) (2023-04-24)
+
+
+### Features
+
+* Added tokens for Image placeholder ([#30](https://github.com/warp-ds/tokens/issues/30)) ([45d8994](https://github.com/warp-ds/tokens/commit/45d89943e7c3abdf58c083380883b056d2dd94f2))
+
 # [1.0.0-alpha.39](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.38...v1.0.0-alpha.39) (2023-04-24)
 
 
