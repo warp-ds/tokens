@@ -1,0 +1,29 @@
+---
+token: maps
+
+color:
+  badge:
+    neutral:
+      text: bluegray-900
+      background: gray-100
+    info:
+      text: aqua-900
+      background: aqua-100
+    positive:
+      text: green-900
+      background: green-100
+    warning:
+      text: yellow-900
+      background: yellow-100
+    negative:
+      text: red-900
+      background: red-100
+    disabled:
+      text: bluegray-900
+      background: bluegray-300
+    price:
+      text: white
+      background: gray-900-transparentized-70-percent
+    notification:
+      text: white
+      background: red-600
