@@ -1,3 +1,10 @@
+# [1.0.0-alpha.39](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.38...v1.0.0-alpha.39) (2023-04-24)
+
+
+### Features
+
+* Added tokens for Button Group ([#29](https://github.com/warp-ds/tokens/issues/29)) ([be89a42](https://github.com/warp-ds/tokens/commit/be89a425b795434d48a2beabb27a6511e5a9a71d))
+
 # [1.0.0-alpha.38](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.37...v1.0.0-alpha.38) (2023-04-24)
 
 
