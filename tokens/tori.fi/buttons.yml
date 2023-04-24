@@ -96,3 +96,17 @@ color:
           _: transparent
           hover: transparent
           active: transparent
+    group:
+      text:
+        _: petroleum-600
+        active: white
+      background:
+        _: white
+        hover: white
+        active:
+          _: petroleum-600
+          hover: petroleum-600
+      border:
+        _: gray-300
+        hover: gray-900
+        active: petroleum-600
