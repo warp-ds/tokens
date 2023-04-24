@@ -1,3 +1,17 @@
+# [1.0.0-alpha.41](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.40...v1.0.0-alpha.41) (2023-04-24)
+
+
+### Bug Fixes
+
+* build ([26118b8](https://github.com/warp-ds/tokens/commit/26118b8830856bffabf11b03f550686c0eeaeb0d))
+* build ([02c8904](https://github.com/warp-ds/tokens/commit/02c89045cc16433180ed140f28d30d1bc6d3ae46))
+* focus tokens ([#33](https://github.com/warp-ds/tokens/issues/33)) ([bbe56e4](https://github.com/warp-ds/tokens/commit/bbe56e45a2aed8e272590d5d8b31ac689d739466))
+
+
+### Features
+
+* Added tokens for List ([#31](https://github.com/warp-ds/tokens/issues/31)) ([c0adcfd](https://github.com/warp-ds/tokens/commit/c0adcfd5780a712381bf4530199ab6341cc3bd12))
+
 # [1.0.0-alpha.40](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.39...v1.0.0-alpha.40) (2023-04-24)
 
 
