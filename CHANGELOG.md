@@ -1,3 +1,10 @@
+# [1.0.0-alpha.35](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.34...v1.0.0-alpha.35) (2023-04-24)
+
+
+### Features
+
+* Added tokens for Badge ([#23](https://github.com/warp-ds/tokens/issues/23)) ([7f286a1](https://github.com/warp-ds/tokens/commit/7f286a1b51f8f7a960baa44143e0977bcc52f4c4))
+
 # [1.0.0-alpha.34](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.33...v1.0.0-alpha.34) (2023-04-24)
 
 
