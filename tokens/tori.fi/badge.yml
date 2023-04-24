@@ -2,7 +2,7 @@
 token: maps
 
 color:
-  box:
+  badge:
     neutral:
       text: bluegray-900
       background: gray-100
@@ -23,7 +23,7 @@ color:
       background: bluegray-300
     price:
       text: white
-      background: gray-900
+      background: gray-900-transparentized-70-percent
     notification:
       text: white
       background: red-600
