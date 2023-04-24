@@ -1,0 +1,21 @@
+color:
+  radio:
+    background:
+      _: white
+      hover: white
+      active:
+        _: petroleum-600
+        hover: petroleum-700
+    negative:
+      background:
+        _: white
+        hover: red-50
+        active:
+          _: red-600
+          hover: red-700
+      border:
+        _: petroleum-600
+        hover: petroleum-700
+    border:
+      _: gray-500
+      hover: gray-900

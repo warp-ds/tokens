@@ -1,0 +1,21 @@
+color:
+  radio:
+    background:
+      _: white
+      hover: blue-50
+      active:
+        _: blue-600
+        hover: blue-700
+    negative:
+      background:
+        _: white
+        hover: red-50
+        active:
+          _: red-600
+          hover: red-700
+      border:
+        _: red-600
+        hover: red-700
+    border:
+      _: gray-500
+      hover: blue-600
