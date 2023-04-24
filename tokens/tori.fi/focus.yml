@@ -2,4 +2,4 @@
 token: maps
 
 color:
-  focused: aqua-400 // TODO add another color here at some point? It is a custom color now in the spreadsheet
+  focused: aqua-400
