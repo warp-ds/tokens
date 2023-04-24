@@ -1,0 +1,8 @@
+---
+token: maps
+
+color:
+  callout:
+    background: petroleum-100
+    border: petroleum-400
+    text: gray-700
