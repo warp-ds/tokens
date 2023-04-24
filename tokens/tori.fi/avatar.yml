@@ -1,0 +1,7 @@
+---
+token: maps
+
+color:
+  avatar:
+    background: gray-100
+    icon: gray-300
