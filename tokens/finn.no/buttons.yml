@@ -96,3 +96,17 @@ color:
           _: transparent
           hover: transparent
           active: transparent
+    group:
+      text:
+        _: blue-600
+        active: white
+      background:
+        _: white
+        hover: blue-50
+        active:
+          _: blue-600
+          hover: blue-700
+      border:
+        _: bluegray-300
+        hover: blue-600
+        active: blue-600
