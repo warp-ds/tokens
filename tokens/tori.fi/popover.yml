@@ -1,0 +1,12 @@
+---
+token: maps
+
+color:
+  popover:
+    title:
+      text: gray-900
+    paragraph:
+      text: gray-900
+    background: white
+shadow:
+  popover: shadow-medium
