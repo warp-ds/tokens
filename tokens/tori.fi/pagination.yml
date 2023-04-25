@@ -1,0 +1,12 @@
+---
+token: maps
+
+color:
+  pagination:
+    text:
+      _: petroleum-600
+      active: white
+    background:
+      hover: white
+      active: petroleum-600
+    icon: petroleum-600
