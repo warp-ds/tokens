@@ -1,3 +1,10 @@
+# [1.0.0-alpha.42](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.41...v1.0.0-alpha.42) (2023-04-25)
+
+
+### Bug Fixes
+
+* Update Tori tokens for Badge ([#37](https://github.com/warp-ds/tokens/issues/37)) ([34e9a37](https://github.com/warp-ds/tokens/commit/34e9a374c7ca00403677f20b2fb5d4d99c4399a4))
+
 # [1.0.0-alpha.41](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.40...v1.0.0-alpha.41) (2023-04-24)
 
 
