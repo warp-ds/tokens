@@ -2,8 +2,8 @@
 token: maps
 
 color:
-  pageindicator:
+  page-indicator:
     background:
-     _: bluegray-300
-     hover: bluegray-400
-     active: blue-600
+      _: bluegray-300
+      hover: bluegray-400
+      active: blue-600
