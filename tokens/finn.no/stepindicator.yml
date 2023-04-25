@@ -2,7 +2,7 @@
 token: maps
 
 color:
-  step-indicator:
+  stepindicator:
     handle:
       background:
         _: white
