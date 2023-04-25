@@ -1,0 +1,17 @@
+---
+token: maps
+
+color:
+  slider:
+    handle:
+      background:
+        _:  white
+        hover: white
+        active: white
+      border: petroleum-600
+    track:
+      background:
+        _: gray-200
+        active: gray-400
+shadow:
+  slider: none
