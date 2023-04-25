@@ -4,11 +4,11 @@ token: maps
 color:
   badge:
     neutral:
-      text: bluegray-900
+      text: gray-900
       background: gray-100
     info:
-      text: aqua-900
-      background: aqua-100
+      text: gray-900
+      background: petroleum-50
     positive:
       text: green-900
       background: green-100
@@ -19,8 +19,8 @@ color:
       text: red-900
       background: red-100
     disabled:
-      text: bluegray-900
-      background: bluegray-300
+      text: gray-900
+      background: gray-300
     price:
       text: white
       background: gray-900-transparentized-70-percent
