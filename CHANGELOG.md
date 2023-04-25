@@ -1,3 +1,10 @@
+# [1.0.0-alpha.43](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.42...v1.0.0-alpha.43) (2023-04-25)
+
+
+### Features
+
+* Add tokens for Pagination ([#36](https://github.com/warp-ds/tokens/issues/36)) ([7ceb92a](https://github.com/warp-ds/tokens/commit/7ceb92a1c028fac3832f9c81918158bd28cc7151))
+
 # [1.0.0-alpha.42](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.41...v1.0.0-alpha.42) (2023-04-25)
 
 
