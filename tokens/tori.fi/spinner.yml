@@ -1,0 +1,10 @@
+---
+token: maps
+
+color:
+  spinner:
+    background: petroleum-500
+    neutral:
+      background: gray-400
+    inverted:
+      background: white
