@@ -2,7 +2,7 @@
 token: maps
 
 color:
-  page-indicator:
+  pageindicator:
     background:
       _: gray-300
       hover: gray-400
