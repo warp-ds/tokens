@@ -1,0 +1,17 @@
+---
+token: maps
+
+color:
+  tabs:
+    border:
+      _: transparent
+      hover: blue-600
+      active: blue-600
+    text:
+      _: gray-500
+      hover: blue-600
+      active: blue-600
+    icon:
+      _: gray-500
+      hover: blue-600
+      active: blue-600

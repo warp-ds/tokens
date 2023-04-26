@@ -1,0 +1,17 @@
+---
+token: maps
+
+color:
+  tabs:
+    border:
+      _: transparent
+      hover: petroleum-600
+      active: petroleum-600
+    text:
+      _: gray-500
+      hover: petroleum-600
+      active: petroleum-600
+    icon:
+      _: gray-500
+      hover: petroleum-600
+      active: petroleum-600
