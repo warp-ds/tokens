@@ -1,3 +1,10 @@
+# [1.0.0-alpha.44](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.43...v1.0.0-alpha.44) (2023-04-26)
+
+
+### Features
+
+* Added tokens for Modal ([#32](https://github.com/warp-ds/tokens/issues/32)) ([402cd41](https://github.com/warp-ds/tokens/commit/402cd4151b8dd6987ab6afa23b90ac487e6c139f))
+
 # [1.0.0-alpha.43](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.42...v1.0.0-alpha.43) (2023-04-25)
 
 
