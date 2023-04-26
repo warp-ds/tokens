@@ -1,0 +1,11 @@
+---
+token: maps
+
+color:
+  modal:
+    text:
+      title: gray-700
+      paragraph: gray-700
+    background: white
+shadow:
+  modal: shadow-medium
