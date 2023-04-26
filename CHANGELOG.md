@@ -1,3 +1,10 @@
+# [1.0.0-alpha.46](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.45...v1.0.0-alpha.46) (2023-04-26)
+
+
+### Features
+
+* Add tokens for Page Indicator ([#35](https://github.com/warp-ds/tokens/issues/35)) ([a296792](https://github.com/warp-ds/tokens/commit/a2967927d8ba4e123205ba51822e961b813c06df))
+
 # [1.0.0-alpha.45](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.44...v1.0.0-alpha.45) (2023-04-26)
 
 
