@@ -1,0 +1,9 @@
+---
+token: maps
+
+color:
+  pageindicator:
+    background:
+      _: gray-300
+      hover: gray-400
+      active: petroleum-600
