@@ -1,0 +1,7 @@
+---
+token: maps
+
+shadow:
+  card:
+    _: shadow-small
+    hover: shadow-medium
