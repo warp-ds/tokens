@@ -1,0 +1,9 @@
+---
+token: maps
+
+color:
+  tooltip:
+    text: white
+    background: gray-700
+shadow:
+  tooltip: shadow-medium
