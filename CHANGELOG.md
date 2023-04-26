@@ -1,3 +1,10 @@
+# [1.0.0-alpha.45](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.44...v1.0.0-alpha.45) (2023-04-26)
+
+
+### Features
+
+* Added tokens for Card ([#34](https://github.com/warp-ds/tokens/issues/34)) ([a512b24](https://github.com/warp-ds/tokens/commit/a512b248b45f1a3c6d688b71afc9d09577b7a59a))
+
 # [1.0.0-alpha.44](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.43...v1.0.0-alpha.44) (2023-04-26)
 
 
