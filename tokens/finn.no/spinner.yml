@@ -1,0 +1,8 @@
+---
+token: maps
+
+color:
+  spinner:
+    _: blue-500
+    neutral: gray-400
+    inverted: white
