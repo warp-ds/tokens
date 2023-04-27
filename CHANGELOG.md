@@ -1,3 +1,10 @@
+# [1.0.0-alpha.53](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.52...v1.0.0-alpha.53) (2023-04-27)
+
+
+### Bug Fixes
+
+* **shadows.yaml:** fix typo ([7ff3e17](https://github.com/warp-ds/tokens/commit/7ff3e174f491ad9b1da3144e60c18d8b0db4a911))
+
 # [1.0.0-alpha.52](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.51...v1.0.0-alpha.52) (2023-04-27)
 
 
