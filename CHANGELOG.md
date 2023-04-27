@@ -1,3 +1,10 @@
+# [1.0.0-alpha.51](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.50...v1.0.0-alpha.51) (2023-04-27)
+
+
+### Features
+
+* Added definitions for Shadows ([#47](https://github.com/warp-ds/tokens/issues/47)) ([cbd86ee](https://github.com/warp-ds/tokens/commit/cbd86eecea0fa61047d125bff62968f38601849b))
+
 # [1.0.0-alpha.50](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.49...v1.0.0-alpha.50) (2023-04-27)
 
 
