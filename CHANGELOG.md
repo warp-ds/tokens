@@ -1,3 +1,10 @@
+# [1.0.0-alpha.47](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.46...v1.0.0-alpha.47) (2023-04-27)
+
+
+### Features
+
+* Add tokens for Popover ([#38](https://github.com/warp-ds/tokens/issues/38)) ([c68b9f4](https://github.com/warp-ds/tokens/commit/c68b9f4cdcfed881f95524a499c76c8d79a5ad6a))
+
 # [1.0.0-alpha.46](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.45...v1.0.0-alpha.46) (2023-04-26)
 
 
