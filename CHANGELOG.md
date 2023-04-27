@@ -1,3 +1,11 @@
+# [1.0.0-alpha.50](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.49...v1.0.0-alpha.50) (2023-04-27)
+
+
+### Features
+
+* Add tokens for Step Indicator ([#42](https://github.com/warp-ds/tokens/issues/42)) ([1d95a76](https://github.com/warp-ds/tokens/commit/1d95a76620e9285a73f411f98fc9499ce09eff8e))
+* Added tokens for Star Rating ([#41](https://github.com/warp-ds/tokens/issues/41)) ([5281861](https://github.com/warp-ds/tokens/commit/52818617189fafdbc951482f2c5492c9c74b4f2a))
+
 # [1.0.0-alpha.49](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.48...v1.0.0-alpha.49) (2023-04-27)
 
 
