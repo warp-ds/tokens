@@ -1,0 +1,17 @@
+---
+token: maps
+
+color:
+  stepindicator:
+    handle:
+      background:
+        _: white
+        active: petroleum-600
+      border:
+        _: gray-300
+        active: petroleum-600
+      icon: white
+    track:
+      background:
+        _: gray-300
+        active: petroleum-600

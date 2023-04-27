@@ -1,0 +1,17 @@
+---
+token: maps
+
+color:
+  stepindicator:
+    handle:
+      background:
+        _: white
+        active: blue-600
+      border:
+        _: bluegray-300
+        active: blue-600
+      icon: white
+    track:
+      background:
+        _: bluegray-300
+        active: blue-600
