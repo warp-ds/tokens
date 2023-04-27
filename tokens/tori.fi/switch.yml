@@ -1,0 +1,17 @@
+---
+token: maps
+
+color:
+  switch:
+    track:
+      background:
+        _: gray-300
+        hover: gray-400
+        active:
+          _: petroleum-600
+          hover: petroleum-700
+        disabled: gray-200
+    handle:
+      background:
+        _: white
+        disabled: gray-300
