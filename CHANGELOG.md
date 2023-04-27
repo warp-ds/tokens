@@ -1,3 +1,10 @@
+# [1.0.0-alpha.52](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.51...v1.0.0-alpha.52) (2023-04-27)
+
+
+### Features
+
+* Added tokens for Switch ([#43](https://github.com/warp-ds/tokens/issues/43)) ([f235f0e](https://github.com/warp-ds/tokens/commit/f235f0e440e3908a4f67e50b366af61b48d4a3da))
+
 # [1.0.0-alpha.51](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.50...v1.0.0-alpha.51) (2023-04-27)
 
 
