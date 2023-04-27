@@ -1,3 +1,10 @@
+# [1.0.0-alpha.48](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.47...v1.0.0-alpha.48) (2023-04-27)
+
+
+### Features
+
+* Add tokens for Slider ([#39](https://github.com/warp-ds/tokens/issues/39)) ([562bca1](https://github.com/warp-ds/tokens/commit/562bca1b6ae7a977012148beaa6e28444a54552f))
+
 # [1.0.0-alpha.47](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.46...v1.0.0-alpha.47) (2023-04-27)
 
 
