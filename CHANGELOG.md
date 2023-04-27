@@ -1,3 +1,10 @@
+# [1.0.0-alpha.49](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.48...v1.0.0-alpha.49) (2023-04-27)
+
+
+### Features
+
+* Added tokens for Spinner ([#40](https://github.com/warp-ds/tokens/issues/40)) ([5ba7978](https://github.com/warp-ds/tokens/commit/5ba79786a9bdedf5de0bc661db2683581504e6d3))
+
 # [1.0.0-alpha.48](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.47...v1.0.0-alpha.48) (2023-04-27)
 
 
