@@ -1,3 +1,11 @@
+# [1.0.0-alpha.54](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.53...v1.0.0-alpha.54) (2023-04-28)
+
+
+### Features
+
+* Added tokens for Tabs ([#44](https://github.com/warp-ds/tokens/issues/44)) ([d41740b](https://github.com/warp-ds/tokens/commit/d41740be00b26d89d6794e0dc0aced0c25d5e809))
+* Added tokens for Toast ([#45](https://github.com/warp-ds/tokens/issues/45)) ([f1240e5](https://github.com/warp-ds/tokens/commit/f1240e5cf6393fe00afaa675a13544b74457eb4a))
+
 # [1.0.0-alpha.53](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.52...v1.0.0-alpha.53) (2023-04-27)
 
 
