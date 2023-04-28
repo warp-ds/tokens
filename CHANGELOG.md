@@ -1,3 +1,10 @@
+# [1.0.0-alpha.55](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.54...v1.0.0-alpha.55) (2023-04-28)
+
+
+### Features
+
+* Added tokens for Tooltip ([#46](https://github.com/warp-ds/tokens/issues/46)) ([7d64675](https://github.com/warp-ds/tokens/commit/7d64675174eb22119949e7d6bce44b6f6b6b945e))
+
 # [1.0.0-alpha.54](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.53...v1.0.0-alpha.54) (2023-04-28)
 
 
