@@ -1,0 +1,21 @@
+---
+token: maps
+
+color:
+  buttongroup:
+    text:
+      _: petroleum-600
+      active: white
+    background:
+      _: white
+      hover: white
+      active:
+        _: petroleum-600
+        hover: petroleum-600
+    border:
+      _: gray-300
+      hover: gray-900
+      active: petroleum-600
+shadow:
+  buttongroup:
+    _: shadow-small
