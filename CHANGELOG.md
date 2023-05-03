@@ -1,3 +1,10 @@
+# [1.0.0-alpha.56](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.55...v1.0.0-alpha.56) (2023-05-03)
+
+
+### Bug Fixes
+
+* Updated tokens for Pill ([#48](https://github.com/warp-ds/tokens/issues/48)) ([f486ba0](https://github.com/warp-ds/tokens/commit/f486ba0a26dfcde64c8367794b4b33b69a84f3cc))
+
 # [1.0.0-alpha.55](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.54...v1.0.0-alpha.55) (2023-04-28)
 
 
