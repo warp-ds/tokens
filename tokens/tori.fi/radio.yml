@@ -20,5 +20,5 @@ color:
         active:
           _: red-600
           hover: red-700
-        _: petroleum-600
-        hover: petroleum-700
+        _: red-600
+        hover: red-700
