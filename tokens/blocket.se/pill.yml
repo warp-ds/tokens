@@ -6,12 +6,14 @@ color:
     filter:
       text: white
       background:
-        active:
-          _: blue-600
-          hover: blue-700
+        _: blue-600
+        hover: blue-700
+        active: blue-800
+      icon: white
     suggestion:
       text: gray-700
       background:
-        _: gray-200
-        active: gray-300
-        hover: gray-300
+        _: bluegray-200
+        hover: bluegray-300
+        active: bluegray-400
+      icon: gray-700

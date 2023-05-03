@@ -6,12 +6,14 @@ color:
     filter:
       text: white
       background:
-        active:
-          _: petroleum-600
-          hover: petroleum-700
+        _: petroleum-600
+        hover: petroleum-700
+        active: petroleum-800
+      icon: white
     suggestion:
       text: gray-900
       background:
         _: gray-200
-        active: gray-300
         hover: gray-300
+        active: gray-400
+      icon: gray-900
