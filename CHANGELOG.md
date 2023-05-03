@@ -1,3 +1,10 @@
+# [1.0.0-alpha.58](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.57...v1.0.0-alpha.58) (2023-05-03)
+
+
+### Bug Fixes
+
+* new tokens for radio and checkbox ([#51](https://github.com/warp-ds/tokens/issues/51)) ([7581f71](https://github.com/warp-ds/tokens/commit/7581f7117cc44132428daf53383503642583ab43))
+
 # [1.0.0-alpha.57](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.56...v1.0.0-alpha.57) (2023-05-03)
 
 
