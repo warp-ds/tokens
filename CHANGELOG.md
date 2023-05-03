@@ -1,3 +1,10 @@
+# [1.0.0-alpha.59](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.58...v1.0.0-alpha.59) (2023-05-03)
+
+
+### Bug Fixes
+
+* **buttongroup:** move button group tokens to its own file ([#50](https://github.com/warp-ds/tokens/issues/50)) ([f70c0e0](https://github.com/warp-ds/tokens/commit/f70c0e0b2ab0c761679b74decb761e22d35d9034))
+
 # [1.0.0-alpha.58](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.57...v1.0.0-alpha.58) (2023-05-03)
 
 
