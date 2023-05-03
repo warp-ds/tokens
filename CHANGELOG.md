@@ -1,3 +1,10 @@
+# [1.0.0-alpha.60](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.59...v1.0.0-alpha.60) (2023-05-03)
+
+
+### Bug Fixes
+
+* add tokens for disabled state ([#52](https://github.com/warp-ds/tokens/issues/52)) ([d3dac59](https://github.com/warp-ds/tokens/commit/d3dac59b315b80c271b180c05abdc59309597a0b))
+
 # [1.0.0-alpha.59](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.58...v1.0.0-alpha.59) (2023-05-03)
 
 
