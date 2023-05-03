@@ -5,15 +5,19 @@ color:
   checkbox:
     background:
       _: white
+      disabled: gray-200
       hover: blue-50
       active:
         _: blue-600
+        disabled: bluegray-300
         hover: blue-700
     border:
       _: gray-500
+      disabled: bluegray-300
       hover: blue-600
       active:
         _: blue-600
+        disabled: bluegray-300
         hover: blue-700
     negative:
       background:
