@@ -9,7 +9,7 @@ color:
         active: white
       background:
         _: white
-        hover: white
+        hover: petroleum-50
         active:
           _: petroleum-600
           hover: petroleum-600
