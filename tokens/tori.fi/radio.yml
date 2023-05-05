@@ -5,12 +5,15 @@ color:
   radio:
     background:
       _: white
+      disabled: gray-200
       hover: white
     border:
       active:
         _: petroleum-600
+        disabled: gray-300
         hover: petroleum-700
       _: gray-500
+      disabled: gray-300
       hover: gray-900
     negative:
       background:
