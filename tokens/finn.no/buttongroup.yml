@@ -13,7 +13,6 @@ color:
         active: blue-600
       border:
         _: bluegray-300
-        hover: blue-600
         active: blue-600
     utility:
       text:
@@ -25,7 +24,6 @@ color:
         active: gray-200
       border:
         _: gray-300
-        hover: gray-500
         active: gray-700
 shadow:
   buttongroup:

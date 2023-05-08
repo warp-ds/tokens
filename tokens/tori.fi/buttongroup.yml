@@ -13,7 +13,6 @@ color:
         active: petroleum-600
       border:
         _: gray-300
-        hover: petroleum-600
         active: petroleum-600
     utility:
       text:
@@ -25,7 +24,6 @@ color:
         active: gray-200
       border:
         _: gray-300
-        hover: gray-500
         active: gray-700
 shadow:
   buttongroup:
