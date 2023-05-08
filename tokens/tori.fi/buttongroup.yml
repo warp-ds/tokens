@@ -16,7 +16,9 @@ color:
       border:
         _: gray-300
         hover: petroleum-600
-        active: petroleum-600
+        active: 
+          _: petroleum-600
+          hover: petroleum-600
     utility:
       text:
         _: gray-700

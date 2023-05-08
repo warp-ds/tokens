@@ -16,7 +16,9 @@ color:
       border:
         _: bluegray-300
         hover: blue-600
-        active: blue-600
+        active: 
+          _: blue-600
+          hover: blue-600
     utility:
       text:
         _: gray-700
