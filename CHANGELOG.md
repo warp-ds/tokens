@@ -1,3 +1,10 @@
+# [1.0.0-alpha.62](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.61...v1.0.0-alpha.62) (2023-05-08)
+
+
+### Bug Fixes
+
+* update buttongroup tokens to utility & primary ([#54](https://github.com/warp-ds/tokens/issues/54)) ([15fc6c4](https://github.com/warp-ds/tokens/commit/15fc6c43c9502241285752196e79983b1fc39d8a))
+
 # [1.0.0-alpha.61](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.60...v1.0.0-alpha.61) (2023-05-05)
 
 
