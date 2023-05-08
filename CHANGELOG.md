@@ -1,3 +1,10 @@
+# [1.0.0-alpha.63](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.62...v1.0.0-alpha.63) (2023-05-08)
+
+
+### Bug Fixes
+
+* **buttons:** add color-button-loading-icon token ([#55](https://github.com/warp-ds/tokens/issues/55)) ([1241091](https://github.com/warp-ds/tokens/commit/12410911afb466b6e503d8d785512562118ab184))
+
 # [1.0.0-alpha.62](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.61...v1.0.0-alpha.62) (2023-05-08)
 
 
