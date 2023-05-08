@@ -3,19 +3,34 @@ token: maps
 
 color:
   buttongroup:
-    text:
-      _: petroleum-600
-      active: white
-    background:
-      _: white
-      hover: white
-      active:
+    primary:
+      text:
         _: petroleum-600
+        active: white
+      background:
+        _: white
+        hover: petroleum-50
+        active:
+          _: petroleum-600
+          hover: petroleum-600
+      border:
+        _: gray-300
         hover: petroleum-600
-    border:
-      _: gray-300
-      hover: gray-900
-      active: petroleum-600
+        active: petroleum-600
+    utility:
+      text:
+        _: gray-700
+        active: gray-700
+      background:
+        _: white
+        hover: gray-100
+        active:
+          _: gray-200
+          hover: gray-200
+      border:
+        _: gray-300
+        hover: gray-500
+        active: gray-700
 shadow:
   buttongroup:
     _: shadow-small
