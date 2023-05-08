@@ -5,13 +5,18 @@ color:
   slider:
     handle:
       background:
-        _:  blue-600
-        hover: blue-700
+        _: blue-600
         active: blue-600
-      border: blue-600
+        hover: blue-700
+        disabled: bluegray-300
+      border:
+        _: blue-600
+        active: blue-600
+        hover: blue-700
     track:
       background:
         _: blue-200
         active: blue-600
+        disabled: bluegray-300
 shadow:
   slider: shadow-small

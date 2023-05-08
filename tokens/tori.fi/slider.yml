@@ -5,13 +5,18 @@ color:
   slider:
     handle:
       background:
-        _:  white
-        hover: white
+        _: white
         active: white
-      border: petroleum-600
+        hover: white
+        disabled: gray-300
+      border:
+        _: petroleum-600
+        active: petroleum-600
+        hover: petroleum-700
     track:
       background:
         _: gray-200
         active: gray-400
+        disabled: gray-300
 shadow:
   slider: none
