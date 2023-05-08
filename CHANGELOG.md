@@ -1,3 +1,11 @@
+# [1.0.0-alpha.64](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.63...v1.0.0-alpha.64) (2023-05-08)
+
+
+### Bug Fixes
+
+* **slider:** remove shadow ([08e44c4](https://github.com/warp-ds/tokens/commit/08e44c42071eadd6599a1c598a795796eba3955e))
+* **slider:** update tokens ([06567e1](https://github.com/warp-ds/tokens/commit/06567e1a1540a5854d328aadfb48d23b396f8fc3))
+
 # [1.0.0-alpha.63](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.62...v1.0.0-alpha.63) (2023-05-08)
 
 
