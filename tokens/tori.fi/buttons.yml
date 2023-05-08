@@ -76,6 +76,7 @@ color:
     loading:
       text: gray-500
       background: gray-100
+      icon: gray-500
     utility:
       text: gray-700
       background:
