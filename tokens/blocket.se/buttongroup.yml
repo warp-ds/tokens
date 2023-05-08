@@ -10,15 +10,11 @@ color:
       background:
         _: white
         hover: blue-50
-        active:
-          _: blue-600
-          hover: blue-700
+        active: blue-600
       border:
         _: bluegray-300
         hover: blue-600
-        active: 
-          _: blue-600
-          hover: blue-600
+        active: blue-600
     utility:
       text:
         _: gray-700
@@ -26,9 +22,7 @@ color:
       background:
         _: white
         hover: gray-100
-        active:
-          _: gray-200
-          hover: gray-200
+        active: gray-200
       border:
         _: gray-300
         hover: gray-500
