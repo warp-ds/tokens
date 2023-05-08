@@ -19,4 +19,4 @@ color:
         active: gray-400
         disabled: gray-300
 shadow:
-  slider:
+  slider: none
