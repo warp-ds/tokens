@@ -1,0 +1,22 @@
+---
+token: defs
+
+// values are in pixels but they render by default as rems. Using `usePixels=true` flag in @warp-ds/uno forces them to pixels.
+font:
+  size:
+    12: 12
+    14: 14
+    16: 16
+    18: 18
+    22: 22
+    28: 28
+    34: 34
+line:
+  height:
+    16: 16
+    18: 18
+    22: 22
+    24: 24
+    28: 28
+    34: 34
+    41: 41
