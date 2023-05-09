@@ -1,3 +1,10 @@
+# [1.0.0-alpha.65](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.64...v1.0.0-alpha.65) (2023-05-09)
+
+
+### Bug Fixes
+
+* tokens for active hover state for buttongroup ([#56](https://github.com/warp-ds/tokens/issues/56)) ([5ffa159](https://github.com/warp-ds/tokens/commit/5ffa1592d36865e233039956871a3828cb1b1494))
+
 # [1.0.0-alpha.64](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.63...v1.0.0-alpha.64) (2023-05-08)
 
 
