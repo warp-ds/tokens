@@ -10,12 +10,9 @@ color:
       background:
         _: white
         hover: petroleum-50
-        active:
-          _: petroleum-600
-          hover: petroleum-600
+        active: petroleum-600
       border:
         _: gray-300
-        hover: petroleum-600
         active: petroleum-600
     utility:
       text:
@@ -24,12 +21,9 @@ color:
       background:
         _: white
         hover: gray-100
-        active:
-          _: gray-200
-          hover: gray-200
+        active: gray-200
       border:
         _: gray-300
-        hover: gray-500
         active: gray-700
 shadow:
   buttongroup:
