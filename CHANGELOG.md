@@ -1,3 +1,10 @@
+# [1.0.0-alpha.67](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.66...v1.0.0-alpha.67) (2023-05-09)
+
+
+### Bug Fixes
+
+* **typography:** update typography tokens to use t-shirt sizes ([#59](https://github.com/warp-ds/tokens/issues/59)) ([d1f9648](https://github.com/warp-ds/tokens/commit/d1f9648c6e0b8c2835573c8a6f0df525379bdd0f))
+
 # [1.0.0-alpha.66](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.65...v1.0.0-alpha.66) (2023-05-09)
 
 
