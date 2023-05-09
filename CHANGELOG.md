@@ -1,3 +1,15 @@
+# [1.0.0-alpha.66](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.65...v1.0.0-alpha.66) (2023-05-09)
+
+
+### Bug Fixes
+
+* **typography.yml:** fix failing build ([09e8a55](https://github.com/warp-ds/tokens/commit/09e8a55302efc61daca0247a9b173db6e1f0dfe8))
+
+
+### Features
+
+* **tokens:** add typography tokens ([#58](https://github.com/warp-ds/tokens/issues/58)) ([0452899](https://github.com/warp-ds/tokens/commit/045289985303f127041dbabc7db10044c9430cd2))
+
 # [1.0.0-alpha.65](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.64...v1.0.0-alpha.65) (2023-05-09)
 
 

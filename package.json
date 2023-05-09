@@ -1,6 +1,6 @@
 {
   "name": "@warp-ds/tokens",
-  "version": "1.0.0-alpha.65",
+  "version": "1.0.0-alpha.66",
   "private": "true",
   "scripts": {
     "build": "node index.js",
