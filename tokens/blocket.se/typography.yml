@@ -4,21 +4,21 @@ token: defs
 # values are in pixels but they render by default as rems. Using `usePixels=true` flag in @warp-ds/uno forces them to pixels.
 font:
   size:
-    xs: 12
-    s: 14
-    m: 16
-    ml: 20
-    l: 22
-    xl: 28
-    xxl: 34
-    xxxl: 48
+    xs: 1.2rem
+    s: 1.4rem
+    m: 1.6rem
+    ml: 2rem
+    l: 2.2rem
+    xl: 2.8rem
+    xxl: 3.4rem
+    xxxl: 4.8rem
 line:
   height:
-    xs: 16
-    s: 18
-    m: 22
-    ml: 26
-    l: 28
-    xl: 34
-    xxl: 41
-    xxxl: 56
+    xs: 1.6rem
+    s: 1.8rem
+    m: 2.2rem
+    ml: 2.6rem
+    l: 2.8rem
+    xl: 3.4rem
+    xxl: 4.1rem
+    xxxl: 5.6rem
