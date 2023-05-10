@@ -1,3 +1,10 @@
+# [1.0.0-alpha.68](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.67...v1.0.0-alpha.68) (2023-05-10)
+
+
+### Bug Fixes
+
+* **typography:** use rem values ([#60](https://github.com/warp-ds/tokens/issues/60)) ([2564fbc](https://github.com/warp-ds/tokens/commit/2564fbc1ea141a8fa4b7d72872945d5ea87c3ac6))
+
 # [1.0.0-alpha.67](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.66...v1.0.0-alpha.67) (2023-05-09)
 
 
