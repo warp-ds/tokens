@@ -1,6 +1,29 @@
 ---
 token: maps
 
+color:
+  card:
+    background:
+      _: white
+      hover: gray-50
+      active:
+        _: white
+        hover: gray-50
+    border:
+      _: transparent
+      hover: transparent
+      active: blue-600
+    flat:
+      background:
+        _: white
+        hover: gray-50
+        active:
+          _: blue-50
+          hover: blue-100
+      border:
+        _: bluegray-300
+        hover: bluegray-400
+        active: blue-600
 shadow:
   card:
     _: shadow-small
