@@ -12,7 +12,9 @@ color:
     border:
       _: transparent
       hover: transparent
-      active: blue-600
+      active:
+        _: blue-600
+        hover: blue-700
     flat:
       background:
         _: white
@@ -23,7 +25,9 @@ color:
       border:
         _: bluegray-300
         hover: bluegray-400
-        active: blue-600
+        active:
+          _: blue-600
+          hover: blue-700
 shadow:
   card:
     _: shadow-small
