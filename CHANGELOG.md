@@ -1,3 +1,10 @@
+# [1.0.0-alpha.70](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.69...v1.0.0-alpha.70) (2023-05-15)
+
+
+### Bug Fixes
+
+* add new tokens to card ([0810075](https://github.com/warp-ds/tokens/commit/0810075118cc9f91205e586ca03a8aff8b8033cc))
+
 # [1.0.0-alpha.69](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.68...v1.0.0-alpha.69) (2023-05-11)
 
 
