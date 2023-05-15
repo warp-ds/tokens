@@ -1,3 +1,10 @@
+# [1.0.0-alpha.71](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.70...v1.0.0-alpha.71) (2023-05-15)
+
+
+### Bug Fixes
+
+* **tabs:** update border token to gray ([#61](https://github.com/warp-ds/tokens/issues/61)) ([d7cb797](https://github.com/warp-ds/tokens/commit/d7cb7976922e13821668df9e427ad0a2f097ab69))
+
 # [1.0.0-alpha.70](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.69...v1.0.0-alpha.70) (2023-05-15)
 
 
