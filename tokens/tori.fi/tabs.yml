@@ -5,7 +5,7 @@ color:
   tabs:
     border:
       _: transparent
-      hover: petroleum-600
+      hover: gray-200
       active: petroleum-600
     text:
       _: gray-500
