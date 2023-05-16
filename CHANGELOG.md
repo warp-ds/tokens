@@ -1,3 +1,10 @@
+# [1.0.0-alpha.72](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.71...v1.0.0-alpha.72) (2023-05-16)
+
+
+### Bug Fixes
+
+* backdrop token ([21dc1d7](https://github.com/warp-ds/tokens/commit/21dc1d7313f61a1360dbe9cb097cc403515a7bdb))
+
 # [1.0.0-alpha.71](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.70...v1.0.0-alpha.71) (2023-05-15)
 
 
