@@ -3,6 +3,8 @@ token: maps
 
 color:
   modal:
+    backdrop:
+      background: black
     text:
       title: gray-700
       paragraph: gray-700
