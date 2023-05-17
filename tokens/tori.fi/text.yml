@@ -3,7 +3,7 @@ token: maps
 
 color:
   text:
-    _: gray-700
+    _: gray-900
     subtle: gray-500
     inverted:
       _: white
