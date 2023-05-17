@@ -15,23 +15,23 @@ color:
         active: watermelon-800
       icon: white
     secondary:
-      text: watermelon-600
+      text: petroleum-600
       background:
         _: white
-        hover: watermelon-50
-        active: watermelon-200
+        hover: petroleum-50
+        active: petroleum-200
       border:
-        _: gray-300
-        hover: watermelon-700
-        active: watermelon-800
-      icon: watermelon-600
+        _: petroleum-300
+        hover: petroleum-700
+        active: petroleum-800
+      icon: petroleum-600
     quiet:
-      text: watermelon-600
+      text: petroleum-600
       background:
         _: transparent
         hover: gray-100
         active: gray-200
-      icon: watermelon-600
+      icon: petroleum-600
     negative:
       text: white
       background:
@@ -63,15 +63,15 @@ color:
     pill:
       background:
         _: transparent
-        hover: blue-300-transparentized-30-percent
+        hover: transparent
       icon:
-        _: gray-500
-        hover: gray-600
+        _: gray-900
+        hover: gray-900
         active: watermelon-600
       overlay:
         icon:
-          _: watermelon-700
-          hover: watermelon-50
+          _: watermelon-600
+          hover: white
           active: white
     loading:
       text: gray-500
