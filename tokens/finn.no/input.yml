@@ -13,7 +13,7 @@ color:
         only: gray-700
     background:
       _: white
-      disabled: gray-100
+      disabled: gray-200
     border:
       _: gray-300
       hover: gray-500
