@@ -1,3 +1,10 @@
+# [1.0.0-alpha.73](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.72...v1.0.0-alpha.73) (2023-05-22)
+
+
+### Bug Fixes
+
+* tori color for card active ([#62](https://github.com/warp-ds/tokens/issues/62)) ([c7b3b95](https://github.com/warp-ds/tokens/commit/c7b3b95b281cecfe5b41a94f3f3266e41995cc84))
+
 # [1.0.0-alpha.72](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.71...v1.0.0-alpha.72) (2023-05-16)
 
 
