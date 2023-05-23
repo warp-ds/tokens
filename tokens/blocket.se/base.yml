@@ -12,6 +12,7 @@ font:
     xl: 2.8rem
     xxl: 3.4rem
     xxxl: 4.8rem
+  family: 'BlocketSans-Regular, sans-serif'
 line:
   height:
     xs: 1.6rem
@@ -26,6 +27,3 @@ line:
 decoration:
   text:
     link: underline
-
-font:
-  family: 'BlocketSans-Regular, sans-serif'
