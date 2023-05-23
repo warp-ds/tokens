@@ -1,3 +1,10 @@
+# [1.0.0-alpha.77](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.76...v1.0.0-alpha.77) (2023-05-23)
+
+
+### Bug Fixes
+
+* add icon check mark ([#64](https://github.com/warp-ds/tokens/issues/64)) ([42a3e30](https://github.com/warp-ds/tokens/commit/42a3e30cff79cdcbaf24753541743016e56d9a8d))
+
 # [1.0.0-alpha.76](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.75...v1.0.0-alpha.76) (2023-05-23)
 
 
