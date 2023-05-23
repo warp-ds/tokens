@@ -16,9 +16,9 @@ color:
       disabled: gray-300
       hover: gray-600
       active:
-        _: gray-600
+        _: petroleum-600
         disabled: gray-300
-        hover: gray-700
+        hover: petroleum-700
     negative:
       background:
         _: white
