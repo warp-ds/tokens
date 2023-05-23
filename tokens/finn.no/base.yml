@@ -1,6 +1,8 @@
 ---
 token: defs
 
+# TODO: font-size, line-height, shadows, colors and all other common things should live in a common.css rather than brand.css.
+
 # values are in pixels but they render by default as rems. Using `usePixels=true` flag in @warp-ds/uno forces them to pixels.
 font:
   size:
@@ -22,3 +24,10 @@ line:
     xl: 3.4rem
     xxl: 4.1rem
     xxxl: 5.6rem
+
+decoration:
+  text:
+    link: underline
+
+font:
+  family: 'Finntype'
