@@ -1,3 +1,10 @@
+# [1.0.0-alpha.74](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.73...v1.0.0-alpha.74) (2023-05-23)
+
+
+### Bug Fixes
+
+* tori border active fix ([#63](https://github.com/warp-ds/tokens/issues/63)) ([3df66dd](https://github.com/warp-ds/tokens/commit/3df66ddd292054b46378b1e8208fd8547a0d8c59))
+
 # [1.0.0-alpha.73](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.72...v1.0.0-alpha.73) (2023-05-22)
 
 
