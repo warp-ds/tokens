@@ -1,3 +1,10 @@
+# [1.0.0-alpha.75](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.74...v1.0.0-alpha.75) (2023-05-23)
+
+
+### Features
+
+* **base.yml:** add decoration-text-link and font-family tokens ([#65](https://github.com/warp-ds/tokens/issues/65)) ([e7a3deb](https://github.com/warp-ds/tokens/commit/e7a3debe65020bb650414440bd8162e54032fc7e))
+
 # [1.0.0-alpha.74](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.73...v1.0.0-alpha.74) (2023-05-23)
 
 
