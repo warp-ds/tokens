@@ -1,3 +1,10 @@
+# [1.0.0-alpha.76](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.75...v1.0.0-alpha.76) (2023-05-23)
+
+
+### Bug Fixes
+
+* revert "fix(line-height): remove units from line-height" ([5bc3439](https://github.com/warp-ds/tokens/commit/5bc34390652fe341343013722330d0608c1d519a))
+
 # [1.0.0-alpha.75](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.74...v1.0.0-alpha.75) (2023-05-23)
 
 
