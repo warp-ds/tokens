@@ -8,7 +8,5 @@ color:
     inverted:
       _: white
       subtle: gray-50
-    link:
-      _: watermelon-600
-      hover: watermelon-800
+    link: petroleum-600
     placeholder: gray-300
