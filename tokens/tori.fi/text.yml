@@ -8,6 +8,5 @@ color:
     inverted:
       _: white
       subtle: gray-50
-    link:
-      _: petroleum-600
+    link: petroleum-600
     placeholder: gray-300

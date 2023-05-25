@@ -5,7 +5,7 @@ color:
   background:
     _: white
     subtle: gray-50
-    interactive: white
     interactive:
+      _: white
       hover: gray-100
       selected: gray-100
