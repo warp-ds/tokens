@@ -63,7 +63,7 @@ color:
     pill:
       background:
         _: transparent
-        hover: transparent
+        hover: gray-300-transparentized-30-percent
       icon:
         _: gray-900
         hover: gray-900
