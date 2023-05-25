@@ -1,3 +1,10 @@
+# [1.0.0-alpha.79](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.78...v1.0.0-alpha.79) (2023-05-25)
+
+
+### Bug Fixes
+
+* add interactive background tokens ([#67](https://github.com/warp-ds/tokens/issues/67)) ([6c9db7d](https://github.com/warp-ds/tokens/commit/6c9db7d6f6949e6d6165d9a0da4ee29ba7bf30ec))
+
 # [1.0.0-alpha.78](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.77...v1.0.0-alpha.78) (2023-05-25)
 
 
