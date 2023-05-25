@@ -26,12 +26,12 @@ color:
         active: petroleum-800
       icon: petroleum-600
     quiet:
-      text: petroleum-600
+      text: gray-900
       background:
         _: transparent
         hover: gray-100
         active: gray-200
-      icon: petroleum-600
+      icon: gray-900
     negative:
       text: white
       background:
