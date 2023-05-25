@@ -1,3 +1,10 @@
+# [1.0.0-alpha.78](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.77...v1.0.0-alpha.78) (2023-05-25)
+
+
+### Bug Fixes
+
+* Misc updates to tokens ([#66](https://github.com/warp-ds/tokens/issues/66)) ([5dc872c](https://github.com/warp-ds/tokens/commit/5dc872cd987f8bd265f370f3ae4764648a4f116f))
+
 # [1.0.0-alpha.77](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.76...v1.0.0-alpha.77) (2023-05-23)
 
 
