@@ -1,3 +1,10 @@
+# [1.0.0-alpha.80](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.79...v1.0.0-alpha.80) (2023-05-29)
+
+
+### Bug Fixes
+
+* **slider:** update track active token to petroleum-600 ([#68](https://github.com/warp-ds/tokens/issues/68)) ([5cafa3c](https://github.com/warp-ds/tokens/commit/5cafa3c1bb27dbdccb767b6bf19fd1aca6e9420c))
+
 # [1.0.0-alpha.79](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.78...v1.0.0-alpha.79) (2023-05-25)
 
 
