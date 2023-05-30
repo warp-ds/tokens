@@ -13,7 +13,8 @@ function process(tld) {
   const tokens = tokenize(`./tokens/${tld}`);
   const css = minify(tokens);
   const filename = path.join(outPath, slugify(tld)) + '.css';
-  fs.writeFileSync(filename, css, 'utf-8');
+  const fontsImport = `@import'https://assets.finn.no/pkg/@warp-ds/css/v1/fonts/${path.basename(filename)}';`
+  fs.writeFileSync(filename, `${fontsImport}${css}`, 'utf-8');
 }
 
 process('finn.no')
