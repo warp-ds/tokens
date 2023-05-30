@@ -1,3 +1,10 @@
+# [1.0.0-alpha.81](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.80...v1.0.0-alpha.81) (2023-05-30)
+
+
+### Bug Fixes
+
+* fix spinner tokens ([#69](https://github.com/warp-ds/tokens/issues/69)) ([0f5e1f7](https://github.com/warp-ds/tokens/commit/0f5e1f744acd6863e337318d61096858d53e4590))
+
 # [1.0.0-alpha.80](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.79...v1.0.0-alpha.80) (2023-05-29)
 
 
