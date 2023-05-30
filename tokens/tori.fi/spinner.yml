@@ -3,6 +3,6 @@ token: maps
 
 color:
   spinner:
-    _: petroleum-500
-    neutral: gray-400
-    inverted: white
+    border:
+      _: gray-100
+      top: petroleum-400
