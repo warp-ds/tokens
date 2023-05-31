@@ -2,7 +2,7 @@
 token: defs
 
 shadow:
-  small: 0 1px 6px rgba(0, 0, 0 , .2), 0 1px 1px rgba(0, 0, 0 , .2)
-  medium: 0 3px 8px rgba(0, 0, 0 , .2), 0 3px 6px rgba(0, 0, 0 , .2)
-  large: 0 6px 8px rgba(0, 0, 0 , .2), 0 10px 20px rgba(0, 0, 0 , .2)
-  xlarge: 0 9px 12px rgba(0, 0, 0 , .2), 0 14px 28px rgba(0, 0, 0 , .2)
+  s: 0 1px 6px rgba(0, 0, 0 , .2), 0 1px 1px rgba(0, 0, 0 , .2)
+  m: 0 3px 8px rgba(0, 0, 0 , .2), 0 3px 6px rgba(0, 0, 0 , .2)
+  l: 0 6px 8px rgba(0, 0, 0 , .2), 0 10px 20px rgba(0, 0, 0 , .2)
+  x: 0 9px 12px rgba(0, 0, 0 , .2), 0 14px 28px rgba(0, 0, 0 , .2)
