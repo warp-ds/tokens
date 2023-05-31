@@ -19,4 +19,4 @@ color:
         active: blue-600
         disabled: bluegray-300
 shadow:
-  slider: shadow-small
+  slider: shadow-s

@@ -10,4 +10,4 @@ color:
       paragraph: gray-700
     background: white
 shadow:
-  modal: shadow-medium
+  modal: shadow-m

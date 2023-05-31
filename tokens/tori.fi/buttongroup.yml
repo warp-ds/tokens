@@ -27,4 +27,4 @@ color:
         active: gray-700
 shadow:
   buttongroup:
-    _: shadow-small
+    _: shadow-s
