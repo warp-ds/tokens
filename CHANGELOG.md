@@ -1,3 +1,10 @@
+# [1.0.0-alpha.82](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.81...v1.0.0-alpha.82) (2023-06-02)
+
+
+### Features
+
+* add fonts import ([#71](https://github.com/warp-ds/tokens/issues/71)) ([f173ec4](https://github.com/warp-ds/tokens/commit/f173ec44211c3576ac7ac8daaef3a0434d0f7271))
+
 # [1.0.0-alpha.81](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.80...v1.0.0-alpha.81) (2023-05-30)
 
 
