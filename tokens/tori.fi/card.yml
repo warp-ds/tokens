@@ -26,5 +26,5 @@ color:
         active: petroleum-600
 shadow:
   card:
-    _: shadow-small
-    hover: shadow-medium
+    _: shadow-s
+    hover: shadow-m

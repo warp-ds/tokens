@@ -9,4 +9,4 @@ color:
       text: gray-700
     background: white
 shadow:
-  popover: shadow-medium
+  popover: shadow-m

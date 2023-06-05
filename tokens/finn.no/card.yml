@@ -30,5 +30,5 @@ color:
           hover: blue-700
 shadow:
   card:
-    _: shadow-small
-    hover: shadow-medium
+    _: shadow-s
+    hover: shadow-m
