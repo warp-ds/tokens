@@ -1,3 +1,10 @@
+# [1.0.0-alpha.83](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.82...v1.0.0-alpha.83) (2023-06-05)
+
+
+### Bug Fixes
+
+* **tokens:** update shadows with new naming ([#70](https://github.com/warp-ds/tokens/issues/70)) ([82553cb](https://github.com/warp-ds/tokens/commit/82553cb7cdbb2d69a8ce8dbbb9342b8d157777f6))
+
 # [1.0.0-alpha.82](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.81...v1.0.0-alpha.82) (2023-06-02)
 
 
