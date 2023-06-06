@@ -1,3 +1,10 @@
+# [1.0.0-alpha.84](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.83...v1.0.0-alpha.84) (2023-06-06)
+
+
+### Bug Fixes
+
+* **blocket.se:** rename font-family token to BlocketSans to align with fonts repo ([#72](https://github.com/warp-ds/tokens/issues/72)) ([abde373](https://github.com/warp-ds/tokens/commit/abde37326a43a101dcab465e422307850caa73ab))
+
 # [1.0.0-alpha.83](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.82...v1.0.0-alpha.83) (2023-06-05)
 
 
