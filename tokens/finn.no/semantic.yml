@@ -131,7 +131,7 @@ semantic:
         default: bluegray-500
         hover: bluegray-600
         active:
-          _: gray-600
+          _: blue-600
           hover: blue-700
       inverted: hotpink
       primary: blue-600
