@@ -9,58 +9,58 @@ s:
       hover: gray-100
       active:
         _: petroleum-50
-        hover: hotpink
+        hover: petroleum-100
       disabled: hotpink
       subtle:
         default: hotpink
         hover: gray-100
         active:
           _: gray-100
-          hover: hotpink
+          hover: gray-200
         disabled: hotpink
       primary:
         default: watermelon-600
         hover: watermelon-700
         active:
-          _: watermelon-600
+          _: watermelon-800
           hover: hotpink
       positive:
         default: green-50
         hover: green-100
         active:
-          _: hotpink
-          hover: hotpink
+          _: green-100
+          hover: green-200
       negative:
         default: red-50
         hover: red-100
         active:
-          _: hotpink
-          hover: hotpink
+          _: red-50
+          hover: red-100
       warning:
         default: yellow-50
         hover: yellow-100
         active:
-          _: hotpink
-          hover: hotpink
+          _: yellow-50
+          hover: yellow-100
       info:
         default: petroleum-50
         hover: petroleum-100
         active:
-          _: hotpink
-          hover: hotpink
+          _: petroleum-50
+          hover: petroleum-100
 
     border:
       default: gray-300
       hover: gray-500
       active:
         _: gray-700
-        hover: hotpink
-      disabled: hotpink
+        hover: gray-800
+      disabled: gray-300
       subtle:
         default: hotpink
         hover: hotpink
       primary:
-        default: hotpink
+        default: watermelon-600
         hover: watermelon-700
         active:
           _: watermelon-800
@@ -133,7 +133,7 @@ s:
         active:
           _: petroleum-600
           hover: petroleum-700
-      inverted: hotpink
+      inverted: white
       primary: watermelon-600
       positive: green-600
       negative: red-600

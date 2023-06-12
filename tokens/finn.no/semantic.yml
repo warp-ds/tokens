@@ -16,13 +16,13 @@ s:
         hover: bluegray-100
         active:
           _: bluegray-100
-          hover: hotpink
+          hover: bluegray-200
         disabled: hotpink
       primary:
         default: blue-600
         hover: blue-700
         active:
-          _: blue-600
+          _: blue-800
           hover: hotpink
       positive:
         default: green-50
@@ -47,15 +47,15 @@ s:
         hover: aqua-100
         active:
           _: aqua-50
-          hover: hotpink
+          hover: aqua-100
 
     border:
       default: bluegray-300
       hover: gray-500
       active:
         _: gray-700
-        hover: hotpink
-      disabled: hotpink
+        hover: gray-800
+      disabled: bluegray-300
       subtle:
         default: hotpink
         hover: hotpink
@@ -133,7 +133,7 @@ s:
         active:
           _: blue-600
           hover: blue-700
-      inverted: hotpink
+      inverted: white
       primary: blue-600
       positive: green-600
       negative: red-600
