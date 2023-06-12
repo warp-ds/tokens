@@ -147,8 +147,8 @@ s:
         subtle: gray-50
       link:
         _: petroleum-600
-        hover: hotpink
-        active: hotpink
+        hover: petroleum-600
+        active: petroleum-600
         disabled: gray-300
       negative: red-600
       positive: green-600

@@ -147,8 +147,8 @@ s:
         subtle: gray-50
       link:
         _: blue-600
-        hover: hotpink
-        active: hotpink
+        hover: blue-600
+        active: blue-600
         disabled: bluegray-300
       negative: red-600
       positive: green-600
