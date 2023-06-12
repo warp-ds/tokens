@@ -10,20 +10,20 @@ s:
       active:
         _: petroleum-50
         hover: petroleum-100
-      disabled: hotpink
+      disabled: gray-300
       subtle:
-        default: hotpink
+        default: gray-50
         hover: gray-100
         active:
           _: gray-100
           hover: gray-200
-        disabled: hotpink
+        disabled: gray-300
       primary:
         default: watermelon-600
         hover: watermelon-700
         active:
           _: watermelon-800
-          hover: hotpink
+          hover: watermelon-700
       positive:
         default: green-50
         hover: green-100
@@ -56,9 +56,6 @@ s:
         _: gray-700
         hover: gray-800
       disabled: gray-300
-      subtle:
-        default: hotpink
-        hover: hotpink
       primary:
         default: watermelon-600
         hover: watermelon-700
@@ -66,11 +63,11 @@ s:
           _: watermelon-800
           hover: watermelon-700
         subtle:
-          default: hotpink
-          hover: hotpink
+          default: watermelon-300
+          hover: watermelon-400
           active:
-            _: hotpink
-            hover: hotpink
+            _: watermelon-600
+            hover: watermelon-700
       positive:
         default: green-600
         hover: green-700

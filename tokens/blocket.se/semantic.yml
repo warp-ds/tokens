@@ -10,20 +10,20 @@ s:
       active:
         _: blue-50
         hover: blue-100
-      disabled: hotpink
+      disabled: bluegray-300
       subtle:
-        default: hotpink
+        default: bluegray-50
         hover: bluegray-100
         active:
           _: bluegray-100
-          hover: hotpink
-        disabled: hotpink
+          hover: bluegray-200
+        disabled: bluegray-300
       primary:
         default: blue-600
         hover: blue-700
         active:
-          _: blue-600
-          hover: hotpink
+          _: blue-800
+          hover: blue-700
       positive:
         default: green-50
         hover: green-100
@@ -47,18 +47,15 @@ s:
         hover: aqua-100
         active:
           _: aqua-50
-          hover: hotpink
+          hover: aqua-100
 
     border:
       default: bluegray-300
       hover: gray-500
       active:
         _: gray-700
-        hover: hotpink
-      disabled: hotpink
-      subtle:
-        default: hotpink
-        hover: hotpink
+        hover: gray-800
+      disabled: bluegray-300
       primary:
         default: blue-600
         hover: blue-700
@@ -66,11 +63,11 @@ s:
           _: blue-800
           hover: blue-700
         subtle:
-          default: hotpink
-          hover: hotpink
+          default: blue-300
+          hover: blue-400
           active:
-            _: hotpink
-            hover: hotpink
+            _: blue-600
+            hover: blue-700
       positive:
         default: green-600
         hover: green-700
@@ -131,9 +128,9 @@ s:
         default: bluegray-500
         hover: bluegray-600
         active:
-          _: gray-600
+          _: blue-600
           hover: blue-700
-      inverted: hotpink
+      inverted: white
       primary: blue-600
       positive: green-600
       negative: red-600
