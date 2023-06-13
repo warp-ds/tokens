@@ -1,3 +1,10 @@
+# [1.0.0-alpha.85](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.84...v1.0.0-alpha.85) (2023-06-13)
+
+
+### Features
+
+* Add semantic tokens ([#73](https://github.com/warp-ds/tokens/issues/73)) ([7f99c73](https://github.com/warp-ds/tokens/commit/7f99c73c15afc3ece334c71a8063b46fbe36e7e8))
+
 # [1.0.0-alpha.84](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.83...v1.0.0-alpha.84) (2023-06-06)
 
 
