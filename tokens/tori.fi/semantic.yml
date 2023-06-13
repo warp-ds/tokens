@@ -136,7 +136,6 @@ s:
       negative: red-600
       warning: yellow-600
       info: petroleum-600
-      highlight: hotpink
 
     text:
       default: gray-900
