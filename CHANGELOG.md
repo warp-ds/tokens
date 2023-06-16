@@ -1,3 +1,10 @@
+# [1.0.0-alpha.86](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.85...v1.0.0-alpha.86) (2023-06-16)
+
+
+### Bug Fixes
+
+* remove url from the checkmark svg ([#74](https://github.com/warp-ds/tokens/issues/74)) ([ad76a1f](https://github.com/warp-ds/tokens/commit/ad76a1f50a0731bd1ab1ba2a89ce7ed2e3da9a1e))
+
 # [1.0.0-alpha.85](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.84...v1.0.0-alpha.85) (2023-06-13)
 
 
