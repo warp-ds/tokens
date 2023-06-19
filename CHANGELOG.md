@@ -1,3 +1,10 @@
+# [1.0.0-alpha.89](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.88...v1.0.0-alpha.89) (2023-06-19)
+
+
+### Bug Fixes
+
+* Updated values for shadow tokens ([#76](https://github.com/warp-ds/tokens/issues/76)) ([71b2e5b](https://github.com/warp-ds/tokens/commit/71b2e5ba9e1e841299bc54fa7445d31b7df7fe32))
+
 # [1.0.0-alpha.88](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.87...v1.0.0-alpha.88) (2023-06-19)
 
 
