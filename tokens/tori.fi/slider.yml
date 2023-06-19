@@ -5,9 +5,9 @@ color:
   slider:
     handle:
       background:
-        _: white
-        active: white
-        hover: white
+        _: petroleum-600
+        active: petroleum-600
+        hover: petroleum-700
         disabled: gray-300
       border:
         _: petroleum-600
