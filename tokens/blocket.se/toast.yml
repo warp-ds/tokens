@@ -23,4 +23,4 @@ color:
       border: red-600
       subtle:
         border: red-300
-      icon: gray-700
+      icon: red-600
