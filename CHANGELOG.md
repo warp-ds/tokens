@@ -1,3 +1,10 @@
+# [1.0.0-alpha.88](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.87...v1.0.0-alpha.88) (2023-06-19)
+
+
+### Bug Fixes
+
+* **toast:** fix negative icon token to correct color ([#77](https://github.com/warp-ds/tokens/issues/77)) ([130590a](https://github.com/warp-ds/tokens/commit/130590adf52ec4bf9e0fbbd6f809069441a44800))
+
 # [1.0.0-alpha.87](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.86...v1.0.0-alpha.87) (2023-06-16)
 
 
