@@ -1,3 +1,10 @@
+# [1.0.0-alpha.90](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.89...v1.0.0-alpha.90) (2023-06-19)
+
+
+### Bug Fixes
+
+* Adjusted Tori Slider handle color ([#78](https://github.com/warp-ds/tokens/issues/78)) ([b85afe0](https://github.com/warp-ds/tokens/commit/b85afe023d27fda4dde6db6a49bb207d43c95436))
+
 # [1.0.0-alpha.89](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.88...v1.0.0-alpha.89) (2023-06-19)
 
 
