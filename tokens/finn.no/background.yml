@@ -3,6 +3,7 @@ token: maps
 
 color:
   background:
+    _: white
     subtle: bluegray-50
     interactive:
       _: white
