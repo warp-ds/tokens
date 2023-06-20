@@ -1,3 +1,10 @@
+# [1.0.0-alpha.92](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.91...v1.0.0-alpha.92) (2023-06-20)
+
+
+### Bug Fixes
+
+* remove correct background token ([#80](https://github.com/warp-ds/tokens/issues/80)) ([54870eb](https://github.com/warp-ds/tokens/commit/54870ebb952385ac7c8968411c0f3144a5a101b7))
+
 # [1.0.0-alpha.91](https://github.com/warp-ds/tokens/compare/v1.0.0-alpha.90...v1.0.0-alpha.91) (2023-06-20)
 
 
