@@ -4,7 +4,6 @@ token: maps
 color:
   radio:
     background:
-      _: white
       disabled: gray-200
       hover: white
     border:
