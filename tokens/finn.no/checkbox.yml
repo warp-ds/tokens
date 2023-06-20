@@ -4,7 +4,6 @@ token: maps
 color:
   checkbox:
     background:
-      _: white
       disabled: gray-200
       hover: blue-50
       active:
