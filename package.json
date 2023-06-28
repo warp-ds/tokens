@@ -11,7 +11,9 @@
     "@sindresorhus/slugify": "^2.2.0",
     "@warp-ds/tokenizer": "^0.0.2",
     "drnm": "^0.9.0",
-    "lightningcss": "^1.19.0"
+    "lightningcss": "^1.19.0",
+    "postcss": "^8.4.24",
+    "postcss-import": "^15.1.0"
   },
   "devDependencies": {
     "@eik/cli": "^2.0.22",
