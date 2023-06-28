@@ -60,6 +60,8 @@ color:
         text: bluegray-300
         border: bluegray-300
       background: bluegray-300
+    link:
+      text: s-color-text-link
     favorite:
       background:
         _: transparent

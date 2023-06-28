@@ -1,0 +1,14 @@
+---
+token: maps
+
+color:
+  combobox:
+    background: s-color-background-default
+    option:
+      background:
+        hover: s-color-background-hover
+        selected:
+          _: s-color-background-active
+          hover: s-color-background-active-hover
+shadow:
+  combobox: shadow-m

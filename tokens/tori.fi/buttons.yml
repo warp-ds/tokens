@@ -60,6 +60,8 @@ color:
       quiet:
         text: gray-300
         border: gray-300
+    link:
+      text: s-color-text-link
     pill:
       background:
         _: transparent

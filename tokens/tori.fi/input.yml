@@ -4,6 +4,7 @@ token: maps
 color:
   input:
     text:
+      placeholder: s-color-text-placeholder
       hint: gray-300
       active: gray-700
       filled: gray-700
