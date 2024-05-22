@@ -1,0 +1,117 @@
+{
+  "components": {
+    "badge": {
+      "neutral": {
+        "background": {
+          "value": "{color.gray.100}"
+        }
+      },
+      "positive": {
+        "background": {
+          "value": "{color.green.100}"
+        }
+      },
+      "info": {
+        "background": {
+          "value": "{color.blue.100}"
+        }
+      },
+      "warning": {
+        "background": {
+          "value": "{color.yellow.100}"
+        }
+      },
+      "negative": {
+        "background": {
+          "value": "{color.red.100}"
+        }
+      },
+      "sponsored": {
+        "background": {
+          "value": "{color.blue.200}"
+        }
+      },
+      "price": {
+        "background": {
+          "value": "{color.black}"
+        }
+      },
+      "notification": {
+        "background": {
+          "value": "{semantic.color.background.negative}"
+        }
+      }
+    },
+    "button": {
+      "primary button": {
+        "primary": {
+          "value": "{color.watermelon.600}"
+        },
+        "primary-hover": {
+          "value": "{color.watermelon.700}"
+        },
+        "primary-active": {
+          "value": "{color.watermelon.800}"
+        }
+      },
+      "pill": {
+        "background-hover": {
+          "value": "{color.blueberry.300}"
+        }
+      }
+    },
+    "callout": {
+      "background": {
+        "value": "{color.blue.100}"
+      },
+      "border": {
+        "value": "{color.blue.400}"
+      }
+    },
+    "navbar": {
+      "icon-selected": {
+        "value": "{semantic.color.icon.secondary}"
+      },
+      "border-selected": {
+        "value": "{semantic.color.border.secondary}"
+      }
+    },
+    "page indicator": {
+      "background": {
+        "value": "{color.gray.300}"
+      },
+      "background-hover": {
+        "value": "{color.gray.400}"
+      }
+    },
+    "pill": {
+      "suggestion": {
+        "background": {
+          "value": "{color.gray.200}"
+        },
+        "background-hover": {
+          "value": "{color.gray.300}"
+        },
+        "background-active": {
+          "value": "{color.gray.400}"
+        }
+      }
+    },
+    "switch": {
+      "background-track": {
+        "value": "{color.gray.200}"
+      },
+      "background-track-hover": {
+        "value": "{color.gray.300}"
+      },
+      "background-track-disabled": {
+        "value": "{color.gray.200}"
+      }
+    },
+    "tooltip": {
+      "background-static": {
+        "value": "{semantic.color.background.inverted}"
+      }
+    }
+  }
+}
