@@ -18,6 +18,10 @@ jobs:
         with:
           version: 9
           run_install: true
+      - name: create env file
+        run: |
+          touch .env
+          echo FIGMA_TOKEN=${{ secrets.FIGMA_TOKEN }} >> .env
       - name: Build
         run: pnpm build
       - uses: "marvinpinto/action-automatic-releases@latest"
