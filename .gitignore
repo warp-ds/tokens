@@ -4,4 +4,4 @@ build/
 **/.DS_Store
 output/
 dist/
-.FIGMA_TOKEN
+.env
