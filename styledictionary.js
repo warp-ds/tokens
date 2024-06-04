@@ -12,25 +12,32 @@ export function generateSDAssets() {
     const config = {
       source: [path.join(tokensPath, brandMode, "*.json")],
       platforms: {
-        scss: {
-          transformGroup: "scss",
-          buildPath: `output/web/${brandMode}/`,
-          files: [
-            {
-              destination: "_variables.scss",
-              format: "scss/variables",
-              options: {
-                outputReferences: true,
-              },
-            },
-          ],
-        },
         css: {
           transformGroup: "css",
           buildPath: `output/web/${brandMode}/`,
           files: [
             {
               destination: "variables.css",
+              format: "css/variables",
+              options: {
+                outputReferences: true,
+              },
+            },
+          ],
+        },
+        cssRgb: {
+          transforms: [
+            "attribute/cti",
+            "name/cti/kebab",
+            "time/seconds",
+            "content/icon",
+            "size/rem",
+            "color/rgb",
+          ],
+          buildPath: `output/web/${brandMode}/`,
+          files: [
+            {
+              destination: "variables-rgb.css",
               format: "css/variables",
               options: {
                 outputReferences: true,
