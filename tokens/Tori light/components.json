@@ -3,32 +3,32 @@
     "badge": {
       "neutral": {
         "background": {
-          "value": "{color.gray.600}"
+          "value": "{color.gray.100}"
         }
       },
       "positive": {
         "background": {
-          "value": "{color.green.700}"
+          "value": "{color.green.100}"
         }
       },
       "info": {
         "background": {
-          "value": "{color.jeanblue.700}"
+          "value": "{color.blue.100}"
         }
       },
       "warning": {
         "background": {
-          "value": "{color.yellow.700}"
+          "value": "{color.yellow.100}"
         }
       },
       "negative": {
         "background": {
-          "value": "{color.red.700}"
+          "value": "{color.red.100}"
         }
       },
       "sponsored": {
         "background": {
-          "value": "{color.jeanblue.600}"
+          "value": "{color.blue.200}"
         }
       },
       "price": {
@@ -45,27 +45,27 @@
     "button": {
       "primary": {
         "background": {
-          "value": "{semantic.color.background.primary}"
+          "value": "{color.watermelon.600}"
         },
         "background-hover": {
-          "value": "{semantic.color.background.primary-hover}"
+          "value": "{color.watermelon.700}"
         },
         "background-active": {
-          "value": "{semantic.color.background.primary-active}"
+          "value": "{color.watermelon.800}"
         }
       },
       "pill": {
         "background-hover": {
-          "value": "{color.jeanblue.300}"
+          "value": "{color.blueberry.300}"
         }
       }
     },
     "callout": {
       "background": {
-        "value": "{color.green.800}"
+        "value": "{color.blue.100}"
       },
       "border": {
-        "value": "{color.green.600}"
+        "value": "{color.blue.400}"
       }
     },
     "navbar": {
@@ -81,16 +81,16 @@
         "value": "{color.gray.300}"
       },
       "background-hover": {
-        "value": "{color.gray.200}"
+        "value": "{color.gray.400}"
       }
     },
     "pill": {
       "suggestion": {
         "background": {
-          "value": "{color.gray.600}"
+          "value": "{color.gray.200}"
         },
         "background-hover": {
-          "value": "{color.gray.500}"
+          "value": "{color.gray.300}"
         },
         "background-active": {
           "value": "{color.gray.400}"
@@ -100,16 +100,16 @@
     "switch": {
       "track": {
         "background": {
-          "value": "{color.gray.600}"
+          "value": "{color.gray.200}"
         },
         "background-hover": {
-          "value": "{color.gray.500}"
+          "value": "{color.gray.300}"
         }
       }
     },
     "tooltip": {
       "background-static": {
-        "value": "{semantic.color.surface.elevated-300}"
+        "value": "{semantic.color.background.inverted}"
       }
     }
   }

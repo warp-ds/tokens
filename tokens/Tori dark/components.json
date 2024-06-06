@@ -13,7 +13,7 @@
       },
       "info": {
         "background": {
-          "value": "{color.jeanblue.700}"
+          "value": "{color.blue.700}"
         }
       },
       "warning": {
@@ -28,7 +28,7 @@
       },
       "sponsored": {
         "background": {
-          "value": "{color.jeanblue.600}"
+          "value": "{color.blue.600}"
         }
       },
       "price": {
@@ -45,27 +45,27 @@
     "button": {
       "primary": {
         "background": {
-          "value": "{semantic.color.background.primary}"
+          "value": "{color.watermelon.500}"
         },
         "background-hover": {
-          "value": "{semantic.color.background.primary-hover}"
+          "value": "{color.watermelon.400}"
         },
         "background-active": {
-          "value": "{semantic.color.background.primary-active}"
+          "value": "{color.watermelon.300}"
         }
       },
       "pill": {
         "background-hover": {
-          "value": "{color.jeanblue.300}"
+          "value": "{color.blueberry.300}"
         }
       }
     },
     "callout": {
       "background": {
-        "value": "{color.green.800}"
+        "value": "{color.blue.800}"
       },
       "border": {
-        "value": "{color.green.600}"
+        "value": "{color.blue.600}"
       }
     },
     "navbar": {
