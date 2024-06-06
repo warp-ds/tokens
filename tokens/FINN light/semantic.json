@@ -108,6 +108,9 @@
         "selected-hover": {
           "value": "{color.blue.100}"
         },
+        "selected-active": {
+          "value": "{color.blue.200}"
+        },
         "inverted": {
           "value": "{color.gray.900}"
         },
@@ -128,6 +131,15 @@
         },
         "primary-subtle-active": {
           "value": "{color.blue.200}"
+        },
+        "secondary": {
+          "value": "{color.aqua.400}"
+        },
+        "secondary-hover": {
+          "value": "{color.aqua.500}"
+        },
+        "secondary-active": {
+          "value": "{color.aqua.600}"
         },
         "positive": {
           "value": "{color.green.600}"
@@ -206,18 +218,6 @@
         },
         "notification": {
           "value": "{color.red.600}"
-        },
-        "overlay": {
-          "value": "{color.white}"
-        },
-        "secondary": {
-          "value": "{color.aqua.400}"
-        },
-        "secondary-hover": {
-          "value": "{color.aqua.500}"
-        },
-        "secondary-active": {
-          "value": "{color.aqua.600}"
         }
       },
       "border": {
@@ -238,6 +238,12 @@
         },
         "selected-hover": {
           "value": "{color.blue.700}"
+        },
+        "selected-active": {
+          "value": "{color.blue.800}"
+        },
+        "inverted": {
+          "value": "{color.gray.300}"
         },
         "primary": {
           "value": "{color.blue.600}"
@@ -360,6 +366,9 @@
         },
         "selected-hover": {
           "value": "{color.blue.700}"
+        },
+        "selected-active": {
+          "value": "{color.blue.800}"
         },
         "disabled": {
           "value": "{color.gray.300}"
