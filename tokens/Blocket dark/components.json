@@ -43,14 +43,14 @@
       }
     },
     "button": {
-      "primary button": {
-        "primary": {
+      "primary": {
+        "background": {
           "value": "{semantic.color.background.primary}"
         },
-        "primary-hover": {
+        "background-hover": {
           "value": "{semantic.color.background.primary-hover}"
         },
-        "primary-active": {
+        "background-active": {
           "value": "{semantic.color.background.primary-active}"
         }
       },
@@ -98,14 +98,13 @@
       }
     },
     "switch": {
-      "background-track": {
-        "value": "{color.gray.600}"
-      },
-      "background-track-hover": {
-        "value": "{color.gray.500}"
-      },
-      "background-track-disabled": {
-        "value": "{color.gray.600}"
+      "track": {
+        "background": {
+          "value": "{color.gray.600}"
+        },
+        "background-hover": {
+          "value": "{color.gray.500}"
+        }
       }
     },
     "tooltip": {
