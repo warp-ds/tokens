@@ -35,4 +35,4 @@ jobs:
           body: |
             Updates fetched from Figma
             - Check diff under tokens folder to see what's changed
-          team-reviewers: warp-ds/warp-core-team
+          reviewers: BalbinaK,felicia-haggqvist,imprashast,magnuh,Skadefryd

@@ -44,7 +44,7 @@ export function processAndWriteSemanticAndComponentTokens(sourceData, tokenVaria
 
   // Write the files for each mode
     Object.entries(modeObjects).map(([modeName, modeObject]) => {
-      const dirPath = `tokens/${modeName}`;
+      const dirPath = `tokens/${modeName.toLowerCase().replace(" ", "-")}`;
       if (!fs.existsSync(dirPath)) {
         fs.mkdirSync(dirPath, { recursive: true });
       }

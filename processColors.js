@@ -41,7 +41,7 @@ export function processAndWriteBrandColors(sourceData, variableCollections, vari
       if (Object.keys(brandColors).length > 0) {
         // Write the colors.json for each mode (light and dark)
         ["light", "dark"].forEach((mode) => {
-          const dirPath = `tokens/${brandName} ${mode}`;
+          const dirPath = `tokens/${brandName.toLowerCase()}-${mode.toLowerCase()}`;
           if (!fs.existsSync(dirPath)) {
             fs.mkdirSync(dirPath, { recursive: true });
           }
