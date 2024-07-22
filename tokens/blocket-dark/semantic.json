@@ -6,7 +6,7 @@
           "value": "{color.white}"
         },
         "subtle": {
-          "value": "{color.gray.100}"
+          "value": "{color.gray.400}"
         },
         "static": {
           "value": "{color.gray.800}"

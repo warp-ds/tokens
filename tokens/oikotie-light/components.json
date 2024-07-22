@@ -13,12 +13,12 @@
       },
       "info": {
         "background": {
-          "value": "{color.aqua.100}"
+          "value": "{color.blue.100}"
         }
       },
       "warning": {
         "background": {
-          "value": "{color.yellow.100}"
+          "value": "{color.orange.100}"
         }
       },
       "negative": {
@@ -28,7 +28,7 @@
       },
       "sponsored": {
         "background": {
-          "value": "{color.aqua.200}"
+          "value": "{color.blue.200}"
         }
       },
       "price": {
@@ -51,7 +51,7 @@
       },
       "pill": {
         "background-hover": {
-          "value": "{color.blue.300}"
+          "value": "{color.gray.300}"
         }
       }
     },
@@ -65,10 +65,10 @@
     },
     "navbar": {
       "icon-selected": {
-        "value": "{semantic.color.icon.selected}"
+        "value": "{semantic.color.icon.secondary}"
       },
       "border-selected": {
-        "value": "{semantic.color.border.selected}"
+        "value": "{semantic.color.border.secondary}"
       }
     },
     "page indicator": {

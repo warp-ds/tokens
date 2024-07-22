@@ -35,11 +35,6 @@
         "background": {
           "value": "{color.black}"
         }
-      },
-      "notification": {
-        "background": {
-          "value": "{semantic.color.background.negative}"
-        }
       }
     },
     "button": {
@@ -105,6 +100,9 @@
         "background-hover": {
           "value": "{color.gray.500}"
         }
+      },
+      "background-track-disabled": {
+        "value": "{color.gray.600}"
       }
     },
     "tooltip": {
