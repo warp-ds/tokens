@@ -3,32 +3,32 @@
     "badge": {
       "neutral": {
         "background": {
-          "value": "{color.gray.100}"
+          "value": "{color.gray.600}"
         }
       },
       "positive": {
         "background": {
-          "value": "{color.green.100}"
+          "value": "{color.green.700}"
         }
       },
       "info": {
         "background": {
-          "value": "{color.aqua.100}"
+          "value": "{color.blue.700}"
         }
       },
       "warning": {
         "background": {
-          "value": "{color.yellow.100}"
+          "value": "{color.orange.700}"
         }
       },
       "negative": {
         "background": {
-          "value": "{color.red.100}"
+          "value": "{color.red.700}"
         }
       },
       "sponsored": {
         "background": {
-          "value": "{color.aqua.200}"
+          "value": "{color.blue.600}"
         }
       },
       "price": {
@@ -51,7 +51,7 @@
       },
       "pill": {
         "background-hover": {
-          "value": "{color.blue.300}"
+          "value": "{color.gray.300}"
         }
       }
     },
@@ -65,10 +65,10 @@
     },
     "navbar": {
       "icon-selected": {
-        "value": "{semantic.color.icon.selected}"
+        "value": "{semantic.color.icon.secondary}"
       },
       "border-selected": {
-        "value": "{semantic.color.border.selected}"
+        "value": "{semantic.color.border.secondary}"
       }
     },
     "page indicator": {
