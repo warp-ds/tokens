@@ -35,6 +35,11 @@
         "background": {
           "value": "{color.black}"
         }
+      },
+      "notification": {
+        "background": {
+          "value": "{semantic.color.background.negative}"
+        }
       }
     },
     "button": {
@@ -52,15 +57,18 @@
       "pill": {
         "background-hover": {
           "value": "{color.gray.300}"
+        },
+        "background-active": {
+          "value": "{color.gray.400}"
         }
       }
     },
     "callout": {
       "background": {
-        "value": "{color.green.100}"
+        "value": "{color.green.800}"
       },
       "border": {
-        "value": "{color.green.400}"
+        "value": "{color.green.600}"
       }
     },
     "navbar": {
@@ -76,16 +84,16 @@
         "value": "{color.gray.300}"
       },
       "background-hover": {
-        "value": "{color.gray.400}"
+        "value": "{color.gray.200}"
       }
     },
     "pill": {
       "suggestion": {
         "background": {
-          "value": "{color.gray.200}"
+          "value": "{color.gray.600}"
         },
         "background-hover": {
-          "value": "{color.gray.300}"
+          "value": "{color.gray.500}"
         },
         "background-active": {
           "value": "{color.gray.400}"
@@ -95,19 +103,19 @@
     "switch": {
       "track": {
         "background": {
-          "value": "{color.gray.200}"
+          "value": "{color.gray.600}"
         },
         "background-hover": {
-          "value": "{color.gray.300}"
+          "value": "{color.gray.500}"
         }
       },
       "background-track-disabled": {
-        "value": "{color.gray.200}"
+        "value": "{color.gray.600}"
       }
     },
     "tooltip": {
       "background-static": {
-        "value": "{semantic.color.background.inverted}"
+        "value": "{semantic.color.surface.elevated-300}"
       }
     }
   }

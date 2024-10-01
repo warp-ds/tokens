@@ -18,12 +18,12 @@
       },
       "warning": {
         "background": {
-          "value": "{color.yellow.700}"
+          "value": "{color.orange.700}"
         }
       },
       "negative": {
         "background": {
-          "value": "{color.coral.700}"
+          "value": "{color.red.700}"
         }
       },
       "sponsored": {
@@ -56,10 +56,10 @@
       },
       "pill": {
         "background-hover": {
-          "value": "{color.blue.300}"
+          "value": "{color.green.300}"
         },
         "background-active": {
-          "value": "{color.blue.400}"
+          "value": "{color.green.400}"
         }
       }
     },

@@ -35,6 +35,11 @@
         "background": {
           "value": "{color.black}"
         }
+      },
+      "notification": {
+        "background": {
+          "value": "{semantic.color.background.negative}"
+        }
       }
     },
     "button": {
@@ -52,6 +57,9 @@
       "pill": {
         "background-hover": {
           "value": "{color.jeanblue.300}"
+        },
+        "background-active": {
+          "value": "{color.jeanblue.400}"
         }
       }
     },

@@ -18,12 +18,12 @@
       },
       "warning": {
         "background": {
-          "value": "{color.yellow.700}"
+          "value": "{color.orange.700}"
         }
       },
       "negative": {
         "background": {
-          "value": "{color.coral.700}"
+          "value": "{color.red.700}"
         }
       },
       "sponsored": {
