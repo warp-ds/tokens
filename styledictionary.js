@@ -23,42 +23,46 @@ StyleDictionary.registerFormat({
     const brandName = file.destination.split('/').pop().replace('Tokens.swift', ''); // Extract brand name from the file path
 
     // Generate SwiftUI Color dynamic colors
-    const swiftUIColorBlock = dictionary.allProperties.map(token => {
-      let name = toCamelCase(token.path.join('')); // Convert to camelCase
-      if (name.startsWith("semanticcolor")) {
-        name = name.replace("semanticcolor", ""); // Remove 'semanticcolor' prefix
-      }
-      name = name.replace(/-/g, ''); // Remove all dashes
+    const swiftUIColorBlock = dictionary.allProperties
+      .filter(token => !token.path[0].startsWith('color')) // Exclude primitive colors, only keep semantic tokens
+      .map(token => {
+        let name = toCamelCase(token.path.join('')); // Convert to camelCase
+        if (name.startsWith("semanticcolor")) {
+          name = name.replace("semanticcolor", ""); // Remove 'semanticcolor' prefix
+        }
+        name = name.replace(/-/g, ''); // Remove all dashes
 
-      const lightValue = token.lightValue || token.value;  // Light mode value
-      const darkValue = token.darkValue || lightValue;  // Dark mode value (if available)
+        const lightValue = token.lightValue || token.value;  // Light mode value
+        const darkValue = token.darkValue || lightValue;  // Dark mode value (if available)
 
-      if (!lightValue || !darkValue) {
-        console.error(`Unresolved reference for ${name} in ${brandName} - Skipping token.`);
-        return ''; // Skip tokens with unresolved references
-      }
+        if (!lightValue || !darkValue) {
+          console.error(`Unresolved reference for ${name} in ${brandName} - Skipping token.`);
+          return ''; // Skip tokens with unresolved references
+        }
 
-      return `    public var ${name}: Color { Color.dynamicColor(defaultColor: "${lightValue}", darkModeColor: "${darkValue}") }`;
-    }).join('\n');
+        return `    public var ${name}: Color { Color.dynamicColor(defaultColor: "${lightValue}", darkModeColor: "${darkValue}") }`;
+      }).join('\n');
 
     // Generate UIKit UIColor dynamic colors
-    const uiColorBlock = dictionary.allProperties.map(token => {
-      let name = toCamelCase(token.path.join('')); // Convert to camelCase
-      if (name.startsWith("semanticcolor")) {
-        name = name.replace("semanticcolor", ""); // Remove 'semanticcolor' prefix
-      }
-      name = name.replace(/-/g, ''); // Remove all dashes
+    const uiColorBlock = dictionary.allProperties
+      .filter(token => !token.path[0].startsWith('color')) // Exclude primitive colors, only keep semantic tokens
+      .map(token => {
+        let name = toCamelCase(token.path.join('')); // Convert to camelCase
+        if (name.startsWith("semanticcolor")) {
+          name = name.replace("semanticcolor", ""); // Remove 'semanticcolor' prefix
+        }
+        name = name.replace(/-/g, ''); // Remove all dashes
 
-      const lightValue = token.lightValue || token.value;  // Light mode value
-      const darkValue = token.darkValue || lightValue;  // Dark mode value (if available)
+        const lightValue = token.lightValue || token.value;  // Light mode value
+        const darkValue = token.darkValue || lightValue;  // Dark mode value (if available)
 
-      if (!lightValue || !darkValue) {
-        console.error(`Unresolved reference for ${name} in ${brandName} - Skipping token.`);
-        return ''; // Skip tokens with unresolved references
-      }
+        if (!lightValue || !darkValue) {
+          console.error(`Unresolved reference for ${name} in ${brandName} - Skipping token.`);
+          return ''; // Skip tokens with unresolved references
+        }
 
-      return `    public var ${name}: UIColor { UIColor.dynamicColor(defaultColor: "${lightValue}", darkModeColor: "${darkValue}") }`;
-    }).join('\n');
+        return `    public var ${name}: UIColor { UIColor.dynamicColor(defaultColor: "${lightValue}", darkModeColor: "${darkValue}") }`;
+      }).join('\n');
 
     return `import SwiftUI
 
