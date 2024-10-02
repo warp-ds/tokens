@@ -26,11 +26,7 @@ StyleDictionary.registerFormat({
     const swiftUIColorBlock = dictionary.allProperties
       .filter(token => !token.path[0].startsWith('color')) // Exclude primitive colors, only keep semantic tokens
       .map(token => {
-        let name = toCamelCase(token.path.join('')); // Convert to camelCase
-        if (name.startsWith("semanticcolor")) {
-          name = name.replace("semanticcolor", ""); // Remove 'semanticcolor' prefix
-        }
-        name = name.replace(/-/g, ''); // Remove all dashes
+        let name = toCamelCase(token.path.slice(2).join('-')); // Convert to camelCase, removing first two parts
 
         const lightValue = token.lightValue || token.value;  // Light mode value
         const darkValue = token.darkValue || lightValue;  // Dark mode value (if available)
@@ -47,11 +43,7 @@ StyleDictionary.registerFormat({
     const uiColorBlock = dictionary.allProperties
       .filter(token => !token.path[0].startsWith('color')) // Exclude primitive colors, only keep semantic tokens
       .map(token => {
-        let name = toCamelCase(token.path.join('')); // Convert to camelCase
-        if (name.startsWith("semanticcolor")) {
-          name = name.replace("semanticcolor", ""); // Remove 'semanticcolor' prefix
-        }
-        name = name.replace(/-/g, ''); // Remove all dashes
+        let name = toCamelCase(token.path.slice(2).join('-')); // Convert to camelCase, removing first two parts
 
         const lightValue = token.lightValue || token.value;  // Light mode value
         const darkValue = token.darkValue || lightValue;  // Dark mode value (if available)
