@@ -26,7 +26,7 @@ StyleDictionary.registerFormat({
     const swiftUIColorBlock = dictionary.allProperties
       .filter(token => !token.path[0].startsWith('color')) // Exclude primitive colors, only keep semantic tokens
       .map(token => {
-        let name = toCamelCase(token.path.slice(2).join('-')); // Convert to camelCase, removing first two parts
+        let name = toCamelCase(token.path.slice(2).join('-')).replace('Default', ''); // Convert to camelCase, removing first two parts
 
         const lightValue = token.lightValue || token.original.value;  // Light mode value
         const darkValue = token.darkValue || lightValue;  // Dark mode value (if available)
@@ -43,7 +43,7 @@ StyleDictionary.registerFormat({
     const uiColorBlock = dictionary.allProperties
       .filter(token => !token.path[0].startsWith('color')) // Exclude primitive colors, only keep semantic tokens
       .map(token => {
-        let name = toCamelCase(token.path.slice(2).join('-')); // Convert to camelCase, removing first two parts
+        let name = toCamelCase(token.path.slice(2).join('-')).replace('Default', ''); // Convert to camelCase, removing first two parts
 
         const lightValue = token.lightValue || token.original.value;  // Light mode value
         const darkValue = token.darkValue || lightValue;  // Dark mode value (if available)
@@ -81,7 +81,7 @@ StyleDictionary.registerFormat({
     const swiftUIColorBlock = dictionary.allProperties
       .filter(token => !token.path[0].startsWith('color')) // Exclude primitive colors, only keep semantic tokens
       .map(token => {
-        let name = toCamelCase(token.path.slice(2).join('-')); // Convert to camelCase, removing first two parts
+        let name = toCamelCase(token.path.slice(2).join('-')).replace('Default', ''); // Convert to camelCase, removing first two parts
 
         const lightValue = token.lightValue || token.original.value;  // Light mode value
         const darkValue = token.darkValue || lightValue;  // Dark mode value (if available)
@@ -98,7 +98,7 @@ StyleDictionary.registerFormat({
     const uiColorBlock = dictionary.allProperties
       .filter(token => !token.path[0].startsWith('color')) // Exclude primitive colors, only keep semantic tokens
       .map(token => {
-        let name = toCamelCase(token.path.slice(2).join('-')); // Convert to camelCase, removing first two parts
+        let name = toCamelCase(token.path.slice(2).join('-')).replace('Default', ''); // Convert to camelCase, removing first two parts
 
         const lightValue = token.lightValue || token.original.value;  // Light mode value
         const darkValue = token.darkValue || lightValue;  // Dark mode value (if available)
@@ -251,11 +251,10 @@ function generateLightTokensForIOS() {
     console.log(`Processing tokens for brand: ${brand}`);
 
     const lightTokenFilePath = path.join(tokensPath, `${brand}-light`, "semantic.json");
-    const darkTokenFilePath = path.join(tokensPath, `${brand}-dark`, "semantic.json");
     const colorFilePath = path.join(tokensPath, `${brand}-light`, "colors.json"); // Load the color file for reference resolution
 
     // Skip this brand if semantic.json files or colors.json are missing
-    if (!fs.existsSync(lightTokenFilePath) || !fs.existsSync(darkTokenFilePath) || !fs.existsSync(colorFilePath)) {
+    if (!fs.existsSync(lightTokenFilePath) || !fs.existsSync(colorFilePath)) {
       console.error(`semantic.json or colors.json not found for ${brand}`);
       return; // Skip this brand if semantic.json or colors.json doesn't exist
     }
@@ -263,13 +262,11 @@ function generateLightTokensForIOS() {
     try {
       console.log(`Reading light token file: ${lightTokenFilePath}`);
       const lightTokens = JSON.parse(fs.readFileSync(lightTokenFilePath));
-      console.log(`Reading dark token file: ${darkTokenFilePath}`);
-      const darkTokens = JSON.parse(fs.readFileSync(darkTokenFilePath));
       console.log(`Reading colors file: ${colorFilePath}`);
       const colorTokens = JSON.parse(fs.readFileSync(colorFilePath));
 
       const iosTokensConfig = {
-        source: [lightTokenFilePath, darkTokenFilePath, colorFilePath], // Include colors.json in source to resolve references
+        source: [lightTokenFilePath, colorFilePath], // Include colors.json in source to resolve references
         platforms: {
           ios: {
             transformGroup: "ios-swift",
@@ -318,26 +315,23 @@ function generateDarkTokensForIOS() {
   uniqueBrands.forEach((brand) => {
     console.log(`Processing tokens for brand: ${brand}`);
 
-    const lightTokenFilePath = path.join(tokensPath, `${brand}-light`, "semantic.json");
     const darkTokenFilePath = path.join(tokensPath, `${brand}-dark`, "semantic.json");
     const colorFilePath = path.join(tokensPath, `${brand}-light`, "colors.json"); // Load the color file for reference resolution
 
     // Skip this brand if semantic.json files or colors.json are missing
-    if (!fs.existsSync(lightTokenFilePath) || !fs.existsSync(darkTokenFilePath) || !fs.existsSync(colorFilePath)) {
+    if (!fs.existsSync(darkTokenFilePath) || !fs.existsSync(colorFilePath)) {
       console.error(`semantic.json or colors.json not found for ${brand}`);
       return; // Skip this brand if semantic.json or colors.json doesn't exist
     }
 
     try {
-      console.log(`Reading light token file: ${lightTokenFilePath}`);
-      const lightTokens = JSON.parse(fs.readFileSync(lightTokenFilePath));
       console.log(`Reading dark token file: ${darkTokenFilePath}`);
       const darkTokens = JSON.parse(fs.readFileSync(darkTokenFilePath));
       console.log(`Reading colors file: ${colorFilePath}`);
       const colorTokens = JSON.parse(fs.readFileSync(colorFilePath));
 
       const iosTokensConfig = {
-        source: [lightTokenFilePath, darkTokenFilePath, colorFilePath], // Include colors.json in source to resolve references
+        source: [darkTokenFilePath, colorFilePath], // Include colors.json in source to resolve references
         platforms: {
           ios: {
             transformGroup: "ios-swift",
