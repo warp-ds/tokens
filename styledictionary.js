@@ -118,16 +118,9 @@ StyleDictionary.registerFormat({
       .filter(token => !token.path[0].startsWith('color')) // Exclude primitive colors, only keep semantic tokens
       .map(token => {
         let name = toCamelCase(token.path.slice(2).join('-')).replace('Default', ''); // Convert to camelCase, removing first two parts
+        let value = transformValue(token.original.value)
 
-        const lightValue = token.lightValue || token.original.value;  // Light mode value
-        const darkValue = token.darkValue || lightValue;  // Dark mode value (if available)
-
-        if (!lightValue || !darkValue) {
-          console.error(`Unresolved reference for ${name} in ${brandName} - Skipping token.`);
-          return ''; // Skip tokens with unresolved references
-        }
-
-        return `    public var ${name}: Color { Color.dynamicColor(defaultColor: "${lightValue}", darkModeColor: "${darkValue}") }`;
+        return `    public var ${name}: Color { ${brandName.replace('Light', '')}${value} }`;
       }).join('\n');
 
     // Generate UIKit light colors
@@ -135,16 +128,9 @@ StyleDictionary.registerFormat({
       .filter(token => !token.path[0].startsWith('color')) // Exclude primitive colors, only keep semantic tokens
       .map(token => {
         let name = toCamelCase(token.path.slice(2).join('-')).replace('Default', ''); // Convert to camelCase, removing first two parts
+        let value = transformValue(token.original.value)
 
-        const lightValue = token.lightValue || token.original.value;  // Light mode value
-        const darkValue = token.darkValue || lightValue;  // Dark mode value (if available)
-
-        if (!lightValue || !darkValue) {
-          console.error(`Unresolved reference for ${name} in ${brandName} - Skipping token.`);
-          return ''; // Skip tokens with unresolved references
-        }
-
-        return `    public var ${name}: UIColor { UIColor.dynamicColor(defaultColor: "${lightValue}", darkModeColor: "${darkValue}") }`;
+        return `    public var ${name}: UIColor { ${brandName.replace('Light', '')}UI${value} }`;
       }).join('\n');
 
     return `import SwiftUI
@@ -173,16 +159,9 @@ StyleDictionary.registerFormat({
       .filter(token => !token.path[0].startsWith('color')) // Exclude primitive colors, only keep semantic tokens
       .map(token => {
         let name = toCamelCase(token.path.slice(2).join('-')).replace('Default', ''); // Convert to camelCase, removing first two parts
+        let value = transformValue(token.original.value)
 
-        const lightValue = token.lightValue || token.original.value;  // Light mode value
-        const darkValue = token.darkValue || lightValue;  // Dark mode value (if available)
-
-        if (!lightValue || !darkValue) {
-          console.error(`Unresolved reference for ${name} in ${brandName} - Skipping token.`);
-          return ''; // Skip tokens with unresolved references
-        }
-
-        return `    public var ${name}: Color { Color.dynamicColor(defaultColor: "${lightValue}", darkModeColor: "${darkValue}") }`;
+        return `    public var ${name}: Color { ${brandName.replace('Dark', '')}${value} }`;
       }).join('\n');
 
     // Generate UIKit dark colors
@@ -190,16 +169,9 @@ StyleDictionary.registerFormat({
       .filter(token => !token.path[0].startsWith('color')) // Exclude primitive colors, only keep semantic tokens
       .map(token => {
         let name = toCamelCase(token.path.slice(2).join('-')).replace('Default', ''); // Convert to camelCase, removing first two parts
+        let value = transformValue(token.original.value)
 
-        const lightValue = token.lightValue || token.original.value;  // Light mode value
-        const darkValue = token.darkValue || lightValue;  // Dark mode value (if available)
-
-        if (!lightValue || !darkValue) {
-          console.error(`Unresolved reference for ${name} in ${brandName} - Skipping token.`);
-          return ''; // Skip tokens with unresolved references
-        }
-
-        return `    public var ${name}: UIColor { UIColor.dynamicColor(defaultColor: "${lightValue}", darkModeColor: "${darkValue}") }`;
+        return `    public var ${name}: UIColor { ${brandName.replace('Dark', '')}UI${value} }`;
       }).join('\n');
 
     return `import SwiftUI
@@ -214,6 +186,23 @@ ${uiColorBlock}
 }`;
   }
 });
+
+function transformValue(value) {
+  // Remove curly braces and split by dots
+  let parts = value.replace('{', '').replace('}', '').split('.');
+
+  // Uppercase the first letter of the first part
+  parts[0] = parts[0].charAt(0).toUpperCase() + parts[0].slice(1);
+
+  // Remove the second dot (combine the second and third parts, if they exist)
+  if (parts.length > 2) {
+    parts[1] = parts[1] + parts[2];  // Combine the second and third parts
+    parts.splice(2, 1);  // Remove the third part (dot removal)
+  }
+
+  // Join the parts back together with dots
+  return parts.join('.');
+}
 
 // Helper function to convert dashed and lowercased names to camelCase
 function toCamelCase(str) {
