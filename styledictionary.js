@@ -841,9 +841,7 @@ function combineAllColorProviders() {
           }
 
           // Correctly remove the `{brand}Semantic.color` part and use the token directly
-          console.log(`\nMohsen was here: ${lightValue}`);
           const camelCasedToken = toCamelCase(lightValue.replace(`${brandName}UISemantic.color`, ""));
-          console.log(`\nMohsen was here: ${camelCasedToken}`);
           combinedUITokens[token].push(`case .${brandName.toLowerCase()}: return token.${camelCasedToken}`);
         } else {
           // For non-semantic colors, add the dynamic color values
