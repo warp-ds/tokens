@@ -52,6 +52,9 @@
       "pill": {
         "background-hover": {
           "value": "{color.blueberry.300}"
+        },
+        "background-active": {
+          "value": "{color.blueberry.400}"
         }
       }
     },

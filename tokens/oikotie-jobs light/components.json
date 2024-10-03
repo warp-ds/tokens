@@ -51,10 +51,10 @@
       },
       "pill": {
         "background-hover": {
-          "value": "{color.gray.300}"
+          "value": "{color.green.300}"
         },
         "background-active": {
-          "value": "{color.gray.400}"
+          "value": "{color.green.400}"
         }
       }
     },

@@ -3,32 +3,32 @@
     "badge": {
       "neutral": {
         "background": {
-          "value": "{color.gray.100}"
+          "value": "{color.gray.600}"
         }
       },
       "positive": {
         "background": {
-          "value": "{color.green.100}"
+          "value": "{color.green.700}"
         }
       },
       "info": {
         "background": {
-          "value": "{color.blue.100}"
+          "value": "{color.blue.700}"
         }
       },
       "warning": {
         "background": {
-          "value": "{color.orange.100}"
+          "value": "{color.orange.700}"
         }
       },
       "negative": {
         "background": {
-          "value": "{color.red.100}"
+          "value": "{color.red.700}"
         }
       },
       "sponsored": {
         "background": {
-          "value": "{color.blue.200}"
+          "value": "{color.blue.600}"
         }
       },
       "price": {
@@ -51,19 +51,19 @@
       },
       "pill": {
         "background-hover": {
-          "value": "{color.gray.300}"
+          "value": "{color.green.300}"
         },
         "background-active": {
-          "value": "{color.gray.400}"
+          "value": "{color.green.400}"
         }
       }
     },
     "callout": {
       "background": {
-        "value": "{color.green.100}"
+        "value": "{color.green.800}"
       },
       "border": {
-        "value": "{color.green.400}"
+        "value": "{color.green.600}"
       }
     },
     "navbar": {
@@ -79,16 +79,16 @@
         "value": "{color.gray.300}"
       },
       "background-hover": {
-        "value": "{color.gray.400}"
+        "value": "{color.gray.200}"
       }
     },
     "pill": {
       "suggestion": {
         "background": {
-          "value": "{color.gray.200}"
+          "value": "{color.gray.600}"
         },
         "background-hover": {
-          "value": "{color.gray.300}"
+          "value": "{color.gray.500}"
         },
         "background-active": {
           "value": "{color.gray.400}"
@@ -98,19 +98,19 @@
     "switch": {
       "track": {
         "background": {
-          "value": "{color.gray.200}"
+          "value": "{color.gray.600}"
         },
         "background-hover": {
-          "value": "{color.gray.300}"
+          "value": "{color.gray.500}"
         }
       },
       "background-track-disabled": {
-        "value": "{color.gray.200}"
+        "value": "{color.gray.600}"
       }
     },
     "tooltip": {
       "background-static": {
-        "value": "{semantic.color.background.inverted}"
+        "value": "{semantic.color.surface.elevated-300}"
       }
     }
   }
