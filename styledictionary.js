@@ -185,7 +185,7 @@ StyleDictionary.registerFormat({
     const swiftUIColorBlock = dictionary.allProperties
       .filter(token => !token.path[0].startsWith('color')) // Exclude primitive colors, only keep component colors
       .map(token => {
-        let name = toCamelCase(token.path.slice(2).join('-')).replace('Default', ''); // Convert to camelCase, removing first two parts
+        let name = toCamelCase(token.path.slice(1).join('-')).replace('Default', ''); // Convert to camelCase, removing first two parts
         let value = transformValue(token.original.value)
 
         return `    var ${name}: Color { ${brandName.replace('Light', '')}${value} }`;
@@ -195,7 +195,7 @@ StyleDictionary.registerFormat({
     const uiColorBlock = dictionary.allProperties
       .filter(token => !token.path[0].startsWith('color')) // Exclude primitive colors, only keep component colors
       .map(token => {
-        let name = toCamelCase(token.path.slice(2).join('-')).replace('Default', ''); // Convert to camelCase, removing first two parts
+        let name = toCamelCase(token.path.slice(1).join('-')).replace('Default', ''); // Convert to camelCase, removing first two parts
         let value = transformValue(token.original.value)
 
         return `    var ${name}: UIColor { ${brandName.replace('Light', '')}UI${value} }`;
@@ -226,7 +226,7 @@ StyleDictionary.registerFormat({
     const swiftUIColorBlock = dictionary.allProperties
       .filter(token => !token.path[0].startsWith('color')) // Exclude primitive colors, only keep component colors
       .map(token => {
-        let name = toCamelCase(token.path.slice(2).join('-')).replace('Default', ''); // Convert to camelCase, removing first two parts
+        let name = toCamelCase(token.path.slice(1).join('-')).replace('Default', ''); // Convert to camelCase, removing first two parts
         let value = transformValue(token.original.value)
 
         return `    var ${name}: Color { ${brandName.replace('Dark', '')}${value} }`;
@@ -236,7 +236,7 @@ StyleDictionary.registerFormat({
     const uiColorBlock = dictionary.allProperties
       .filter(token => !token.path[0].startsWith('color')) // Exclude primitive colors, only keep component colors
       .map(token => {
-        let name = toCamelCase(token.path.slice(2).join('-')).replace('Default', ''); // Convert to camelCase, removing first two parts
+        let name = toCamelCase(token.path.slice(1).join('-')).replace('Default', ''); // Convert to camelCase, removing first two parts
         let value = transformValue(token.original.value)
 
         return `    var ${name}: UIColor { ${brandName.replace('Dark', '')}UI${value} }`;
