@@ -20,7 +20,7 @@ StyleDictionary.registerFormat({
   formatter: function({ dictionary, file, options }) {
     console.log(`Generating brand colors for ${file.destination}`);
 
-    const brandName = file.destination.split('/').pop().replace('Color.swift', ''); // Extract brand name from the file path
+    const brandName = file.destination.split('/').pop().replace('Colors.swift', ''); // Extract brand name from the file path
 
     // Generate SwiftUI and UIKit colors based on the brand's primitive colors
     const swiftUIColorBlock = dictionary.allProperties.map(token => {
@@ -46,7 +46,8 @@ ${swiftUIColorBlock}
 
 struct ${brandName}UIColors {
 ${uiColorBlock}
-}`;
+}
+`;
   }
 });
 
@@ -85,7 +86,8 @@ ${swiftUIColorBlock}
 
 public protocol UITokenProvider {
 ${uiColorBlock}
-}`;
+}
+`;
   }
 });
 
@@ -240,7 +242,7 @@ function generateColorsForIOS() {
             buildPath: outputFolder, // Trailing slash ensures correct file paths
             files: [
               {
-                destination: `${brand.charAt(0).toUpperCase() + brand.slice(1)}Color.swift`,
+                destination: `${brand.charAt(0).toUpperCase() + brand.slice(1)}Colors.swift`,
                 format: "combined-swiftui-uikit-color-format",
                 className: `${brand.charAt(0).toUpperCase() + brand.slice(1)}Colors`,
               }
@@ -519,7 +521,8 @@ ${combinedSwiftUITokens}
 
 struct ${brandName}UITokenProvider: UITokenProvider {
 ${combinedUITokens}
-}`;
+}
+`;
 
       // Write the combined content to a new file
       const combinedFilePath = path.join(outputFolder, `${brandName}Tokens.swift`);
