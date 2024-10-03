@@ -184,6 +184,7 @@ StyleDictionary.registerFormat({
     // Generate SwiftUI light colors
     const swiftUIColorBlock = dictionary.allProperties
       .filter(token => !token.path[0].startsWith('color')) // Exclude primitive colors, only keep component colors
+      .filter(token => !token.path[1].startsWith('color')) // Exclude semantic tokens, only keep component colors
       .map(token => {
         let name = toCamelCase(token.path.slice(1).join('-')).replace('Default', ''); // Convert to camelCase, removing first two parts
         let value = transformValue(token.original.value)
@@ -194,6 +195,7 @@ StyleDictionary.registerFormat({
     // Generate UIKit light colors
     const uiColorBlock = dictionary.allProperties
       .filter(token => !token.path[0].startsWith('color')) // Exclude primitive colors, only keep component colors
+      .filter(token => !token.path[1].startsWith('color')) // Exclude semantic tokens, only keep component colors
       .map(token => {
         let name = toCamelCase(token.path.slice(1).join('-')).replace('Default', ''); // Convert to camelCase, removing first two parts
         let value = transformValue(token.original.value)
@@ -225,6 +227,7 @@ StyleDictionary.registerFormat({
     // Generate SwiftUI dark colors
     const swiftUIColorBlock = dictionary.allProperties
       .filter(token => !token.path[0].startsWith('color')) // Exclude primitive colors, only keep component colors
+      .filter(token => !token.path[1].startsWith('color')) // Exclude semantic tokens, only keep component colors
       .map(token => {
         let name = toCamelCase(token.path.slice(1).join('-')).replace('Default', ''); // Convert to camelCase, removing first two parts
         let value = transformValue(token.original.value)
@@ -235,6 +238,7 @@ StyleDictionary.registerFormat({
     // Generate UIKit dark colors
     const uiColorBlock = dictionary.allProperties
       .filter(token => !token.path[0].startsWith('color')) // Exclude primitive colors, only keep component colors
+      .filter(token => !token.path[1].startsWith('color')) // Exclude semantic tokens, only keep component colors
       .map(token => {
         let name = toCamelCase(token.path.slice(1).join('-')).replace('Default', ''); // Convert to camelCase, removing first two parts
         let value = transformValue(token.original.value)
@@ -279,6 +283,7 @@ function transformValue(value) {
 // Helper function to convert dashed and lowercased names to camelCase
 function toCamelCase(str) {
   return str
+    .replace(' ', '-')
     .split(/[-_]/g) // Split by dashes or underscores
     .map((word, index) => index === 0 ? word.toLowerCase() : word.charAt(0).toUpperCase() + word.slice(1)) // Capitalize the first letter of every word except the first
     .join(''); // Join the words together to form a camelCase string
@@ -695,7 +700,7 @@ function combineTokenProviders() {
     const lightFilePath = path.join(outputFolder, lightFile);
     const darkFilePath = path.join(outputFolder, darkFile);
 
-    console.log(`Processing brand: ${brandName}`);
+    console.log(`Processing brand for Tokens: ${brandName}`);
     console.log(`Light file: ${lightFilePath}`);
     console.log(`Dark file: ${darkFilePath}`);
 
@@ -756,6 +761,85 @@ ${combinedUITokens}
   });
 }
 
+// Function to combine light and dark color providers from all brands into a single ColorProvider.swift file
+function combineAllColorProviders() {
+  const iosColorFolder = `output/ios/`;  // Folder containing the color providers
+
+  // Log all the files inside the folder
+  const allFiles = fs.readdirSync(iosColorFolder);
+  console.log(`Files in ${iosColorFolder}:`, allFiles);
+
+  // Filter the files that end with LightColorProvider.swift and DarkColorProvider.swift
+  const lightFiles = allFiles.filter(file => file.endsWith("LightColors.swift"));
+  const darkFiles = allFiles.filter(file => file.endsWith("DarkColors.swift"));
+
+  const combinedTokens = {};
+
+  lightFiles.forEach(lightFile => {
+    const brandName = lightFile.replace("LightColors.swift", "");  // Extract the brand name
+    const darkFile = `${brandName}DarkColors.swift`;  // Corresponding dark color provider file
+
+    const lightFilePath = path.join(iosColorFolder, lightFile);
+    const darkFilePath = path.join(iosColorFolder, darkFile);
+
+    console.log(`Processing brand for Colors: ${brandName}`);
+    console.log(`Light file: ${lightFilePath}`);
+    console.log(`Dark file: ${darkFilePath}`);
+
+    if (fs.existsSync(lightFilePath) && fs.existsSync(darkFilePath)) {
+      // Read the contents of both files
+      const lightFileContent = fs.readFileSync(lightFilePath, "utf8");
+      const darkFileContent = fs.readFileSync(darkFilePath, "utf8");
+
+      // Log the contents of the light and dark color provider files
+      console.log(`Light File Content:\n${lightFileContent}`);
+      console.log(`Dark File Content:\n${darkFileContent}`);
+
+      // Parse the SwiftUI properties from each file
+      const lightTokens = extractTokens(lightFileContent, "Color");
+      const darkTokens = extractTokens(darkFileContent, "Color");
+
+      // Combine the SwiftUI tokens into a single output for this brand
+      combinedTokens[brandName] = Object.keys(lightTokens).map(token => {
+        const lightValue = lightTokens[token];
+        const darkValue = darkTokens[token];
+        return `    public var ${token}: Color { Color.dynamicColor(defaultColor: ${lightValue}, darkModeColor: ${darkValue}) }`;
+      }).join("\n");
+    } else {
+      console.error(`Missing light or dark file for brand: ${brandName}`);
+    }
+  });
+
+  // Generate the combined file content
+  const combinedContent = `import SwiftUI
+
+// Generated by https://github.com/warp-ds/tokens
+public struct ColorProvider {
+  ${combinedTokens}
+}
+  
+public struct UIColorProvider {
+  ${combinedTokens}
+}
+`;
+
+  // Write the combined content to a new file
+  const combinedFilePath = path.join(iosColorFolder, `ColorProvider.swift`);
+  fs.writeFileSync(combinedFilePath, combinedContent, "utf8");
+  console.log(`Combined color provider created at ${combinedFilePath}`);
+
+  // Delete the original Light and Dark color provider files
+  // lightFiles.forEach(lightFile => {
+  //   const darkFile = lightFile.replace("Light", "Dark");
+  //   const lightFilePath = path.join(iosColorFolder, lightFile);
+  //   const darkFilePath = path.join(iosColorFolder, darkFile);
+
+  //   fs.unlinkSync(lightFilePath);
+  //   fs.unlinkSync(darkFilePath);
+  //   console.log(`Deleted ${lightFile} and ${darkFile}`);
+  // });
+}
+
 // Helper function to extract tokens from file content
 function extractTokens(fileContent, type) {
   const tokenPattern = new RegExp(`public var (.+?): ${type} { (.+?) }`, "g");
@@ -789,6 +873,9 @@ export function generateSDAssets() {
 
   // Combine the LightTokenProvider and DarkTokenProvider files
   combineTokenProviders();
+
+  // Combine the LightColorProvider and DarkColorProvider files for all brands
+  combineAllColorProviders();
 
   // Preserve existing configuration for web, Android, and other platforms
   const tokensPath = "./tokens";
