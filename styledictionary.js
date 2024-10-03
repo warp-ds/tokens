@@ -64,14 +64,6 @@ StyleDictionary.registerFormat({
       .map(token => {
         let name = toCamelCase(token.path.slice(2).join('-')).replace('Default', ''); // Convert to camelCase, removing first two parts
 
-        const lightValue = token.lightValue || token.original.value;  // Light mode value
-        const darkValue = token.darkValue || lightValue;  // Dark mode value (if available)
-
-        if (!lightValue || !darkValue) {
-          console.error(`Unresolved reference for ${name} in ${brandName} - Skipping token.`);
-          return ''; // Skip tokens with unresolved references
-        }
-
         return `    public var ${name}: Color { get }`;
       }).join('\n');
 
@@ -80,14 +72,6 @@ StyleDictionary.registerFormat({
       .filter(token => !token.path[0].startsWith('color')) // Exclude primitive colors, only keep semantic tokens
       .map(token => {
         let name = toCamelCase(token.path.slice(2).join('-')).replace('Default', ''); // Convert to camelCase, removing first two parts
-
-        const lightValue = token.lightValue || token.original.value;  // Light mode value
-        const darkValue = token.darkValue || lightValue;  // Dark mode value (if available)
-
-        if (!lightValue || !darkValue) {
-          console.error(`Unresolved reference for ${name} in ${brandName} - Skipping token.`);
-          return ''; // Skip tokens with unresolved references
-        }
 
         return `    public var ${name}: UIColor { get }`;
       }).join('\n');
@@ -191,8 +175,12 @@ function transformValue(value) {
   // Remove curly braces and split by dots
   let parts = value.replace('{', '').replace('}', '').split('.');
 
-  // Uppercase the first letter of the first part
-  parts[0] = parts[0].charAt(0).toUpperCase() + parts[0].slice(1);
+  // Replace 'color' with 'Colors' and uppercase the first letter of the first part
+  if (parts[0].toLowerCase() === 'color') {
+    parts[0] = 'Colors';
+  } else {
+    parts[0] = parts[0].charAt(0).toUpperCase() + parts[0].slice(1);
+  }
 
   // Remove the second dot (combine the second and third parts, if they exist)
   if (parts.length > 2) {
@@ -200,7 +188,7 @@ function transformValue(value) {
     parts.splice(2, 1);  // Remove the third part (dot removal)
   }
 
-  // Join the parts back together with dots
+  // Join the parts back together with a dot
   return parts.join('.');
 }
 
@@ -466,6 +454,99 @@ function generateDarkTokensForIOS() {
   });
 }
 
+
+// Function to combine LightTokens and DarkTokens files (both SwiftUI and UIKit)
+function combineTokenProviders() {
+  const outputFolder = "./output/ios/Tokens/";  // Folder containing the token files
+
+  // Log all the files inside the folder
+  const allFiles = fs.readdirSync(outputFolder);
+  console.log(`Files in ${outputFolder}:`, allFiles);
+
+  // Filter the files that end with LightTokens.swift
+  const tokenFiles = allFiles.filter(file => file.endsWith("LightTokens.swift"));
+
+  // Log how many files were found
+  console.log(`Found ${tokenFiles.length} LightTokens files in ${outputFolder}`);
+
+  tokenFiles.forEach(lightFile => {
+    const brandName = lightFile.replace("LightTokens.swift", "");  // Extract the brand name
+    const darkFile = `${brandName}DarkTokens.swift`;  // Corresponding dark token provider file
+
+    const lightFilePath = path.join(outputFolder, lightFile);
+    const darkFilePath = path.join(outputFolder, darkFile);
+
+    console.log(`Processing brand: ${brandName}`);
+    console.log(`Light file: ${lightFilePath}`);
+    console.log(`Dark file: ${darkFilePath}`);
+
+    if (fs.existsSync(lightFilePath) && fs.existsSync(darkFilePath)) {
+      // Read the contents of both files
+      const lightFileContent = fs.readFileSync(lightFilePath, "utf8");
+      const darkFileContent = fs.readFileSync(darkFilePath, "utf8");
+
+      // Log the contents of the light and dark token provider files
+      console.log(`Light File Content:\n${lightFileContent}`);
+      console.log(`Dark File Content:\n${darkFileContent}`);
+
+      // Parse the SwiftUI and UIKit properties from each file
+      const lightTokens = extractTokens(lightFileContent, "Color");
+      const darkTokens = extractTokens(darkFileContent, "Color");
+      const lightUITokens = extractTokens(lightFileContent, "UIColor");
+      const darkUITokens = extractTokens(darkFileContent, "UIColor");
+
+      // Combine the SwiftUI tokens into a single output
+      const combinedSwiftUITokens = Object.keys(lightTokens).map(token => {
+        const lightValue = lightTokens[token];
+        const darkValue = darkTokens[token];
+        return `    public var ${token}: Color { Color.dynamicColor(defaultColor: ${lightValue}, darkModeColor: ${darkValue}) }`;
+      }).join("\n");
+
+      // Combine the UIKit tokens into a single output
+      const combinedUITokens = Object.keys(lightUITokens).map(token => {
+        const lightValue = lightUITokens[token];
+        const darkValue = darkUITokens[token];
+        return `    public var ${token}: UIColor { UIColor.dynamicColor(defaultColor: ${lightValue}, darkModeColor: ${darkValue}) }`;
+      }).join("\n");
+
+      // Generate the combined file content
+      const combinedContent = `import SwiftUI
+
+// Generated by https://github.com/warp-ds/tokens
+struct ${brandName}TokenProvider: TokenProvider {
+${combinedSwiftUITokens}
+}
+
+struct ${brandName}UITokenProvider: UITokenProvider {
+${combinedUITokens}
+}`;
+
+      // Write the combined content to a new file
+      const combinedFilePath = path.join(outputFolder, `${brandName}Tokens.swift`);
+      fs.writeFileSync(combinedFilePath, combinedContent, "utf8");
+      console.log(`Combined token provider created for ${brandName}`);
+
+      // Delete the original Light and Dark token files
+      fs.unlinkSync(lightFilePath);
+      fs.unlinkSync(darkFilePath);
+      console.log(`Deleted ${lightFile} and ${darkFile}`);
+    } else {
+      console.error(`Missing light or dark file for brand: ${brandName}`);
+    }
+  });
+}
+
+// Helper function to extract tokens from file content
+function extractTokens(fileContent, type) {
+  const tokenPattern = new RegExp(`public var (.+?): ${type} { (.+?) }`, "g");
+  const tokens = {};
+  let match;
+  while ((match = tokenPattern.exec(fileContent)) !== null) {
+    tokens[match[1]] = match[2];  // Capture token name and value
+  }
+  return tokens;
+}
+
 // Main function to generate all assets
 export function generateSDAssets() {
   // First generate the colors for iOS (Brand Colors)
@@ -479,6 +560,9 @@ export function generateSDAssets() {
 
   // Then generate the dark tokens for iOS
   generateDarkTokensForIOS();
+
+  // Combine the LightTokenProvider and DarkTokenProvider files
+  combineTokenProviders();
 
   // Preserve existing configuration for web, Android, and other platforms
   const tokensPath = "./tokens";
