@@ -28,7 +28,7 @@ StyleDictionary.registerFormat({
       .map(token => {
         let name = toCamelCase(token.path.slice(2).join('-')); // Convert to camelCase, removing first two parts
 
-        const lightValue = token.lightValue || token.value;  // Light mode value
+        const lightValue = token.lightValue || token.original.value;  // Light mode value
         const darkValue = token.darkValue || lightValue;  // Dark mode value (if available)
 
         if (!lightValue || !darkValue) {
@@ -100,7 +100,7 @@ StyleDictionary.registerFormat({
       .map(token => {
         let name = toCamelCase(token.path.slice(2).join('-')); // Convert to camelCase, removing first two parts
 
-        const lightValue = token.lightValue || token.value;  // Light mode value
+        const lightValue = token.lightValue || token.original.value;  // Light mode value
         const darkValue = token.darkValue || lightValue;  // Dark mode value (if available)
 
         if (!lightValue || !darkValue) {
