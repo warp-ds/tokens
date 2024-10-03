@@ -35,11 +35,6 @@
         "background": {
           "value": "{color.black}"
         }
-      },
-      "notification": {
-        "background": {
-          "value": "{semantic.color.background.negative}"
-        }
       }
     },
     "button": {
