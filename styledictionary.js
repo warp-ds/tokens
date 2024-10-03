@@ -284,7 +284,7 @@ function transformValue(value) {
 function toCamelCase(str) {
   return str
     .replace(' ', '-')
-    .split(/[-_]/g) // Split by dashes or underscores
+    .split(/[-_.]/g) // Split by dashes or underscores or dot
     .map((word, index) => index === 0 ? word.toLowerCase() : word.charAt(0).toUpperCase() + word.slice(1)) // Capitalize the first letter of every word except the first
     .join(''); // Join the words together to form a camelCase string
 }
@@ -810,7 +810,10 @@ function combineAllColorProviders() {
           if (!combinedTokens[token]) {
             combinedTokens[token] = [];
           }
-          combinedTokens[token].push(`case .${brandName.toLowerCase()}: return token.${token}`);
+
+          // Correctly remove the `{brand}Semantic.color` part and use the token directly
+          const camelCasedToken = toCamelCase(lightValue.replace(`${brandName}Semantic.color`, ""));
+          combinedTokens[token].push(`case .${brandName.toLowerCase()}: return token.${camelCasedToken}`);
         } else {
           // For non-semantic colors, add the dynamic color values
           if (!combinedTokens[token]) {
@@ -836,7 +839,12 @@ function combineAllColorProviders() {
           if (!combinedUITokens[token]) {
             combinedUITokens[token] = [];
           }
-          combinedUITokens[token].push(`case .${brandName.toLowerCase()}: return token.${token}`);
+
+          // Correctly remove the `{brand}Semantic.color` part and use the token directly
+          console.log(`\nMohsen was here: ${lightValue}`);
+          const camelCasedToken = toCamelCase(lightValue.replace(`${brandName}UISemantic.color`, ""));
+          console.log(`\nMohsen was here: ${camelCasedToken}`);
+          combinedUITokens[token].push(`case .${brandName.toLowerCase()}: return token.${camelCasedToken}`);
         } else {
           // For non-semantic colors, add the dynamic color values
           if (!combinedUITokens[token]) {
@@ -897,7 +905,6 @@ ${Object.keys(combinedUITokens).map(token => {
     console.log(`Deleted ${lightFile} and ${darkFile}`);
   });
 }
-
 
 // Helper function to extract tokens from file content
 function extractTokens(fileContent, type) {
