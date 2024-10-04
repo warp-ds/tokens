@@ -164,7 +164,7 @@ function generateLightTokensForIOS(uniqueBrands) {
                 destination: `${
                   brand.charAt(0).toUpperCase() + brand.slice(1)
                 }LightTokens.swift`,
-                format: "tokens-light-swift-format",
+                format: "tokens-swift-format",
                 className: `${
                   brand.charAt(0).toUpperCase() + brand.slice(1)
                 }LightTokens`,
@@ -225,7 +225,7 @@ function generateDarkTokensForIOS(uniqueBrands) {
                 destination: `${
                   brand.charAt(0).toUpperCase() + brand.slice(1)
                 }DarkTokens.swift`,
-                format: "tokens-dark-swift-format",
+                format: "tokens-swift-format",
                 className: `${
                   brand.charAt(0).toUpperCase() + brand.slice(1)
                 }DarkTokens`,
@@ -299,7 +299,7 @@ function generateLightColorsForIOS(uniqueBrands) {
                 destination: `${
                   brand.charAt(0).toUpperCase() + brand.slice(1)
                 }LightColors.swift`,
-                format: "colors-light-swift-format",
+                format: "colors-swift-format",
                 className: `${
                   brand.charAt(0).toUpperCase() + brand.slice(1)
                 }LightColors`,
@@ -367,7 +367,7 @@ function generateDarkColorsForIOS(uniqueBrands) {
                 destination: `${
                   brand.charAt(0).toUpperCase() + brand.slice(1)
                 }DarkColors.swift`,
-                format: "colors-dark-swift-format",
+                format: "colors-swift-format",
                 className: `${
                   brand.charAt(0).toUpperCase() + brand.slice(1)
                 }DarkColors`,
