@@ -601,7 +601,7 @@ ${Object.keys(combinedTokens)
         }
     }`;
   })
-  .join("\n\n")}
+  .join("\n    \n")}
 }
 
 public struct UIColorProvider {
@@ -615,7 +615,7 @@ ${Object.keys(combinedUITokens)
         }
     }`;
   })
-  .join("\n\n")}
+  .join("\n    \n")}
 }
 `;
 
