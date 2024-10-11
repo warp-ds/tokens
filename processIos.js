@@ -269,7 +269,7 @@ function generateLightColorsForIOS(uniqueBrands) {
       "colors.json"
     ); // Load the color file for reference resolution
 
-    // Skip this brand if semantic.json or semantic.json or colors.json files are missing
+    // Skip this brand if components.json or semantic.json or colors.json files are missing
     if (
       !fs.existsSync(lightColorFilePath) ||
       !fs.existsSync(lightTokenFilePath) ||
