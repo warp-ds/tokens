@@ -1,8 +1,13 @@
 import StyleDictionary from "style-dictionary";
 import fs from "fs";
 import path from "path";
+import {processIos} from './processIos.js';
 
+// Main function to generate all assets
 export function generateSDAssets() {
+  processIos();
+
+  // Preserve existing configuration for web, Android, and other platforms
   const tokensPath = "./tokens";
   const brandModes = fs
     .readdirSync(tokensPath)
@@ -57,34 +62,6 @@ export function generateSDAssets() {
             },
           ],
         },
-        ios: {
-          transformGroup: "ios-swift",
-          buildPath: `output/ios/${brandMode}/`,
-          files: [
-            {
-              destination: "StyleDictionary+Class.swift",
-              format: "ios-swift/class.swift",
-              className: "StyleDictionaryClass",
-              filter: {},
-            },
-            {
-              destination: "StyleDictionary+Enum.swift",
-              format: "ios-swift/enum.swift",
-              className: "StyleDictionaryEnum",
-              filter: {},
-            },
-            {
-              destination: `Warp${brandMode.replace(" ", "")}Color.swift`,
-              format: "ios-swift/enum.swift",
-              className: `Warp${brandMode.replace(" ", "")}Color`,
-              options: {
-                imports: "SwiftUI",
-                objectType: "struct",
-                accessControl: "",
-              },
-            },
-          ],
-        },
       },
     };
 
@@ -93,7 +70,7 @@ export function generateSDAssets() {
       sd.buildAllPlatforms();
       console.log(`Successfully built Style Dictionary for ${brandMode}`);
     } catch (error) {
-      console.error(`Error building Style Dictionary for ${brandMode}:`, error);
+      console.error(`Error building Style Dictionary for ${brandMode}: ${error.message}`);
     }
   });
 }
