@@ -536,7 +536,7 @@ function combineAllColorProviders() {
             lightValue.replace(`${brandName}Semantic.color`, "")
           );
           combinedTokens[token].push(
-            `case .${brandName.toLowerCase()}: return token.${camelCasedToken}`
+            `    case .${brandName.toLowerCase()}: return token.${camelCasedToken}`
           );
         } else {
           // For non-semantic colors, add the dynamic color values
@@ -544,7 +544,7 @@ function combineAllColorProviders() {
             combinedTokens[token] = [];
           }
           combinedTokens[token].push(
-            `case .${brandName.toLowerCase()}: return Color.dynamicColor(defaultColor: ${lightValue}, darkModeColor: ${darkValue})`
+            `    case .${brandName.toLowerCase()}: return Color.dynamicColor(defaultColor: ${lightValue}, darkModeColor: ${darkValue})`
           );
         }
       });
@@ -569,7 +569,7 @@ function combineAllColorProviders() {
             lightValue.replace(`${brandName}UISemantic.color`, "")
           );
           combinedUITokens[token].push(
-            `case .${brandName.toLowerCase()}: return token.${camelCasedToken}`
+            `    case .${brandName.toLowerCase()}: return token.${camelCasedToken}`
           );
         } else {
           // For non-semantic colors, add the dynamic color values
@@ -577,7 +577,7 @@ function combineAllColorProviders() {
             combinedUITokens[token] = [];
           }
           combinedUITokens[token].push(
-            `case .${brandName.toLowerCase()}: return UIColor.dynamicColor(defaultColor: ${lightValue}, darkModeColor: ${darkValue})`
+            `    case .${brandName.toLowerCase()}: return UIColor.dynamicColor(defaultColor: ${lightValue}, darkModeColor: ${darkValue})`
           );
         }
       });
@@ -592,28 +592,28 @@ function combineAllColorProviders() {
 // Generated on ${getGeneratedDate()} by https://github.com/warp-ds/tokens
 public struct ColorProvider {
     public let token: TokenProvider
-
+    
 ${Object.keys(combinedTokens)
   .map((token) => {
     return `    public var ${token}: Color {
-    switch Warp.Theme {
+        switch Warp.Theme {
     ${combinedTokens[token].join("\n    ")}
-    }
-  }`;
+        }
+    }`;
   })
   .join("\n\n")}
 }
-  
+
 public struct UIColorProvider {
     public let token: UITokenProvider
-
+    
 ${Object.keys(combinedUITokens)
   .map((token) => {
     return `    public var ${token}: UIColor {
-    switch Warp.Theme {
+        switch Warp.Theme {
     ${combinedUITokens[token].join("\n    ")}
-    }
-  }`;
+        }
+    }`;
   })
   .join("\n\n")}
 }
