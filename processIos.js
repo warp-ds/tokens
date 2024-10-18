@@ -532,20 +532,37 @@ function combineAllColorProviders() {
           }
 
           // Correctly remove the `{brand}Semantic.color` part and use the token directly
-          const camelCasedToken = toCamelCase(
+          const camelCasedLightToken = toCamelCase(
             lightValue.replace(`${brandName}Semantic.color`, "")
           );
-          combinedTokens[token].push(
-            `    case .${brandName.toLowerCase()}: return token.${camelCasedToken}`
-          );
+
+          if (lightValue === darkValue) {
+            combinedTokens[token].push(
+              `    case .${brandName.toLowerCase()}: return token.${camelCasedLightToken}`
+            );
+          } else {
+            const camelCasedDarkToken = toCamelCase(
+              darkValue.replace(`${brandName}Semantic.color`, "")
+            );
+
+            combinedTokens[token].push(
+              `    case .${brandName.toLowerCase()}: return Color.dynamicColor(defaultColor: token.${camelCasedLightToken}, darkModeColor: token.${camelCasedDarkToken})`
+            );
+          }
         } else {
           // For non-semantic colors, add the dynamic color values
           if (!combinedTokens[token]) {
             combinedTokens[token] = [];
           }
-          combinedTokens[token].push(
-            `    case .${brandName.toLowerCase()}: return Color.dynamicColor(defaultColor: ${lightValue}, darkModeColor: ${darkValue})`
-          );
+          if (lightValue === darkValue) {
+            combinedTokens[token].push(
+              `    case .${brandName.toLowerCase()}: return ${lightValue}`
+            );
+          } else {
+            combinedTokens[token].push(
+              `    case .${brandName.toLowerCase()}: return Color.dynamicColor(defaultColor: ${lightValue}, darkModeColor: ${darkValue})`
+            );
+          }
         }
       });
 
@@ -564,21 +581,38 @@ function combineAllColorProviders() {
             combinedUITokens[token] = [];
           }
 
-          // Correctly remove the `{brand}Semantic.color` part and use the token directly
-          const camelCasedToken = toCamelCase(
+          // Correctly remove the `{brand}UISemantic.color` part and use the token directly
+          const camelCasedLightToken = toCamelCase(
             lightValue.replace(`${brandName}UISemantic.color`, "")
           );
-          combinedUITokens[token].push(
-            `    case .${brandName.toLowerCase()}: return token.${camelCasedToken}`
-          );
+
+          if (lightValue === darkValue) {
+            combinedUITokens[token].push(
+              `    case .${brandName.toLowerCase()}: return token.${camelCasedLightToken}`
+            );
+          } else {
+            const camelCasedDarkToken = toCamelCase(
+              darkValue.replace(`${brandName}UISemantic.color`, "")
+            );
+            
+            combinedUITokens[token].push(
+              `    case .${brandName.toLowerCase()}: return UIColor.dynamicColor(defaultColor: token.${camelCasedLightToken}, darkModeColor: token.${camelCasedDarkToken})`
+            );
+          }
         } else {
           // For non-semantic colors, add the dynamic color values
           if (!combinedUITokens[token]) {
             combinedUITokens[token] = [];
           }
-          combinedUITokens[token].push(
-            `    case .${brandName.toLowerCase()}: return UIColor.dynamicColor(defaultColor: ${lightValue}, darkModeColor: ${darkValue})`
-          );
+          if (lightValue === darkValue) {
+            combinedUITokens[token].push(
+              `    case .${brandName.toLowerCase()}: return ${lightValue}`
+            );
+          } else {
+            combinedUITokens[token].push(
+              `    case .${brandName.toLowerCase()}: return UIColor.dynamicColor(defaultColor: ${lightValue}, darkModeColor: ${darkValue})`
+            );
+          }
         }
       });
     } else {
