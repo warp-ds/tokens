@@ -66,6 +66,23 @@
         "value": "{color.green.400}"
       }
     },
+    "card": {
+      "default": {
+        "background": {
+          "value": "{semantic.color.background.default}"
+        }
+      }
+    },
+    "datepicker": {
+      "background-button-hover": {
+        "value": "{semantic.color.background.hover}"
+      }
+    },
+    "input": {
+      "icon": {
+        "value": "{semantic.color.icon.default}"
+      }
+    },
     "navbar": {
       "icon-selected": {
         "value": "{semantic.color.icon.secondary}"
