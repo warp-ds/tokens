@@ -36,47 +36,6 @@
           "value": "{color.green.600}"
         }
       },
-      "surface": {
-        "default": {
-          "value": "{color.white}"
-        },
-        "hover": {
-          "value": "{color.gray.100}"
-        },
-        "active": {
-          "value": "{color.gray.200}"
-        },
-        "sunken": {
-          "value": "{color.gray.50}"
-        },
-        "elevated-100": {
-          "value": "{color.white}"
-        },
-        "elevated-100-hover": {
-          "value": "{color.gray.100}"
-        },
-        "elevated-100-active": {
-          "value": "{color.gray.200}"
-        },
-        "elevated-200": {
-          "value": "{color.white}"
-        },
-        "elevated-200-hover": {
-          "value": "{color.gray.100}"
-        },
-        "elevated-200-active": {
-          "value": "{color.gray.200}"
-        },
-        "elevated-300": {
-          "value": "{color.white}"
-        },
-        "elevated-300-hover": {
-          "value": "{color.gray.100}"
-        },
-        "elevated-300-active": {
-          "value": "{color.gray.200}"
-        }
-      },
       "background": {
         "default": {
           "value": "{color.white}"
@@ -124,10 +83,10 @@
           "value": "{color.blue.800}"
         },
         "primary-subtle": {
-          "value": "{color.blue.50}"
+          "value": "{color.blue.100}"
         },
         "primary-subtle-hover": {
-          "value": "{color.blue.100}"
+          "value": "{color.blue.300}"
         },
         "primary-subtle-active": {
           "value": "{color.blue.200}"
@@ -218,6 +177,38 @@
         },
         "notification": {
           "value": "{color.red.600}"
+        }
+      },
+      "surface": {
+        "sunken": {
+          "value": "{color.gray.50}"
+        },
+        "elevated-100": {
+          "value": "{color.white}"
+        },
+        "elevated-100-hover": {
+          "value": "{color.gray.100}"
+        },
+        "elevated-100-active": {
+          "value": "{color.gray.200}"
+        },
+        "elevated-200": {
+          "value": "{color.white}"
+        },
+        "elevated-200-hover": {
+          "value": "{color.gray.100}"
+        },
+        "elevated-200-active": {
+          "value": "{color.gray.200}"
+        },
+        "elevated-300": {
+          "value": "{color.white}"
+        },
+        "elevated-300-hover": {
+          "value": "{color.gray.100}"
+        },
+        "elevated-300-active": {
+          "value": "{color.gray.200}"
         }
       },
       "border": {
