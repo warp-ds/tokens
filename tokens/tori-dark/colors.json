@@ -207,6 +207,9 @@
         "value": "#27070d"
       }
     },
+    "transparent": {
+      "value": "#ffffff00"
+    },
     "gray": {
       "50": {
         "value": "#f6f6f6"
@@ -247,9 +250,6 @@
       "950": {
         "value": "#121212"
       }
-    },
-    "transparent": {
-      "value": "#ffffff00"
     }
   }
 }

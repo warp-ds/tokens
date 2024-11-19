@@ -18,7 +18,7 @@
           "value": "{color.white}"
         },
         "inverted-subtle": {
-          "value": "{color.gray.50}"
+          "value": "{color.gray.400}"
         },
         "inverted-static": {
           "value": "{color.white}"
@@ -27,7 +27,7 @@
           "value": "{color.blueberry.600}"
         },
         "disabled": {
-          "value": "{color.gray.300}"
+          "value": "{color.gray.400}"
         },
         "negative": {
           "value": "{color.red.600}"
@@ -56,7 +56,7 @@
           "value": "{color.gray.300}"
         },
         "disabled": {
-          "value": "{color.gray.300}"
+          "value": "{color.gray.400}"
         },
         "disabled-subtle": {
           "value": "{color.gray.200}"
@@ -213,16 +213,25 @@
       },
       "border": {
         "default": {
-          "value": "{color.gray.300}"
+          "value": "{color.gray.500}"
         },
         "hover": {
-          "value": "{color.gray.400}"
+          "value": "{color.gray.600}"
         },
         "active": {
+          "value": "{color.gray.700}"
+        },
+        "subtle": {
+          "value": "{color.gray.300}"
+        },
+        "subtle-hover": {
+          "value": "{color.gray.400}"
+        },
+        "subtle-active": {
           "value": "{color.gray.500}"
         },
         "disabled": {
-          "value": "{color.gray.300}"
+          "value": "{color.gray.400}"
         },
         "selected": {
           "value": "{color.blueberry.600}"
@@ -362,16 +371,16 @@
           "value": "{color.blueberry.800}"
         },
         "disabled": {
-          "value": "{color.gray.300}"
-        },
-        "subtle": {
           "value": "{color.gray.400}"
         },
+        "subtle": {
+          "value": "{color.gray.600}"
+        },
         "subtle-hover": {
-          "value": "{color.gray.500}"
+          "value": "{color.gray.700}"
         },
         "subtle-active": {
-          "value": "{color.gray.600}"
+          "value": "{color.gray.800}"
         },
         "inverted": {
           "value": "{color.white}"
