@@ -123,6 +123,14 @@
       },
       "background-track-disabled": {
         "value": "{color.gray.600}"
+      },
+      "handle": {
+        "background": {
+          "value": "{color.gray.500}"
+        },
+        "background-hover": {
+          "value": "{color.gray.400}"
+        }
       }
     },
     "tooltip": {
