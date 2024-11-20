@@ -533,7 +533,7 @@ function combineAllColorProviders() {
 
           // Correctly remove the `{brand}Semantic.color` part and use the token directly
           const camelCasedLightToken = toCamelCase(
-            lightValue.replace(`${brandName}Semantic.color`, "")
+            lightValue.replace(`${brandName}Semantic.color`, "").replace(".default", "")
           );
 
           if (lightValue === darkValue) {
@@ -542,7 +542,7 @@ function combineAllColorProviders() {
             );
           } else {
             const camelCasedDarkToken = toCamelCase(
-              darkValue.replace(`${brandName}Semantic.color`, "")
+              darkValue.replace(`${brandName}Semantic.color`, "").replace(".default", "")
             );
 
             combinedTokens[token].push(
@@ -583,7 +583,7 @@ function combineAllColorProviders() {
 
           // Correctly remove the `{brand}UISemantic.color` part and use the token directly
           const camelCasedLightToken = toCamelCase(
-            lightValue.replace(`${brandName}UISemantic.color`, "")
+            lightValue.replace(`${brandName}UISemantic.color`, "").replace(".default", "")
           );
 
           if (lightValue === darkValue) {
@@ -592,7 +592,7 @@ function combineAllColorProviders() {
             );
           } else {
             const camelCasedDarkToken = toCamelCase(
-              darkValue.replace(`${brandName}UISemantic.color`, "")
+              darkValue.replace(`${brandName}UISemantic.color`, "").replace(".default", "")
             );
             
             combinedUITokens[token].push(
