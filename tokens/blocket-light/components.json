@@ -112,18 +112,12 @@
         }
       }
     },
+    "tooltip": {
+      "background-static": {
+        "value": "{semantic.color.background.inverted}"
+      }
+    },
     "switch": {
-      "track": {
-        "background": {
-          "value": "{color.gray.200}"
-        },
-        "background-hover": {
-          "value": "{color.gray.300}"
-        }
-      },
-      "background-track-disabled": {
-        "value": "{color.gray.200}"
-      },
       "handle": {
         "background": {
           "value": "{color.gray.500}"
@@ -131,11 +125,6 @@
         "background-hover": {
           "value": "{color.gray.600}"
         }
-      }
-    },
-    "tooltip": {
-      "background-static": {
-        "value": "{semantic.color.background.inverted}"
       }
     }
   }
