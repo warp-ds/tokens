@@ -1,4 +1,4 @@
-import { generateSDDataVizAssets } from "./styledictionary.js";
+import { generateSDAssets } from "./styledictionary.js";
 import { processAndWriteDataVizColors } from "./processColors.js";
 import { processAndWriteSemanticDataVizTokens } from "./processTokens.js";
 import { zip } from "zip-a-folder";
@@ -10,7 +10,6 @@ import "dotenv/config";
 const FIGMA_PROJECT_ID = "jKb3gWUebdHyRBsK0naqB6";
 
 const spinner = ora("Reading Figma access token");
-
 
 (async function main() {
   spinner.start();
@@ -55,7 +54,7 @@ const spinner = ora("Reading Figma access token");
   spinner.succeed("DataViz tokens written to disk");
 
   spinner.start("Generating Style Dictionary assets");
-  generateSDDataVizAssets();
+  generateSDAssets();
   spinner.succeed("Style Dictionary assets generated");
 
   spinner.start("Zipping assets");
@@ -65,8 +64,7 @@ const spinner = ora("Reading Figma access token");
 
 function transform() {
   const token = fs.readFileSync("./data/dataVizFigma.json", "utf8");
-  let tokenVariableCollection = "VariableCollectionId:1:287";
-
+  const tokenVariableCollection = "VariableCollectionId:1:287";
   const sourceData = JSON.parse(token);
   
   // Process and write data viz colors

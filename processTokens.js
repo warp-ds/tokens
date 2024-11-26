@@ -102,7 +102,7 @@ export function processAndWriteSemanticDataVizTokens(sourceData, tokenVariableCo
 
   // Write the files for each mode
     Object.entries(modeObjects).map(([modeName, modeObject]) => {
-      const dirPath = `tokens/data-viz-${modeName.toLowerCase()}`;
+      const dirPath = `tokens/dataviz-${modeName.toLowerCase()}`;
       if (!fs.existsSync(dirPath)) {
         fs.mkdirSync(dirPath, { recursive: true });
       }

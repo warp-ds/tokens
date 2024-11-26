@@ -96,7 +96,7 @@ export function processAndWriteDataVizColors(variableCollections, variables, tok
       if (Object.keys(brandColors).length > 0) {
         // Write the colors.json for each mode (light and dark)
         ["light", "dark"].forEach((mode) => {
-          const dirPath = `tokens/data-viz-${mode.toLowerCase()}`;
+          const dirPath = `tokens/dataviz-${mode.toLowerCase()}`;
           if (!fs.existsSync(dirPath)) {
             fs.mkdirSync(dirPath, { recursive: true });
           }
