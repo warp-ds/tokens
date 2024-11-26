@@ -74,3 +74,5 @@ export function generateSDAssets() {
     }
   });
 }
+
+export function generateSDDataVizAssets() {}

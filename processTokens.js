@@ -59,6 +59,59 @@ export function processAndWriteSemanticAndComponentTokens(sourceData, tokenVaria
     })
 }
 
+export function processAndWriteSemanticDataVizTokens(sourceData, tokenVariableCollection) {
+  // Extract modes and variables from sourceData
+  // Example: "FINN Light" and "FINN dark"
+  const modes = sourceData.meta.variableCollections[tokenVariableCollection].modes;
+  const variables = sourceData.meta.variables;
+
+  // Initialize objects for each mode
+  const modeObjects = modes.reduce((acc, mode) => {
+    acc[mode.name] = { modeId: mode.modeId, semantic: {} };
+    return acc;
+  }, {});
+
+  // Process tokens for each mode
+  // Only use the VariableCollection that contains component and semantic tokens
+  sourceData.meta.variableCollections[tokenVariableCollection].variableIds.forEach((variableId) => {
+    // get the data for the specific component or semantic token
+    const variable = variables[variableId];
+    if (variable && variable.resolvedType === "COLOR") {
+      const tokenType = variable.name.startsWith("Components") ? "components" : "semantic";
+      Object.values(modeObjects).forEach((modeObject) => {
+        // Get the name of the token the variable refers to, for example "DBA/Gray/200" or "Semantic/Background/Disabled"
+        const value = extractValueForMode(variable, modeObject.modeId, sourceData);
+
+        // The path to the current semantic or component token
+        const pathSegments = variable.name.split("/").slice(1).map((segment) => segment.toLowerCase()); // Convert segments to lowercase
+
+        let currentLevel = modeObject[tokenType];
+
+        pathSegments.forEach((segment, index) => {
+          if (index === pathSegments.length - 1) {
+            currentLevel[segment] = { value };
+          } else {
+            currentLevel[segment] = currentLevel[segment] || {};
+            currentLevel = currentLevel[segment];
+          }
+        });
+      });
+    }
+  });
+
+  // Write the files for each mode
+    Object.entries(modeObjects).map(([modeName, modeObject]) => {
+      const dirPath = `tokens/${modeName.toLowerCase().replace(" ", "-")}`;
+      if (!fs.existsSync(dirPath)) {
+        fs.mkdirSync(dirPath, { recursive: true });
+      }
+      fs.writeFileSync(
+        path.join(dirPath, "semantic.json"),
+        JSON.stringify({ semantic: modeObject.semantic }, null, 2)
+      );
+    })
+}
+
 // Get the value name for a given component or semantic token and mode (eg FINN Light)
 function extractValueForMode(variable, modeId, sourceData) {
   // Find the ID
