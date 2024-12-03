@@ -3,7 +3,7 @@
     "badge": {
       "neutral": {
         "background": {
-          "value": "{color.gray.100}"
+          "value": "{color.(test)gray.100}"
         }
       },
       "positive": {
@@ -73,16 +73,6 @@
         }
       }
     },
-    "datepicker": {
-      "background-button-hover": {
-        "value": "{semantic.color.background.hover}"
-      }
-    },
-    "input": {
-      "icon": {
-        "value": "{semantic.color.icon.default}"
-      }
-    },
     "navbar": {
       "icon-selected": {
         "value": "{semantic.color.icon.selected}"
@@ -93,49 +83,38 @@
     },
     "page indicator": {
       "background": {
-        "value": "{color.gray.300}"
+        "value": "{color.(test)gray.300}"
       },
       "background-hover": {
-        "value": "{color.gray.400}"
+        "value": "{color.(test)gray.400}"
       }
     },
     "pill": {
       "suggestion": {
         "background": {
-          "value": "{color.gray.200}"
+          "value": "{color.(test)gray.200}"
         },
         "background-hover": {
-          "value": "{color.gray.300}"
+          "value": "{color.(test)gray.300}"
         },
         "background-active": {
-          "value": "{color.gray.400}"
-        }
-      }
-    },
-    "switch": {
-      "track": {
-        "background": {
-          "value": "{color.gray.200}"
-        },
-        "background-hover": {
-          "value": "{color.gray.300}"
-        }
-      },
-      "background-track-disabled": {
-        "value": "{color.gray.200}"
-      },
-      "handle": {
-        "background": {
-          "value": "{color.gray.500}"
-        },
-        "background-hover": {
-          "value": "{color.gray.600}"
+          "value": "{color.(test)gray.400}"
         }
       }
     },
     "tooltip": {
       "background-static": {
         "value": "{semantic.color.background.inverted}"
+      }
+    },
+    "switch": {
+      "handle": {
+        "background": {
+          "value": "{color.(test)gray.500}"
+        },
+        "background-hover": {
+          "value": "{color.(test)gray.600}"
+        }
       }
     }
   }
