@@ -13,8 +13,6 @@ import {
 
 const tokensPath = "./tokens";
 const androidFolder = "output/android/"; // Folder for Android
-const androidFolderLight = "output/android/light/"; // Folder for Android
-const androidFolderDark = "output/android/dark/"; // Folder for Android
 
 
 function generateLightColorsForAndroid(uniqueBrands) {
@@ -49,7 +47,7 @@ function generateLightColorsForAndroid(uniqueBrands) {
         platforms: {
           android: {
             transformGroup: "compose",
-            buildPath: androidFolderLight+ `${brand}/`,
+            buildPath: androidFolder + `${brand}/light/`,
             files: [
               {
                 destination:  `${
@@ -63,7 +61,7 @@ function generateLightColorsForAndroid(uniqueBrands) {
           },
           xml: {
             transformGroup: "android",
-            buildPath: androidFolderLight+ `${brand}/`,
+            buildPath: androidFolder+ `${brand}/light/`,
             files: [
               {
                 destination: "colors.xml",
@@ -78,7 +76,7 @@ function generateLightColorsForAndroid(uniqueBrands) {
       sd.buildPlatform("android");
       sd.buildPlatform("xml");
       console.log(
-        `Successfully built android light colors for ${brand} in ${androidFolderLight}`
+        `Successfully built android light colors for ${brand} in ${androidFolder}`
       );
     } catch (error) {
       console.error(
@@ -120,7 +118,7 @@ function generateDarkColorsForAndroid(uniqueBrands) {
         platforms: {
           android: {
             transformGroup: "compose",
-            buildPath: androidFolderDark + `${brand}/`,
+            buildPath: androidFolder + `${brand}/dark/`,
             files: [
               {
                 destination:  `${
@@ -134,7 +132,7 @@ function generateDarkColorsForAndroid(uniqueBrands) {
           },
           xml: {
             transformGroup: "android",
-            buildPath: androidFolderDark + `${brand}/`,
+            buildPath: androidFolder + `${brand}/dark/`,
             files: [
               {
                 destination: "colors.xml",
@@ -149,7 +147,7 @@ function generateDarkColorsForAndroid(uniqueBrands) {
       sd.buildPlatform("android");
       sd.buildPlatform("xml");
       console.log(
-        `Successfully built android light colors for ${brand} in ${androidFolderDark}`
+        `Successfully built android light colors for ${brand} in ${androidFolder}`
       );
     } catch (error) {
       console.error(
@@ -157,6 +155,60 @@ function generateDarkColorsForAndroid(uniqueBrands) {
       );
     }
   });
+}
+
+function generateXmlIdsForAndroid() {
+    console.log(`Processing xml ids for android`);
+
+    const colorTokenFilePath = path.join(
+      tokensPath,
+      `finn-light`,
+      "colors.json"
+    );
+    const semanticTokenFilePath = path.join(
+      tokensPath,
+      `finn-light`,
+      "semantic.json"
+    );
+    const componentTokenFilePath = path.join(
+      tokensPath,
+      `finn-light`,
+      "components.json"
+    );
+
+    // Check if colors.json exists before proceeding
+    if (!fs.existsSync(colorTokenFilePath)) {
+      console.error(`colors.json not found`);
+      return; // Skip this brand if colors.json does not exist
+    }
+
+    try {
+      const androidConfig = {
+        source: [colorTokenFilePath, semanticTokenFilePath, componentTokenFilePath],
+        platforms: {
+          xml: {
+            transformGroup: "android",
+            buildPath: androidFolder,
+            files: [
+              {
+                destination: "ids.xml",
+                format: "colors-ids-xml-format",
+              },
+            ],
+          },
+        },
+      };
+
+      const sd = StyleDictionary.extend(androidConfig);
+      sd.buildPlatform("xml");
+      console.log(
+        `Successfully built android color ids `
+      );
+    } catch (error) {
+      console.error(
+        `Error building android xml color ids : ${error.message}`
+      );
+    }
 }
 
 export const processAndroid = () => {
@@ -172,5 +224,5 @@ export const processAndroid = () => {
 
   generateLightColorsForAndroid(uniqueBrands);
   generateDarkColorsForAndroid(uniqueBrands);
-
+  generateXmlIdsForAndroid();
 };
