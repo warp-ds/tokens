@@ -1,6 +1,6 @@
 import { generateSDAssets } from "./styledictionary.js";
-import { processAndWriteDataVizColors } from "./processColors.js";
-import { processAndWriteSemanticDataVizTokens } from "./processTokens.js";
+import { processAndWriteColors } from "./processColors.js";
+import { processAndWriteSemanticAndComponentTokens } from "./processTokens.js";
 import { zip } from "zip-a-folder";
 import fs from "fs-extra";
 import ora from "ora";
@@ -68,13 +68,15 @@ function transform() {
   const sourceData = JSON.parse(token);
   
   // Process and write data viz colors
-  processAndWriteDataVizColors(
-    sourceData.meta.variableCollections,
-    sourceData.meta.variables,
-    tokenVariableCollection
-  );
-    // Process and write data viz semantic tokens
-  processAndWriteSemanticDataVizTokens(
+  processAndWriteColors({
+    variableCollections: sourceData.meta.variableCollections,
+    variables: sourceData.meta.variables,
+    tokenVariableCollection,
+    getBrandName: () => "dataviz",
+  });
+
+  // Process and write data viz semantic tokens
+  processAndWriteSemanticAndComponentTokens(
     sourceData,
     tokenVariableCollection
   );

@@ -1,5 +1,5 @@
 import { generateSDAssets } from "./styledictionary.js";
-import { processAndWriteBrandColors } from "./processColors.js";
+import { processAndWriteColors } from "./processColors.js";
 import { processAndWriteSemanticAndComponentTokens } from "./processTokens.js";
 import { zip } from "zip-a-folder";
 import fs from "fs-extra";
@@ -112,12 +112,12 @@ function transform() {
     sourceData.meta.variableCollections[tokenVariableCollection].modes;
 
   // Process and write brand color files
-  processAndWriteBrandColors(
-    sourceData,
-    sourceData.meta.variableCollections,
-    sourceData.meta.variables,
-    tokenVariableCollection
-  );
+  processAndWriteColors({
+    variableCollections: sourceData.meta.variableCollections,
+    variables:  sourceData.meta.variables,
+    tokenVariableCollection,
+    getBrandName: (collection) => collection.modes[0].name,
+  });
 
   // Process and write semantic and component tokens
   processAndWriteSemanticAndComponentTokens(

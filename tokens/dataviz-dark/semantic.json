@@ -425,7 +425,7 @@
         "neutral": {
           "value": "{color.gray.200}"
         },
-        "neutral-hover": {
+        "neutral-focus": {
           "value": "{color.gray.50}"
         }
       },
