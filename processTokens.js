@@ -10,8 +10,8 @@ export function processAndWriteSemanticAndComponentTokens(sourceData, tokenVaria
 
   // Initialize objects for each mode
   const modeObjects = modes.reduce((acc, mode) => {
-    const isDataViz = mode.name.toLowerCase().includes("dataviz")
-    if (isDataViz) {
+    const isDataviz = mode.name.toLowerCase().includes("dataviz")
+    if (isDataviz) {
       acc[mode.name] = { modeId: mode.modeId, semantic: {} };
     } else {
       acc[mode.name] = { modeId: mode.modeId, semantic: {}, components: {} };

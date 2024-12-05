@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "node index.js",
-    "build:dv": "node buildDataViz.js",
+    "build:dataviz": "node dataviz.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
