@@ -9,6 +9,8 @@ import "dotenv/config";
 
 const ENV_PATH = "./.env";
 
+export const supportedBrandNames = ["finn", "tori", "dba", "blocket", "dataviz"];
+
 const spinner = ora();
 
 export async function fetchAndTransformTokens({

@@ -1,15 +1,20 @@
 import fs from 'fs';
 import path from 'path';
+import { supportedBrandNames } from "./buildUtils.js";
 
 // Go through all component and semantic tokens in all modes
 export function processAndWriteSemanticAndComponentTokens(sourceData, tokenVariableCollection) {
   // Extract modes and variables from sourceData
   // Example: "FINN Light", "FINN dark", "Dataviz Light"
   const modes = sourceData.meta.variableCollections[tokenVariableCollection].modes;
+  const supportedModes = modes.filter(
+    (mode) => supportedBrandNames.some(brand => mode.name.toLowerCase().includes(brand))
+  );
+
   const variables = sourceData.meta.variables;
 
   // Initialize objects for each mode
-  const modeObjects = modes.reduce((acc, mode) => {
+  const modeObjects = supportedModes.reduce((acc, mode) => {
     const isDataviz = mode.name.toLowerCase().includes("dataviz")
     if (isDataviz) {
       acc[mode.name] = { modeId: mode.modeId, semantic: {} };
