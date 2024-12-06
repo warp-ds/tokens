@@ -242,9 +242,6 @@
         "selected-active": {
           "value": "{color.blueberry.200}"
         },
-        "inverted": {
-          "value": "{color.gray.600}"
-        },
         "primary": {
           "value": "{color.blueberry.400}"
         },
