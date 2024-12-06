@@ -1,14 +1,15 @@
-import fs from 'fs';
-import path from 'path';
+import fs from "fs";
+import path from "path";
 
-// Process and write brand color files
-export function processAndWriteBrandColors(sourceData, variableCollections, variables, tokenVariableCollection) {
+export function processAndWriteColors({
+  variableCollections,
+  variables,
+  tokenVariableCollection,
+  getBrandName,
+}) {
   Object.entries(variableCollections).forEach(([collectionId, collection]) => {
-    if (
-      !collection.remote &&
-      collectionId !== tokenVariableCollection
-    ) {
-      const brandName = collection.modes[0].name; // Brand name from the first mode
+    if (!collection.remote && collectionId !== tokenVariableCollection) {
+      const brandName = getBrandName(collection); // Dynamic brand name extraction
       const brandColors = {};
 
       collection.variableIds.forEach((variableId) => {
@@ -20,8 +21,8 @@ export function processAndWriteBrandColors(sourceData, variableCollections, vari
           if (colorValue) {
             if (colorNameParts.length === 3) {
               // Color belongs to a group
-              const colorCategory = colorNameParts[1].toLowerCase();;
-              const colorShade = colorNameParts[2].toLowerCase();;
+              const colorCategory = colorNameParts[1].toLowerCase();
+              const colorShade = colorNameParts[2].toLowerCase();
 
               if (!brandColors[colorCategory]) {
                 brandColors[colorCategory] = {};
