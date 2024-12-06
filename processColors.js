@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import { supportedBrandNames } from "./buildUtils.js";
 
 export function processAndWriteColors({
   variableCollections,
@@ -11,6 +12,11 @@ export function processAndWriteColors({
     if (!collection.remote && collectionId !== tokenVariableCollection) {
       const brandName = getBrandName(collection); // Dynamic brand name extraction
       const brandColors = {};
+
+      if (supportedBrandNames.indexOf(brandName.toLowerCase()) === -1){
+        console.warn(`Brand name ${brandName} is not supported`);
+        return;
+      };
 
       collection.variableIds.forEach((variableId) => {
         const variable = variables[variableId];
