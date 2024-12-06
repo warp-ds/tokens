@@ -3,7 +3,7 @@
     "badge": {
       "neutral": {
         "background": {
-          "value": "{color.(test)gray.600}"
+          "value": "{color.gray.600}"
         }
       },
       "positive": {
@@ -83,22 +83,22 @@
     },
     "page indicator": {
       "background": {
-        "value": "{color.(test)gray.300}"
+        "value": "{color.gray.300}"
       },
       "background-hover": {
-        "value": "{color.(test)gray.200}"
+        "value": "{color.gray.200}"
       }
     },
     "pill": {
       "suggestion": {
         "background": {
-          "value": "{color.(test)gray.600}"
+          "value": "{color.gray.600}"
         },
         "background-hover": {
-          "value": "{color.(test)gray.500}"
+          "value": "{color.gray.500}"
         },
         "background-active": {
-          "value": "{color.(test)gray.400}"
+          "value": "{color.gray.400}"
         }
       }
     },
@@ -110,10 +110,10 @@
     "switch": {
       "handle": {
         "background": {
-          "value": "{color.(test)gray.500}"
+          "value": "{color.gray.500}"
         },
         "background-hover": {
-          "value": "{color.(test)gray.400}"
+          "value": "{color.gray.400}"
         }
       }
     }

@@ -4,12 +4,6 @@ import fsExtra from "fs-extra";
 import path from "path";
 import "./lib/android/transform.js";
 import "./lib/android/format.js";
-import {
-  extractTokens,
-  toCamelCase,
-  transformValue,
-  getGeneratedDate,
-} from "./lib/android/helpers.js";
 
 const tokensPath = "./tokens";
 const androidFolder = "output/android/"; // Folder for Android
