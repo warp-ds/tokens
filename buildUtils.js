@@ -22,7 +22,7 @@ export async function fetchAndTransformTokens({
   let token = process.env.FIGMA_TOKEN;
 
   if (token) {
-    spinner.succeed("Using Figma access token from environment viariables");
+    spinner.succeed("Using Figma access token from environment variables");
   } else {
     spinner.warn("No Figma access token found");
     token = await getTokenFromPrompt();
