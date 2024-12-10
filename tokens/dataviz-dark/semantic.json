@@ -514,11 +514,6 @@
         "neutral-focus": {
           "value": "{color.gray.100}"
         }
-      },
-      "chartbackground": {
-        "default": {
-          "value": "{color.warpgray.900}"
-        }
       }
     }
   }
