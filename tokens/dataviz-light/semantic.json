@@ -515,25 +515,9 @@
           "value": "{color.gray.700}"
         }
       },
-      "chartline": {
-        "default": {
-          "value": "{color.gray.600}"
-        },
-        "subtle": {
-          "value": "{color.gray.100}"
-        }
-      },
       "chartbackground": {
         "default": {
           "value": "{color.white}"
-        }
-      },
-      "charttext": {
-        "default": {
-          "value": "{color.gray.900}"
-        },
-        "subtle": {
-          "value": "{color.gray.650}"
         }
       }
     }

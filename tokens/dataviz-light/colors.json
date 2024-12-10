@@ -1,5 +1,10 @@
 {
   "color": {
+    "warpgray": {
+      "900": {
+        "value": "#1b1b1f"
+      }
+    },
     "blue": {
       "50": {
         "value": "#d6edff"
@@ -317,9 +322,6 @@
     },
     "white": {
       "value": "#ffffff"
-    },
-    "black": {
-      "value": "#1b1b1f"
     }
   }
 }
