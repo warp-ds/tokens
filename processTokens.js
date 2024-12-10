@@ -1,16 +1,26 @@
 import fs from 'fs';
 import path from 'path';
+import { supportedBrandNames } from "./utils.js";
 
 // Go through all component and semantic tokens in all modes
 export function processAndWriteSemanticAndComponentTokens(sourceData, tokenVariableCollection) {
   // Extract modes and variables from sourceData
-  // Example: "FINN Light" and "FINN dark"
+  // Example: "FINN Light", "FINN dark", "Dataviz Light"
   const modes = sourceData.meta.variableCollections[tokenVariableCollection].modes;
+  const supportedModes = modes.filter(
+    (mode) => supportedBrandNames.some(brand => mode.name.toLowerCase().includes(brand))
+  );
+
   const variables = sourceData.meta.variables;
 
   // Initialize objects for each mode
-  const modeObjects = modes.reduce((acc, mode) => {
-    acc[mode.name] = { modeId: mode.modeId, semantic: {}, components: {} };
+  const modeObjects = supportedModes.reduce((acc, mode) => {
+    const isDataviz = mode.name.toLowerCase().includes("dataviz")
+    if (isDataviz) {
+      acc[mode.name] = { modeId: mode.modeId, semantic: {} };
+    } else {
+      acc[mode.name] = { modeId: mode.modeId, semantic: {}, components: {} };
+    }
     return acc;
   }, {});
 
@@ -26,7 +36,11 @@ export function processAndWriteSemanticAndComponentTokens(sourceData, tokenVaria
         const value = extractValueForMode(variable, modeObject.modeId, sourceData);
 
         // The path to the current semantic or component token
-        const pathSegments = variable.name.split("/").slice(1).map((segment) => segment.toLowerCase()); // Convert segments to lowercase
+        const pathSegments = variable.name
+          .replace(/^DV\//, "") // Drop prefix in tokens that start with DV/Semantic
+          .split("/")
+          .slice(1)
+          .map((segment) => segment.toLowerCase());
 
         let currentLevel = modeObject[tokenType];
 
@@ -52,10 +66,13 @@ export function processAndWriteSemanticAndComponentTokens(sourceData, tokenVaria
         path.join(dirPath, "semantic.json"),
         JSON.stringify({ semantic: modeObject.semantic }, null, 2)
       );
-      fs.writeFileSync(
-        path.join(dirPath, "components.json"),
-        JSON.stringify({ components: modeObject.components }, null, 2)
-      );
+
+      if (modeObject.components) {
+        fs.writeFileSync(
+          path.join(dirPath, "components.json"),
+          JSON.stringify({ components: modeObject.components }, null, 2)
+        );
+      }
     })
 }
 
@@ -67,11 +84,16 @@ function extractValueForMode(variable, modeId, sourceData) {
   // Get the name
   const variableName = getVariableNameById(variableID, sourceData);
 
-  // Determine if the variable is a semantic token or not
+  // Determine if the variable is a semantic token, a dataviz semantic token
+  // or a non-semantic token
   let formattedName;
   if (variableName.startsWith("Semantic")) {
     // For semantic tokens, keep the name as is
     const nameParts = variableName.split("/");
+    formattedName = nameParts.join(".").toLowerCase();
+  } else if (variableName.startsWith("DV/Semantic")) {
+    // For dataviz semantic tokens, remove the "DV" prefix
+    const nameParts = variableName.replace(/^DV\//, "").split("/");
     formattedName = nameParts.join(".").toLowerCase();
   } else {
     // For non-semantic tokens, replace the first segment with "Color"
