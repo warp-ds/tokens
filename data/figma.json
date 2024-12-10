@@ -3,98 +3,6 @@
   "error": false,
   "meta": {
     "variableCollections": {
-      "VariableCollectionId:3325:4171": {
-        "defaultModeId": "3325:1",
-        "id": "VariableCollectionId:3325:4171",
-        "name": "Primitives-Default (FINN)",
-        "remote": false,
-        "modes": [{ "modeId": "3325:1", "name": "FINN" }],
-        "key": "223fbc23eb92a7ab43701d8a78159bc6787a88a3",
-        "hiddenFromPublishing": false,
-        "variableIds": [
-          "VariableID:3325:4172",
-          "VariableID:3325:4173",
-          "VariableID:3325:4174",
-          "VariableID:3325:4175",
-          "VariableID:3325:4176",
-          "VariableID:3325:4177",
-          "VariableID:3325:4178",
-          "VariableID:3325:4179",
-          "VariableID:3325:4181",
-          "VariableID:3325:4182",
-          "VariableID:3325:4183",
-          "VariableID:3325:4184",
-          "VariableID:3325:4185",
-          "VariableID:3325:4186",
-          "VariableID:3325:4187",
-          "VariableID:3325:4188",
-          "VariableID:3325:4189",
-          "VariableID:3325:4190",
-          "VariableID:3325:4191",
-          "VariableID:16726:4095",
-          "VariableID:3325:4192",
-          "VariableID:16220:18822",
-          "VariableID:3325:4193",
-          "VariableID:16323:42288",
-          "VariableID:3325:4194",
-          "VariableID:3325:4195",
-          "VariableID:3325:4196",
-          "VariableID:3325:4197",
-          "VariableID:3325:4198",
-          "VariableID:3325:4199",
-          "VariableID:3325:4200",
-          "VariableID:3325:4201",
-          "VariableID:3325:4202",
-          "VariableID:3325:4203",
-          "VariableID:3325:4204",
-          "VariableID:3325:4205",
-          "VariableID:3325:4206",
-          "VariableID:3325:4207",
-          "VariableID:3325:4208",
-          "VariableID:3325:4209",
-          "VariableID:3325:4210",
-          "VariableID:3325:4211",
-          "VariableID:3325:4212",
-          "VariableID:3325:4213",
-          "VariableID:3325:4214",
-          "VariableID:3325:4215",
-          "VariableID:3325:4216",
-          "VariableID:3325:4217",
-          "VariableID:3325:4218",
-          "VariableID:3325:4219",
-          "VariableID:3325:4220",
-          "VariableID:3325:4221",
-          "VariableID:3325:4222",
-          "VariableID:3325:4223",
-          "VariableID:3325:4224",
-          "VariableID:3325:4225",
-          "VariableID:3325:4226",
-          "VariableID:3325:4227",
-          "VariableID:3325:4228",
-          "VariableID:3325:4229",
-          "VariableID:3325:4230",
-          "VariableID:3325:4231",
-          "VariableID:3325:4232",
-          "VariableID:3325:4233",
-          "VariableID:3325:4234",
-          "VariableID:3325:4235",
-          "VariableID:3325:4236",
-          "VariableID:3325:4237",
-          "VariableID:3325:4238",
-          "VariableID:3325:4239",
-          "VariableID:3325:4240",
-          "VariableID:3325:4241",
-          "VariableID:7521:20971",
-          "VariableID:3325:4242",
-          "VariableID:7521:20972",
-          "VariableID:3325:4243",
-          "VariableID:7521:20973",
-          "VariableID:3325:4244",
-          "VariableID:10176:54431",
-          "VariableID:10499:6106",
-          "VariableID:10499:6107"
-        ]
-      },
       "VariableCollectionId:4546:841": {
         "defaultModeId": "4546:0",
         "id": "VariableCollectionId:4546:841",
@@ -427,6 +335,98 @@
           "VariableID:10499:6111"
         ]
       },
+      "VariableCollectionId:3325:4171": {
+        "defaultModeId": "3325:1",
+        "id": "VariableCollectionId:3325:4171",
+        "name": "Primitives-Default (FINN)",
+        "remote": false,
+        "modes": [{ "modeId": "3325:1", "name": "FINN" }],
+        "key": "223fbc23eb92a7ab43701d8a78159bc6787a88a3",
+        "hiddenFromPublishing": false,
+        "variableIds": [
+          "VariableID:3325:4172",
+          "VariableID:3325:4173",
+          "VariableID:3325:4174",
+          "VariableID:3325:4175",
+          "VariableID:3325:4176",
+          "VariableID:3325:4177",
+          "VariableID:3325:4178",
+          "VariableID:3325:4179",
+          "VariableID:3325:4181",
+          "VariableID:3325:4182",
+          "VariableID:3325:4183",
+          "VariableID:3325:4184",
+          "VariableID:3325:4185",
+          "VariableID:3325:4186",
+          "VariableID:3325:4187",
+          "VariableID:3325:4188",
+          "VariableID:3325:4189",
+          "VariableID:3325:4190",
+          "VariableID:3325:4191",
+          "VariableID:16726:4095",
+          "VariableID:3325:4192",
+          "VariableID:16220:18822",
+          "VariableID:3325:4193",
+          "VariableID:16323:42288",
+          "VariableID:3325:4194",
+          "VariableID:3325:4195",
+          "VariableID:3325:4196",
+          "VariableID:3325:4197",
+          "VariableID:3325:4198",
+          "VariableID:3325:4199",
+          "VariableID:3325:4200",
+          "VariableID:3325:4201",
+          "VariableID:3325:4202",
+          "VariableID:3325:4203",
+          "VariableID:3325:4204",
+          "VariableID:3325:4205",
+          "VariableID:3325:4206",
+          "VariableID:3325:4207",
+          "VariableID:3325:4208",
+          "VariableID:3325:4209",
+          "VariableID:3325:4210",
+          "VariableID:3325:4211",
+          "VariableID:3325:4212",
+          "VariableID:3325:4213",
+          "VariableID:3325:4214",
+          "VariableID:3325:4215",
+          "VariableID:3325:4216",
+          "VariableID:3325:4217",
+          "VariableID:3325:4218",
+          "VariableID:3325:4219",
+          "VariableID:3325:4220",
+          "VariableID:3325:4221",
+          "VariableID:3325:4222",
+          "VariableID:3325:4223",
+          "VariableID:3325:4224",
+          "VariableID:3325:4225",
+          "VariableID:3325:4226",
+          "VariableID:3325:4227",
+          "VariableID:3325:4228",
+          "VariableID:3325:4229",
+          "VariableID:3325:4230",
+          "VariableID:3325:4231",
+          "VariableID:3325:4232",
+          "VariableID:3325:4233",
+          "VariableID:3325:4234",
+          "VariableID:3325:4235",
+          "VariableID:3325:4236",
+          "VariableID:3325:4237",
+          "VariableID:3325:4238",
+          "VariableID:3325:4239",
+          "VariableID:3325:4240",
+          "VariableID:3325:4241",
+          "VariableID:7521:20971",
+          "VariableID:3325:4242",
+          "VariableID:7521:20972",
+          "VariableID:3325:4243",
+          "VariableID:7521:20973",
+          "VariableID:3325:4244",
+          "VariableID:10176:54431",
+          "VariableID:10499:6106",
+          "VariableID:10499:6107"
+        ]
+      },
       "VariableCollectionId:6325:452": {
         "defaultModeId": "6325:0",
         "id": "VariableCollectionId:6325:452",
@@ -520,72 +520,6 @@
           "VariableID:10499:6109"
         ]
       },
-      "VariableCollectionId:227b5f83b063eebb216c486b4b16f72f08c7c259/14503:229": {
-        "defaultModeId": "4546:0",
-        "id": "VariableCollectionId:227b5f83b063eebb216c486b4b16f72f08c7c259/14503:229",
-        "name": "Modes",
-        "remote": true,
-        "modes": [
-          { "modeId": "4546:0", "name": "FINN light" },
-          { "modeId": "4546:1", "name": "FINN dark" },
-          { "modeId": "6325:1", "name": "Tori light" },
-          { "modeId": "6325:3", "name": "Tori dark" },
-          { "modeId": "6693:0", "name": "DBA light" },
-          { "modeId": "7521:0", "name": "DBA dark" },
-          { "modeId": "7521:1", "name": "Blocket light" },
-          { "modeId": "7548:0", "name": "Blocket dark" },
-          { "modeId": "13263:0", "name": "Oikotie light" },
-          { "modeId": "13266:1", "name": "Oikotie dark" },
-          { "modeId": "14347:0", "name": "Oikotie Real Estate light" },
-          { "modeId": "14359:1", "name": "Oikotie Real Estate dark" },
-          { "modeId": "14364:2", "name": "Oikotie Jobs light" },
-          { "modeId": "14364:3", "name": "Oikotie Jobs dark" }
-        ],
-        "key": "227b5f83b063eebb216c486b4b16f72f08c7c259",
-        "hiddenFromPublishing": true,
-        "variableIds": [
-          "VariableID:5142ebd09fa683db45fecce6bfecb47af2ddd2ce/14503:48",
-          "VariableID:dc7ca6d450460dc22d3ec7e59f174800f49dcc16/14503:88",
-          "VariableID:10d835745dd58540bc02fdf1b193fbb5711498bd/14503:144"
-        ]
-      },
-      "VariableCollectionId:10497:6041": {
-        "defaultModeId": "10497:0",
-        "id": "VariableCollectionId:10497:6041",
-        "name": "Primitives-Spacing",
-        "remote": false,
-        "modes": [{ "modeId": "10497:0", "name": "Default" }],
-        "key": "e71d7f28aaa2ac75d30f233d68b178e2d4ba410d",
-        "hiddenFromPublishing": false,
-        "variableIds": [
-          "VariableID:10497:6042",
-          "VariableID:10497:6043",
-          "VariableID:10497:6044",
-          "VariableID:10497:6045",
-          "VariableID:10497:6046",
-          "VariableID:10497:6047",
-          "VariableID:10497:6048",
-          "VariableID:10497:6049",
-          "VariableID:10497:6050",
-          "VariableID:10497:6051",
-          "VariableID:10497:6052",
-          "VariableID:10497:6053",
-          "VariableID:10497:6054",
-          "VariableID:10497:6055",
-          "VariableID:10497:6056",
-          "VariableID:10497:6057",
-          "VariableID:10497:6058",
-          "VariableID:10497:6059",
-          "VariableID:10497:6060",
-          "VariableID:10497:6061",
-          "VariableID:10497:6062",
-          "VariableID:10497:6063",
-          "VariableID:10497:6064",
-          "VariableID:10497:6065",
-          "VariableID:10497:6066",
-          "VariableID:10497:6067"
-        ]
-      },
       "VariableCollectionId:7507:18169": {
         "defaultModeId": "7507:0",
         "id": "VariableCollectionId:7507:18169",
@@ -670,6 +604,43 @@
           "VariableID:7507:18232"
         ]
       },
+      "VariableCollectionId:10497:6041": {
+        "defaultModeId": "10497:0",
+        "id": "VariableCollectionId:10497:6041",
+        "name": "Primitives-Spacing",
+        "remote": false,
+        "modes": [{ "modeId": "10497:0", "name": "Default" }],
+        "key": "e71d7f28aaa2ac75d30f233d68b178e2d4ba410d",
+        "hiddenFromPublishing": false,
+        "variableIds": [
+          "VariableID:10497:6042",
+          "VariableID:10497:6043",
+          "VariableID:10497:6044",
+          "VariableID:10497:6045",
+          "VariableID:10497:6046",
+          "VariableID:10497:6047",
+          "VariableID:10497:6048",
+          "VariableID:10497:6049",
+          "VariableID:10497:6050",
+          "VariableID:10497:6051",
+          "VariableID:10497:6052",
+          "VariableID:10497:6053",
+          "VariableID:10497:6054",
+          "VariableID:10497:6055",
+          "VariableID:10497:6056",
+          "VariableID:10497:6057",
+          "VariableID:10497:6058",
+          "VariableID:10497:6059",
+          "VariableID:10497:6060",
+          "VariableID:10497:6061",
+          "VariableID:10497:6062",
+          "VariableID:10497:6063",
+          "VariableID:10497:6064",
+          "VariableID:10497:6065",
+          "VariableID:10497:6066",
+          "VariableID:10497:6067"
+        ]
+      },
       "VariableCollectionId:13256:972": {
         "defaultModeId": "13256:0",
         "id": "VariableCollectionId:13256:972",
@@ -746,1596 +717,38 @@
           "VariableID:13263:93",
           "VariableID:13263:91"
         ]
+      },
+      "VariableCollectionId:227b5f83b063eebb216c486b4b16f72f08c7c259/14503:229": {
+        "defaultModeId": "4546:0",
+        "id": "VariableCollectionId:227b5f83b063eebb216c486b4b16f72f08c7c259/14503:229",
+        "name": "Modes",
+        "remote": true,
+        "modes": [
+          { "modeId": "4546:0", "name": "FINN light" },
+          { "modeId": "4546:1", "name": "FINN dark" },
+          { "modeId": "6325:1", "name": "Tori light" },
+          { "modeId": "6325:3", "name": "Tori dark" },
+          { "modeId": "6693:0", "name": "DBA light" },
+          { "modeId": "7521:0", "name": "DBA dark" },
+          { "modeId": "7521:1", "name": "Blocket light" },
+          { "modeId": "7548:0", "name": "Blocket dark" },
+          { "modeId": "13263:0", "name": "Oikotie light" },
+          { "modeId": "13266:1", "name": "Oikotie dark" },
+          { "modeId": "14347:0", "name": "Oikotie Real Estate light" },
+          { "modeId": "14359:1", "name": "Oikotie Real Estate dark" },
+          { "modeId": "14364:2", "name": "Oikotie Jobs light" },
+          { "modeId": "14364:3", "name": "Oikotie Jobs dark" }
+        ],
+        "key": "227b5f83b063eebb216c486b4b16f72f08c7c259",
+        "hiddenFromPublishing": true,
+        "variableIds": [
+          "VariableID:5142ebd09fa683db45fecce6bfecb47af2ddd2ce/14503:48",
+          "VariableID:dc7ca6d450460dc22d3ec7e59f174800f49dcc16/14503:88",
+          "VariableID:10d835745dd58540bc02fdf1b193fbb5711498bd/14503:144"
+        ]
       }
     },
     "variables": {
-      "VariableID:3325:4172": {
-        "id": "VariableID:3325:4172",
-        "name": "FINN/White",
-        "remote": false,
-        "key": "924f6bd08948680feb961780f2a3d0a660779231",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": { "3325:1": { "r": 1, "g": 1, "b": 1, "a": 1 } },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4173": {
-        "id": "VariableID:3325:4173",
-        "name": "FINN/Black",
-        "remote": false,
-        "key": "d868a6eb0c1ace205a80f1ac549c6dce2e6e9078",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": { "3325:1": { "r": 0, "g": 0, "b": 0, "a": 1 } },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4174": {
-        "id": "VariableID:3325:4174",
-        "name": "FINN/Gray/50",
-        "remote": false,
-        "key": "48187ee38dd28f23452ff3202a012406ce657136",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.9803921580314636,
-            "g": 0.9803921580314636,
-            "b": 0.9803921580314636,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {},
-        "deletedButReferenced": true
-      },
-      "VariableID:3325:4175": {
-        "id": "VariableID:3325:4175",
-        "name": "FINN/Gray/100",
-        "remote": false,
-        "key": "88865fbf322e18e2cce92d7e7a4c3ab988b211c9",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.95686274766922,
-            "g": 0.95686274766922,
-            "b": 0.9607843160629272,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {},
-        "deletedButReferenced": true
-      },
-      "VariableID:3325:4176": {
-        "id": "VariableID:3325:4176",
-        "name": "FINN/Gray/200",
-        "remote": false,
-        "key": "e8dd972530e9a34404480fb867f036a8b15ccf9b",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.8941176533699036,
-            "g": 0.8941176533699036,
-            "b": 0.9058823585510254,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {},
-        "deletedButReferenced": true
-      },
-      "VariableID:3325:4177": {
-        "id": "VariableID:3325:4177",
-        "name": "FINN/Gray/300",
-        "remote": false,
-        "key": "5be8fd8994d0259fc6b4ac9ae8049e94285c8501",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.8313725590705872,
-            "g": 0.8313725590705872,
-            "b": 0.8470588326454163,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {},
-        "deletedButReferenced": true
-      },
-      "VariableID:3325:4178": {
-        "id": "VariableID:3325:4178",
-        "name": "FINN/Gray/400",
-        "remote": false,
-        "key": "7f46eea9e1fd2068ebf5cb44d73392a245959589",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.6313725709915161,
-            "g": 0.6313725709915161,
-            "b": 0.6666666865348816,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {},
-        "deletedButReferenced": true
-      },
-      "VariableID:3325:4179": {
-        "id": "VariableID:3325:4179",
-        "name": "FINN/Gray/500",
-        "remote": false,
-        "key": "37a0ae58388c10508006a187e70c29ba8f84bcae",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.4431372582912445,
-            "g": 0.4431372582912445,
-            "b": 0.47843137383461,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {},
-        "deletedButReferenced": true
-      },
-      "VariableID:3325:4181": {
-        "id": "VariableID:3325:4181",
-        "name": "FINN/Gray/700",
-        "remote": false,
-        "key": "478ba2e039a74d12c6422c71d28f2d52bf010e1b",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.24705882370471954,
-            "g": 0.24705882370471954,
-            "b": 0.27450981736183167,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {},
-        "deletedButReferenced": true
-      },
-      "VariableID:3325:4182": {
-        "id": "VariableID:3325:4182",
-        "name": "FINN/Gray/800",
-        "remote": false,
-        "key": "fcb03a611e537d83ed408b1deb941c3a6c075cd0",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.15294118225574493,
-            "g": 0.15294118225574493,
-            "b": 0.16470588743686676,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {},
-        "deletedButReferenced": true
-      },
-      "VariableID:3325:4183": {
-        "id": "VariableID:3325:4183",
-        "name": "FINN/Gray/900",
-        "remote": false,
-        "key": "3ffa875230f76b7c57416d81e27e1bae80b87f1a",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.0941176488995552,
-            "g": 0.0941176488995552,
-            "b": 0.10588235408067703,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {},
-        "deletedButReferenced": true
-      },
-      "VariableID:3325:4184": {
-        "id": "VariableID:3325:4184",
-        "name": "FINN/Blue/50",
-        "remote": false,
-        "key": "9188c4ddde3ac1052be435d6951b6964ee6f0f11",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.9372549057006836,
-            "g": 0.9607843160629272,
-            "b": 1,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4185": {
-        "id": "VariableID:3325:4185",
-        "name": "FINN/Blue/100",
-        "remote": false,
-        "key": "9cb7730c8f14e3aeb1c86a8741a61066a294f96c",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.8823529481887817,
-            "g": 0.929411768913269,
-            "b": 0.9960784316062927,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4186": {
-        "id": "VariableID:3325:4186",
-        "name": "FINN/Blue/200",
-        "remote": false,
-        "key": "74aadc4921f3e483a16023473dba1753873a74a5",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.7607843279838562,
-            "g": 0.8549019694328308,
-            "b": 0.9960784316062927,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4187": {
-        "id": "VariableID:3325:4187",
-        "name": "FINN/Blue/300",
-        "remote": false,
-        "key": "093da366c7fccfc120a23ba4a5fd1dd44a418a9c",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.6039215922355652,
-            "g": 0.7568627595901489,
-            "b": 0.9960784316062927,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4188": {
-        "id": "VariableID:3325:4188",
-        "name": "FINN/Blue/400",
-        "remote": false,
-        "key": "375b61a5d88619abfc9123b0c78e7c06b5de9eaf",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.3607843220233917,
-            "g": 0.6117647290229797,
-            "b": 1,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4189": {
-        "id": "VariableID:3325:4189",
-        "name": "FINN/Blue/500",
-        "remote": false,
-        "key": "7b5cf917ac3e593b0e94c25d721cd1417a13ccb5",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.16862745583057404,
-            "g": 0.4941176474094391,
-            "b": 1,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4190": {
-        "id": "VariableID:3325:4190",
-        "name": "FINN/Blue/600",
-        "remote": false,
-        "key": "319890616e637b548dbf44d7b66005c13c0ea2f7",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0,
-            "g": 0.38823530077934265,
-            "b": 0.9843137264251709,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4191": {
-        "id": "VariableID:3325:4191",
-        "name": "FINN/Blue/700",
-        "remote": false,
-        "key": "64496bc75eac7e20bb301797d9be191101cf7a97",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0,
-            "g": 0.29411765933036804,
-            "b": 0.7411764860153198,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:16726:4095": {
-        "id": "VariableID:16726:4095",
-        "name": "FINN/Blue/750",
-        "remote": false,
-        "key": "79e5c684e73a47d9714b93c304abe7c8dd12c6ce",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0,
-            "g": 0.24705882370471954,
-            "b": 0.6196078658103943,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4192": {
-        "id": "VariableID:3325:4192",
-        "name": "FINN/Blue/800",
-        "remote": false,
-        "key": "1ea9e62a476f88ebc07ce41d128efa6620f79b2c",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0,
-            "g": 0.20000000298023224,
-            "b": 0.49803921580314636,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:16220:18822": {
-        "id": "VariableID:16220:18822",
-        "name": "FINN/Blue/850",
-        "remote": false,
-        "key": "a7fcfb649ab776a790df0fb6aa381c0801b49679",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0,
-            "g": 0.15294118225574493,
-            "b": 0.3764705955982208,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4193": {
-        "id": "VariableID:3325:4193",
-        "name": "FINN/Blue/900",
-        "remote": false,
-        "key": "158366d1143baaa7cf7dc479cd134b7b2de072cd",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0,
-            "g": 0.10588235408067703,
-            "b": 0.2549019753932953,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:16323:42288": {
-        "id": "VariableID:16323:42288",
-        "name": "FINN/Blue/950",
-        "remote": false,
-        "key": "eedb6231033db3474437efbace981a62834543f0",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0,
-            "g": 0.05882352963089943,
-            "b": 0.13333334028720856,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4194": {
-        "id": "VariableID:3325:4194",
-        "name": "FINN/Aqua/50",
-        "remote": false,
-        "key": "ead8843775ba7bbc923665467587fecfed93461d",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.9450980424880981,
-            "g": 0.9764705896377563,
-            "b": 1,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4195": {
-        "id": "VariableID:3325:4195",
-        "name": "FINN/Aqua/100",
-        "remote": false,
-        "key": "73993497143256024b53e657aecf4fd33ef347de",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.8784313797950745,
-            "g": 0.9647058844566345,
-            "b": 1,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4196": {
-        "id": "VariableID:3325:4196",
-        "name": "FINN/Aqua/200",
-        "remote": false,
-        "key": "003a9fe90b6ef3eb87d30f9452c190db4b6e469a",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.7137255072593689,
-            "g": 0.9411764740943909,
-            "b": 1,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4197": {
-        "id": "VariableID:3325:4197",
-        "name": "FINN/Aqua/300",
-        "remote": false,
-        "key": "c9ad70a9795be98b03b64f1694e0f8ffc26bdac1",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.3999999761581421,
-            "g": 0.8799999952316284,
-            "b": 1,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4198": {
-        "id": "VariableID:3325:4198",
-        "name": "FINN/Aqua/400",
-        "remote": false,
-        "key": "aedfe19d4e4579a66d968c5873e1fae48d7bdd3d",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.0235294122248888,
-            "g": 0.7450980544090271,
-            "b": 0.9843137264251709,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4199": {
-        "id": "VariableID:3325:4199",
-        "name": "FINN/Aqua/500",
-        "remote": false,
-        "key": "52f5d1fa41f9792cd025292649e8b690fadb387c",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.0117647061124444,
-            "g": 0.6392157077789307,
-            "b": 0.8666666746139526,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4200": {
-        "id": "VariableID:3325:4200",
-        "name": "FINN/Aqua/600",
-        "remote": false,
-        "key": "a7785377087a5bf70eda196f03172697d2a34b3a",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.011399984359741211,
-            "g": 0.527440071105957,
-            "b": 0.7486000061035156,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4201": {
-        "id": "VariableID:3325:4201",
-        "name": "FINN/Aqua/700",
-        "remote": false,
-        "key": "41fd37e2c79a2b3c791d53fe0436acc81b69a9a5",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.11764705926179886,
-            "g": 0.3921568691730499,
-            "b": 0.5411764979362488,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4202": {
-        "id": "VariableID:3325:4202",
-        "name": "FINN/Aqua/800",
-        "remote": false,
-        "key": "d9a4e24391e59466b1c5ca7c03df00691e5e92c3",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.11372549086809158,
-            "g": 0.26274511218070984,
-            "b": 0.3529411852359772,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4203": {
-        "id": "VariableID:3325:4203",
-        "name": "FINN/Aqua/900",
-        "remote": false,
-        "key": "38b218058c1fc613b9aad7ef09283f55f6c5f3d9",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.08235294371843338,
-            "g": 0.1411764770746231,
-            "b": 0.18431372940540314,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4204": {
-        "id": "VariableID:3325:4204",
-        "name": "FINN/Green/50",
-        "remote": false,
-        "key": "fb2b9c0e1a5fbd505c2395853ae04e83ac299c68",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.9215686321258545,
-            "g": 1,
-            "b": 0.9647058844566345,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4205": {
-        "id": "VariableID:3325:4205",
-        "name": "FINN/Green/100",
-        "remote": false,
-        "key": "05bbf472b8b597ff2a2a6e1afbe4deb1f3c0607e",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.8039215803146362,
-            "g": 0.9960784316062927,
-            "b": 0.8980392217636108,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4206": {
-        "id": "VariableID:3325:4206",
-        "name": "FINN/Green/200",
-        "remote": false,
-        "key": "9de61f998d8235b826d50e1e91df38cf24364bfd",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.6196078658103943,
-            "g": 0.9882352948188782,
-            "b": 0.8196078538894653,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4207": {
-        "id": "VariableID:3325:4207",
-        "name": "FINN/Green/300",
-        "remote": false,
-        "key": "bc40ceb7f879aab3730465f5910e79527f0219bb",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.40352940559387207,
-            "g": 0.9337254762649536,
-            "b": 0.7233997583389282,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4208": {
-        "id": "VariableID:3325:4208",
-        "name": "FINN/Green/400",
-        "remote": false,
-        "key": "425f48d66d8ccc55605543128f57a1ab8392e993",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.18039216101169586,
-            "g": 0.9019607901573181,
-            "b": 0.6235294342041016,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4209": {
-        "id": "VariableID:3325:4209",
-        "name": "FINN/Green/500",
-        "remote": false,
-        "key": "16548543902f2a518e4a6ba2dbbb44a3078c26ce",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.0941176488995552,
-            "g": 0.7843137383460999,
-            "b": 0.5176470875740051,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4210": {
-        "id": "VariableID:3325:4210",
-        "name": "FINN/Green/600",
-        "remote": false,
-        "key": "f3b8c58f4e5a4a6245b4fbaedcb769d6b520f2a7",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.019607843831181526,
-            "g": 0.6196078658103943,
-            "b": 0.43529412150382996,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4211": {
-        "id": "VariableID:3325:4211",
-        "name": "FINN/Green/700",
-        "remote": false,
-        "key": "66f0bb292c0b7d11038c36d6e7a57b81bb7fa2ad",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.11372549086809158,
-            "g": 0.45490196347236633,
-            "b": 0.3294117748737335,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4212": {
-        "id": "VariableID:3325:4212",
-        "name": "FINN/Green/800",
-        "remote": false,
-        "key": "cfa71f104b49a17cf80f14be98a63f88ee18edfa",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.10588235408067703,
-            "g": 0.3019607961177826,
-            "b": 0.2235294133424759,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4213": {
-        "id": "VariableID:3325:4213",
-        "name": "FINN/Green/900",
-        "remote": false,
-        "key": "026b38a3a48734bc9e620635e70a935f34ea4ce0",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.0784313753247261,
-            "g": 0.16078431904315948,
-            "b": 0.12156862765550613,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4214": {
-        "id": "VariableID:3325:4214",
-        "name": "FINN/Yellow/50",
-        "remote": false,
-        "key": "c01526a72ed6589d5519def09cc49f44b52d47a9",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 1,
-            "g": 0.9725490212440491,
-            "b": 0.9019607901573181,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4215": {
-        "id": "VariableID:3325:4215",
-        "name": "FINN/Yellow/100",
-        "remote": false,
-        "key": "94cad5ee61edd73d4733afc370e6c7da9780eae7",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 1,
-            "g": 0.9607843160629272,
-            "b": 0.7843137383460999,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4216": {
-        "id": "VariableID:3325:4216",
-        "name": "FINN/Yellow/200",
-        "remote": false,
-        "key": "8f76d4ea2d77b0645b625f1be00bf9fb73600b5a",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.9960784316062927,
-            "g": 0.9372549057006836,
-            "b": 0.5647059082984924,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4217": {
-        "id": "VariableID:3325:4217",
-        "name": "FINN/Yellow/300",
-        "remote": false,
-        "key": "e6180082fe84d40319d125648733ab1bb95a32fb",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.9803921580314636,
-            "g": 0.9058823585510254,
-            "b": 0.41960784792900085,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4218": {
-        "id": "VariableID:3325:4218",
-        "name": "FINN/Yellow/400",
-        "remote": false,
-        "key": "86df191813018ab37451c5d535a298edcd78d3b2",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 1,
-            "g": 0.8823529481887817,
-            "b": 0.12156862765550613,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4219": {
-        "id": "VariableID:3325:4219",
-        "name": "FINN/Yellow/500",
-        "remote": false,
-        "key": "3b0449c9d29663518b2b8a1ee3f4b6d176d1a79d",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.9333333373069763,
-            "g": 0.7137255072593689,
-            "b": 0.10588235408067703,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4220": {
-        "id": "VariableID:3325:4220",
-        "name": "FINN/Yellow/600",
-        "remote": false,
-        "key": "774126669f3fb2176ba465c423fead70cbec74b1",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.8359999060630798,
-            "g": 0.5191999673843384,
-            "b": 0.044000089168548584,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4221": {
-        "id": "VariableID:3325:4221",
-        "name": "FINN/Yellow/700",
-        "remote": false,
-        "key": "2cf67e9811c57d4d3798880032eb08a5e91a9857",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.6078431606292725,
-            "g": 0.3843137323856354,
-            "b": 0.11764705926179886,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4222": {
-        "id": "VariableID:3325:4222",
-        "name": "FINN/Yellow/800",
-        "remote": false,
-        "key": "d691f1285f53889f874546461b2c612d9d5fc74f",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.3960784375667572,
-            "g": 0.2549019753932953,
-            "b": 0.0941176488995552,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4223": {
-        "id": "VariableID:3325:4223",
-        "name": "FINN/Yellow/900",
-        "remote": false,
-        "key": "9f34c9cc14ba0b46df387a1c7e8fd881ca627b5f",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.2078431397676468,
-            "g": 0.13725490868091583,
-            "b": 0.062745101749897,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4224": {
-        "id": "VariableID:3325:4224",
-        "name": "FINN/Red/50",
-        "remote": false,
-        "key": "c53d2105e0218e02d1b19d4bc96ecccf44466050",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 1,
-            "g": 0.9600000381469727,
-            "b": 0.9600000381469727,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4225": {
-        "id": "VariableID:3325:4225",
-        "name": "FINN/Red/100",
-        "remote": false,
-        "key": "75d9621f96c8cf3a37196265b59b2e8d08fe7169",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 1,
-            "g": 0.9372549057006836,
-            "b": 0.9372549057006836,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4226": {
-        "id": "VariableID:3325:4226",
-        "name": "FINN/Red/200",
-        "remote": false,
-        "key": "9a21d887bf96209332e447f372eb5188cbabad2b",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 1,
-            "g": 0.8196078538894653,
-            "b": 0.8196078538894653,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4227": {
-        "id": "VariableID:3325:4227",
-        "name": "FINN/Red/300",
-        "remote": false,
-        "key": "5c8f838a69965ed77ac70414b269d01c52868128",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 1,
-            "g": 0.6000000238418579,
-            "b": 0.6000000238418579,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4228": {
-        "id": "VariableID:3325:4228",
-        "name": "FINN/Red/400",
-        "remote": false,
-        "key": "69d17c46e9b8dfac0702c7f56b6005c5b87a8520",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 1,
-            "g": 0.3450980484485626,
-            "b": 0.2666666805744171,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4229": {
-        "id": "VariableID:3325:4229",
-        "name": "FINN/Red/500",
-        "remote": false,
-        "key": "fad127362fdf9cd2b7a638910f7598640fb2b23e",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.9803921580314636,
-            "g": 0.15294118225574493,
-            "b": 0.05882352963089943,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4230": {
-        "id": "VariableID:3325:4230",
-        "name": "FINN/Red/600",
-        "remote": false,
-        "key": "bb897265e96b713411d28a393e3b39ff5faf15d3",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.8509804010391235,
-            "g": 0.12039215862751007,
-            "b": 0.039215683937072754,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4231": {
-        "id": "VariableID:3325:4231",
-        "name": "FINN/Red/700",
-        "remote": false,
-        "key": "29085f0dc0152b734e1d05daa177dcf10429c13e",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.6196078658103943,
-            "g": 0.13333334028720856,
-            "b": 0.08627451211214066,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4232": {
-        "id": "VariableID:3325:4232",
-        "name": "FINN/Red/800",
-        "remote": false,
-        "key": "9b845cec4192ce47c2a3d68e229a5c9d9a771c88",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.40784314274787903,
-            "g": 0.11372549086809158,
-            "b": 0.06666667014360428,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4233": {
-        "id": "VariableID:3325:4233",
-        "name": "FINN/Red/900",
-        "remote": false,
-        "key": "7f4ed41d34105f34afe92856e0ff89e47e86a951",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.21960784494876862,
-            "g": 0.0784313753247261,
-            "b": 0.04313725605607033,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4234": {
-        "id": "VariableID:3325:4234",
-        "name": "FINN/Gray/50",
-        "remote": false,
-        "key": "4de804cf7a8087cf32fa3a277734259fb3245d3f",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.9647058844566345,
-            "g": 0.9647058844566345,
-            "b": 0.9647058844566345,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4235": {
-        "id": "VariableID:3325:4235",
-        "name": "FINN/Gray/100",
-        "remote": false,
-        "key": "2c9dea2beb2230b58e2f1b16e2c2104f02f3def9",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.9395294189453125,
-            "g": 0.9395294189453125,
-            "b": 0.9490196108818054,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4236": {
-        "id": "VariableID:3325:4236",
-        "name": "FINN/Gray/200",
-        "remote": false,
-        "key": "840925e916a60963e1bde0d8fa72296fb8537160",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.8705882430076599,
-            "g": 0.8705882430076599,
-            "b": 0.8901960849761963,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4237": {
-        "id": "VariableID:3325:4237",
-        "name": "FINN/Gray/300",
-        "remote": false,
-        "key": "367b334b59259681749975fdace7792db46b43e2",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.7921568751335144,
-            "g": 0.7921568751335144,
-            "b": 0.8196078538894653,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4238": {
-        "id": "VariableID:3325:4238",
-        "name": "FINN/Gray/400",
-        "remote": false,
-        "key": "7de3254614fc7e2703d5aec90fcac57c8431472e",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.686274528503418,
-            "g": 0.686274528503418,
-            "b": 0.7215686440467834,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4239": {
-        "id": "VariableID:3325:4239",
-        "name": "FINN/Gray/500",
-        "remote": false,
-        "key": "6ca63450ab2e9e9f3883f5a34f765d0a423c3cca",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.5176470875740051,
-            "g": 0.5176470875740051,
-            "b": 0.5607843399047852,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4240": {
-        "id": "VariableID:3325:4240",
-        "name": "FINN/Gray/600",
-        "remote": false,
-        "key": "db1cc81cd278a757cd3fb0cf56a05a012793ca16",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.3607843220233917,
-            "g": 0.3607843220233917,
-            "b": 0.4000000059604645,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4241": {
-        "id": "VariableID:3325:4241",
-        "name": "FINN/Gray/700",
-        "remote": false,
-        "key": "6ed216a220675e430d3213c8bcee859092d61b82",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.27843138575553894,
-            "g": 0.27843138575553894,
-            "b": 0.30980393290519714,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:7521:20971": {
-        "id": "VariableID:7521:20971",
-        "name": "FINN/Gray/750",
-        "remote": false,
-        "key": "74ba1db662f0ba04e581b9d2a889f4fb596abcd5",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.1983606517314911,
-            "g": 0.1983606517314911,
-            "b": 0.2199999988079071,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4242": {
-        "id": "VariableID:3325:4242",
-        "name": "FINN/Gray/800",
-        "remote": false,
-        "key": "ae1468f3579ad102c14249b6ad97ce3d6e9e4097",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.16862745583057404,
-            "g": 0.16862745583057404,
-            "b": 0.1882352977991104,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:7521:20972": {
-        "id": "VariableID:7521:20972",
-        "name": "FINN/Gray/850",
-        "remote": false,
-        "key": "25a6a8f25fae7d488b2dfa30069277d64eccdb91",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.14901961386203766,
-            "g": 0.14901961386203766,
-            "b": 0.16862745583057404,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4243": {
-        "id": "VariableID:3325:4243",
-        "name": "FINN/Gray/900",
-        "remote": false,
-        "key": "5c9cc63bb3225352d0f6aab36a9b43acd8b4a97d",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.10588235408067703,
-            "g": 0.10588235408067703,
-            "b": 0.12156862765550613,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:7521:20973": {
-        "id": "VariableID:7521:20973",
-        "name": "FINN/Gray/950",
-        "remote": false,
-        "key": "97c5d05cd81f1f23696cceff6aa1e0d8dcb04840",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "3325:1": {
-            "r": 0.07000000029802322,
-            "g": 0.07000000029802322,
-            "b": 0.07000000029802322,
-            "a": 1
-          }
-        },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:3325:4244": {
-        "id": "VariableID:3325:4244",
-        "name": "FINN/Transparent",
-        "remote": false,
-        "key": "d6fca1dd428c8220514a8dd83ebb3f48c611507e",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": { "3325:1": { "r": 1, "g": 1, "b": 1, "a": 0 } },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:10176:54431": {
-        "id": "VariableID:10176:54431",
-        "name": "FINN/Font/Family/Text",
-        "remote": false,
-        "key": "dcc9fb24a7fde9a11820917b12214934a05f0ed5",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "STRING",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": { "3325:1": "FINN Type Web Strippet" },
-        "scopes": [],
-        "codeSyntax": {}
-      },
-      "VariableID:10499:6106": {
-        "id": "VariableID:10499:6106",
-        "name": "FINN/Font/Weight/Medium",
-        "remote": false,
-        "key": "43536008cac7ee0449d699d54561dfe1170aad23",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "STRING",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": { "3325:1": "Medium" },
-        "scopes": [],
-        "codeSyntax": {}
-      },
-      "VariableID:10499:6107": {
-        "id": "VariableID:10499:6107",
-        "name": "FINN/Font/Weight/Light",
-        "remote": false,
-        "key": "5fd75a1fe097af4a0d121ea6309d0378faf54c58",
-        "variableCollectionId": "VariableCollectionId:3325:4171",
-        "resolvedType": "STRING",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": { "3325:1": "Light" },
-        "scopes": [],
-        "codeSyntax": {}
-      },
       "VariableID:4546:842": {
         "id": "VariableID:4546:842",
         "name": "Semantic/Color/Text/Default",
@@ -12572,6 +10985,1593 @@
         "scopes": [],
         "codeSyntax": {}
       },
+      "VariableID:3325:4172": {
+        "id": "VariableID:3325:4172",
+        "name": "FINN/White",
+        "remote": false,
+        "key": "924f6bd08948680feb961780f2a3d0a660779231",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": { "3325:1": { "r": 1, "g": 1, "b": 1, "a": 1 } },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4173": {
+        "id": "VariableID:3325:4173",
+        "name": "FINN/Black",
+        "remote": false,
+        "key": "d868a6eb0c1ace205a80f1ac549c6dce2e6e9078",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": { "3325:1": { "r": 0, "g": 0, "b": 0, "a": 1 } },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4174": {
+        "id": "VariableID:3325:4174",
+        "name": "FINN/Gray/50",
+        "remote": false,
+        "key": "48187ee38dd28f23452ff3202a012406ce657136",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.9803921580314636,
+            "g": 0.9803921580314636,
+            "b": 0.9803921580314636,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {},
+        "deletedButReferenced": true
+      },
+      "VariableID:3325:4175": {
+        "id": "VariableID:3325:4175",
+        "name": "FINN/Gray/100",
+        "remote": false,
+        "key": "88865fbf322e18e2cce92d7e7a4c3ab988b211c9",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.95686274766922,
+            "g": 0.95686274766922,
+            "b": 0.9607843160629272,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {},
+        "deletedButReferenced": true
+      },
+      "VariableID:3325:4176": {
+        "id": "VariableID:3325:4176",
+        "name": "FINN/Gray/200",
+        "remote": false,
+        "key": "e8dd972530e9a34404480fb867f036a8b15ccf9b",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.8941176533699036,
+            "g": 0.8941176533699036,
+            "b": 0.9058823585510254,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {},
+        "deletedButReferenced": true
+      },
+      "VariableID:3325:4177": {
+        "id": "VariableID:3325:4177",
+        "name": "FINN/Gray/300",
+        "remote": false,
+        "key": "5be8fd8994d0259fc6b4ac9ae8049e94285c8501",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.8313725590705872,
+            "g": 0.8313725590705872,
+            "b": 0.8470588326454163,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {},
+        "deletedButReferenced": true
+      },
+      "VariableID:3325:4178": {
+        "id": "VariableID:3325:4178",
+        "name": "FINN/Gray/400",
+        "remote": false,
+        "key": "7f46eea9e1fd2068ebf5cb44d73392a245959589",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.6313725709915161,
+            "g": 0.6313725709915161,
+            "b": 0.6666666865348816,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {},
+        "deletedButReferenced": true
+      },
+      "VariableID:3325:4179": {
+        "id": "VariableID:3325:4179",
+        "name": "FINN/Gray/500",
+        "remote": false,
+        "key": "37a0ae58388c10508006a187e70c29ba8f84bcae",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.4431372582912445,
+            "g": 0.4431372582912445,
+            "b": 0.47843137383461,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {},
+        "deletedButReferenced": true
+      },
+      "VariableID:3325:4181": {
+        "id": "VariableID:3325:4181",
+        "name": "FINN/Gray/700",
+        "remote": false,
+        "key": "478ba2e039a74d12c6422c71d28f2d52bf010e1b",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.24705882370471954,
+            "g": 0.24705882370471954,
+            "b": 0.27450981736183167,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {},
+        "deletedButReferenced": true
+      },
+      "VariableID:3325:4182": {
+        "id": "VariableID:3325:4182",
+        "name": "FINN/Gray/800",
+        "remote": false,
+        "key": "fcb03a611e537d83ed408b1deb941c3a6c075cd0",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.15294118225574493,
+            "g": 0.15294118225574493,
+            "b": 0.16470588743686676,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {},
+        "deletedButReferenced": true
+      },
+      "VariableID:3325:4183": {
+        "id": "VariableID:3325:4183",
+        "name": "FINN/Gray/900",
+        "remote": false,
+        "key": "3ffa875230f76b7c57416d81e27e1bae80b87f1a",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.0941176488995552,
+            "g": 0.0941176488995552,
+            "b": 0.10588235408067703,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {},
+        "deletedButReferenced": true
+      },
+      "VariableID:3325:4184": {
+        "id": "VariableID:3325:4184",
+        "name": "FINN/Blue/50",
+        "remote": false,
+        "key": "9188c4ddde3ac1052be435d6951b6964ee6f0f11",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.9372549057006836,
+            "g": 0.9607843160629272,
+            "b": 1,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4185": {
+        "id": "VariableID:3325:4185",
+        "name": "FINN/Blue/100",
+        "remote": false,
+        "key": "9cb7730c8f14e3aeb1c86a8741a61066a294f96c",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.8823529481887817,
+            "g": 0.929411768913269,
+            "b": 0.9960784316062927,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4186": {
+        "id": "VariableID:3325:4186",
+        "name": "FINN/Blue/200",
+        "remote": false,
+        "key": "74aadc4921f3e483a16023473dba1753873a74a5",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.7607843279838562,
+            "g": 0.8549019694328308,
+            "b": 0.9960784316062927,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4187": {
+        "id": "VariableID:3325:4187",
+        "name": "FINN/Blue/300",
+        "remote": false,
+        "key": "093da366c7fccfc120a23ba4a5fd1dd44a418a9c",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.6039215922355652,
+            "g": 0.7568627595901489,
+            "b": 0.9960784316062927,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4188": {
+        "id": "VariableID:3325:4188",
+        "name": "FINN/Blue/400",
+        "remote": false,
+        "key": "375b61a5d88619abfc9123b0c78e7c06b5de9eaf",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.3607843220233917,
+            "g": 0.6117647290229797,
+            "b": 1,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4189": {
+        "id": "VariableID:3325:4189",
+        "name": "FINN/Blue/500",
+        "remote": false,
+        "key": "7b5cf917ac3e593b0e94c25d721cd1417a13ccb5",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.16862745583057404,
+            "g": 0.4941176474094391,
+            "b": 1,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4190": {
+        "id": "VariableID:3325:4190",
+        "name": "FINN/Blue/600",
+        "remote": false,
+        "key": "319890616e637b548dbf44d7b66005c13c0ea2f7",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0,
+            "g": 0.38823530077934265,
+            "b": 0.9843137264251709,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4191": {
+        "id": "VariableID:3325:4191",
+        "name": "FINN/Blue/700",
+        "remote": false,
+        "key": "64496bc75eac7e20bb301797d9be191101cf7a97",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0,
+            "g": 0.29411765933036804,
+            "b": 0.7411764860153198,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:16726:4095": {
+        "id": "VariableID:16726:4095",
+        "name": "FINN/Blue/750",
+        "remote": false,
+        "key": "79e5c684e73a47d9714b93c304abe7c8dd12c6ce",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0,
+            "g": 0.24705882370471954,
+            "b": 0.6196078658103943,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4192": {
+        "id": "VariableID:3325:4192",
+        "name": "FINN/Blue/800",
+        "remote": false,
+        "key": "1ea9e62a476f88ebc07ce41d128efa6620f79b2c",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0,
+            "g": 0.20000000298023224,
+            "b": 0.49803921580314636,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:16220:18822": {
+        "id": "VariableID:16220:18822",
+        "name": "FINN/Blue/850",
+        "remote": false,
+        "key": "a7fcfb649ab776a790df0fb6aa381c0801b49679",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0,
+            "g": 0.15294118225574493,
+            "b": 0.3764705955982208,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4193": {
+        "id": "VariableID:3325:4193",
+        "name": "FINN/Blue/900",
+        "remote": false,
+        "key": "158366d1143baaa7cf7dc479cd134b7b2de072cd",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0,
+            "g": 0.10588235408067703,
+            "b": 0.2549019753932953,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:16323:42288": {
+        "id": "VariableID:16323:42288",
+        "name": "FINN/Blue/950",
+        "remote": false,
+        "key": "eedb6231033db3474437efbace981a62834543f0",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0,
+            "g": 0.05882352963089943,
+            "b": 0.13333334028720856,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4194": {
+        "id": "VariableID:3325:4194",
+        "name": "FINN/Aqua/50",
+        "remote": false,
+        "key": "ead8843775ba7bbc923665467587fecfed93461d",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.9450980424880981,
+            "g": 0.9764705896377563,
+            "b": 1,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4195": {
+        "id": "VariableID:3325:4195",
+        "name": "FINN/Aqua/100",
+        "remote": false,
+        "key": "73993497143256024b53e657aecf4fd33ef347de",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.8784313797950745,
+            "g": 0.9647058844566345,
+            "b": 1,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4196": {
+        "id": "VariableID:3325:4196",
+        "name": "FINN/Aqua/200",
+        "remote": false,
+        "key": "003a9fe90b6ef3eb87d30f9452c190db4b6e469a",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.7137255072593689,
+            "g": 0.9411764740943909,
+            "b": 1,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4197": {
+        "id": "VariableID:3325:4197",
+        "name": "FINN/Aqua/300",
+        "remote": false,
+        "key": "c9ad70a9795be98b03b64f1694e0f8ffc26bdac1",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.3999999761581421,
+            "g": 0.8799999952316284,
+            "b": 1,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4198": {
+        "id": "VariableID:3325:4198",
+        "name": "FINN/Aqua/400",
+        "remote": false,
+        "key": "aedfe19d4e4579a66d968c5873e1fae48d7bdd3d",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.0235294122248888,
+            "g": 0.7450980544090271,
+            "b": 0.9843137264251709,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4199": {
+        "id": "VariableID:3325:4199",
+        "name": "FINN/Aqua/500",
+        "remote": false,
+        "key": "52f5d1fa41f9792cd025292649e8b690fadb387c",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.0117647061124444,
+            "g": 0.6392157077789307,
+            "b": 0.8666666746139526,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4200": {
+        "id": "VariableID:3325:4200",
+        "name": "FINN/Aqua/600",
+        "remote": false,
+        "key": "a7785377087a5bf70eda196f03172697d2a34b3a",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.011399984359741211,
+            "g": 0.527440071105957,
+            "b": 0.7486000061035156,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4201": {
+        "id": "VariableID:3325:4201",
+        "name": "FINN/Aqua/700",
+        "remote": false,
+        "key": "41fd37e2c79a2b3c791d53fe0436acc81b69a9a5",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.11764705926179886,
+            "g": 0.3921568691730499,
+            "b": 0.5411764979362488,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4202": {
+        "id": "VariableID:3325:4202",
+        "name": "FINN/Aqua/800",
+        "remote": false,
+        "key": "d9a4e24391e59466b1c5ca7c03df00691e5e92c3",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.11372549086809158,
+            "g": 0.26274511218070984,
+            "b": 0.3529411852359772,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4203": {
+        "id": "VariableID:3325:4203",
+        "name": "FINN/Aqua/900",
+        "remote": false,
+        "key": "38b218058c1fc613b9aad7ef09283f55f6c5f3d9",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.08235294371843338,
+            "g": 0.1411764770746231,
+            "b": 0.18431372940540314,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4204": {
+        "id": "VariableID:3325:4204",
+        "name": "FINN/Green/50",
+        "remote": false,
+        "key": "fb2b9c0e1a5fbd505c2395853ae04e83ac299c68",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.9215686321258545,
+            "g": 1,
+            "b": 0.9647058844566345,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4205": {
+        "id": "VariableID:3325:4205",
+        "name": "FINN/Green/100",
+        "remote": false,
+        "key": "05bbf472b8b597ff2a2a6e1afbe4deb1f3c0607e",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.8039215803146362,
+            "g": 0.9960784316062927,
+            "b": 0.8980392217636108,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4206": {
+        "id": "VariableID:3325:4206",
+        "name": "FINN/Green/200",
+        "remote": false,
+        "key": "9de61f998d8235b826d50e1e91df38cf24364bfd",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.6196078658103943,
+            "g": 0.9882352948188782,
+            "b": 0.8196078538894653,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4207": {
+        "id": "VariableID:3325:4207",
+        "name": "FINN/Green/300",
+        "remote": false,
+        "key": "bc40ceb7f879aab3730465f5910e79527f0219bb",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.40352940559387207,
+            "g": 0.9337254762649536,
+            "b": 0.7233997583389282,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4208": {
+        "id": "VariableID:3325:4208",
+        "name": "FINN/Green/400",
+        "remote": false,
+        "key": "425f48d66d8ccc55605543128f57a1ab8392e993",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.18039216101169586,
+            "g": 0.9019607901573181,
+            "b": 0.6235294342041016,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4209": {
+        "id": "VariableID:3325:4209",
+        "name": "FINN/Green/500",
+        "remote": false,
+        "key": "16548543902f2a518e4a6ba2dbbb44a3078c26ce",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.0941176488995552,
+            "g": 0.7843137383460999,
+            "b": 0.5176470875740051,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4210": {
+        "id": "VariableID:3325:4210",
+        "name": "FINN/Green/600",
+        "remote": false,
+        "key": "f3b8c58f4e5a4a6245b4fbaedcb769d6b520f2a7",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.019607843831181526,
+            "g": 0.6196078658103943,
+            "b": 0.43529412150382996,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4211": {
+        "id": "VariableID:3325:4211",
+        "name": "FINN/Green/700",
+        "remote": false,
+        "key": "66f0bb292c0b7d11038c36d6e7a57b81bb7fa2ad",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.11372549086809158,
+            "g": 0.45490196347236633,
+            "b": 0.3294117748737335,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4212": {
+        "id": "VariableID:3325:4212",
+        "name": "FINN/Green/800",
+        "remote": false,
+        "key": "cfa71f104b49a17cf80f14be98a63f88ee18edfa",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.10588235408067703,
+            "g": 0.3019607961177826,
+            "b": 0.2235294133424759,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4213": {
+        "id": "VariableID:3325:4213",
+        "name": "FINN/Green/900",
+        "remote": false,
+        "key": "026b38a3a48734bc9e620635e70a935f34ea4ce0",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.0784313753247261,
+            "g": 0.16078431904315948,
+            "b": 0.12156862765550613,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4214": {
+        "id": "VariableID:3325:4214",
+        "name": "FINN/Yellow/50",
+        "remote": false,
+        "key": "c01526a72ed6589d5519def09cc49f44b52d47a9",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 1,
+            "g": 0.9725490212440491,
+            "b": 0.9019607901573181,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4215": {
+        "id": "VariableID:3325:4215",
+        "name": "FINN/Yellow/100",
+        "remote": false,
+        "key": "94cad5ee61edd73d4733afc370e6c7da9780eae7",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 1,
+            "g": 0.9607843160629272,
+            "b": 0.7843137383460999,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4216": {
+        "id": "VariableID:3325:4216",
+        "name": "FINN/Yellow/200",
+        "remote": false,
+        "key": "8f76d4ea2d77b0645b625f1be00bf9fb73600b5a",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.9960784316062927,
+            "g": 0.9372549057006836,
+            "b": 0.5647059082984924,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4217": {
+        "id": "VariableID:3325:4217",
+        "name": "FINN/Yellow/300",
+        "remote": false,
+        "key": "e6180082fe84d40319d125648733ab1bb95a32fb",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.9803921580314636,
+            "g": 0.9058823585510254,
+            "b": 0.41960784792900085,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4218": {
+        "id": "VariableID:3325:4218",
+        "name": "FINN/Yellow/400",
+        "remote": false,
+        "key": "86df191813018ab37451c5d535a298edcd78d3b2",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 1,
+            "g": 0.8823529481887817,
+            "b": 0.12156862765550613,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4219": {
+        "id": "VariableID:3325:4219",
+        "name": "FINN/Yellow/500",
+        "remote": false,
+        "key": "3b0449c9d29663518b2b8a1ee3f4b6d176d1a79d",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.9333333373069763,
+            "g": 0.7137255072593689,
+            "b": 0.10588235408067703,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4220": {
+        "id": "VariableID:3325:4220",
+        "name": "FINN/Yellow/600",
+        "remote": false,
+        "key": "774126669f3fb2176ba465c423fead70cbec74b1",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.8359999060630798,
+            "g": 0.5191999673843384,
+            "b": 0.044000089168548584,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4221": {
+        "id": "VariableID:3325:4221",
+        "name": "FINN/Yellow/700",
+        "remote": false,
+        "key": "2cf67e9811c57d4d3798880032eb08a5e91a9857",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.6078431606292725,
+            "g": 0.3843137323856354,
+            "b": 0.11764705926179886,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4222": {
+        "id": "VariableID:3325:4222",
+        "name": "FINN/Yellow/800",
+        "remote": false,
+        "key": "d691f1285f53889f874546461b2c612d9d5fc74f",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.3960784375667572,
+            "g": 0.2549019753932953,
+            "b": 0.0941176488995552,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4223": {
+        "id": "VariableID:3325:4223",
+        "name": "FINN/Yellow/900",
+        "remote": false,
+        "key": "9f34c9cc14ba0b46df387a1c7e8fd881ca627b5f",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.2078431397676468,
+            "g": 0.13725490868091583,
+            "b": 0.062745101749897,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4224": {
+        "id": "VariableID:3325:4224",
+        "name": "FINN/Red/50",
+        "remote": false,
+        "key": "c53d2105e0218e02d1b19d4bc96ecccf44466050",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 1,
+            "g": 0.9600000381469727,
+            "b": 0.9600000381469727,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4225": {
+        "id": "VariableID:3325:4225",
+        "name": "FINN/Red/100",
+        "remote": false,
+        "key": "75d9621f96c8cf3a37196265b59b2e8d08fe7169",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 1,
+            "g": 0.9372549057006836,
+            "b": 0.9372549057006836,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4226": {
+        "id": "VariableID:3325:4226",
+        "name": "FINN/Red/200",
+        "remote": false,
+        "key": "9a21d887bf96209332e447f372eb5188cbabad2b",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 1,
+            "g": 0.8196078538894653,
+            "b": 0.8196078538894653,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4227": {
+        "id": "VariableID:3325:4227",
+        "name": "FINN/Red/300",
+        "remote": false,
+        "key": "5c8f838a69965ed77ac70414b269d01c52868128",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 1,
+            "g": 0.6000000238418579,
+            "b": 0.6000000238418579,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4228": {
+        "id": "VariableID:3325:4228",
+        "name": "FINN/Red/400",
+        "remote": false,
+        "key": "69d17c46e9b8dfac0702c7f56b6005c5b87a8520",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 1,
+            "g": 0.3450980484485626,
+            "b": 0.2666666805744171,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4229": {
+        "id": "VariableID:3325:4229",
+        "name": "FINN/Red/500",
+        "remote": false,
+        "key": "fad127362fdf9cd2b7a638910f7598640fb2b23e",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.9803921580314636,
+            "g": 0.15294118225574493,
+            "b": 0.05882352963089943,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4230": {
+        "id": "VariableID:3325:4230",
+        "name": "FINN/Red/600",
+        "remote": false,
+        "key": "bb897265e96b713411d28a393e3b39ff5faf15d3",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.8509804010391235,
+            "g": 0.12039215862751007,
+            "b": 0.039215683937072754,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4231": {
+        "id": "VariableID:3325:4231",
+        "name": "FINN/Red/700",
+        "remote": false,
+        "key": "29085f0dc0152b734e1d05daa177dcf10429c13e",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.6196078658103943,
+            "g": 0.13333334028720856,
+            "b": 0.08627451211214066,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4232": {
+        "id": "VariableID:3325:4232",
+        "name": "FINN/Red/800",
+        "remote": false,
+        "key": "9b845cec4192ce47c2a3d68e229a5c9d9a771c88",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.40784314274787903,
+            "g": 0.11372549086809158,
+            "b": 0.06666667014360428,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4233": {
+        "id": "VariableID:3325:4233",
+        "name": "FINN/Red/900",
+        "remote": false,
+        "key": "7f4ed41d34105f34afe92856e0ff89e47e86a951",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.21960784494876862,
+            "g": 0.0784313753247261,
+            "b": 0.04313725605607033,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4234": {
+        "id": "VariableID:3325:4234",
+        "name": "FINN/Gray/50",
+        "remote": false,
+        "key": "4de804cf7a8087cf32fa3a277734259fb3245d3f",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.9647058844566345,
+            "g": 0.9647058844566345,
+            "b": 0.9647058844566345,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4235": {
+        "id": "VariableID:3325:4235",
+        "name": "FINN/Gray/100",
+        "remote": false,
+        "key": "2c9dea2beb2230b58e2f1b16e2c2104f02f3def9",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.9395294189453125,
+            "g": 0.9395294189453125,
+            "b": 0.9490196108818054,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4236": {
+        "id": "VariableID:3325:4236",
+        "name": "FINN/Gray/200",
+        "remote": false,
+        "key": "840925e916a60963e1bde0d8fa72296fb8537160",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.8705882430076599,
+            "g": 0.8705882430076599,
+            "b": 0.8901960849761963,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4237": {
+        "id": "VariableID:3325:4237",
+        "name": "FINN/Gray/300",
+        "remote": false,
+        "key": "367b334b59259681749975fdace7792db46b43e2",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.7921568751335144,
+            "g": 0.7921568751335144,
+            "b": 0.8196078538894653,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4238": {
+        "id": "VariableID:3325:4238",
+        "name": "FINN/Gray/400",
+        "remote": false,
+        "key": "7de3254614fc7e2703d5aec90fcac57c8431472e",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.686274528503418,
+            "g": 0.686274528503418,
+            "b": 0.7215686440467834,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4239": {
+        "id": "VariableID:3325:4239",
+        "name": "FINN/Gray/500",
+        "remote": false,
+        "key": "6ca63450ab2e9e9f3883f5a34f765d0a423c3cca",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.5176470875740051,
+            "g": 0.5176470875740051,
+            "b": 0.5607843399047852,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4240": {
+        "id": "VariableID:3325:4240",
+        "name": "FINN/Gray/600",
+        "remote": false,
+        "key": "db1cc81cd278a757cd3fb0cf56a05a012793ca16",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.3607843220233917,
+            "g": 0.3607843220233917,
+            "b": 0.4000000059604645,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4241": {
+        "id": "VariableID:3325:4241",
+        "name": "FINN/Gray/700",
+        "remote": false,
+        "key": "6ed216a220675e430d3213c8bcee859092d61b82",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.27843138575553894,
+            "g": 0.27843138575553894,
+            "b": 0.30980393290519714,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:7521:20971": {
+        "id": "VariableID:7521:20971",
+        "name": "FINN/Gray/750",
+        "remote": false,
+        "key": "74ba1db662f0ba04e581b9d2a889f4fb596abcd5",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.1983606517314911,
+            "g": 0.1983606517314911,
+            "b": 0.2199999988079071,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4242": {
+        "id": "VariableID:3325:4242",
+        "name": "FINN/Gray/800",
+        "remote": false,
+        "key": "ae1468f3579ad102c14249b6ad97ce3d6e9e4097",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.16862745583057404,
+            "g": 0.16862745583057404,
+            "b": 0.1882352977991104,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:7521:20972": {
+        "id": "VariableID:7521:20972",
+        "name": "FINN/Gray/850",
+        "remote": false,
+        "key": "25a6a8f25fae7d488b2dfa30069277d64eccdb91",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.14901961386203766,
+            "g": 0.14901961386203766,
+            "b": 0.16862745583057404,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4243": {
+        "id": "VariableID:3325:4243",
+        "name": "FINN/Gray/900",
+        "remote": false,
+        "key": "5c9cc63bb3225352d0f6aab36a9b43acd8b4a97d",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.10588235408067703,
+            "g": 0.10588235408067703,
+            "b": 0.12156862765550613,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:7521:20973": {
+        "id": "VariableID:7521:20973",
+        "name": "FINN/Gray/950",
+        "remote": false,
+        "key": "97c5d05cd81f1f23696cceff6aa1e0d8dcb04840",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.07000000029802322,
+            "g": 0.07000000029802322,
+            "b": 0.07000000029802322,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4244": {
+        "id": "VariableID:3325:4244",
+        "name": "FINN/Transparent",
+        "remote": false,
+        "key": "d6fca1dd428c8220514a8dd83ebb3f48c611507e",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": { "3325:1": { "r": 1, "g": 1, "b": 1, "a": 0 } },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:10176:54431": {
+        "id": "VariableID:10176:54431",
+        "name": "FINN/Font/Family/Text",
+        "remote": false,
+        "key": "dcc9fb24a7fde9a11820917b12214934a05f0ed5",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "STRING",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": { "3325:1": "FINN Type Web Strippet" },
+        "scopes": [],
+        "codeSyntax": {}
+      },
+      "VariableID:10499:6106": {
+        "id": "VariableID:10499:6106",
+        "name": "FINN/Font/Weight/Medium",
+        "remote": false,
+        "key": "43536008cac7ee0449d699d54561dfe1170aad23",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "STRING",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": { "3325:1": "Medium" },
+        "scopes": [],
+        "codeSyntax": {}
+      },
+      "VariableID:10499:6107": {
+        "id": "VariableID:10499:6107",
+        "name": "FINN/Font/Weight/Light",
+        "remote": false,
+        "key": "5fd75a1fe097af4a0d121ea6309d0378faf54c58",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "STRING",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": { "3325:1": "Light" },
+        "scopes": [],
+        "codeSyntax": {}
+      },
       "VariableID:6325:465": {
         "id": "VariableID:6325:465",
         "name": "Tori/Blueberry/50",
@@ -14170,554 +14170,6 @@
         "scopes": [],
         "codeSyntax": {}
       },
-      "VariableID:5142ebd09fa683db45fecce6bfecb47af2ddd2ce/14503:48": {
-        "id": "VariableID:5142ebd09fa683db45fecce6bfecb47af2ddd2ce/14503:48",
-        "name": "Semantic/Color/Icon/Default",
-        "remote": true,
-        "key": "5142ebd09fa683db45fecce6bfecb47af2ddd2ce",
-        "variableCollectionId": "VariableCollectionId:227b5f83b063eebb216c486b4b16f72f08c7c259/14503:229",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "4546:0": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:6ed216a220675e430d3213c8bcee859092d61b82/11038:373"
-          },
-          "4546:1": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:924f6bd08948680feb961780f2a3d0a660779231/11038:697"
-          },
-          "6325:1": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:68f06f14bffb5b321e4b4e5a4d074a2f2dedf40e/14144:6762"
-          },
-          "6325:3": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:25c0f40210e0f5520965a85b5105e74eba895d81/14144:6731"
-          },
-          "6693:0": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:f9da0842d5dedffb8c614f66fa2da0776f73292d/11038:666"
-          },
-          "7521:0": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:b96a0ec716b184d27775325de22fd87e8a485995/11038:310"
-          },
-          "7521:1": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:04ac0420d3c70ec2d4959e833db01ee5f44eb091/11038:54"
-          },
-          "7548:0": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:b1d6859f41384ee1a96ddbf07fe7cc7b00a8697f/11038:63"
-          },
-          "13263:0": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:19539d1d27d47617725126a3522595a95b4a2e01/13635:88"
-          },
-          "13266:1": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:38fd2b8faba53161c438b359d195852d139be974/13635:184"
-          },
-          "14347:0": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:19539d1d27d47617725126a3522595a95b4a2e01/13635:88"
-          },
-          "14359:1": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:38fd2b8faba53161c438b359d195852d139be974/13635:184"
-          },
-          "14364:2": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:19539d1d27d47617725126a3522595a95b4a2e01/13635:88"
-          },
-          "14364:3": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:38fd2b8faba53161c438b359d195852d139be974/13635:184"
-          }
-        },
-        "scopes": ["SHAPE_FILL", "STROKE_COLOR"],
-        "codeSyntax": {}
-      },
-      "VariableID:dc7ca6d450460dc22d3ec7e59f174800f49dcc16/14503:88": {
-        "id": "VariableID:dc7ca6d450460dc22d3ec7e59f174800f49dcc16/14503:88",
-        "name": "Semantic/Color/Icon/Selected",
-        "remote": true,
-        "key": "dc7ca6d450460dc22d3ec7e59f174800f49dcc16",
-        "variableCollectionId": "VariableCollectionId:227b5f83b063eebb216c486b4b16f72f08c7c259/14503:229",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "4546:0": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:319890616e637b548dbf44d7b66005c13c0ea2f7/11038:733"
-          },
-          "4546:1": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:375b61a5d88619abfc9123b0c78e7c06b5de9eaf/11038:1099"
-          },
-          "6325:1": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:77513cf79d0cfaa10169e855e71e7619300d8376/14144:6821"
-          },
-          "6325:3": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:e9fb0f366e83353079f848416d8139046e8a1642/14144:6790"
-          },
-          "6693:0": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:5feeb422fb57e0701ba608086c29197925545eac/11038:954"
-          },
-          "7521:0": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:0723de0a43fac98cd675eb11f3dc9cba861f5ccf/11038:985"
-          },
-          "7521:1": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:3a88ddf257a9d1cbaa4ad06e4010ca50c23c1190/11038:42"
-          },
-          "7548:0": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:a4d36fa9d3e3e0149c9cfac3fb4a2304d1140c11/11038:131"
-          },
-          "13263:0": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:19539d1d27d47617725126a3522595a95b4a2e01/13635:88"
-          },
-          "13266:1": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:38fd2b8faba53161c438b359d195852d139be974/13635:184"
-          },
-          "14347:0": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1d3d77ca073d7c609416d0b58c495f29ce1c5798/13635:181"
-          },
-          "14359:1": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:e8225c9b0483df75af64a7add9c5b40750c2747d/13635:18"
-          },
-          "14364:2": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:75969f6bebfd7ed0fe9de695a3da6f5bedab342c/13635:207"
-          },
-          "14364:3": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:70811529eb976bce479774a93f018b936ac5ce02/13635:146"
-          }
-        },
-        "scopes": ["SHAPE_FILL", "STROKE_COLOR"],
-        "codeSyntax": {}
-      },
-      "VariableID:10d835745dd58540bc02fdf1b193fbb5711498bd/14503:144": {
-        "id": "VariableID:10d835745dd58540bc02fdf1b193fbb5711498bd/14503:144",
-        "name": "Semantic/Color/Icon/Inverted-Static",
-        "remote": true,
-        "key": "10d835745dd58540bc02fdf1b193fbb5711498bd",
-        "variableCollectionId": "VariableCollectionId:227b5f83b063eebb216c486b4b16f72f08c7c259/14503:229",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "4546:0": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:924f6bd08948680feb961780f2a3d0a660779231/11038:697"
-          },
-          "4546:1": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:924f6bd08948680feb961780f2a3d0a660779231/11038:697"
-          },
-          "6325:1": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:25c0f40210e0f5520965a85b5105e74eba895d81/14144:6731"
-          },
-          "6325:3": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:25c0f40210e0f5520965a85b5105e74eba895d81/14144:6731"
-          },
-          "6693:0": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:b96a0ec716b184d27775325de22fd87e8a485995/11038:310"
-          },
-          "7521:0": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:b96a0ec716b184d27775325de22fd87e8a485995/11038:310"
-          },
-          "7521:1": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:b1d6859f41384ee1a96ddbf07fe7cc7b00a8697f/11038:63"
-          },
-          "7548:0": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:b1d6859f41384ee1a96ddbf07fe7cc7b00a8697f/11038:63"
-          },
-          "13263:0": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:38fd2b8faba53161c438b359d195852d139be974/13635:184"
-          },
-          "13266:1": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:38fd2b8faba53161c438b359d195852d139be974/13635:184"
-          },
-          "14347:0": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:38fd2b8faba53161c438b359d195852d139be974/13635:184"
-          },
-          "14359:1": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:38fd2b8faba53161c438b359d195852d139be974/13635:184"
-          },
-          "14364:2": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:38fd2b8faba53161c438b359d195852d139be974/13635:184"
-          },
-          "14364:3": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:38fd2b8faba53161c438b359d195852d139be974/13635:184"
-          }
-        },
-        "scopes": ["SHAPE_FILL", "STROKE_COLOR"],
-        "codeSyntax": {}
-      },
-      "VariableID:10497:6042": {
-        "id": "VariableID:10497:6042",
-        "name": "Space-0",
-        "remote": false,
-        "key": "c2fc72243fd52c38e5d7ae10b5c569c8a049a1c7",
-        "variableCollectionId": "VariableCollectionId:10497:6041",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": { "10497:0": 0 },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:10497:6043": {
-        "id": "VariableID:10497:6043",
-        "name": "Space-4",
-        "remote": false,
-        "key": "6a180fa7b64a829e35f7bdf0d5cad436158f67ea",
-        "variableCollectionId": "VariableCollectionId:10497:6041",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": { "10497:0": 4 },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:10497:6044": {
-        "id": "VariableID:10497:6044",
-        "name": "Space-8",
-        "remote": false,
-        "key": "72a3ec9ffeed20cab460cee19222213a5262d351",
-        "variableCollectionId": "VariableCollectionId:10497:6041",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": { "10497:0": 8 },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:10497:6045": {
-        "id": "VariableID:10497:6045",
-        "name": "Space-12",
-        "remote": false,
-        "key": "d8144d8987eb9aae648a71e161a44136fc5fdb61",
-        "variableCollectionId": "VariableCollectionId:10497:6041",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": { "10497:0": 12 },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:10497:6046": {
-        "id": "VariableID:10497:6046",
-        "name": "Space-16",
-        "remote": false,
-        "key": "24893e048027ec97f4bcbac1650a5faa253b78cf",
-        "variableCollectionId": "VariableCollectionId:10497:6041",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": { "10497:0": 16 },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:10497:6047": {
-        "id": "VariableID:10497:6047",
-        "name": "Space-20",
-        "remote": false,
-        "key": "01f4203b6bc3d8c1833ead87252916d926c27af2",
-        "variableCollectionId": "VariableCollectionId:10497:6041",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": { "10497:0": 20 },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:10497:6048": {
-        "id": "VariableID:10497:6048",
-        "name": "Space-24",
-        "remote": false,
-        "key": "275e0ffa5166247902d3fd252ecb18b612a3c3b2",
-        "variableCollectionId": "VariableCollectionId:10497:6041",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": { "10497:0": 24 },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:10497:6049": {
-        "id": "VariableID:10497:6049",
-        "name": "Space-28",
-        "remote": false,
-        "key": "dbf23299122342cfb5d6d2057ff7ae603b8fece4",
-        "variableCollectionId": "VariableCollectionId:10497:6041",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": { "10497:0": 28 },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:10497:6050": {
-        "id": "VariableID:10497:6050",
-        "name": "Space-32",
-        "remote": false,
-        "key": "d5a6b9904b233b51c7134dce9dafea3e3a23de8c",
-        "variableCollectionId": "VariableCollectionId:10497:6041",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": { "10497:0": 32 },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:10497:6051": {
-        "id": "VariableID:10497:6051",
-        "name": "Space-36",
-        "remote": false,
-        "key": "2f9953a230d6b9e6130f8972e1537a65e2d3c3be",
-        "variableCollectionId": "VariableCollectionId:10497:6041",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": { "10497:0": 36 },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:10497:6052": {
-        "id": "VariableID:10497:6052",
-        "name": "Space-40",
-        "remote": false,
-        "key": "3c0203e3d66a9eb18ca839f92cdd9d684049d66c",
-        "variableCollectionId": "VariableCollectionId:10497:6041",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": { "10497:0": 40 },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:10497:6053": {
-        "id": "VariableID:10497:6053",
-        "name": "Space-44",
-        "remote": false,
-        "key": "a01f3b7ce5218608f67af05e55442e45e73c3174",
-        "variableCollectionId": "VariableCollectionId:10497:6041",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": { "10497:0": 44 },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:10497:6054": {
-        "id": "VariableID:10497:6054",
-        "name": "Space-48",
-        "remote": false,
-        "key": "c62e75e72eb5485e4930587d22a26ec63f7996c1",
-        "variableCollectionId": "VariableCollectionId:10497:6041",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": { "10497:0": 48 },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:10497:6055": {
-        "id": "VariableID:10497:6055",
-        "name": "Space-52",
-        "remote": false,
-        "key": "f61e680fd242665ddc0eeaa3fe47155ed9a09f92",
-        "variableCollectionId": "VariableCollectionId:10497:6041",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": { "10497:0": 52 },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:10497:6056": {
-        "id": "VariableID:10497:6056",
-        "name": "Space-56",
-        "remote": false,
-        "key": "b9e8790baee22f0c0e7776242d14f3251bd216ae",
-        "variableCollectionId": "VariableCollectionId:10497:6041",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": { "10497:0": 56 },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:10497:6057": {
-        "id": "VariableID:10497:6057",
-        "name": "Space-60",
-        "remote": false,
-        "key": "b08941b22f35e55a67e4a8928a315f1a9db3b642",
-        "variableCollectionId": "VariableCollectionId:10497:6041",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": { "10497:0": 60 },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:10497:6058": {
-        "id": "VariableID:10497:6058",
-        "name": "Space-64",
-        "remote": false,
-        "key": "a2078caf74a78067b9353ea4e024ac5a59086cb5",
-        "variableCollectionId": "VariableCollectionId:10497:6041",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": { "10497:0": 64 },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:10497:6059": {
-        "id": "VariableID:10497:6059",
-        "name": "Space-68",
-        "remote": false,
-        "key": "3b5a5979648c56de9f3904f11296afb3465d2ed0",
-        "variableCollectionId": "VariableCollectionId:10497:6041",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": { "10497:0": 68 },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:10497:6060": {
-        "id": "VariableID:10497:6060",
-        "name": "Space-72",
-        "remote": false,
-        "key": "56b6806d42523f53008e5f6e78b9ace3750f7dcf",
-        "variableCollectionId": "VariableCollectionId:10497:6041",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": { "10497:0": 72 },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:10497:6061": {
-        "id": "VariableID:10497:6061",
-        "name": "Space-76",
-        "remote": false,
-        "key": "a05be8f7f0729a23374b633d7e085dc76407994b",
-        "variableCollectionId": "VariableCollectionId:10497:6041",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": { "10497:0": 76 },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:10497:6062": {
-        "id": "VariableID:10497:6062",
-        "name": "Space-80",
-        "remote": false,
-        "key": "bbd37b76e190de252044b8f0854bc44d77c649a6",
-        "variableCollectionId": "VariableCollectionId:10497:6041",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": { "10497:0": 80 },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:10497:6063": {
-        "id": "VariableID:10497:6063",
-        "name": "Space-88",
-        "remote": false,
-        "key": "fdc068fda37849cb219ff5c9a41ae454b52cc3d2",
-        "variableCollectionId": "VariableCollectionId:10497:6041",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": { "10497:0": 88 },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:10497:6064": {
-        "id": "VariableID:10497:6064",
-        "name": "Space-92",
-        "remote": false,
-        "key": "5cd6728059d7520f56d0250ab0b45e45d7a78205",
-        "variableCollectionId": "VariableCollectionId:10497:6041",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": { "10497:0": 92 },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:10497:6065": {
-        "id": "VariableID:10497:6065",
-        "name": "Space-96",
-        "remote": false,
-        "key": "d841b7c2dd770cf57cb9eaed2585187fc3c98077",
-        "variableCollectionId": "VariableCollectionId:10497:6041",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": { "10497:0": 96 },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:10497:6066": {
-        "id": "VariableID:10497:6066",
-        "name": "Space-100",
-        "remote": false,
-        "key": "b1f9fd9dfa4990b658eb50d7fdf44c6cb8e8081f",
-        "variableCollectionId": "VariableCollectionId:10497:6041",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": { "10497:0": 100 },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
-      "VariableID:10497:6067": {
-        "id": "VariableID:10497:6067",
-        "name": "Space-104",
-        "remote": false,
-        "key": "b4e3a88b47e1af746b20728f8c0948dc5edb1f08",
-        "variableCollectionId": "VariableCollectionId:10497:6041",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": { "10497:0": 104 },
-        "scopes": ["ALL_SCOPES"],
-        "codeSyntax": {}
-      },
       "VariableID:7507:18170": {
         "id": "VariableID:7507:18170",
         "name": "Blocket/White",
@@ -16124,6 +15576,344 @@
         "scopes": ["ALL_SCOPES"],
         "codeSyntax": {}
       },
+      "VariableID:10497:6042": {
+        "id": "VariableID:10497:6042",
+        "name": "Space-0",
+        "remote": false,
+        "key": "c2fc72243fd52c38e5d7ae10b5c569c8a049a1c7",
+        "variableCollectionId": "VariableCollectionId:10497:6041",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": { "10497:0": 0 },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:10497:6043": {
+        "id": "VariableID:10497:6043",
+        "name": "Space-4",
+        "remote": false,
+        "key": "6a180fa7b64a829e35f7bdf0d5cad436158f67ea",
+        "variableCollectionId": "VariableCollectionId:10497:6041",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": { "10497:0": 4 },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:10497:6044": {
+        "id": "VariableID:10497:6044",
+        "name": "Space-8",
+        "remote": false,
+        "key": "72a3ec9ffeed20cab460cee19222213a5262d351",
+        "variableCollectionId": "VariableCollectionId:10497:6041",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": { "10497:0": 8 },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:10497:6045": {
+        "id": "VariableID:10497:6045",
+        "name": "Space-12",
+        "remote": false,
+        "key": "d8144d8987eb9aae648a71e161a44136fc5fdb61",
+        "variableCollectionId": "VariableCollectionId:10497:6041",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": { "10497:0": 12 },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:10497:6046": {
+        "id": "VariableID:10497:6046",
+        "name": "Space-16",
+        "remote": false,
+        "key": "24893e048027ec97f4bcbac1650a5faa253b78cf",
+        "variableCollectionId": "VariableCollectionId:10497:6041",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": { "10497:0": 16 },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:10497:6047": {
+        "id": "VariableID:10497:6047",
+        "name": "Space-20",
+        "remote": false,
+        "key": "01f4203b6bc3d8c1833ead87252916d926c27af2",
+        "variableCollectionId": "VariableCollectionId:10497:6041",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": { "10497:0": 20 },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:10497:6048": {
+        "id": "VariableID:10497:6048",
+        "name": "Space-24",
+        "remote": false,
+        "key": "275e0ffa5166247902d3fd252ecb18b612a3c3b2",
+        "variableCollectionId": "VariableCollectionId:10497:6041",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": { "10497:0": 24 },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:10497:6049": {
+        "id": "VariableID:10497:6049",
+        "name": "Space-28",
+        "remote": false,
+        "key": "dbf23299122342cfb5d6d2057ff7ae603b8fece4",
+        "variableCollectionId": "VariableCollectionId:10497:6041",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": { "10497:0": 28 },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:10497:6050": {
+        "id": "VariableID:10497:6050",
+        "name": "Space-32",
+        "remote": false,
+        "key": "d5a6b9904b233b51c7134dce9dafea3e3a23de8c",
+        "variableCollectionId": "VariableCollectionId:10497:6041",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": { "10497:0": 32 },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:10497:6051": {
+        "id": "VariableID:10497:6051",
+        "name": "Space-36",
+        "remote": false,
+        "key": "2f9953a230d6b9e6130f8972e1537a65e2d3c3be",
+        "variableCollectionId": "VariableCollectionId:10497:6041",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": { "10497:0": 36 },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:10497:6052": {
+        "id": "VariableID:10497:6052",
+        "name": "Space-40",
+        "remote": false,
+        "key": "3c0203e3d66a9eb18ca839f92cdd9d684049d66c",
+        "variableCollectionId": "VariableCollectionId:10497:6041",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": { "10497:0": 40 },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:10497:6053": {
+        "id": "VariableID:10497:6053",
+        "name": "Space-44",
+        "remote": false,
+        "key": "a01f3b7ce5218608f67af05e55442e45e73c3174",
+        "variableCollectionId": "VariableCollectionId:10497:6041",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": { "10497:0": 44 },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:10497:6054": {
+        "id": "VariableID:10497:6054",
+        "name": "Space-48",
+        "remote": false,
+        "key": "c62e75e72eb5485e4930587d22a26ec63f7996c1",
+        "variableCollectionId": "VariableCollectionId:10497:6041",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": { "10497:0": 48 },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:10497:6055": {
+        "id": "VariableID:10497:6055",
+        "name": "Space-52",
+        "remote": false,
+        "key": "f61e680fd242665ddc0eeaa3fe47155ed9a09f92",
+        "variableCollectionId": "VariableCollectionId:10497:6041",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": { "10497:0": 52 },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:10497:6056": {
+        "id": "VariableID:10497:6056",
+        "name": "Space-56",
+        "remote": false,
+        "key": "b9e8790baee22f0c0e7776242d14f3251bd216ae",
+        "variableCollectionId": "VariableCollectionId:10497:6041",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": { "10497:0": 56 },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:10497:6057": {
+        "id": "VariableID:10497:6057",
+        "name": "Space-60",
+        "remote": false,
+        "key": "b08941b22f35e55a67e4a8928a315f1a9db3b642",
+        "variableCollectionId": "VariableCollectionId:10497:6041",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": { "10497:0": 60 },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:10497:6058": {
+        "id": "VariableID:10497:6058",
+        "name": "Space-64",
+        "remote": false,
+        "key": "a2078caf74a78067b9353ea4e024ac5a59086cb5",
+        "variableCollectionId": "VariableCollectionId:10497:6041",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": { "10497:0": 64 },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:10497:6059": {
+        "id": "VariableID:10497:6059",
+        "name": "Space-68",
+        "remote": false,
+        "key": "3b5a5979648c56de9f3904f11296afb3465d2ed0",
+        "variableCollectionId": "VariableCollectionId:10497:6041",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": { "10497:0": 68 },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:10497:6060": {
+        "id": "VariableID:10497:6060",
+        "name": "Space-72",
+        "remote": false,
+        "key": "56b6806d42523f53008e5f6e78b9ace3750f7dcf",
+        "variableCollectionId": "VariableCollectionId:10497:6041",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": { "10497:0": 72 },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:10497:6061": {
+        "id": "VariableID:10497:6061",
+        "name": "Space-76",
+        "remote": false,
+        "key": "a05be8f7f0729a23374b633d7e085dc76407994b",
+        "variableCollectionId": "VariableCollectionId:10497:6041",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": { "10497:0": 76 },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:10497:6062": {
+        "id": "VariableID:10497:6062",
+        "name": "Space-80",
+        "remote": false,
+        "key": "bbd37b76e190de252044b8f0854bc44d77c649a6",
+        "variableCollectionId": "VariableCollectionId:10497:6041",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": { "10497:0": 80 },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:10497:6063": {
+        "id": "VariableID:10497:6063",
+        "name": "Space-88",
+        "remote": false,
+        "key": "fdc068fda37849cb219ff5c9a41ae454b52cc3d2",
+        "variableCollectionId": "VariableCollectionId:10497:6041",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": { "10497:0": 88 },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:10497:6064": {
+        "id": "VariableID:10497:6064",
+        "name": "Space-92",
+        "remote": false,
+        "key": "5cd6728059d7520f56d0250ab0b45e45d7a78205",
+        "variableCollectionId": "VariableCollectionId:10497:6041",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": { "10497:0": 92 },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:10497:6065": {
+        "id": "VariableID:10497:6065",
+        "name": "Space-96",
+        "remote": false,
+        "key": "d841b7c2dd770cf57cb9eaed2585187fc3c98077",
+        "variableCollectionId": "VariableCollectionId:10497:6041",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": { "10497:0": 96 },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:10497:6066": {
+        "id": "VariableID:10497:6066",
+        "name": "Space-100",
+        "remote": false,
+        "key": "b1f9fd9dfa4990b658eb50d7fdf44c6cb8e8081f",
+        "variableCollectionId": "VariableCollectionId:10497:6041",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": { "10497:0": 100 },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:10497:6067": {
+        "id": "VariableID:10497:6067",
+        "name": "Space-104",
+        "remote": false,
+        "key": "b4e3a88b47e1af746b20728f8c0948dc5edb1f08",
+        "variableCollectionId": "VariableCollectionId:10497:6041",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": { "10497:0": 104 },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
       "VariableID:13256:973": {
         "id": "VariableID:13256:973",
         "name": "Oikotie/Gray/50",
@@ -17380,6 +17170,216 @@
         "hiddenFromPublishing": true,
         "valuesByMode": { "13256:0": { "r": 1, "g": 1, "b": 1, "a": 0 } },
         "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:5142ebd09fa683db45fecce6bfecb47af2ddd2ce/14503:48": {
+        "id": "VariableID:5142ebd09fa683db45fecce6bfecb47af2ddd2ce/14503:48",
+        "name": "Semantic/Color/Icon/Default",
+        "remote": true,
+        "key": "5142ebd09fa683db45fecce6bfecb47af2ddd2ce",
+        "variableCollectionId": "VariableCollectionId:227b5f83b063eebb216c486b4b16f72f08c7c259/14503:229",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "4546:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6ed216a220675e430d3213c8bcee859092d61b82/11038:373"
+          },
+          "4546:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:924f6bd08948680feb961780f2a3d0a660779231/11038:697"
+          },
+          "6325:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:68f06f14bffb5b321e4b4e5a4d074a2f2dedf40e/14144:6762"
+          },
+          "6325:3": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:25c0f40210e0f5520965a85b5105e74eba895d81/14144:6731"
+          },
+          "6693:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:f9da0842d5dedffb8c614f66fa2da0776f73292d/11038:666"
+          },
+          "7521:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:b96a0ec716b184d27775325de22fd87e8a485995/11038:310"
+          },
+          "7521:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:04ac0420d3c70ec2d4959e833db01ee5f44eb091/11038:54"
+          },
+          "7548:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:b1d6859f41384ee1a96ddbf07fe7cc7b00a8697f/11038:63"
+          },
+          "13263:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:19539d1d27d47617725126a3522595a95b4a2e01/13635:88"
+          },
+          "13266:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:38fd2b8faba53161c438b359d195852d139be974/13635:184"
+          },
+          "14347:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:19539d1d27d47617725126a3522595a95b4a2e01/13635:88"
+          },
+          "14359:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:38fd2b8faba53161c438b359d195852d139be974/13635:184"
+          },
+          "14364:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:19539d1d27d47617725126a3522595a95b4a2e01/13635:88"
+          },
+          "14364:3": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:38fd2b8faba53161c438b359d195852d139be974/13635:184"
+          }
+        },
+        "scopes": ["SHAPE_FILL", "STROKE_COLOR"],
+        "codeSyntax": {}
+      },
+      "VariableID:dc7ca6d450460dc22d3ec7e59f174800f49dcc16/14503:88": {
+        "id": "VariableID:dc7ca6d450460dc22d3ec7e59f174800f49dcc16/14503:88",
+        "name": "Semantic/Color/Icon/Selected",
+        "remote": true,
+        "key": "dc7ca6d450460dc22d3ec7e59f174800f49dcc16",
+        "variableCollectionId": "VariableCollectionId:227b5f83b063eebb216c486b4b16f72f08c7c259/14503:229",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "4546:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:319890616e637b548dbf44d7b66005c13c0ea2f7/11038:733"
+          },
+          "4546:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:375b61a5d88619abfc9123b0c78e7c06b5de9eaf/11038:1099"
+          },
+          "6325:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:77513cf79d0cfaa10169e855e71e7619300d8376/14144:6821"
+          },
+          "6325:3": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:e9fb0f366e83353079f848416d8139046e8a1642/14144:6790"
+          },
+          "6693:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:5feeb422fb57e0701ba608086c29197925545eac/11038:954"
+          },
+          "7521:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:0723de0a43fac98cd675eb11f3dc9cba861f5ccf/11038:985"
+          },
+          "7521:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3a88ddf257a9d1cbaa4ad06e4010ca50c23c1190/11038:42"
+          },
+          "7548:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:a4d36fa9d3e3e0149c9cfac3fb4a2304d1140c11/11038:131"
+          },
+          "13263:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:19539d1d27d47617725126a3522595a95b4a2e01/13635:88"
+          },
+          "13266:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:38fd2b8faba53161c438b359d195852d139be974/13635:184"
+          },
+          "14347:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:1d3d77ca073d7c609416d0b58c495f29ce1c5798/13635:181"
+          },
+          "14359:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:e8225c9b0483df75af64a7add9c5b40750c2747d/13635:18"
+          },
+          "14364:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:75969f6bebfd7ed0fe9de695a3da6f5bedab342c/13635:207"
+          },
+          "14364:3": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:70811529eb976bce479774a93f018b936ac5ce02/13635:146"
+          }
+        },
+        "scopes": ["SHAPE_FILL", "STROKE_COLOR"],
+        "codeSyntax": {}
+      },
+      "VariableID:10d835745dd58540bc02fdf1b193fbb5711498bd/14503:144": {
+        "id": "VariableID:10d835745dd58540bc02fdf1b193fbb5711498bd/14503:144",
+        "name": "Semantic/Color/Icon/Inverted-Static",
+        "remote": true,
+        "key": "10d835745dd58540bc02fdf1b193fbb5711498bd",
+        "variableCollectionId": "VariableCollectionId:227b5f83b063eebb216c486b4b16f72f08c7c259/14503:229",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "4546:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:924f6bd08948680feb961780f2a3d0a660779231/11038:697"
+          },
+          "4546:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:924f6bd08948680feb961780f2a3d0a660779231/11038:697"
+          },
+          "6325:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:25c0f40210e0f5520965a85b5105e74eba895d81/14144:6731"
+          },
+          "6325:3": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:25c0f40210e0f5520965a85b5105e74eba895d81/14144:6731"
+          },
+          "6693:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:b96a0ec716b184d27775325de22fd87e8a485995/11038:310"
+          },
+          "7521:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:b96a0ec716b184d27775325de22fd87e8a485995/11038:310"
+          },
+          "7521:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:b1d6859f41384ee1a96ddbf07fe7cc7b00a8697f/11038:63"
+          },
+          "7548:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:b1d6859f41384ee1a96ddbf07fe7cc7b00a8697f/11038:63"
+          },
+          "13263:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:38fd2b8faba53161c438b359d195852d139be974/13635:184"
+          },
+          "13266:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:38fd2b8faba53161c438b359d195852d139be974/13635:184"
+          },
+          "14347:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:38fd2b8faba53161c438b359d195852d139be974/13635:184"
+          },
+          "14359:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:38fd2b8faba53161c438b359d195852d139be974/13635:184"
+          },
+          "14364:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:38fd2b8faba53161c438b359d195852d139be974/13635:184"
+          },
+          "14364:3": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:38fd2b8faba53161c438b359d195852d139be974/13635:184"
+          }
+        },
+        "scopes": ["SHAPE_FILL", "STROKE_COLOR"],
         "codeSyntax": {}
       }
     }
