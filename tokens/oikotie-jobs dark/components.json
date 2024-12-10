@@ -73,16 +73,6 @@
         }
       }
     },
-    "datepicker": {
-      "background-button-hover": {
-        "value": "{semantic.color.background.hover}"
-      }
-    },
-    "input": {
-      "icon": {
-        "value": "{semantic.color.icon.default}"
-      }
-    },
     "navbar": {
       "icon-selected": {
         "value": "{semantic.color.icon.secondary}"
@@ -112,18 +102,12 @@
         }
       }
     },
+    "tooltip": {
+      "background-static": {
+        "value": "{semantic.color.surface.elevated-300}"
+      }
+    },
     "switch": {
-      "track": {
-        "background": {
-          "value": "{color.gray.600}"
-        },
-        "background-hover": {
-          "value": "{color.gray.500}"
-        }
-      },
-      "background-track-disabled": {
-        "value": "{color.gray.600}"
-      },
       "handle": {
         "background": {
           "value": "{color.gray.500}"
@@ -131,11 +115,6 @@
         "background-hover": {
           "value": "{color.gray.400}"
         }
-      }
-    },
-    "tooltip": {
-      "background-static": {
-        "value": "{semantic.color.surface.elevated-300}"
       }
     }
   }
