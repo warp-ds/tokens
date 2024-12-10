@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import { supportedBrandNames } from "./buildUtils.js";
+import { supportedBrandNames } from "./utils.js";
 
 export function processAndWriteColors({
   variableCollections,

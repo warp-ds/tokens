@@ -1,4 +1,4 @@
-import { fetchAndTransformTokens, zipFiles } from "./buildUtils.js";
+import { fetchAndTransformTokens } from "./utils.js";
 
 (async function main() {
   await fetchAndTransformTokens({
@@ -6,6 +6,4 @@ import { fetchAndTransformTokens, zipFiles } from "./buildUtils.js";
     outputFilePath: "./data/figma.json",
     tokenVariableCollection: "VariableCollectionId:4546:841",
   });
-
-  await zipFiles();
 })();

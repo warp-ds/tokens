@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import { supportedBrandNames } from "./buildUtils.js";
+import { supportedBrandNames } from "./utils.js";
 
 // Go through all component and semantic tokens in all modes
 export function processAndWriteSemanticAndComponentTokens(sourceData, tokenVariableCollection) {

@@ -1,5 +1,5 @@
 ---
-name: Fetch from Figma
+name: Fetch Dataviz tokens from Figma
 on:
   workflow_dispatch:
 
@@ -21,18 +21,18 @@ jobs:
         run: |
           touch .env
           echo FIGMA_TOKEN=${{ secrets.FIGMA_TOKEN }} >> .env
-      - name: Build
-        run: pnpm build
+      - name: Import Dataviz tokens from Figma
+        run: pnpm import:dataviz
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch-suffix: timestamp
-          commit-message: Updates from figma
+          commit-message: Dataviz tokens updates from Figma
           committer: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
           author: ${{ github.actor }} <${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com>
-          title: 'Updates from figma'
+          title: "Dataviz tokens updates from Figma"
           body: |
-            Updates fetched from Figma
+            Updates to data vizualization tokens fetched from Figma
             - Check diff under tokens folder to see what's changed
-          reviewers: BalbinaK,felicia-haggqvist,imprashast,magnuh,Skadefryd
+          reviewers: imprashast,Skadefryd

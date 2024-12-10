@@ -1,4 +1,4 @@
-import { fetchAndTransformTokens, zipFiles } from "./buildUtils.js";
+import { fetchAndTransformTokens } from "./utils.js";
 
 (async function main() {
   await fetchAndTransformTokens({
@@ -7,6 +7,4 @@ import { fetchAndTransformTokens, zipFiles } from "./buildUtils.js";
     tokenVariableCollection: "VariableCollectionId:1:287",
     isDataviz: true,
   });
-
-  await zipFiles();
 })();

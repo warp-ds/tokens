@@ -1,7 +1,6 @@
-import { generateSDAssets } from "./styledictionary.js";
+
 import { processAndWriteColors } from "./processColors.js";
 import { processAndWriteSemanticAndComponentTokens } from "./processTokens.js";
-import { zip } from "zip-a-folder";
 import fs from "fs-extra";
 import ora from "ora";
 import prompts from "prompts";
@@ -75,10 +74,6 @@ export async function fetchAndTransformTokens({
   );
 
   spinner.succeed("Design tokens written to disk");
-
-  spinner.start("Generating Style Dictionary assets");
-  generateSDAssets();
-  spinner.succeed("Style Dictionary assets generated");
 }
 
 function writeEnvVarToDisk({ name, value }) {
@@ -113,11 +108,4 @@ async function getTokenFromPrompt() {
   }
 
   return figmaToken;
-}
-
-export async function zipFiles() {
-  fs.ensureDirSync("./dist");
-  await zip("./output/android", "./dist/android.zip");
-  await zip("./output/ios", "./dist/ios.zip");
-  await zip("./output/web", "./dist/web.zip");
 }
