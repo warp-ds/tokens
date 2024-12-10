@@ -50,7 +50,7 @@ export async function fetchAndTransformTokens({
   try {
     fs.ensureDirSync("./data/");
 
-    fs.outputFileSync(outputFilePath, JSON.stringify(json), "utf8");
+    fs.outputFileSync(outputFilePath, JSON.stringify(json, null, 2), "utf8");
     spinner.succeed(`Loaded Figma tokens`);
   } catch (e) {
     spinner.fail(`Unable to load Figma tokens: ${e.message}`);
