@@ -1,7 +1,7 @@
 {
   "semantic": {
     "color": {
-      "datafill": {
+      "fill": {
         "primary": {
           "value": "{color.blue.600}"
         },
@@ -171,7 +171,7 @@
           "value": "{color.gray.300}"
         }
       },
-      "dataline": {
+      "line": {
         "primary": {
           "value": "{color.blue.600}"
         },
@@ -257,7 +257,7 @@
           "value": "{color.gray.700}"
         }
       },
-      "databorder": {
+      "border": {
         "primary": {
           "value": "{color.blue.600}"
         },
@@ -343,7 +343,7 @@
           "value": "{color.gray.650}"
         }
       },
-      "datatext": {
+      "text": {
         "primary": {
           "value": "{color.blue.650}"
         },
@@ -429,7 +429,7 @@
           "value": "{color.gray.800}"
         }
       },
-      "dataicon": {
+      "icon": {
         "primary": {
           "value": "{color.blue.650}"
         },
