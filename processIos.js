@@ -51,7 +51,7 @@ function generateColorsForIOS(uniqueBrands) {
                 }Colors`,
               },
             ],
-            transforms: ["attribute/cti", "name/cti/pascal", "color/hexAlpha"], // Use custom hexAlpha transform
+            transforms: ["attribute/cti", "name/cti/pascal", "color/ios/hexAlpha"], // Use custom hexAlpha transform
           },
         },
       };
@@ -110,7 +110,7 @@ function generateTokenProviderForIOS(uniqueBrands) {
                 className: `TokenProvider`,
               },
             ],
-            transforms: ["attribute/cti", "name/cti/pascal", "color/hexAlpha"],
+            transforms: ["attribute/cti", "name/cti/pascal", "color/ios/hexAlpha"],
           },
         },
       };
@@ -171,7 +171,7 @@ function generateLightTokensForIOS(uniqueBrands) {
                 }LightTokens`,
               },
             ],
-            transforms: ["attribute/cti", "name/cti/pascal", "color/hexAlpha"],
+            transforms: ["attribute/cti", "name/cti/pascal", "color/ios/hexAlpha"],
           },
         },
       };
@@ -232,7 +232,7 @@ function generateDarkTokensForIOS(uniqueBrands) {
                 }DarkTokens`,
               },
             ],
-            transforms: ["attribute/cti", "name/cti/pascal", "color/hexAlpha"],
+            transforms: ["attribute/cti", "name/cti/pascal", "color/ios/hexAlpha"],
           },
         },
       };
@@ -306,7 +306,7 @@ function generateLightColorsForIOS(uniqueBrands) {
                 }LightColors`,
               },
             ],
-            transforms: ["attribute/cti", "name/cti/pascal", "color/hexAlpha"],
+            transforms: ["attribute/cti", "name/cti/pascal", "color/ios/hexAlpha"],
           },
         },
       };
@@ -374,7 +374,7 @@ function generateDarkColorsForIOS(uniqueBrands) {
                 }DarkColors`,
               },
             ],
-            transforms: ["attribute/cti", "name/cti/pascal", "color/hexAlpha"],
+            transforms: ["attribute/cti", "name/cti/pascal", "color/ios/hexAlpha"],
           },
         },
       };
@@ -448,8 +448,24 @@ function combineTokenProviders() {
         })
         .join("\n");
 
-      // Generate the combined file content
-      const combinedContent = `import SwiftUI
+      let combinedContent = ""
+
+      if (brandName.includes("Dataviz")) {
+        // Generate the combined file content
+        combinedContent = `import SwiftUI
+
+// Generated on ${getGeneratedDate()} by https://github.com/warp-ds/tokens
+public struct ${brandName}TokenProvider {
+${combinedSwiftUITokens}
+}
+
+public struct ${brandName}UITokenProvider {
+${combinedUITokens}
+}
+`;
+      } else {
+        // Generate the combined file content
+        combinedContent = `import SwiftUI
 
 // Generated on ${getGeneratedDate()} by https://github.com/warp-ds/tokens
 struct ${brandName}TokenProvider: TokenProvider {
@@ -460,6 +476,7 @@ struct ${brandName}UITokenProvider: UITokenProvider {
 ${combinedUITokens}
 }
 `;
+      }
 
       // Write the combined content to a new file
       const combinedFilePath = path.join(
