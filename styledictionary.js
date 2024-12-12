@@ -2,10 +2,12 @@ import StyleDictionary from "style-dictionary";
 import fs from "fs";
 import path from "path";
 import {processIos} from './processIos.js';
+import {processAndroid} from './processAndroid.js';
 
 // Main function to generate all assets
 export function generateSDAssets() {
   processIos();
+  processAndroid();
 
   // Preserve existing configuration for web, Android, and other platforms
   const tokensPath = "./tokens";
@@ -47,18 +49,6 @@ export function generateSDAssets() {
               options: {
                 outputReferences: true,
               },
-            },
-          ],
-        },
-        compose: {
-          transformGroup: "compose",
-          buildPath: `output/android/${brandMode}/`,
-          files: [
-            {
-              destination: "StyleDictionaryColor.kt",
-              format: "compose/object",
-              className: "WarpColors",
-              packageName: "com.schibsted.nmp.warp.theme",
             },
           ],
         },
