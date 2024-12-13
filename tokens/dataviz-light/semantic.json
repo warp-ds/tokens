@@ -356,52 +356,52 @@
         "secondary-focus": {
           "value": "{color.gray.800}"
         },
-        "categorical1": {
+        "category1": {
           "value": "{color.indigo.650}"
         },
-        "categorical1-focus": {
+        "category1-focus": {
           "value": "{color.indigo.800}"
         },
-        "categorical2": {
+        "category2": {
           "value": "{color.yellow.650}"
         },
-        "categorical2-focus": {
+        "category2-focus": {
           "value": "{color.yellow.800}"
         },
-        "categorical3": {
+        "category3": {
           "value": "{color.pink.650}"
         },
-        "categorical3-focus": {
+        "category3-focus": {
           "value": "{color.pink.800}"
         },
-        "categorical4": {
+        "category4": {
           "value": "{color.green.650}"
         },
-        "categorical4-focus": {
+        "category4-focus": {
           "value": "{color.green.800}"
         },
-        "categorical5": {
+        "category5": {
           "value": "{color.orange.650}"
         },
-        "categorical5-focus": {
+        "category5-focus": {
           "value": "{color.orange.800}"
         },
-        "categorical6": {
+        "category6": {
           "value": "{color.teal.650}"
         },
-        "categorical6-focus": {
+        "category6-focus": {
           "value": "{color.teal.800}"
         },
-        "categorical7": {
+        "category7": {
           "value": "{color.blue.650}"
         },
-        "categorical7-focus": {
+        "category7-focus": {
           "value": "{color.blue.800}"
         },
-        "categorical8": {
+        "category8": {
           "value": "{color.gray.650}"
         },
-        "categorical8-focus": {
+        "category8-focus": {
           "value": "{color.gray.800}"
         },
         "positive": {
@@ -442,52 +442,52 @@
         "secondary-focus": {
           "value": "{color.gray.700}"
         },
-        "categorical1": {
+        "category1": {
           "value": "{color.indigo.650}"
         },
-        "categorical1-focus": {
+        "category1-focus": {
           "value": "{color.indigo.700}"
         },
-        "categorical2": {
+        "category2": {
           "value": "{color.yellow.650}"
         },
-        "categorical2-focus": {
+        "category2-focus": {
           "value": "{color.yellow.700}"
         },
-        "categorical3": {
+        "category3": {
           "value": "{color.pink.650}"
         },
-        "categorical3-focus": {
+        "category3-focus": {
           "value": "{color.pink.700}"
         },
-        "categorical4": {
+        "category4": {
           "value": "{color.green.650}"
         },
-        "categorical4-focus": {
+        "category4-focus": {
           "value": "{color.green.700}"
         },
-        "categorical5": {
+        "category5": {
           "value": "{color.orange.650}"
         },
-        "categorical5-focus": {
+        "category5-focus": {
           "value": "{color.orange.700}"
         },
-        "categorical6": {
+        "category6": {
           "value": "{color.teal.650}"
         },
-        "categorical6-focus": {
+        "category6-focus": {
           "value": "{color.teal.700}"
         },
-        "categorical7": {
+        "category7": {
           "value": "{color.blue.650}"
         },
-        "categorical7-focus": {
+        "category7-focus": {
           "value": "{color.blue.700}"
         },
-        "categorical8": {
+        "category8": {
           "value": "{color.gray.650}"
         },
-        "categorical8-focus": {
+        "category8-focus": {
           "value": "{color.gray.700}"
         },
         "positive": {
