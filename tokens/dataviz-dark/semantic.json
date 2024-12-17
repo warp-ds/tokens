@@ -1,7 +1,7 @@
 {
   "semantic": {
     "color": {
-      "fill": {
+      "background": {
         "primary": {
           "value": "{color.blue.400}"
         },
