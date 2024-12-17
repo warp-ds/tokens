@@ -6,169 +6,169 @@
           "value": "{color.blue.600}"
         },
         "primary-focus": {
-          "value": "{color.blue.650}"
+          "value": "{color.blue.700}"
         },
         "secondary": {
           "value": "{color.gray.500}"
         },
         "secondary-focus": {
-          "value": "{color.gray.600}"
+          "value": "{color.gray.650}"
         },
         "category1": {
           "value": "{color.indigo.650}"
         },
         "category1-focus": {
-          "value": "{color.indigo.700}"
+          "value": "{color.indigo.800}"
         },
         "category2": {
           "value": "{color.yellow.500}"
         },
         "category2-focus": {
-          "value": "{color.yellow.600}"
+          "value": "{color.yellow.650}"
         },
         "category3": {
           "value": "{color.pink.500}"
         },
         "category3-focus": {
-          "value": "{color.pink.600}"
+          "value": "{color.pink.650}"
         },
         "category4": {
           "value": "{color.green.500}"
         },
         "category4-focus": {
-          "value": "{color.green.600}"
+          "value": "{color.green.650}"
         },
         "category5": {
           "value": "{color.orange.600}"
         },
         "category5-focus": {
-          "value": "{color.orange.650}"
+          "value": "{color.orange.700}"
         },
         "category6": {
           "value": "{color.teal.650}"
         },
         "category6-focus": {
-          "value": "{color.teal.700}"
+          "value": "{color.teal.800}"
         },
         "category7": {
           "value": "{color.blue.500}"
         },
         "category7-focus": {
-          "value": "{color.blue.600}"
+          "value": "{color.blue.650}"
         },
         "category8": {
           "value": "{color.gray.500}"
         },
         "category8-focus": {
-          "value": "{color.gray.600}"
+          "value": "{color.gray.650}"
         },
         "positive": {
           "value": "{color.green.500}"
         },
         "positive-focus": {
-          "value": "{color.green.600}"
+          "value": "{color.green.650}"
         },
         "warning": {
           "value": "{color.yellow.500}"
         },
         "warning-focus": {
-          "value": "{color.yellow.600}"
+          "value": "{color.yellow.650}"
         },
         "negative": {
           "value": "{color.red.600}"
         },
         "negative-focus": {
-          "value": "{color.red.650}"
+          "value": "{color.red.700}"
         },
         "neutral": {
           "value": "{color.gray.600}"
         },
         "neutral-focus": {
-          "value": "{color.gray.650}"
+          "value": "{color.gray.700}"
         },
         "primary-subtle": {
           "value": "{color.blue.100}"
         },
         "primary-subtle-focus": {
-          "value": "{color.blue.200}"
+          "value": "{color.blue.300}"
         },
         "secondary-subtle": {
           "value": "{color.gray.100}"
         },
         "secondary-subtle-focus": {
-          "value": "{color.gray.200}"
+          "value": "{color.gray.300}"
         },
         "category1-subtle": {
           "value": "{color.indigo.200}"
         },
         "category1-subtle-focus": {
-          "value": "{color.indigo.300}"
+          "value": "{color.indigo.400}"
         },
         "category2-subtle": {
           "value": "{color.yellow.100}"
         },
         "category2-subtle-focus": {
-          "value": "{color.yellow.200}"
+          "value": "{color.yellow.300}"
         },
         "category3-subtle": {
           "value": "{color.pink.100}"
         },
         "category3-subtle-focus": {
-          "value": "{color.pink.200}"
+          "value": "{color.pink.300}"
         },
         "category4-subtle": {
           "value": "{color.green.100}"
         },
         "category4-subtle-focus": {
-          "value": "{color.green.200}"
+          "value": "{color.green.300}"
         },
         "category5-subtle": {
           "value": "{color.orange.200}"
         },
         "category5-subtle-focus": {
-          "value": "{color.orange.300}"
+          "value": "{color.orange.400}"
         },
         "category6-subtle": {
           "value": "{color.teal.200}"
         },
         "category6-subtle-focus": {
-          "value": "{color.teal.300}"
+          "value": "{color.teal.400}"
         },
         "category7-subtle": {
           "value": "{color.blue.100}"
         },
         "category7-subtle-focus": {
-          "value": "{color.blue.200}"
+          "value": "{color.blue.300}"
         },
         "category8-subtle": {
           "value": "{color.gray.200}"
         },
         "category8-subtle-focus": {
-          "value": "{color.gray.300}"
+          "value": "{color.gray.400}"
         },
         "positive-subtle": {
           "value": "{color.green.100}"
         },
         "positive-subtle-focus": {
-          "value": "{color.green.200}"
+          "value": "{color.green.300}"
         },
         "warning-subtle": {
           "value": "{color.yellow.100}"
         },
         "warning-subtle-focus": {
-          "value": "{color.yellow.200}"
+          "value": "{color.yellow.300}"
         },
         "negative-subtle": {
           "value": "{color.red.200}"
         },
         "negative-subtle-focus": {
-          "value": "{color.red.300}"
+          "value": "{color.red.400}"
         },
         "neutral-subtle": {
           "value": "{color.gray.200}"
         },
         "neutral-subtle-focus": {
-          "value": "{color.gray.300}"
+          "value": "{color.gray.400}"
         }
       },
       "line": {
