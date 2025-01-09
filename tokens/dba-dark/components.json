@@ -115,6 +115,14 @@
         "background-hover": {
           "value": "{color.gray.400}"
         }
+      },
+      "track": {
+        "border": {
+          "value": "{color.gray.500}"
+        },
+        "border-hover": {
+          "value": "{color.gray.400}"
+        }
       }
     }
   }
