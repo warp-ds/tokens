@@ -118,8 +118,8 @@
           "VariableID:2511:408",
           "VariableID:1:436",
           "VariableID:2511:409",
-          "VariableID:2511:380",
           "VariableID:1:437",
+          "VariableID:2511:380",
           "VariableID:2511:410",
           "VariableID:1:438",
           "VariableID:2511:411",
@@ -162,7 +162,10 @@
           "VariableID:2511:442",
           "VariableID:316:27",
           "VariableID:2511:443",
+          "VariableID:1:444",
           "VariableID:2511:416",
+          "VariableID:1:399",
+          "VariableID:1:445",
           "VariableID:1:386",
           "VariableID:2511:417",
           "VariableID:1:387",
@@ -188,7 +191,9 @@
           "VariableID:1:397",
           "VariableID:2511:428",
           "VariableID:1:398",
-          "VariableID:2511:429"
+          "VariableID:2511:429",
+          "VariableID:332:1317",
+          "VariableID:332:1318"
         ]
       },
       "VariableCollectionId:1:288": {
@@ -303,7 +308,21 @@
           "VariableID:1:375",
           "VariableID:1:376",
           "VariableID:1:377",
-          "VariableID:1:378"
+          "VariableID:1:378",
+          "VariableID:1:379",
+          "VariableID:2793:15462",
+          "VariableID:2793:15463",
+          "VariableID:2793:15464",
+          "VariableID:2793:15465",
+          "VariableID:2793:15466",
+          "VariableID:2793:15467",
+          "VariableID:2793:15468",
+          "VariableID:2793:15469",
+          "VariableID:2793:15470",
+          "VariableID:2793:15471",
+          "VariableID:2793:15472",
+          "VariableID:2793:15473",
+          "VariableID:2793:15474"
         ]
       },
       "VariableCollectionId:5bf5634ed67cb43e24649455cc50ca9d0e1d4466/443:1265": {
@@ -322,6 +341,54 @@
         "variableIds": [
           "VariableID:0efb3064adb8698f3f0242236de1f04f49841a50/443:1202",
           "VariableID:167f1a47a81373e762c6cf76549b6df2ebbb29f1/443:1170"
+        ]
+      },
+      "VariableCollectionId:227b5f83b063eebb216c486b4b16f72f08c7c259/11038:1132": {
+        "defaultModeId": "4546:0",
+        "id": "VariableCollectionId:227b5f83b063eebb216c486b4b16f72f08c7c259/11038:1132",
+        "name": "Modes",
+        "remote": true,
+        "modes": [
+          {
+            "modeId": "4546:0",
+            "name": "FINN light"
+          },
+          {
+            "modeId": "4546:1",
+            "name": "FINN dark"
+          },
+          {
+            "modeId": "6325:1",
+            "name": "Tori light"
+          },
+          {
+            "modeId": "6325:3",
+            "name": "Tori dark"
+          },
+          {
+            "modeId": "6693:0",
+            "name": "DBA light"
+          },
+          {
+            "modeId": "7521:0",
+            "name": "DBA dark"
+          },
+          {
+            "modeId": "7521:1",
+            "name": "Blocket light"
+          },
+          {
+            "modeId": "7548:0",
+            "name": "Blocket dark"
+          }
+        ],
+        "key": "227b5f83b063eebb216c486b4b16f72f08c7c259",
+        "hiddenFromPublishing": true,
+        "variableIds": [
+          "VariableID:eef032946b25d6b53491cdb961e3d99b2a66ad5d/11038:67",
+          "VariableID:271dabbf6b07c376cf00797c5480124674cde14b/11038:627",
+          "VariableID:2e3781a332f033400e22e3be4dee70e91ef09647/11038:717",
+          "VariableID:30025636cd2347b35f60a02050a34946490ee3bb/11618:188"
         ]
       },
       "VariableCollectionId:ee7571118a47ebe17c6460e0aeb8eba40c092153/443:413": {
@@ -412,54 +479,6 @@
         "hiddenFromPublishing": true,
         "variableIds": [
           "VariableID:eef032946b25d6b53491cdb961e3d99b2a66ad5d/14503:161"
-        ]
-      },
-      "VariableCollectionId:227b5f83b063eebb216c486b4b16f72f08c7c259/11038:1132": {
-        "defaultModeId": "4546:0",
-        "id": "VariableCollectionId:227b5f83b063eebb216c486b4b16f72f08c7c259/11038:1132",
-        "name": "Modes",
-        "remote": true,
-        "modes": [
-          {
-            "modeId": "4546:0",
-            "name": "FINN light"
-          },
-          {
-            "modeId": "4546:1",
-            "name": "FINN dark"
-          },
-          {
-            "modeId": "6325:1",
-            "name": "Tori light"
-          },
-          {
-            "modeId": "6325:3",
-            "name": "Tori dark"
-          },
-          {
-            "modeId": "6693:0",
-            "name": "DBA light"
-          },
-          {
-            "modeId": "7521:0",
-            "name": "DBA dark"
-          },
-          {
-            "modeId": "7521:1",
-            "name": "Blocket light"
-          },
-          {
-            "modeId": "7548:0",
-            "name": "Blocket dark"
-          }
-        ],
-        "key": "227b5f83b063eebb216c486b4b16f72f08c7c259",
-        "hiddenFromPublishing": true,
-        "variableIds": [
-          "VariableID:eef032946b25d6b53491cdb961e3d99b2a66ad5d/11038:67",
-          "VariableID:271dabbf6b07c376cf00797c5480124674cde14b/11038:627",
-          "VariableID:2e3781a332f033400e22e3be4dee70e91ef09647/11038:717",
-          "VariableID:30025636cd2347b35f60a02050a34946490ee3bb/11618:188"
         ]
       },
       "VariableCollectionId:227b5f83b063eebb216c486b4b16f72f08c7c259/16798:247": {
@@ -570,7 +589,7 @@
       },
       "VariableID:2511:360": {
         "id": "VariableID:2511:360",
-        "name": "DV/Semantic/Color/Background/Primary-focus",
+        "name": "DV/Semantic/Color/Background/Primary-highlight",
         "remote": false,
         "key": "64cf9bd7294f102fdf3eac8ed3d43da1234ae704",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -620,7 +639,7 @@
       },
       "VariableID:2511:371": {
         "id": "VariableID:2511:371",
-        "name": "DV/Semantic/Color/Background/Secondary-focus",
+        "name": "DV/Semantic/Color/Background/Secondary-highlight",
         "remote": false,
         "key": "70e9170fdba294517785fbdbeefe7b9388b4f5e3",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -670,7 +689,7 @@
       },
       "VariableID:2511:381": {
         "id": "VariableID:2511:381",
-        "name": "DV/Semantic/Color/Background/Category1-focus",
+        "name": "DV/Semantic/Color/Background/Category1-highlight",
         "remote": false,
         "key": "160536df2aa9aa40520791d6f4a0ac971f1e2b29",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -720,7 +739,7 @@
       },
       "VariableID:2511:382": {
         "id": "VariableID:2511:382",
-        "name": "DV/Semantic/Color/Background/Category2-focus",
+        "name": "DV/Semantic/Color/Background/Category2-highlight",
         "remote": false,
         "key": "4906022f6d27dc1c1036bb595c0dba069a6f5723",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -770,7 +789,7 @@
       },
       "VariableID:2511:383": {
         "id": "VariableID:2511:383",
-        "name": "DV/Semantic/Color/Background/Category3-focus",
+        "name": "DV/Semantic/Color/Background/Category3-highlight",
         "remote": false,
         "key": "06188b6777026ab47cc922a361eb731a62ab1afe",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -820,7 +839,7 @@
       },
       "VariableID:2511:384": {
         "id": "VariableID:2511:384",
-        "name": "DV/Semantic/Color/Background/Category4-focus",
+        "name": "DV/Semantic/Color/Background/Category4-highlight",
         "remote": false,
         "key": "199ddf1034e36032ac1e362a762f87b5f9a53fae",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -870,7 +889,7 @@
       },
       "VariableID:2511:385": {
         "id": "VariableID:2511:385",
-        "name": "DV/Semantic/Color/Background/Category5-focus",
+        "name": "DV/Semantic/Color/Background/Category5-highlight",
         "remote": false,
         "key": "0a23059a82562a55dab262609c857d0d5272cf12",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -920,7 +939,7 @@
       },
       "VariableID:2511:386": {
         "id": "VariableID:2511:386",
-        "name": "DV/Semantic/Color/Background/Category6-focus",
+        "name": "DV/Semantic/Color/Background/Category6-highlight",
         "remote": false,
         "key": "0a0ee8f5218632e4de9119fd0b4f76433656ef0d",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -970,7 +989,7 @@
       },
       "VariableID:2511:387": {
         "id": "VariableID:2511:387",
-        "name": "DV/Semantic/Color/Background/Category7-focus",
+        "name": "DV/Semantic/Color/Background/Category7-highlight",
         "remote": false,
         "key": "688779b01a618895782b16fc7172fe08025c1f6a",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -1020,7 +1039,7 @@
       },
       "VariableID:2511:361": {
         "id": "VariableID:2511:361",
-        "name": "DV/Semantic/Color/Background/Category8-focus",
+        "name": "DV/Semantic/Color/Background/Category8-highlight",
         "remote": false,
         "key": "7fa4d186956006b6278d03e232722dceab3592c9",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -1034,7 +1053,7 @@
           },
           "1:2": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:372"
+            "id": "VariableID:1:379"
           }
         },
         "scopes": [
@@ -1070,7 +1089,7 @@
       },
       "VariableID:2511:362": {
         "id": "VariableID:2511:362",
-        "name": "DV/Semantic/Color/Background/Positive-focus",
+        "name": "DV/Semantic/Color/Background/Positive-highlight",
         "remote": false,
         "key": "8e12a7ced8dec356941a0f052e9a0cec5b4296ca",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -1120,7 +1139,7 @@
       },
       "VariableID:2511:363": {
         "id": "VariableID:2511:363",
-        "name": "DV/Semantic/Color/Background/Warning-focus",
+        "name": "DV/Semantic/Color/Background/Warning-highlight",
         "remote": false,
         "key": "f9627a96756c26179d80c39fff1b312328532b39",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -1170,7 +1189,7 @@
       },
       "VariableID:2511:364": {
         "id": "VariableID:2511:364",
-        "name": "DV/Semantic/Color/Background/Negative-focus",
+        "name": "DV/Semantic/Color/Background/Negative-highlight",
         "remote": false,
         "key": "64b8740b61d6373e8800be5f27004e529915638b",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -1220,7 +1239,7 @@
       },
       "VariableID:2511:365": {
         "id": "VariableID:2511:365",
-        "name": "DV/Semantic/Color/Background/Neutral-focus",
+        "name": "DV/Semantic/Color/Background/Neutral-highlight",
         "remote": false,
         "key": "e89aefb5c52ec87b123744e8c01515ec1c558614",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -1270,7 +1289,7 @@
       },
       "VariableID:2511:366": {
         "id": "VariableID:2511:366",
-        "name": "DV/Semantic/Color/Background/Primary-Subtle-focus",
+        "name": "DV/Semantic/Color/Background/Primary-Subtle-highlight",
         "remote": false,
         "key": "2bce9b83b4db53ef6bebc5362d4069239aaf735b",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -1320,7 +1339,7 @@
       },
       "VariableID:2511:367": {
         "id": "VariableID:2511:367",
-        "name": "DV/Semantic/Color/Background/Secondary-Subtle-focus",
+        "name": "DV/Semantic/Color/Background/Secondary-Subtle-highlight",
         "remote": false,
         "key": "38226004fd2d5b126915b9e6c964364f4563cde6",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -1370,7 +1389,7 @@
       },
       "VariableID:2511:368": {
         "id": "VariableID:2511:368",
-        "name": "DV/Semantic/Color/Background/Category1-Subtle-focus",
+        "name": "DV/Semantic/Color/Background/Category1-Subtle-highlight",
         "remote": false,
         "key": "270949d8174e60e0e8d4f94c6480135eab118366",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -1420,7 +1439,7 @@
       },
       "VariableID:2511:369": {
         "id": "VariableID:2511:369",
-        "name": "DV/Semantic/Color/Background/Category2-Subtle-focus",
+        "name": "DV/Semantic/Color/Background/Category2-Subtle-highlight",
         "remote": false,
         "key": "7b5402e61e8ca2070e951001b6b1dcfe63b57e9f",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -1470,7 +1489,7 @@
       },
       "VariableID:2511:370": {
         "id": "VariableID:2511:370",
-        "name": "DV/Semantic/Color/Background/Category3-Subtle-focus",
+        "name": "DV/Semantic/Color/Background/Category3-Subtle-highlight",
         "remote": false,
         "key": "b9566f94074dacf56715492d6927c42e90f9e6b7",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -1520,7 +1539,7 @@
       },
       "VariableID:2511:372": {
         "id": "VariableID:2511:372",
-        "name": "DV/Semantic/Color/Background/Category4-Subtle-focus",
+        "name": "DV/Semantic/Color/Background/Category4-Subtle-highlight",
         "remote": false,
         "key": "92e04752e919645f2593a02a23d699d87ac49556",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -1570,7 +1589,7 @@
       },
       "VariableID:2511:373": {
         "id": "VariableID:2511:373",
-        "name": "DV/Semantic/Color/Background/Category5-Subtle-focus",
+        "name": "DV/Semantic/Color/Background/Category5-Subtle-highlight",
         "remote": false,
         "key": "3e1310faadd8008532d49dfc11abc0d0ed034452",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -1620,7 +1639,7 @@
       },
       "VariableID:2511:374": {
         "id": "VariableID:2511:374",
-        "name": "DV/Semantic/Color/Background/Category6-Subtle-focus",
+        "name": "DV/Semantic/Color/Background/Category6-Subtle-highlight",
         "remote": false,
         "key": "9e7400c9aa88d199d958b84f5663bfaf89e00da3",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -1670,7 +1689,7 @@
       },
       "VariableID:2511:375": {
         "id": "VariableID:2511:375",
-        "name": "DV/Semantic/Color/Background/Category7-Subtle-focus",
+        "name": "DV/Semantic/Color/Background/Category7-Subtle-highlight",
         "remote": false,
         "key": "0c574dd94938977e20a0e3ddf05eb6b7c6ad384d",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -1720,7 +1739,7 @@
       },
       "VariableID:2511:376": {
         "id": "VariableID:2511:376",
-        "name": "DV/Semantic/Color/Background/Category8-Subtle-focus",
+        "name": "DV/Semantic/Color/Background/Category8-Subtle-highlight",
         "remote": false,
         "key": "6a4e25cee2d6c3a40560fb6fabbf697e32cfd2c2",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -1770,7 +1789,7 @@
       },
       "VariableID:2511:377": {
         "id": "VariableID:2511:377",
-        "name": "DV/Semantic/Color/Background/Positive-Subtle-focus",
+        "name": "DV/Semantic/Color/Background/Positive-Subtle-highlight",
         "remote": false,
         "key": "f59627812324dd4b30a9e15dbbfbf2ec2918f443",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -1820,7 +1839,7 @@
       },
       "VariableID:2511:378": {
         "id": "VariableID:2511:378",
-        "name": "DV/Semantic/Color/Background/Warning-Subtle-focus",
+        "name": "DV/Semantic/Color/Background/Warning-Subtle-highlight",
         "remote": false,
         "key": "fbbf541e83aacd5b0901d42b7735e3d581c2463d",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -1870,7 +1889,7 @@
       },
       "VariableID:2511:379": {
         "id": "VariableID:2511:379",
-        "name": "DV/Semantic/Color/Background/Negative-Subtle-focus",
+        "name": "DV/Semantic/Color/Background/Negative-Subtle-highlight",
         "remote": false,
         "key": "561e2941a84c69a4e30f0f45f53457db41c4945f",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -1944,7 +1963,7 @@
       },
       "VariableID:2511:388": {
         "id": "VariableID:2511:388",
-        "name": "DV/Semantic/Color/Line/Primary-focus",
+        "name": "DV/Semantic/Color/Line/Primary-highlight",
         "remote": false,
         "key": "7eda821ee2b88091bb6c7eb0d8c052a32f037ee7",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -1992,7 +2011,7 @@
       },
       "VariableID:2511:389": {
         "id": "VariableID:2511:389",
-        "name": "DV/Semantic/Color/Line/Secondary-focus",
+        "name": "DV/Semantic/Color/Line/Secondary-highlight",
         "remote": false,
         "key": "11ee575abaa3cdf7951199621a3c79c580617857",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -2040,7 +2059,7 @@
       },
       "VariableID:2511:390": {
         "id": "VariableID:2511:390",
-        "name": "DV/Semantic/Color/Line/Category1-focus",
+        "name": "DV/Semantic/Color/Line/Category1-highlight",
         "remote": false,
         "key": "7ef0801319c8a8352fde8041a0bc45be344d4f30",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -2088,7 +2107,7 @@
       },
       "VariableID:2511:391": {
         "id": "VariableID:2511:391",
-        "name": "DV/Semantic/Color/Line/Category2-focus",
+        "name": "DV/Semantic/Color/Line/Category2-highlight",
         "remote": false,
         "key": "c4045d44890c58efde830f2c338f7f14bac281a4",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -2136,7 +2155,7 @@
       },
       "VariableID:2511:392": {
         "id": "VariableID:2511:392",
-        "name": "DV/Semantic/Color/Line/Category3-focus",
+        "name": "DV/Semantic/Color/Line/Category3-highlight",
         "remote": false,
         "key": "bec7fa4d101192cdcb572cd25e5cc0684b273f55",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -2184,7 +2203,7 @@
       },
       "VariableID:2511:393": {
         "id": "VariableID:2511:393",
-        "name": "DV/Semantic/Color/Line/Category4-focus",
+        "name": "DV/Semantic/Color/Line/Category4-highlight",
         "remote": false,
         "key": "3e439e780f5b813b97302d4f7908dbdf713cf343",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -2232,7 +2251,7 @@
       },
       "VariableID:2511:394": {
         "id": "VariableID:2511:394",
-        "name": "DV/Semantic/Color/Line/Category5-focus",
+        "name": "DV/Semantic/Color/Line/Category5-highlight",
         "remote": false,
         "key": "1d84a3ef8ac57078843d48c32ecc52b676bf5f0e",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -2280,7 +2299,7 @@
       },
       "VariableID:2511:395": {
         "id": "VariableID:2511:395",
-        "name": "DV/Semantic/Color/Line/Category6-focus",
+        "name": "DV/Semantic/Color/Line/Category6-highlight",
         "remote": false,
         "key": "dbc32aa5aca8a964d50a8d1163ecf7873590f193",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -2328,7 +2347,7 @@
       },
       "VariableID:2511:396": {
         "id": "VariableID:2511:396",
-        "name": "DV/Semantic/Color/Line/Category7-focus",
+        "name": "DV/Semantic/Color/Line/Category7-highlight",
         "remote": false,
         "key": "a68e9bec4c2090f8224f561efe7a459508f36c74",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -2376,7 +2395,7 @@
       },
       "VariableID:2511:397": {
         "id": "VariableID:2511:397",
-        "name": "DV/Semantic/Color/Line/Category8-focus",
+        "name": "DV/Semantic/Color/Line/Category8-highlight",
         "remote": false,
         "key": "c2658bf43f73ba2f1af035baab86e13161958887",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -2390,7 +2409,7 @@
           },
           "1:2": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:371"
+            "id": "VariableID:1:379"
           }
         },
         "scopes": [
@@ -2424,7 +2443,7 @@
       },
       "VariableID:2511:398": {
         "id": "VariableID:2511:398",
-        "name": "DV/Semantic/Color/Line/Positive-focus",
+        "name": "DV/Semantic/Color/Line/Positive-highlight",
         "remote": false,
         "key": "d24e0167af166384552e7b90229f09f9b4b4f3af",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -2472,7 +2491,7 @@
       },
       "VariableID:2511:399": {
         "id": "VariableID:2511:399",
-        "name": "DV/Semantic/Color/Line/Warning-focus",
+        "name": "DV/Semantic/Color/Line/Warning-highlight",
         "remote": false,
         "key": "bd6839d96950a02c6a00c6c59fb53110cd4f9be4",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -2520,7 +2539,7 @@
       },
       "VariableID:2511:400": {
         "id": "VariableID:2511:400",
-        "name": "DV/Semantic/Color/Line/Negative-focus",
+        "name": "DV/Semantic/Color/Line/Negative-highlight",
         "remote": false,
         "key": "929024f620b99f577d35c3cc28a97c916b04e5da",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -2568,7 +2587,7 @@
       },
       "VariableID:2511:401": {
         "id": "VariableID:2511:401",
-        "name": "DV/Semantic/Color/Line/Neutral-focus",
+        "name": "DV/Semantic/Color/Line/Neutral-highlight",
         "remote": false,
         "key": "cf1993c98802cdb1adecbf5b9df0c22dfe1e3308",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -2616,7 +2635,7 @@
       },
       "VariableID:2511:403": {
         "id": "VariableID:2511:403",
-        "name": "DV/Semantic/Color/Border/Primary-focus",
+        "name": "DV/Semantic/Color/Border/Primary-highlight",
         "remote": false,
         "key": "edcc3f6090b16afb022f1daa498e64ae029f7f36",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -2626,11 +2645,11 @@
         "valuesByMode": {
           "1:1": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:295"
+            "id": "VariableID:1:296"
           },
           "1:2": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:292"
+            "id": "VariableID:1:291"
           }
         },
         "scopes": [
@@ -2664,7 +2683,7 @@
       },
       "VariableID:2511:404": {
         "id": "VariableID:2511:404",
-        "name": "DV/Semantic/Color/Border/Secondary-focus",
+        "name": "DV/Semantic/Color/Border/Secondary-highlight",
         "remote": false,
         "key": "0f9942b7e70bbdbae365ee6d7eb3e7c6b1f1303e",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -2674,11 +2693,11 @@
         "valuesByMode": {
           "1:1": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:374"
+            "id": "VariableID:1:375"
           },
           "1:2": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:372"
+            "id": "VariableID:1:371"
           }
         },
         "scopes": [
@@ -2712,7 +2731,7 @@
       },
       "VariableID:2511:405": {
         "id": "VariableID:2511:405",
-        "name": "DV/Semantic/Color/Border/Category1-focus",
+        "name": "DV/Semantic/Color/Border/Category1-highlight",
         "remote": false,
         "key": "149f9f50353ed7fcb7bbf604ae2c9c536c73edc0",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -2722,11 +2741,11 @@
         "valuesByMode": {
           "1:1": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:306"
+            "id": "VariableID:1:307"
           },
           "1:2": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:300"
+            "id": "VariableID:1:299"
           }
         },
         "scopes": [
@@ -2760,7 +2779,7 @@
       },
       "VariableID:2511:406": {
         "id": "VariableID:2511:406",
-        "name": "DV/Semantic/Color/Border/Category2-focus",
+        "name": "DV/Semantic/Color/Border/Category2-highlight",
         "remote": false,
         "key": "0a64e7564a83fcabbd31ff521b1ef432befffdbd",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -2770,11 +2789,11 @@
         "valuesByMode": {
           "1:1": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:334"
+            "id": "VariableID:1:335"
           },
           "1:2": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:330"
+            "id": "VariableID:1:329"
           }
         },
         "scopes": [
@@ -2808,7 +2827,7 @@
       },
       "VariableID:2511:407": {
         "id": "VariableID:2511:407",
-        "name": "DV/Semantic/Color/Border/Category3-focus",
+        "name": "DV/Semantic/Color/Border/Category3-highlight",
         "remote": false,
         "key": "50c245bbf6045a3983fce12be3fa94d8834d1371",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -2818,11 +2837,11 @@
         "valuesByMode": {
           "1:1": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:364"
+            "id": "VariableID:1:365"
           },
           "1:2": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:362"
+            "id": "VariableID:1:361"
           }
         },
         "scopes": [
@@ -2856,7 +2875,7 @@
       },
       "VariableID:2511:408": {
         "id": "VariableID:2511:408",
-        "name": "DV/Semantic/Color/Border/Category4-focus",
+        "name": "DV/Semantic/Color/Border/Category4-highlight",
         "remote": false,
         "key": "3be4591906cd19df45cd8aa4276889fa42979d62",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -2866,11 +2885,11 @@
         "valuesByMode": {
           "1:1": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:344"
+            "id": "VariableID:1:345"
           },
           "1:2": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:342"
+            "id": "VariableID:1:341"
           }
         },
         "scopes": [
@@ -2904,7 +2923,7 @@
       },
       "VariableID:2511:409": {
         "id": "VariableID:2511:409",
-        "name": "DV/Semantic/Color/Border/Category5-focus",
+        "name": "DV/Semantic/Color/Border/Category5-highlight",
         "remote": false,
         "key": "8df4e696e3a3b3292d0309f78bc1566420fc0e59",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -2914,40 +2933,15 @@
         "valuesByMode": {
           "1:1": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:325"
+            "id": "VariableID:1:326"
           },
           "1:2": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:322"
+            "id": "VariableID:1:321"
           }
         },
         "scopes": [
           "STROKE_COLOR"
-        ],
-        "codeSyntax": {}
-      },
-      "VariableID:2511:380": {
-        "id": "VariableID:2511:380",
-        "name": "DV/Semantic/Color/Background/Neutral-Subtle-focus",
-        "remote": false,
-        "key": "3d303499d05c664a045a54ee520986238d2c35b1",
-        "variableCollectionId": "VariableCollectionId:1:287",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "1:1": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:2394:15741"
-          },
-          "1:2": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:375"
-          }
-        },
-        "scopes": [
-          "FRAME_FILL",
-          "SHAPE_FILL"
         ],
         "codeSyntax": {}
       },
@@ -2975,9 +2969,34 @@
         ],
         "codeSyntax": {}
       },
+      "VariableID:2511:380": {
+        "id": "VariableID:2511:380",
+        "name": "DV/Semantic/Color/Background/Neutral-Subtle-highlight",
+        "remote": false,
+        "key": "3d303499d05c664a045a54ee520986238d2c35b1",
+        "variableCollectionId": "VariableCollectionId:1:287",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "1:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2394:15741"
+          },
+          "1:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:1:375"
+          }
+        },
+        "scopes": [
+          "FRAME_FILL",
+          "SHAPE_FILL"
+        ],
+        "codeSyntax": {}
+      },
       "VariableID:2511:410": {
         "id": "VariableID:2511:410",
-        "name": "DV/Semantic/Color/Border/Category6-focus",
+        "name": "DV/Semantic/Color/Border/Category6-highlight",
         "remote": false,
         "key": "0f900bbe7a75a3aa8fbf92238d8a14e8fd756378",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -2987,11 +3006,11 @@
         "valuesByMode": {
           "1:1": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:356"
+            "id": "VariableID:1:357"
           },
           "1:2": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:350"
+            "id": "VariableID:1:349"
           }
         },
         "scopes": [
@@ -3025,7 +3044,7 @@
       },
       "VariableID:2511:411": {
         "id": "VariableID:2511:411",
-        "name": "DV/Semantic/Color/Border/Category7-focus",
+        "name": "DV/Semantic/Color/Border/Category7-highlight",
         "remote": false,
         "key": "db9c0987a329d51e3ac1b873d071438336fb8a04",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -3035,11 +3054,11 @@
         "valuesByMode": {
           "1:1": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:294"
+            "id": "VariableID:1:295"
           },
           "1:2": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:292"
+            "id": "VariableID:1:291"
           }
         },
         "scopes": [
@@ -3073,7 +3092,7 @@
       },
       "VariableID:2511:412": {
         "id": "VariableID:2511:412",
-        "name": "DV/Semantic/Color/Border/Category8-focus",
+        "name": "DV/Semantic/Color/Border/Category8-highlight",
         "remote": false,
         "key": "f7da83aeadfd41bf539bf67feadbf411c3ef9cd5",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -3083,11 +3102,11 @@
         "valuesByMode": {
           "1:1": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:374"
+            "id": "VariableID:1:375"
           },
           "1:2": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:369"
+            "id": "VariableID:1:379"
           }
         },
         "scopes": [
@@ -3121,7 +3140,7 @@
       },
       "VariableID:2511:413": {
         "id": "VariableID:2511:413",
-        "name": "DV/Semantic/Color/Border/Positive-focus",
+        "name": "DV/Semantic/Color/Border/Positive-highlight",
         "remote": false,
         "key": "70763479a038d854d8ec3daccff4a52e82f10c19",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -3131,11 +3150,11 @@
         "valuesByMode": {
           "1:1": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:344"
+            "id": "VariableID:1:345"
           },
           "1:2": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:341"
+            "id": "VariableID:1:340"
           }
         },
         "scopes": [
@@ -3169,7 +3188,7 @@
       },
       "VariableID:2511:414": {
         "id": "VariableID:2511:414",
-        "name": "DV/Semantic/Color/Border/Warning-focus",
+        "name": "DV/Semantic/Color/Border/Warning-highlight",
         "remote": false,
         "key": "8a44b81589b162f4c50cd1f4d22d3f94c4c0100b",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -3179,11 +3198,11 @@
         "valuesByMode": {
           "1:1": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:334"
+            "id": "VariableID:1:335"
           },
           "1:2": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:330"
+            "id": "VariableID:1:329"
           }
         },
         "scopes": [
@@ -3217,7 +3236,7 @@
       },
       "VariableID:2511:415": {
         "id": "VariableID:2511:415",
-        "name": "DV/Semantic/Color/Border/Negative-focus",
+        "name": "DV/Semantic/Color/Border/Negative-highlight",
         "remote": false,
         "key": "6acb302b7d322a599e335ae1a8a7c1332c2da012",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -3227,11 +3246,11 @@
         "valuesByMode": {
           "1:1": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:315"
+            "id": "VariableID:1:316"
           },
           "1:2": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:312"
+            "id": "VariableID:1:311"
           }
         },
         "scopes": [
@@ -3265,7 +3284,7 @@
       },
       "VariableID:2511:402": {
         "id": "VariableID:2511:402",
-        "name": "DV/Semantic/Color/Border/Neutral-focus",
+        "name": "DV/Semantic/Color/Border/Neutral-highlight",
         "remote": false,
         "key": "3e8e38094aa608978adc19f41981b2f1e1f90dbf",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -3275,11 +3294,11 @@
         "valuesByMode": {
           "1:1": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:375"
+            "id": "VariableID:1:376"
           },
           "1:2": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:370"
+            "id": "VariableID:1:369"
           }
         },
         "scopes": [
@@ -3339,7 +3358,7 @@
       },
       "VariableID:2511:430": {
         "id": "VariableID:2511:430",
-        "name": "DV/Semantic/Color/Icon/Primary-focus",
+        "name": "DV/Semantic/Color/Icon/Primary-highlight",
         "remote": false,
         "key": "c1e704af3feaed74b8272be97fd40e0f4c72ac48",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -3349,11 +3368,11 @@
         "valuesByMode": {
           "1:1": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:296"
+            "id": "VariableID:1:297"
           },
           "1:2": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:290"
+            "id": "VariableID:1:289"
           }
         },
         "scopes": [
@@ -3391,7 +3410,7 @@
       },
       "VariableID:2511:431": {
         "id": "VariableID:2511:431",
-        "name": "DV/Semantic/Color/Icon/Secondary-focus",
+        "name": "DV/Semantic/Color/Icon/Secondary-highlight",
         "remote": false,
         "key": "49ba87fbb6b2cd11ad90163b4d6ab903c12cc1fc",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -3401,11 +3420,11 @@
         "valuesByMode": {
           "1:1": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:376"
+            "id": "VariableID:1:377"
           },
           "1:2": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:370"
+            "id": "VariableID:1:369"
           }
         },
         "scopes": [
@@ -3443,7 +3462,7 @@
       },
       "VariableID:2511:432": {
         "id": "VariableID:2511:432",
-        "name": "DV/Semantic/Color/Icon/Category1-focus",
+        "name": "DV/Semantic/Color/Icon/Category1-highlight",
         "remote": false,
         "key": "16734095cf4a93dd3c2873188c40ab9b1305a512",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -3453,11 +3472,11 @@
         "valuesByMode": {
           "1:1": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:306"
+            "id": "VariableID:1:307"
           },
           "1:2": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:300"
+            "id": "VariableID:1:299"
           }
         },
         "scopes": [
@@ -3495,7 +3514,7 @@
       },
       "VariableID:2511:433": {
         "id": "VariableID:2511:433",
-        "name": "DV/Semantic/Color/Icon/Category2-focus",
+        "name": "DV/Semantic/Color/Icon/Category2-highlight",
         "remote": false,
         "key": "e9e3ce2776b53b09ab86d6f203cd43c3b814c4a7",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -3505,11 +3524,11 @@
         "valuesByMode": {
           "1:1": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:336"
+            "id": "VariableID:1:337"
           },
           "1:2": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:330"
+            "id": "VariableID:1:329"
           }
         },
         "scopes": [
@@ -3547,7 +3566,7 @@
       },
       "VariableID:2511:434": {
         "id": "VariableID:2511:434",
-        "name": "DV/Semantic/Color/Icon/Category3-focus",
+        "name": "DV/Semantic/Color/Icon/Category3-highlight",
         "remote": false,
         "key": "83e85aae78811119fc1064ceac03be9da0de35c9",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -3557,11 +3576,11 @@
         "valuesByMode": {
           "1:1": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:366"
+            "id": "VariableID:1:367"
           },
           "1:2": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:360"
+            "id": "VariableID:1:359"
           }
         },
         "scopes": [
@@ -3599,7 +3618,7 @@
       },
       "VariableID:2511:435": {
         "id": "VariableID:2511:435",
-        "name": "DV/Semantic/Color/Icon/Category4-focus",
+        "name": "DV/Semantic/Color/Icon/Category4-highlight",
         "remote": false,
         "key": "689c7807639307121f977d278c42f781948c386e",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -3609,11 +3628,11 @@
         "valuesByMode": {
           "1:1": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:346"
+            "id": "VariableID:1:347"
           },
           "1:2": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:340"
+            "id": "VariableID:1:339"
           }
         },
         "scopes": [
@@ -3651,7 +3670,7 @@
       },
       "VariableID:2511:436": {
         "id": "VariableID:2511:436",
-        "name": "DV/Semantic/Color/Icon/Category5-focus",
+        "name": "DV/Semantic/Color/Icon/Category5-highlight",
         "remote": false,
         "key": "771744adca6b432ab649e8ddaebd4075dc63cfa5",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -3661,11 +3680,11 @@
         "valuesByMode": {
           "1:1": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:326"
+            "id": "VariableID:1:327"
           },
           "1:2": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:320"
+            "id": "VariableID:1:319"
           }
         },
         "scopes": [
@@ -3703,7 +3722,7 @@
       },
       "VariableID:2511:437": {
         "id": "VariableID:2511:437",
-        "name": "DV/Semantic/Color/Icon/Category6-focus",
+        "name": "DV/Semantic/Color/Icon/Category6-highlight",
         "remote": false,
         "key": "0d6df2293bd589f10d802310f6dcd5af8da0c7d3",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -3713,11 +3732,11 @@
         "valuesByMode": {
           "1:1": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:356"
+            "id": "VariableID:1:357"
           },
           "1:2": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:350"
+            "id": "VariableID:1:349"
           }
         },
         "scopes": [
@@ -3755,7 +3774,7 @@
       },
       "VariableID:2511:438": {
         "id": "VariableID:2511:438",
-        "name": "DV/Semantic/Color/Icon/Category7-focus",
+        "name": "DV/Semantic/Color/Icon/Category7-highlight",
         "remote": false,
         "key": "6bdc3185dbb501a66028e7f0e0a6218235c7b388",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -3765,11 +3784,11 @@
         "valuesByMode": {
           "1:1": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:296"
+            "id": "VariableID:1:297"
           },
           "1:2": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:290"
+            "id": "VariableID:1:289"
           }
         },
         "scopes": [
@@ -3807,7 +3826,7 @@
       },
       "VariableID:2511:439": {
         "id": "VariableID:2511:439",
-        "name": "DV/Semantic/Color/Icon/Category8-focus",
+        "name": "DV/Semantic/Color/Icon/Category8-highlight",
         "remote": false,
         "key": "a5d060542aad898ad6b77147b636413918e0651b",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -3817,11 +3836,11 @@
         "valuesByMode": {
           "1:1": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:376"
+            "id": "VariableID:1:377"
           },
           "1:2": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:370"
+            "id": "VariableID:1:369"
           }
         },
         "scopes": [
@@ -3859,7 +3878,7 @@
       },
       "VariableID:2511:440": {
         "id": "VariableID:2511:440",
-        "name": "DV/Semantic/Color/Icon/Positive-focus",
+        "name": "DV/Semantic/Color/Icon/Positive-highlight",
         "remote": false,
         "key": "0d1d962c873fbc6ae736403b7771f7f59ca61ced",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -3869,11 +3888,11 @@
         "valuesByMode": {
           "1:1": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:346"
+            "id": "VariableID:1:347"
           },
           "1:2": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:340"
+            "id": "VariableID:1:339"
           }
         },
         "scopes": [
@@ -3911,7 +3930,7 @@
       },
       "VariableID:2511:441": {
         "id": "VariableID:2511:441",
-        "name": "DV/Semantic/Color/Icon/Warning-focus",
+        "name": "DV/Semantic/Color/Icon/Warning-highlight",
         "remote": false,
         "key": "a1508d43f1e22706708e068f9370321d10d5612d",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -3921,11 +3940,11 @@
         "valuesByMode": {
           "1:1": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:336"
+            "id": "VariableID:1:337"
           },
           "1:2": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:330"
+            "id": "VariableID:1:329"
           }
         },
         "scopes": [
@@ -3963,7 +3982,7 @@
       },
       "VariableID:2511:442": {
         "id": "VariableID:2511:442",
-        "name": "DV/Semantic/Color/Icon/Negative-focus",
+        "name": "DV/Semantic/Color/Icon/Negative-highlight",
         "remote": false,
         "key": "2822e2d42e8b0020ef088a5f1ba38d3b686fb5d5",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -3973,11 +3992,11 @@
         "valuesByMode": {
           "1:1": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:316"
+            "id": "VariableID:1:317"
           },
           "1:2": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:310"
+            "id": "VariableID:1:309"
           }
         },
         "scopes": [
@@ -4025,11 +4044,11 @@
         "valuesByMode": {
           "1:1": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:376"
+            "id": "VariableID:1:377"
           },
           "1:2": {
             "type": "VARIABLE_ALIAS",
-            "id": "VariableID:1:370"
+            "id": "VariableID:1:369"
           }
         },
         "scopes": [
@@ -4039,9 +4058,33 @@
         ],
         "codeSyntax": {}
       },
+      "VariableID:1:444": {
+        "id": "VariableID:1:444",
+        "name": "DV/Semantic/Color/ChartLine/Default",
+        "remote": false,
+        "key": "5ccdf9c4f322363a01a7851f608c2bc9e249d761",
+        "variableCollectionId": "VariableCollectionId:1:287",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": {
+          "1:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2793:15467"
+          },
+          "1:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2793:15466"
+          }
+        },
+        "scopes": [
+          "STROKE_COLOR"
+        ],
+        "codeSyntax": {}
+      },
       "VariableID:2511:416": {
         "id": "VariableID:2511:416",
-        "name": "DV/Semantic/Color/Text/Primary-focus",
+        "name": "DV/Semantic/Color/Text/Primary-highlight",
         "remote": false,
         "key": "32b8d7e9d7197ad4756adbae2b614d6efd738f3f",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -4060,6 +4103,57 @@
         },
         "scopes": [
           "TEXT_FILL"
+        ],
+        "codeSyntax": {}
+      },
+      "VariableID:1:399": {
+        "id": "VariableID:1:399",
+        "name": "DV/Semantic/Color/ChartBackground/Default",
+        "remote": false,
+        "key": "9670601dc8db27a818b9a07a2119a6a9a3c482f6",
+        "variableCollectionId": "VariableCollectionId:1:287",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": {
+          "1:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:1:379"
+          },
+          "1:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2793:15473"
+          }
+        },
+        "scopes": [
+          "FRAME_FILL",
+          "SHAPE_FILL",
+          "STROKE_COLOR",
+          "EFFECT_COLOR"
+        ],
+        "codeSyntax": {}
+      },
+      "VariableID:1:445": {
+        "id": "VariableID:1:445",
+        "name": "DV/Semantic/Color/ChartLine/Subtle",
+        "remote": false,
+        "key": "c651c6922db569ffa54eeaaf23a709ed438b9ed6",
+        "variableCollectionId": "VariableCollectionId:1:287",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": {
+          "1:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2793:15465"
+          },
+          "1:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2793:15468"
+          }
+        },
+        "scopes": [
+          "STROKE_COLOR"
         ],
         "codeSyntax": {}
       },
@@ -4089,7 +4183,7 @@
       },
       "VariableID:2511:417": {
         "id": "VariableID:2511:417",
-        "name": "DV/Semantic/Color/Text/Secondary-focus",
+        "name": "DV/Semantic/Color/Text/Secondary-highlight",
         "remote": false,
         "key": "0be8e45eba163e6f4ba26097df4c950eb37dca7d",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -4137,7 +4231,7 @@
       },
       "VariableID:2511:418": {
         "id": "VariableID:2511:418",
-        "name": "DV/Semantic/Color/Text/Category1-focus",
+        "name": "DV/Semantic/Color/Text/Category1-highlight",
         "remote": false,
         "key": "dbfefc153a5890afcbc24ad1fa7d6c4e27a0ee1f",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -4185,7 +4279,7 @@
       },
       "VariableID:2511:419": {
         "id": "VariableID:2511:419",
-        "name": "DV/Semantic/Color/Text/Category2-focus",
+        "name": "DV/Semantic/Color/Text/Category2-highlight",
         "remote": false,
         "key": "89dbeb2c39eca16a2a1aea4e772a60e2d74d0e5f",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -4233,7 +4327,7 @@
       },
       "VariableID:2511:420": {
         "id": "VariableID:2511:420",
-        "name": "DV/Semantic/Color/Text/Category3-focus",
+        "name": "DV/Semantic/Color/Text/Category3-highlight",
         "remote": false,
         "key": "5825f54e558b5bd452c8b6b2b4cc48902fd9f9c5",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -4281,7 +4375,7 @@
       },
       "VariableID:2511:421": {
         "id": "VariableID:2511:421",
-        "name": "DV/Semantic/Color/Text/Category4-focus",
+        "name": "DV/Semantic/Color/Text/Category4-highlight",
         "remote": false,
         "key": "3ede53914ce4d724ea120a0bb11958c8a91056b8",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -4329,7 +4423,7 @@
       },
       "VariableID:2511:422": {
         "id": "VariableID:2511:422",
-        "name": "DV/Semantic/Color/Text/Category5-focus",
+        "name": "DV/Semantic/Color/Text/Category5-highlight",
         "remote": false,
         "key": "821c366719c22a1afc45dfca303f8674e3552e34",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -4377,7 +4471,7 @@
       },
       "VariableID:2511:423": {
         "id": "VariableID:2511:423",
-        "name": "DV/Semantic/Color/Text/Category6-focus",
+        "name": "DV/Semantic/Color/Text/Category6-highlight",
         "remote": false,
         "key": "c59e783f7b545c708b87565eaa3085cb815684eb",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -4425,7 +4519,7 @@
       },
       "VariableID:2511:424": {
         "id": "VariableID:2511:424",
-        "name": "DV/Semantic/Color/Text/Category7-focus",
+        "name": "DV/Semantic/Color/Text/Category7-highlight",
         "remote": false,
         "key": "8ffcc89f02e5f33a7fd6f267224150471b3b850e",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -4473,7 +4567,7 @@
       },
       "VariableID:2511:425": {
         "id": "VariableID:2511:425",
-        "name": "DV/Semantic/Color/Text/Category8-focus",
+        "name": "DV/Semantic/Color/Text/Category8-highlight",
         "remote": false,
         "key": "1060506bab27feb9f0f118c9c980f61ae3c470c1",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -4521,7 +4615,7 @@
       },
       "VariableID:2511:426": {
         "id": "VariableID:2511:426",
-        "name": "DV/Semantic/Color/Text/Positive-focus",
+        "name": "DV/Semantic/Color/Text/Positive-highlight",
         "remote": false,
         "key": "b198d614dd075ed86ff6e6c91bcd315695f3bd9b",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -4569,7 +4663,7 @@
       },
       "VariableID:2511:427": {
         "id": "VariableID:2511:427",
-        "name": "DV/Semantic/Color/Text/Warning-focus",
+        "name": "DV/Semantic/Color/Text/Warning-highlight",
         "remote": false,
         "key": "8be46126e2b6a3133e3b8e146672f21a237554f7",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -4617,7 +4711,7 @@
       },
       "VariableID:2511:428": {
         "id": "VariableID:2511:428",
-        "name": "DV/Semantic/Color/Text/Negative-focus",
+        "name": "DV/Semantic/Color/Text/Negative-highlight",
         "remote": false,
         "key": "c9889e5ca8f21a6150754a6566b9f176e4ee4548",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -4665,7 +4759,7 @@
       },
       "VariableID:2511:429": {
         "id": "VariableID:2511:429",
-        "name": "DV/Semantic/Color/Text/Neutral-focus",
+        "name": "DV/Semantic/Color/Text/Neutral-highlight",
         "remote": false,
         "key": "f74ed951bb4ab71631be7e8f171be2699b451c06",
         "variableCollectionId": "VariableCollectionId:1:287",
@@ -4684,6 +4778,54 @@
         },
         "scopes": [
           "TEXT_FILL"
+        ],
+        "codeSyntax": {}
+      },
+      "VariableID:332:1317": {
+        "id": "VariableID:332:1317",
+        "name": "DV/Semantic/Color/ChartText/Default",
+        "remote": false,
+        "key": "e7f1b7ab91eae9b142c889665ae15e33072bf483",
+        "variableCollectionId": "VariableCollectionId:1:287",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": {
+          "1:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2793:15473"
+          },
+          "1:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:1:379"
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "codeSyntax": {}
+      },
+      "VariableID:332:1318": {
+        "id": "VariableID:332:1318",
+        "name": "DV/Semantic/Color/ChartText/Subtle",
+        "remote": false,
+        "key": "d8cdaead4f6bf867e3e3967402f641cc866f4e48",
+        "variableCollectionId": "VariableCollectionId:1:287",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": {
+          "1:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2793:15468"
+          },
+          "1:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2793:15466"
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
         ],
         "codeSyntax": {}
       },
@@ -6865,6 +7007,314 @@
         ],
         "codeSyntax": {}
       },
+      "VariableID:1:379": {
+        "id": "VariableID:1:379",
+        "name": "primitive/White",
+        "remote": false,
+        "key": "e74cc8d87c7268d3e6525d63aca8738a3b06dbe9",
+        "variableCollectionId": "VariableCollectionId:1:288",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": {
+          "1:3": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "codeSyntax": {}
+      },
+      "VariableID:2793:15462": {
+        "id": "VariableID:2793:15462",
+        "name": "primitive/chartgray/50",
+        "remote": false,
+        "key": "c77946bf407bb0439711ba9b1b6bf901600b2bc8",
+        "variableCollectionId": "VariableCollectionId:1:288",
+        "resolvedType": "COLOR",
+        "description": "Only for chart elements – identical to gray in WARP components",
+        "hiddenFromPublishing": false,
+        "valuesByMode": {
+          "1:3": {
+            "r": 0.9647058844566345,
+            "g": 0.9647058844566345,
+            "b": 0.9647058844566345,
+            "a": 1
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "codeSyntax": {}
+      },
+      "VariableID:2793:15463": {
+        "id": "VariableID:2793:15463",
+        "name": "primitive/chartgray/100",
+        "remote": false,
+        "key": "1306970b7ff3104e11cc2e1518233a662a466afd",
+        "variableCollectionId": "VariableCollectionId:1:288",
+        "resolvedType": "COLOR",
+        "description": "Only for chart elements – identical to gray in WARP components",
+        "hiddenFromPublishing": false,
+        "valuesByMode": {
+          "1:3": {
+            "r": 0.9411764740943909,
+            "g": 0.9411764740943909,
+            "b": 0.9490196108818054,
+            "a": 1
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "codeSyntax": {}
+      },
+      "VariableID:2793:15464": {
+        "id": "VariableID:2793:15464",
+        "name": "primitive/chartgray/200",
+        "remote": false,
+        "key": "d528c76fcbbf5f3cf3e792be950c7caae700274e",
+        "variableCollectionId": "VariableCollectionId:1:288",
+        "resolvedType": "COLOR",
+        "description": "Only for chart elements – identical to gray in WARP components",
+        "hiddenFromPublishing": false,
+        "valuesByMode": {
+          "1:3": {
+            "r": 0.8705882430076599,
+            "g": 0.8705882430076599,
+            "b": 0.8901960849761963,
+            "a": 1
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "codeSyntax": {}
+      },
+      "VariableID:2793:15465": {
+        "id": "VariableID:2793:15465",
+        "name": "primitive/chartgray/300",
+        "remote": false,
+        "key": "95a588df266cf7369b3634dbbc6b3a86d7f46cd5",
+        "variableCollectionId": "VariableCollectionId:1:288",
+        "resolvedType": "COLOR",
+        "description": "Only for chart elements – identical to gray in WARP components",
+        "hiddenFromPublishing": false,
+        "valuesByMode": {
+          "1:3": {
+            "r": 0.7921568751335144,
+            "g": 0.7921568751335144,
+            "b": 0.8196078538894653,
+            "a": 1
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "codeSyntax": {}
+      },
+      "VariableID:2793:15466": {
+        "id": "VariableID:2793:15466",
+        "name": "primitive/chartgray/400",
+        "remote": false,
+        "key": "47de7e23b9a616344a635bf54f3e72ff3da10638",
+        "variableCollectionId": "VariableCollectionId:1:288",
+        "resolvedType": "COLOR",
+        "description": "Only for chart elements – identical to gray in WARP components",
+        "hiddenFromPublishing": false,
+        "valuesByMode": {
+          "1:3": {
+            "r": 0.686274528503418,
+            "g": 0.686274528503418,
+            "b": 0.7215686440467834,
+            "a": 1
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "codeSyntax": {}
+      },
+      "VariableID:2793:15467": {
+        "id": "VariableID:2793:15467",
+        "name": "primitive/chartgray/500",
+        "remote": false,
+        "key": "0543a5146bdf56239fd4b4c8d11c5a6ccfae6516",
+        "variableCollectionId": "VariableCollectionId:1:288",
+        "resolvedType": "COLOR",
+        "description": "Only for chart elements – identical to gray in WARP components",
+        "hiddenFromPublishing": false,
+        "valuesByMode": {
+          "1:3": {
+            "r": 0.5176470875740051,
+            "g": 0.5176470875740051,
+            "b": 0.5607843399047852,
+            "a": 1
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "codeSyntax": {}
+      },
+      "VariableID:2793:15468": {
+        "id": "VariableID:2793:15468",
+        "name": "primitive/chartgray/600",
+        "remote": false,
+        "key": "21f180793fa7f3d7af31585e6ce81ed419a6c877",
+        "variableCollectionId": "VariableCollectionId:1:288",
+        "resolvedType": "COLOR",
+        "description": "Only for chart elements – identical to gray in WARP components",
+        "hiddenFromPublishing": false,
+        "valuesByMode": {
+          "1:3": {
+            "r": 0.3607843220233917,
+            "g": 0.3607843220233917,
+            "b": 0.4000000059604645,
+            "a": 1
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "codeSyntax": {}
+      },
+      "VariableID:2793:15469": {
+        "id": "VariableID:2793:15469",
+        "name": "primitive/chartgray/700",
+        "remote": false,
+        "key": "233a2241fbc201892b9f53541515f3f0da345c1c",
+        "variableCollectionId": "VariableCollectionId:1:288",
+        "resolvedType": "COLOR",
+        "description": "Only for chart elements – identical to gray in WARP components",
+        "hiddenFromPublishing": false,
+        "valuesByMode": {
+          "1:3": {
+            "r": 0.27843138575553894,
+            "g": 0.27843138575553894,
+            "b": 0.30980393290519714,
+            "a": 1
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "codeSyntax": {}
+      },
+      "VariableID:2793:15470": {
+        "id": "VariableID:2793:15470",
+        "name": "primitive/chartgray/750",
+        "remote": false,
+        "key": "3244c7233214c808c8ca5d38a5a7e49c58b076a0",
+        "variableCollectionId": "VariableCollectionId:1:288",
+        "resolvedType": "COLOR",
+        "description": "Only for chart elements – identical to gray in WARP components",
+        "hiddenFromPublishing": false,
+        "valuesByMode": {
+          "1:3": {
+            "r": 0.20000000298023224,
+            "g": 0.20000000298023224,
+            "b": 0.21960784494876862,
+            "a": 1
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "codeSyntax": {}
+      },
+      "VariableID:2793:15471": {
+        "id": "VariableID:2793:15471",
+        "name": "primitive/chartgray/800",
+        "remote": false,
+        "key": "d69a1dc62f2ffd6eed18a5abf8879cbfbb9d1109",
+        "variableCollectionId": "VariableCollectionId:1:288",
+        "resolvedType": "COLOR",
+        "description": "Only for chart elements – identical to gray in WARP components",
+        "hiddenFromPublishing": false,
+        "valuesByMode": {
+          "1:3": {
+            "r": 0.16862745583057404,
+            "g": 0.16862745583057404,
+            "b": 0.1882352977991104,
+            "a": 1
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "codeSyntax": {}
+      },
+      "VariableID:2793:15472": {
+        "id": "VariableID:2793:15472",
+        "name": "primitive/chartgray/850",
+        "remote": false,
+        "key": "83c13355919a8df590fe80766a52fb8c0903aee5",
+        "variableCollectionId": "VariableCollectionId:1:288",
+        "resolvedType": "COLOR",
+        "description": "Only for chart elements – identical to gray in WARP components",
+        "hiddenFromPublishing": false,
+        "valuesByMode": {
+          "1:3": {
+            "r": 0.14901961386203766,
+            "g": 0.14901961386203766,
+            "b": 0.16862745583057404,
+            "a": 1
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "codeSyntax": {}
+      },
+      "VariableID:2793:15473": {
+        "id": "VariableID:2793:15473",
+        "name": "primitive/chartgray/900",
+        "remote": false,
+        "key": "5f92b0576a71be0f9dd79783c783d39f1d3fb801",
+        "variableCollectionId": "VariableCollectionId:1:288",
+        "resolvedType": "COLOR",
+        "description": "Only for chart elements – identical to gray in WARP components",
+        "hiddenFromPublishing": false,
+        "valuesByMode": {
+          "1:3": {
+            "r": 0.10588235408067703,
+            "g": 0.10588235408067703,
+            "b": 0.12156862765550613,
+            "a": 1
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "codeSyntax": {}
+      },
+      "VariableID:2793:15474": {
+        "id": "VariableID:2793:15474",
+        "name": "primitive/chartgray/950",
+        "remote": false,
+        "key": "dc1f71580f68d33f4970763c8cbc0256dbed547f",
+        "variableCollectionId": "VariableCollectionId:1:288",
+        "resolvedType": "COLOR",
+        "description": "Only for chart elements – identical to gray in WARP components",
+        "hiddenFromPublishing": false,
+        "valuesByMode": {
+          "1:3": {
+            "r": 0.07000000029802322,
+            "g": 0.07000000029802322,
+            "b": 0.07000000029802322,
+            "a": 1
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "codeSyntax": {}
+      },
       "VariableID:0efb3064adb8698f3f0242236de1f04f49841a50/443:1202": {
         "id": "VariableID:0efb3064adb8698f3f0242236de1f04f49841a50/443:1202",
         "name": "Default/Pink/400",
@@ -6906,103 +7356,6 @@
         },
         "scopes": [
           "ALL_SCOPES"
-        ],
-        "codeSyntax": {}
-      },
-      "VariableID:f65e2ba9388da8639e8a019402d3cd00c8df1cfa/778:30": {
-        "id": "VariableID:f65e2ba9388da8639e8a019402d3cd00c8df1cfa/778:30",
-        "name": "Dataviz/dataText/Primary",
-        "remote": true,
-        "key": "f65e2ba9388da8639e8a019402d3cd00c8df1cfa",
-        "variableCollectionId": "VariableCollectionId:ee7571118a47ebe17c6460e0aeb8eba40c092153/443:413",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "337:1": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:99b93fb46d6d236683506cb8da13f59419e27177/443:1191"
-          },
-          "443:0": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:fc682f2bc821cf85f232154c1655f311035203f8/443:1176"
-          }
-        },
-        "scopes": [
-          "ALL_SCOPES"
-        ],
-        "codeSyntax": {}
-      },
-      "VariableID:eef032946b25d6b53491cdb961e3d99b2a66ad5d/14503:161": {
-        "id": "VariableID:eef032946b25d6b53491cdb961e3d99b2a66ad5d/14503:161",
-        "name": "Semantic/Color/Surface/Default",
-        "remote": true,
-        "key": "eef032946b25d6b53491cdb961e3d99b2a66ad5d",
-        "variableCollectionId": "VariableCollectionId:227b5f83b063eebb216c486b4b16f72f08c7c259/14503:229",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "4546:0": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:924f6bd08948680feb961780f2a3d0a660779231/11038:697"
-          },
-          "4546:1": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:5c9cc63bb3225352d0f6aab36a9b43acd8b4a97d/11038:411"
-          },
-          "6325:1": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:25c0f40210e0f5520965a85b5105e74eba895d81/14144:6731"
-          },
-          "6325:3": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:68f06f14bffb5b321e4b4e5a4d074a2f2dedf40e/14144:6762"
-          },
-          "6693:0": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:b96a0ec716b184d27775325de22fd87e8a485995/11038:310"
-          },
-          "7521:0": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:f9da0842d5dedffb8c614f66fa2da0776f73292d/11038:666"
-          },
-          "7521:1": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:b1d6859f41384ee1a96ddbf07fe7cc7b00a8697f/11038:63"
-          },
-          "7548:0": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:04ac0420d3c70ec2d4959e833db01ee5f44eb091/11038:54"
-          },
-          "13263:0": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:38fd2b8faba53161c438b359d195852d139be974/13635:184"
-          },
-          "13266:1": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:19539d1d27d47617725126a3522595a95b4a2e01/13635:88"
-          },
-          "14347:0": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:38fd2b8faba53161c438b359d195852d139be974/13635:184"
-          },
-          "14359:1": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:19539d1d27d47617725126a3522595a95b4a2e01/13635:88"
-          },
-          "14364:2": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:38fd2b8faba53161c438b359d195852d139be974/13635:184"
-          },
-          "14364:3": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:19539d1d27d47617725126a3522595a95b4a2e01/13635:88"
-          }
-        },
-        "scopes": [
-          "FRAME_FILL",
-          "SHAPE_FILL"
         ],
         "codeSyntax": {}
       },
@@ -7172,6 +7525,103 @@
         },
         "scopes": [
           "ALL_SCOPES"
+        ],
+        "codeSyntax": {}
+      },
+      "VariableID:f65e2ba9388da8639e8a019402d3cd00c8df1cfa/778:30": {
+        "id": "VariableID:f65e2ba9388da8639e8a019402d3cd00c8df1cfa/778:30",
+        "name": "Dataviz/dataText/Primary",
+        "remote": true,
+        "key": "f65e2ba9388da8639e8a019402d3cd00c8df1cfa",
+        "variableCollectionId": "VariableCollectionId:ee7571118a47ebe17c6460e0aeb8eba40c092153/443:413",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "337:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:99b93fb46d6d236683506cb8da13f59419e27177/443:1191"
+          },
+          "443:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:fc682f2bc821cf85f232154c1655f311035203f8/443:1176"
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "codeSyntax": {}
+      },
+      "VariableID:eef032946b25d6b53491cdb961e3d99b2a66ad5d/14503:161": {
+        "id": "VariableID:eef032946b25d6b53491cdb961e3d99b2a66ad5d/14503:161",
+        "name": "Semantic/Color/Surface/Default",
+        "remote": true,
+        "key": "eef032946b25d6b53491cdb961e3d99b2a66ad5d",
+        "variableCollectionId": "VariableCollectionId:227b5f83b063eebb216c486b4b16f72f08c7c259/14503:229",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "4546:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:924f6bd08948680feb961780f2a3d0a660779231/11038:697"
+          },
+          "4546:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:5c9cc63bb3225352d0f6aab36a9b43acd8b4a97d/11038:411"
+          },
+          "6325:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:25c0f40210e0f5520965a85b5105e74eba895d81/14144:6731"
+          },
+          "6325:3": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:68f06f14bffb5b321e4b4e5a4d074a2f2dedf40e/14144:6762"
+          },
+          "6693:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:b96a0ec716b184d27775325de22fd87e8a485995/11038:310"
+          },
+          "7521:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:f9da0842d5dedffb8c614f66fa2da0776f73292d/11038:666"
+          },
+          "7521:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:b1d6859f41384ee1a96ddbf07fe7cc7b00a8697f/11038:63"
+          },
+          "7548:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:04ac0420d3c70ec2d4959e833db01ee5f44eb091/11038:54"
+          },
+          "13263:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:38fd2b8faba53161c438b359d195852d139be974/13635:184"
+          },
+          "13266:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:19539d1d27d47617725126a3522595a95b4a2e01/13635:88"
+          },
+          "14347:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:38fd2b8faba53161c438b359d195852d139be974/13635:184"
+          },
+          "14359:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:19539d1d27d47617725126a3522595a95b4a2e01/13635:88"
+          },
+          "14364:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:38fd2b8faba53161c438b359d195852d139be974/13635:184"
+          },
+          "14364:3": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:19539d1d27d47617725126a3522595a95b4a2e01/13635:88"
+          }
+        },
+        "scopes": [
+          "FRAME_FILL",
+          "SHAPE_FILL"
         ],
         "codeSyntax": {}
       },
