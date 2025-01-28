@@ -11,7 +11,7 @@ const androidFolder = "output/android/"; // Folder for Android
 
 function generateLightColorsForAndroid(uniqueBrands) {
   uniqueBrands.forEach((brand) => {
-    console.log(`Processing colors for brand: ${brand}`);
+    // console.log(`Processing colors for brand: ${brand}`);
 
     const colorTokenFilePath = path.join(
       tokensPath,
@@ -69,9 +69,9 @@ function generateLightColorsForAndroid(uniqueBrands) {
       const sd = StyleDictionary.extend(androidConfig);
       sd.buildPlatform("android");
       sd.buildPlatform("xml");
-      console.log(
+      /* console.log(
         `Successfully built android light colors for ${brand} in ${androidFolder}`
-      );
+      ); */
     } catch (error) {
       console.error(
         `Error building android light colors for ${brand}: ${error.message}`
@@ -82,7 +82,7 @@ function generateLightColorsForAndroid(uniqueBrands) {
 
 function generateDarkColorsForAndroid(uniqueBrands) {
   uniqueBrands.forEach((brand) => {
-    console.log(`Processing colors for brand: ${brand}`);
+    // console.log(`Processing colors for brand: ${brand}`);
 
     const colorTokenFilePath = path.join(
       tokensPath,
@@ -140,9 +140,9 @@ function generateDarkColorsForAndroid(uniqueBrands) {
       const sd = StyleDictionary.extend(androidConfig);
       sd.buildPlatform("android");
       sd.buildPlatform("xml");
-      console.log(
+      /* console.log(
         `Successfully built android light colors for ${brand} in ${androidFolder}`
-      );
+      ); */
     } catch (error) {
       console.error(
         `Error building android dark colors for ${brand}: ${error.message}`
@@ -152,7 +152,7 @@ function generateDarkColorsForAndroid(uniqueBrands) {
 }
 
 function generateXmlIdsForAndroid() {
-    console.log(`Processing xml ids for android`);
+    // console.log(`Processing xml ids for android`);
 
     const colorTokenFilePath = path.join(
       tokensPath,
@@ -195,9 +195,7 @@ function generateXmlIdsForAndroid() {
 
       const sd = StyleDictionary.extend(androidConfig);
       sd.buildPlatform("xml");
-      console.log(
-        `Successfully built android color ids `
-      );
+      // console.log(`Successfully built android color ids `);
     } catch (error) {
       console.error(
         `Error building android xml color ids : ${error.message}`
