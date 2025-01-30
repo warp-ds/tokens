@@ -1,0 +1,418 @@
+{
+  "semantic": {
+    "color": {
+      "text": {
+        "default": {
+          "value": "{color.gray.900}"
+        },
+        "subtle": {
+          "value": "{color.gray.600}"
+        },
+        "static": {
+          "value": "{color.gray.900}"
+        },
+        "placeholder": {
+          "value": "{color.gray.300}"
+        },
+        "inverted": {
+          "value": "{color.white}"
+        },
+        "inverted-subtle": {
+          "value": "{color.gray.400}"
+        },
+        "inverted-static": {
+          "value": "{color.white}"
+        },
+        "link": {
+          "value": "{color.gray.900}"
+        },
+        "disabled": {
+          "value": "{color.gray.300}"
+        },
+        "negative": {
+          "value": "{color.red.600}"
+        },
+        "positive": {
+          "value": "{color.green.600}"
+        }
+      },
+      "background": {
+        "default": {
+          "value": "{color.white}"
+        },
+        "hover": {
+          "value": "{color.gray.100}"
+        },
+        "active": {
+          "value": "{color.gray.200}"
+        },
+        "subtle": {
+          "value": "{color.gray.100}"
+        },
+        "subtle-hover": {
+          "value": "{color.gray.200}"
+        },
+        "subtle-active": {
+          "value": "{color.gray.300}"
+        },
+        "disabled": {
+          "value": "{color.gray.300}"
+        },
+        "disabled-subtle": {
+          "value": "{color.gray.200}"
+        },
+        "selected": {
+          "value": "{color.gray.50}"
+        },
+        "selected-hover": {
+          "value": "{color.gray.100}"
+        },
+        "selected-active": {
+          "value": "{color.gray.200}"
+        },
+        "inverted": {
+          "value": "{color.gray.900}"
+        },
+        "primary": {
+          "value": "{color.gray.900}"
+        },
+        "primary-hover": {
+          "value": "{color.gray.800}"
+        },
+        "primary-active": {
+          "value": "{color.gray.700}"
+        },
+        "primary-subtle": {
+          "value": "{color.gray.100}"
+        },
+        "primary-subtle-hover": {
+          "value": "{color.gray.200}"
+        },
+        "primary-subtle-active": {
+          "value": "{color.gray.300}"
+        },
+        "secondary": {
+          "value": "{color.gray.900}"
+        },
+        "secondary-hover": {
+          "value": "{color.gray.800}"
+        },
+        "secondary-active": {
+          "value": "{color.gray.700}"
+        },
+        "positive": {
+          "value": "{color.green.600}"
+        },
+        "positive-hover": {
+          "value": "{color.green.700}"
+        },
+        "positive-active": {
+          "value": "{color.green.800}"
+        },
+        "positive-subtle": {
+          "value": "{color.green.50}"
+        },
+        "positive-subtle-hover": {
+          "value": "{color.green.100}"
+        },
+        "positive-subtle-active": {
+          "value": "{color.green.200}"
+        },
+        "negative": {
+          "value": "{color.red.600}"
+        },
+        "negative-hover": {
+          "value": "{color.red.700}"
+        },
+        "negative-active": {
+          "value": "{color.red.800}"
+        },
+        "negative-subtle": {
+          "value": "{color.red.50}"
+        },
+        "negative-subtle-hover": {
+          "value": "{color.red.100}"
+        },
+        "negative-subtle-active": {
+          "value": "{color.red.200}"
+        },
+        "warning": {
+          "value": "{color.orange.600}"
+        },
+        "warning-hover": {
+          "value": "{color.orange.700}"
+        },
+        "warning-active": {
+          "value": "{color.orange.800}"
+        },
+        "warning-subtle": {
+          "value": "{color.orange.50}"
+        },
+        "warning-subtle-hover": {
+          "value": "{color.orange.100}"
+        },
+        "warning-subtle-active": {
+          "value": "{color.orange.200}"
+        },
+        "info": {
+          "value": "{color.blue.600}"
+        },
+        "info-hover": {
+          "value": "{color.blue.700}"
+        },
+        "info-active": {
+          "value": "{color.blue.800}"
+        },
+        "info-subtle": {
+          "value": "{color.blue.50}"
+        },
+        "info-subtle-hover": {
+          "value": "{color.blue.100}"
+        },
+        "info-subtle-active": {
+          "value": "{color.blue.200}"
+        },
+        "transparent-0": {
+          "value": "{color.transparent}"
+        },
+        "notification": {
+          "value": "{color.red.600}"
+        }
+      },
+      "surface": {
+        "sunken": {
+          "value": "{color.gray.50}"
+        },
+        "elevated-100": {
+          "value": "{color.white}"
+        },
+        "elevated-100-hover": {
+          "value": "{color.gray.100}"
+        },
+        "elevated-100-active": {
+          "value": "{color.gray.200}"
+        },
+        "elevated-200": {
+          "value": "{color.white}"
+        },
+        "elevated-200-hover": {
+          "value": "{color.gray.100}"
+        },
+        "elevated-200-active": {
+          "value": "{color.gray.200}"
+        },
+        "elevated-300": {
+          "value": "{color.white}"
+        },
+        "elevated-300-hover": {
+          "value": "{color.gray.100}"
+        },
+        "elevated-300-active": {
+          "value": "{color.gray.200}"
+        }
+      },
+      "border": {
+        "default": {
+          "value": "{color.gray.300}"
+        },
+        "hover": {
+          "value": "{color.gray.400}"
+        },
+        "active": {
+          "value": "{color.gray.500}"
+        },
+        "disabled": {
+          "value": "{color.gray.300}"
+        },
+        "selected": {
+          "value": "{color.gray.900}"
+        },
+        "selected-hover": {
+          "value": "{color.gray.800}"
+        },
+        "selected-active": {
+          "value": "{color.gray.700}"
+        },
+        "inverted": {
+          "value": "{color.white}"
+        },
+        "primary": {
+          "value": "{color.gray.900}"
+        },
+        "primary-hover": {
+          "value": "{color.gray.800}"
+        },
+        "primary-active": {
+          "value": "{color.gray.700}"
+        },
+        "primary-subtle": {
+          "value": "{color.gray.400}"
+        },
+        "primary-subtle-hover": {
+          "value": "{color.gray.500}"
+        },
+        "primary-subtle-active": {
+          "value": "{color.gray.600}"
+        },
+        "secondary": {
+          "value": "{color.gray.900}"
+        },
+        "secondary-hover": {
+          "value": "{color.gray.800}"
+        },
+        "secondary-active": {
+          "value": "{color.gray.700}"
+        },
+        "positive": {
+          "value": "{color.green.600}"
+        },
+        "positive-hover": {
+          "value": "{color.green.700}"
+        },
+        "positive-active": {
+          "value": "{color.green.800}"
+        },
+        "positive-subtle": {
+          "value": "{color.green.300}"
+        },
+        "positive-subtle-hover": {
+          "value": "{color.green.400}"
+        },
+        "positive-subtle-active": {
+          "value": "{color.green.500}"
+        },
+        "negative": {
+          "value": "{color.red.600}"
+        },
+        "negative-hover": {
+          "value": "{color.red.700}"
+        },
+        "negative-active": {
+          "value": "{color.red.800}"
+        },
+        "negative-subtle": {
+          "value": "{color.red.300}"
+        },
+        "negative-subtle-hover": {
+          "value": "{color.red.400}"
+        },
+        "negative-subtle-active": {
+          "value": "{color.red.500}"
+        },
+        "warning": {
+          "value": "{color.orange.600}"
+        },
+        "warning-hover": {
+          "value": "{color.orange.700}"
+        },
+        "warning-active": {
+          "value": "{color.orange.800}"
+        },
+        "warning-subtle": {
+          "value": "{color.orange.300}"
+        },
+        "warning-subtle-hover": {
+          "value": "{color.orange.400}"
+        },
+        "warning-subtle-active": {
+          "value": "{color.orange.500}"
+        },
+        "info": {
+          "value": "{color.blue.600}"
+        },
+        "info-hover": {
+          "value": "{color.blue.700}"
+        },
+        "info-active": {
+          "value": "{color.blue.800}"
+        },
+        "info-subtle": {
+          "value": "{color.blue.300}"
+        },
+        "info-subtle-hover": {
+          "value": "{color.blue.400}"
+        },
+        "info-subtle-active": {
+          "value": "{color.blue.500}"
+        },
+        "focus": {
+          "value": "{color.blue.400}"
+        }
+      },
+      "icon": {
+        "default": {
+          "value": "{color.gray.900}"
+        },
+        "hover": {
+          "value": "{color.gray.800}"
+        },
+        "active": {
+          "value": "{color.gray.700}"
+        },
+        "static": {
+          "value": "{color.gray.900}"
+        },
+        "selected": {
+          "value": "{color.gray.900}"
+        },
+        "selected-hover": {
+          "value": "{color.gray.800}"
+        },
+        "selected-active": {
+          "value": "{color.gray.700}"
+        },
+        "disabled": {
+          "value": "{color.gray.300}"
+        },
+        "subtle": {
+          "value": "{color.gray.600}"
+        },
+        "subtle-hover": {
+          "value": "{color.gray.700}"
+        },
+        "subtle-active": {
+          "value": "{color.gray.800}"
+        },
+        "inverted": {
+          "value": "{color.white}"
+        },
+        "inverted-hover": {
+          "value": "{color.gray.100}"
+        },
+        "inverted-active": {
+          "value": "{color.gray.200}"
+        },
+        "inverted-static": {
+          "value": "{color.white}"
+        },
+        "primary": {
+          "value": "{color.gray.900}"
+        },
+        "secondary": {
+          "value": "{color.gray.900}"
+        },
+        "secondary-hover": {
+          "value": "{color.gray.800}"
+        },
+        "secondary-active": {
+          "value": "{color.gray.700}"
+        },
+        "positive": {
+          "value": "{color.green.600}"
+        },
+        "negative": {
+          "value": "{color.red.600}"
+        },
+        "warning": {
+          "value": "{color.orange.600}"
+        },
+        "info": {
+          "value": "{color.blue.600}"
+        },
+        "notification": {
+          "value": "{color.white}"
+        }
+      }
+    }
+  }
+}

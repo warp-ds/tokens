@@ -8,7 +8,7 @@ import "dotenv/config";
 
 const ENV_PATH = "./.env";
 
-export const supportedBrandNames = ["finn", "tori", "dba", "blocket", "dataviz"];
+export const supportedBrandNames = ["finn", "tori", "dba", "blocket", "dataviz", "neutral"];
 
 const spinner = ora();
 

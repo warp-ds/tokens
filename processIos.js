@@ -19,7 +19,7 @@ const iosTokensFolder = "output/ios/Tokens/"; // Folder for iOS tokens
 // Function to generate iOS-specific primitive colors for each brand
 function generateColorsForIOS(uniqueBrands) {
   uniqueBrands.forEach((brand) => {
-    console.log(`Processing colors for brand: ${brand}`);
+    //console.log(`Processing colors for brand: ${brand}`);
 
     const tokenFilePath = path.join(
       tokensPath,
@@ -58,9 +58,9 @@ function generateColorsForIOS(uniqueBrands) {
 
       const sd = StyleDictionary.extend(iosConfig);
       sd.buildPlatform("ios");
-      console.log(
+      /* console.log(
         `Successfully built iOS primitive colors for ${brand} in ${outputFolder}`
-      );
+      ); */
     } catch (error) {
       console.error(
         `Error building iOS primitive colors for ${brand}: ${error.message}`
@@ -72,7 +72,7 @@ function generateColorsForIOS(uniqueBrands) {
 // Function to generate iOS-specific TokenProvider
 function generateTokenProviderForIOS(uniqueBrands) {
   uniqueBrands.forEach((brand) => {
-    console.log(`Processing tokens for TokenProvider`);
+    // console.log(`Processing tokens for TokenProvider`);
 
     const lightTokenFilePath = path.join(
       tokensPath,
@@ -92,9 +92,9 @@ function generateTokenProviderForIOS(uniqueBrands) {
     }
 
     try {
-      console.log(`Reading light token file: ${lightTokenFilePath}`);
+      // console.log(`Reading light token file: ${lightTokenFilePath}`);
       const lightTokens = JSON.parse(fs.readFileSync(lightTokenFilePath));
-      console.log(`Reading colors file: ${colorFilePath}`);
+      // console.log(`Reading colors file: ${colorFilePath}`);
       const colorTokens = JSON.parse(fs.readFileSync(colorFilePath));
 
       const iosTokensConfig = {
@@ -117,9 +117,9 @@ function generateTokenProviderForIOS(uniqueBrands) {
 
       const sdTokens = StyleDictionary.extend(iosTokensConfig);
       sdTokens.buildPlatform("ios");
-      console.log(
+      /* console.log(
         `Successfully built iOS tokens for ${brand} in ${iosTokensFolder}`
-      );
+      ); */
     } catch (error) {
       console.error(`Error building iOS tokens for ${brand}: ${error.message}`);
     }
@@ -129,7 +129,7 @@ function generateTokenProviderForIOS(uniqueBrands) {
 // Function to generate iOS-specific light tokens for each brand
 function generateLightTokensForIOS(uniqueBrands) {
   uniqueBrands.forEach((brand) => {
-    console.log(`Processing tokens for brand: ${brand}`);
+    // console.log(`Processing tokens for brand: ${brand}`);
 
     const lightTokenFilePath = path.join(
       tokensPath,
@@ -149,9 +149,9 @@ function generateLightTokensForIOS(uniqueBrands) {
     }
 
     try {
-      console.log(`Reading light token file: ${lightTokenFilePath}`);
+      // console.log(`Reading light token file: ${lightTokenFilePath}`);
       const lightTokens = JSON.parse(fs.readFileSync(lightTokenFilePath));
-      console.log(`Reading colors file: ${colorFilePath}`);
+      // console.log(`Reading colors file: ${colorFilePath}`);
       const colorTokens = JSON.parse(fs.readFileSync(colorFilePath));
 
       const iosTokensConfig = {
@@ -178,9 +178,9 @@ function generateLightTokensForIOS(uniqueBrands) {
 
       const sdTokens = StyleDictionary.extend(iosTokensConfig);
       sdTokens.buildPlatform("ios");
-      console.log(
+      /* console.log(
         `Successfully built iOS tokens for ${brand} in ${iosTokensFolder}`
-      );
+      ); */
     } catch (error) {
       console.error(`Error building iOS tokens for ${brand}: ${error.message}`);
     }
@@ -190,7 +190,7 @@ function generateLightTokensForIOS(uniqueBrands) {
 // Function to generate iOS-specific dark tokens for each brand
 function generateDarkTokensForIOS(uniqueBrands) {
   uniqueBrands.forEach((brand) => {
-    console.log(`Processing tokens for brand: ${brand}`);
+    // console.log(`Processing tokens for brand: ${brand}`);
 
     const darkTokenFilePath = path.join(
       tokensPath,
@@ -210,9 +210,9 @@ function generateDarkTokensForIOS(uniqueBrands) {
     }
 
     try {
-      console.log(`Reading dark token file: ${darkTokenFilePath}`);
+      // console.log(`Reading dark token file: ${darkTokenFilePath}`);
       const darkTokens = JSON.parse(fs.readFileSync(darkTokenFilePath));
-      console.log(`Reading colors file: ${colorFilePath}`);
+      // console.log(`Reading colors file: ${colorFilePath}`);
       const colorTokens = JSON.parse(fs.readFileSync(colorFilePath));
 
       const iosTokensConfig = {
@@ -239,9 +239,9 @@ function generateDarkTokensForIOS(uniqueBrands) {
 
       const sdTokens = StyleDictionary.extend(iosTokensConfig);
       sdTokens.buildPlatform("ios");
-      console.log(
+      /* console.log(
         `Successfully built iOS tokens for ${brand} in ${iosTokensFolder}`
-      );
+      ); */
     } catch (error) {
       console.error(`Error building iOS tokens for ${brand}: ${error.message}`);
     }
@@ -251,7 +251,7 @@ function generateDarkTokensForIOS(uniqueBrands) {
 // Function to generate iOS-specific light colors for each brand
 function generateLightColorsForIOS(uniqueBrands) {
   uniqueBrands.forEach((brand) => {
-    console.log(`Processing colors for brand: ${brand}`);
+    // console.log(`Processing colors for brand: ${brand}`);
 
     const lightColorFilePath = path.join(
       tokensPath,
@@ -282,11 +282,11 @@ function generateLightColorsForIOS(uniqueBrands) {
     }
 
     try {
-      console.log(`Reading light color file: ${lightColorFilePath}`);
+      // console.log(`Reading light color file: ${lightColorFilePath}`);
       const lightColors = JSON.parse(fs.readFileSync(lightColorFilePath));
-      console.log(`Reading light token file: ${lightTokenFilePath}`);
+      // console.log(`Reading light token file: ${lightTokenFilePath}`);
       const lightTokens = JSON.parse(fs.readFileSync(lightTokenFilePath));
-      console.log(`Reading colors file: ${colorFilePath}`);
+      // console.log(`Reading colors file: ${colorFilePath}`);
       const colorTokens = JSON.parse(fs.readFileSync(colorFilePath));
 
       const iosColorsConfig = {
@@ -313,7 +313,7 @@ function generateLightColorsForIOS(uniqueBrands) {
 
       const sdTokens = StyleDictionary.extend(iosColorsConfig);
       sdTokens.buildPlatform("ios");
-      console.log(`Successfully built iOS colors for ${brand} in ${iosFolder}`);
+      // console.log(`Successfully built iOS colors for ${brand} in ${iosFolder}`);
     } catch (error) {
       console.error(`Error building iOS colors for ${brand}: ${error.message}`);
     }
@@ -323,7 +323,7 @@ function generateLightColorsForIOS(uniqueBrands) {
 // Function to generate iOS-specific dark colors for each brand
 function generateDarkColorsForIOS(uniqueBrands) {
   uniqueBrands.forEach((brand) => {
-    console.log(`Processing colors for brand: ${brand}`);
+    // console.log(`Processing colors for brand: ${brand}`);
 
     const darkColorFilePath = path.join(
       tokensPath,
@@ -350,11 +350,11 @@ function generateDarkColorsForIOS(uniqueBrands) {
     }
 
     try {
-      console.log(`Reading dark color file: ${darkColorFilePath}`);
+      // console.log(`Reading dark color file: ${darkColorFilePath}`);
       const darkColors = JSON.parse(fs.readFileSync(darkColorFilePath));
-      console.log(`Reading dark token file: ${darkTokenFilePath}`);
+      // console.log(`Reading dark token file: ${darkTokenFilePath}`);
       const darkTokens = JSON.parse(fs.readFileSync(darkTokenFilePath));
-      console.log(`Reading colors file: ${colorFilePath}`);
+      // console.log(`Reading colors file: ${colorFilePath}`);
       const colorTokens = JSON.parse(fs.readFileSync(colorFilePath));
 
       const iosColorsConfig = {
@@ -381,7 +381,7 @@ function generateDarkColorsForIOS(uniqueBrands) {
 
       const sdTokens = StyleDictionary.extend(iosColorsConfig);
       sdTokens.buildPlatform("ios");
-      console.log(`Successfully built iOS colors for ${brand} in ${iosFolder}`);
+      // console.log(`Successfully built iOS colors for ${brand} in ${iosFolder}`);
     } catch (error) {
       console.error(`Error building iOS colors for ${brand}: ${error.message}`);
     }
@@ -392,7 +392,7 @@ function generateDarkColorsForIOS(uniqueBrands) {
 function combineTokenProviders() {
   // Log all the files inside the folder
   const allFiles = fs.readdirSync(iosTokensFolder);
-  console.log(`Files in ${iosTokensFolder}:`, allFiles);
+  // console.log(`Files in ${iosTokensFolder}:`, allFiles);
 
   // Filter the files that end with LightTokens.swift
   const tokenFiles = allFiles.filter((file) =>
@@ -400,9 +400,9 @@ function combineTokenProviders() {
   );
 
   // Log how many files were found
-  console.log(
+  /* console.log(
     `Found ${tokenFiles.length} LightTokens files in ${iosTokensFolder}`
-  );
+  ); */
 
   tokenFiles.forEach((lightFile) => {
     const brandName = lightFile.replace("LightTokens.swift", ""); // Extract the brand name
@@ -411,9 +411,9 @@ function combineTokenProviders() {
     const lightFilePath = path.join(iosTokensFolder, lightFile);
     const darkFilePath = path.join(iosTokensFolder, darkFile);
 
-    console.log(`Processing brand for Tokens: ${brandName}`);
-    console.log(`Light file: ${lightFilePath}`);
-    console.log(`Dark file: ${darkFilePath}`);
+    // console.log(`Processing brand for Tokens: ${brandName}`);
+    // console.log(`Light file: ${lightFilePath}`);
+    // console.log(`Dark file: ${darkFilePath}`);
 
     if (fs.existsSync(lightFilePath) && fs.existsSync(darkFilePath)) {
       // Read the contents of both files
@@ -421,8 +421,8 @@ function combineTokenProviders() {
       const darkFileContent = fs.readFileSync(darkFilePath, "utf8");
 
       // Log the contents of the light and dark token provider files
-      console.log(`Light File Content:\n${lightFileContent}`);
-      console.log(`Dark File Content:\n${darkFileContent}`);
+      // console.log(`Light File Content:\n${lightFileContent}`);
+      // console.log(`Dark File Content:\n${darkFileContent}`);
 
       // Parse the SwiftUI and UIKit properties from each file
       const lightTokens = extractTokens(lightFileContent, "Color");
@@ -484,12 +484,12 @@ ${combinedUITokens}
         `${brandName}Tokens.swift`
       );
       fs.writeFileSync(combinedFilePath, combinedContent, "utf8");
-      console.log(`Combined token provider created for ${brandName}`);
+      // console.log(`Combined token provider created for ${brandName}`);
 
       // Delete the original Light and Dark token files
       fs.unlinkSync(lightFilePath);
       fs.unlinkSync(darkFilePath);
-      console.log(`Deleted ${lightFile} and ${darkFile}`);
+      // console.log(`Deleted ${lightFile} and ${darkFile}`);
     } else {
       console.error(`Missing light or dark file for brand: ${brandName}`);
     }
@@ -500,7 +500,7 @@ ${combinedUITokens}
 function combineAllColorProviders() {
   // Log all the files inside the folder
   const allFiles = fs.readdirSync(iosFolder);
-  console.log(`Files in ${iosFolder}:`, allFiles);
+  // console.log(`Files in ${iosFolder}:`, allFiles);
 
   // Filter the files that end with LightColors.swift and DarkColors.swift
   const lightFiles = allFiles.filter((file) =>
@@ -520,9 +520,9 @@ function combineAllColorProviders() {
     const lightFilePath = path.join(iosFolder, lightFile);
     const darkFilePath = path.join(iosFolder, darkFile);
 
-    console.log(`Processing brand for Colors: ${brandName}`);
-    console.log(`Light file: ${lightFilePath}`);
-    console.log(`Dark file: ${darkFilePath}`);
+    // console.log(`Processing brand for Colors: ${brandName}`);
+    // console.log(`Light file: ${lightFilePath}`);
+    // console.log(`Dark file: ${darkFilePath}`);
 
     if (fs.existsSync(lightFilePath) && fs.existsSync(darkFilePath)) {
       // Read the contents of both files
@@ -530,8 +530,8 @@ function combineAllColorProviders() {
       const darkFileContent = fs.readFileSync(darkFilePath, "utf8");
 
       // Log the contents of the light and dark color provider files
-      console.log(`Light File Content:\n${lightFileContent}`);
-      console.log(`Dark File Content:\n${darkFileContent}`);
+      // console.log(`Light File Content:\n${lightFileContent}`);
+      // console.log(`Dark File Content:\n${darkFileContent}`);
 
       // Parse the SwiftUI properties from each file
       const lightTokens = extractTokens(lightFileContent, "Color");
@@ -673,7 +673,7 @@ ${Object.keys(combinedUITokens)
   // Write the combined content to a new file
   const combinedFilePath = path.join(iosFolder, `ColorProvider.swift`);
   fs.writeFileSync(combinedFilePath, combinedContent, "utf8");
-  console.log(`Combined color provider created at ${combinedFilePath}`);
+  // console.log(`Combined color provider created at ${combinedFilePath}`);
 
   // Delete the original Light and Dark color provider files
   lightFiles.forEach((lightFile) => {
@@ -683,7 +683,7 @@ ${Object.keys(combinedUITokens)
 
     fs.unlinkSync(lightFilePath);
     fs.unlinkSync(darkFilePath);
-    console.log(`Deleted ${lightFile} and ${darkFile}`);
+    // console.log(`Deleted ${lightFile} and ${darkFile}`);
   });
 }
 
