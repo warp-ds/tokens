@@ -42,6 +42,7 @@ function generateLightColorsForAndroid(uniqueBrands) {
           android: {
             transformGroup: "compose",
             buildPath: androidFolder + `${brand}/light/`,
+            
             files: [
               {
                 destination:  `${
@@ -49,7 +50,7 @@ function generateLightColorsForAndroid(uniqueBrands) {
                 }Colors.kt`,
                 format: "compose-colors-format",           
                 packageName: `com.schibsted.nmp.warp.brands.${brand}`,
-              },
+              }
             ],
             transforms: ["attribute/cti", "name/cti/pascal", "color/hexAlpha"], // Use custom hexAlpha transform
           },
@@ -58,13 +59,17 @@ function generateLightColorsForAndroid(uniqueBrands) {
             buildPath: androidFolder+ `${brand}/light/`,
             files: [
               {
+                brand: brand,
                 destination: "colors.xml",
                 format: "colors-xml-format",
               },
             ],
           },
+
         },
       };
+
+
 
       const sd = StyleDictionary.extend(androidConfig);
       sd.buildPlatform("android");
@@ -129,6 +134,7 @@ function generateDarkColorsForAndroid(uniqueBrands) {
             buildPath: androidFolder + `${brand}/dark/`,
             files: [
               {
+                brand: brand,
                 destination: "colors.xml",
                 format: "colors-xml-format",
               },
