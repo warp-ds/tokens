@@ -7,9 +7,8 @@ import "./lib/ios/format.js";
 import {
   extractTokens,
   toCamelCase,
-  transformValue,
   getGeneratedDate,
-} from "./lib/ios/helpers.js";
+} from "./lib/helpers.js";
 
 const tokensPath = "./tokens";
 const iosFolder = "output/ios/"; // Folder for iOS
