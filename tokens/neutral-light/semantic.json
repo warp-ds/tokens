@@ -62,13 +62,13 @@
           "value": "{color.gray.200}"
         },
         "selected": {
-          "value": "{color.gray.50}"
+          "value": "{color.blue.50}"
         },
         "selected-hover": {
-          "value": "{color.gray.100}"
+          "value": "{color.blue.100}"
         },
         "selected-active": {
-          "value": "{color.gray.200}"
+          "value": "{color.blue.200}"
         },
         "inverted": {
           "value": "{color.gray.900}"

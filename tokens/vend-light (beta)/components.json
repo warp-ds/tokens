@@ -75,10 +75,10 @@
     },
     "navbar": {
       "icon-selected": {
-        "value": "{semantic.color.icon.selected}"
+        "value": "{semantic.color.icon.secondary}"
       },
       "border-selected": {
-        "value": "{semantic.color.border.selected}"
+        "value": "{semantic.color.border.secondary}"
       }
     },
     "page indicator": {
