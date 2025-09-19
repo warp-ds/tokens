@@ -24,7 +24,7 @@
           "value": "{color.white}"
         },
         "link": {
-          "value": "{color.blue.400}"
+          "value": "{color.white}"
         },
         "disabled": {
           "value": "{color.gray.500}"
@@ -62,43 +62,43 @@
           "value": "{color.gray.600}"
         },
         "selected": {
-          "value": "{color.blue.900}"
+          "value": "{color.gray.900}"
         },
         "selected-hover": {
-          "value": "{color.blue.800}"
+          "value": "{color.gray.800}"
         },
         "selected-active": {
-          "value": "{color.blue.700}"
+          "value": "{color.gray.700}"
         },
         "inverted": {
           "value": "{color.gray.50}"
         },
         "primary": {
-          "value": "{color.blue.400}"
-        },
-        "primary-hover": {
-          "value": "{color.blue.300}"
-        },
-        "primary-active": {
-          "value": "{color.blue.200}"
-        },
-        "primary-subtle": {
-          "value": "{color.blue.850}"
-        },
-        "primary-subtle-hover": {
-          "value": "{color.blue.800}"
-        },
-        "primary-subtle-active": {
-          "value": "{color.blue.750}"
-        },
-        "secondary": {
           "value": "{color.white}"
         },
-        "secondary-hover": {
+        "primary-hover": {
           "value": "{color.gray.100}"
         },
-        "secondary-active": {
+        "primary-active": {
           "value": "{color.gray.200}"
+        },
+        "primary-subtle": {
+          "value": "{color.gray.850}"
+        },
+        "primary-subtle-hover": {
+          "value": "{color.gray.800}"
+        },
+        "primary-subtle-active": {
+          "value": "{color.gray.750}"
+        },
+        "secondary": {
+          "value": "{color.brown.400}"
+        },
+        "secondary-hover": {
+          "value": "{color.brown.300}"
+        },
+        "secondary-active": {
+          "value": "{color.brown.200}"
         },
         "positive": {
           "value": "{color.green.400}"
@@ -225,43 +225,43 @@
           "value": "{color.gray.700}"
         },
         "selected": {
-          "value": "{color.blue.400}"
+          "value": "{color.white}"
         },
         "selected-hover": {
-          "value": "{color.blue.300}"
+          "value": "{color.gray.100}"
         },
         "selected-active": {
-          "value": "{color.blue.200}"
+          "value": "{color.gray.200}"
         },
         "inverted": {
           "value": "{color.gray.900}"
         },
         "primary": {
-          "value": "{color.blue.400}"
-        },
-        "primary-hover": {
-          "value": "{color.blue.300}"
-        },
-        "primary-active": {
-          "value": "{color.blue.200}"
-        },
-        "primary-subtle": {
-          "value": "{color.blue.700}"
-        },
-        "primary-subtle-hover": {
-          "value": "{color.blue.600}"
-        },
-        "primary-subtle-active": {
-          "value": "{color.blue.500}"
-        },
-        "secondary": {
           "value": "{color.white}"
         },
-        "secondary-hover": {
+        "primary-hover": {
           "value": "{color.gray.100}"
         },
-        "secondary-active": {
+        "primary-active": {
           "value": "{color.gray.200}"
+        },
+        "primary-subtle": {
+          "value": "{color.gray.700}"
+        },
+        "primary-subtle-hover": {
+          "value": "{color.gray.600}"
+        },
+        "primary-subtle-active": {
+          "value": "{color.gray.500}"
+        },
+        "secondary": {
+          "value": "{color.brown.400}"
+        },
+        "secondary-hover": {
+          "value": "{color.brown.300}"
+        },
+        "secondary-active": {
+          "value": "{color.brown.200}"
         },
         "positive": {
           "value": "{color.green.400}"
@@ -344,22 +344,22 @@
           "value": "{color.white}"
         },
         "hover": {
-          "value": "{color.blue.100}"
+          "value": "{color.gray.100}"
         },
         "active": {
-          "value": "{color.blue.200}"
+          "value": "{color.gray.200}"
         },
         "static": {
           "value": "{color.gray.900}"
         },
         "selected": {
-          "value": "{color.blue.400}"
+          "value": "{color.white}"
         },
         "selected-hover": {
-          "value": "{color.blue.300}"
+          "value": "{color.gray.100}"
         },
         "selected-active": {
-          "value": "{color.blue.200}"
+          "value": "{color.gray.200}"
         },
         "disabled": {
           "value": "{color.gray.600}"
@@ -386,16 +386,16 @@
           "value": "{color.white}"
         },
         "primary": {
-          "value": "{color.blue.400}"
-        },
-        "secondary": {
           "value": "{color.white}"
         },
+        "secondary": {
+          "value": "{color.brown.400}"
+        },
         "secondary-hover": {
-          "value": "{color.gray.100}"
+          "value": "{color.brown.300}"
         },
         "secondary-active": {
-          "value": "{color.gray.200}"
+          "value": "{color.brown.200}"
         },
         "positive": {
           "value": "{color.green.400}"
