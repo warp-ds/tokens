@@ -221,6 +221,12 @@
         "active": {
           "value": "{color.gray.500}"
         },
+        "strong": {
+          "value": "{color.gray.500}"
+        },
+        "strong-hover": {
+          "value": "{color.gray.600}"
+        },
         "disabled": {
           "value": "{color.gray.300}"
         },
@@ -337,80 +343,6 @@
         },
         "focus": {
           "value": "{color.blue.400}"
-        }
-      },
-      "icon": {
-        "default": {
-          "value": "{color.gray.900}"
-        },
-        "hover": {
-          "value": "{color.blue.700}"
-        },
-        "active": {
-          "value": "{color.blue.800}"
-        },
-        "static": {
-          "value": "{color.gray.900}"
-        },
-        "selected": {
-          "value": "{color.blue.600}"
-        },
-        "selected-hover": {
-          "value": "{color.blue.700}"
-        },
-        "selected-active": {
-          "value": "{color.blue.800}"
-        },
-        "disabled": {
-          "value": "{color.gray.300}"
-        },
-        "subtle": {
-          "value": "{color.gray.600}"
-        },
-        "subtle-hover": {
-          "value": "{color.gray.700}"
-        },
-        "subtle-active": {
-          "value": "{color.gray.800}"
-        },
-        "inverted": {
-          "value": "{color.white}"
-        },
-        "inverted-hover": {
-          "value": "{color.gray.100}"
-        },
-        "inverted-active": {
-          "value": "{color.gray.200}"
-        },
-        "inverted-static": {
-          "value": "{color.white}"
-        },
-        "primary": {
-          "value": "{color.blue.600}"
-        },
-        "secondary": {
-          "value": "{color.red.600}"
-        },
-        "secondary-hover": {
-          "value": "{color.red.700}"
-        },
-        "secondary-active": {
-          "value": "{color.red.800}"
-        },
-        "positive": {
-          "value": "{color.green.600}"
-        },
-        "negative": {
-          "value": "{color.coral.600}"
-        },
-        "warning": {
-          "value": "{color.yellow.600}"
-        },
-        "info": {
-          "value": "{color.blue.600}"
-        },
-        "notification": {
-          "value": "{color.white}"
         }
       }
     }
