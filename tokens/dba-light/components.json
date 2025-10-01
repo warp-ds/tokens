@@ -11,80 +11,6 @@
           "value": "{color.green.100}"
         }
       },
-      "icon": {
-        "default": {
-          "value": "{color.gray.900}"
-        },
-        "hover": {
-          "value": "{color.jeanblue.700}"
-        },
-        "active": {
-          "value": "{color.jeanblue.800}"
-        },
-        "static": {
-          "value": "{color.gray.900}"
-        },
-        "selected": {
-          "value": "{color.jeanblue.600}"
-        },
-        "selected-hover": {
-          "value": "{color.jeanblue.700}"
-        },
-        "selected-active": {
-          "value": "{color.jeanblue.800}"
-        },
-        "disabled": {
-          "value": "{color.gray.300}"
-        },
-        "subtle": {
-          "value": "{color.gray.600}"
-        },
-        "subtle-hover": {
-          "value": "{color.gray.700}"
-        },
-        "subtle-active": {
-          "value": "{color.gray.800}"
-        },
-        "inverted": {
-          "value": "{color.white}"
-        },
-        "inverted-hover": {
-          "value": "{color.gray.100}"
-        },
-        "inverted-active": {
-          "value": "{color.gray.200}"
-        },
-        "inverted-static": {
-          "value": "{color.white}"
-        },
-        "primary": {
-          "value": "{color.jeanblue.600}"
-        },
-        "secondary": {
-          "value": "{color.phthaloblue.600}"
-        },
-        "secondary-hover": {
-          "value": "{color.phthaloblue.700}"
-        },
-        "secondary-active": {
-          "value": "{color.phthaloblue.800}"
-        },
-        "positive": {
-          "value": "{color.green.600}"
-        },
-        "negative": {
-          "value": "{color.red.600}"
-        },
-        "warning": {
-          "value": "{color.yellow.600}"
-        },
-        "info": {
-          "value": "{color.jeanblue.600}"
-        },
-        "notification": {
-          "value": "{color.white}"
-        }
-      },
       "info": {
         "background": {
           "value": "{color.jeanblue.100}"
@@ -149,7 +75,7 @@
     },
     "navbar": {
       "icon-selected": {
-        "value": "{color.badge.icon.secondary}"
+        "value": "{semantic.color.icon.secondary}"
       },
       "border-selected": {
         "value": "{semantic.color.border.secondary}"
