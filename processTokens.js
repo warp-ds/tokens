@@ -53,6 +53,40 @@ export function processAndWriteSemanticAndComponentTokens(sourceData, tokenVaria
           }
         });
       });
+    } else if (variable && variable.resolvedType === "FLOAT") {
+      const tokenType = variable.name.startsWith("Components") ? "components" : "semantic";
+      Object.values(modeObjects).forEach((modeObject) => {
+        const modeValue = variable.valuesByMode[modeObject.modeId];
+        
+        let value;
+        // Check if the value is a reference (object with id) or a direct numeric value
+        if (typeof modeValue === 'object' && modeValue !== null && modeValue.id) {
+          // It's a reference to another variable
+          const variableName = getVariableNameById(modeValue.id, sourceData);
+          value = extractFloatReferenceValue(variableName);
+        } else {
+          // It's a direct numeric value
+          value = modeValue;
+        }
+
+        // The path to the current semantic or component token
+        const pathSegments = variable.name
+          .replace(/^DV\//, "") // Drop prefix in tokens that start with DV/Semantic
+          .split("/")
+          .slice(1)
+          .map((segment) => segment.toLowerCase());
+
+        let currentLevel = modeObject[tokenType];
+
+        pathSegments.forEach((segment, index) => {
+          if (index === pathSegments.length - 1) {
+            currentLevel[segment] = { value };
+          } else {
+            currentLevel[segment] = currentLevel[segment] || {};
+            currentLevel = currentLevel[segment];
+          }
+        });
+      });
     }
   });
 
@@ -113,4 +147,11 @@ function getVariableNameById(variableId, sourceData) {
     return variable.name;
   }
   return "Unknown Variable";
+}
+
+// Format a FLOAT variable reference name to a token reference
+function extractFloatReferenceValue(variableName) {
+  const nameParts = variableName.split("/");
+  const formattedName = nameParts.join(".").toLowerCase();
+  return `{${formattedName}}`;
 }

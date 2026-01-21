@@ -1,5 +1,119 @@
 {
   "semantic": {
+    "typography": {
+      "display": {
+        "size": {
+          "value": "{space-48}"
+        },
+        "line-height": {
+          "value": "{space-56}"
+        }
+      },
+      "t1": {
+        "size": {
+          "value": 34
+        },
+        "line-height": {
+          "value": 41
+        }
+      },
+      "t2": {
+        "line-height": {
+          "value": 34
+        },
+        "size": {
+          "value": "{space-28}"
+        }
+      },
+      "t3": {
+        "size": {
+          "value": 22
+        },
+        "line-height": {
+          "value": "{space-28}"
+        }
+      },
+      "t4": {
+        "size": {
+          "value": "{space-16}"
+        },
+        "line-height": {
+          "value": 22
+        }
+      },
+      "t5": {
+        "size": {
+          "value": 14
+        },
+        "line-height": {
+          "value": 18
+        }
+      },
+      "t6": {
+        "size": {
+          "value": "{space-12}"
+        },
+        "line-height": {
+          "value": "{space-16}"
+        }
+      },
+      "preamble": {
+        "size": {
+          "value": "{space-20}"
+        },
+        "line-height": {
+          "value": 26
+        }
+      },
+      "body": {
+        "size": {
+          "value": "{space-16}"
+        },
+        "line-height": {
+          "value": 22
+        }
+      },
+      "body-strong": {
+        "size": {
+          "value": "{space-16}"
+        },
+        "line-height": {
+          "value": 22
+        }
+      },
+      "caption": {
+        "size": {
+          "value": 14
+        },
+        "line-height": {
+          "value": 18
+        }
+      },
+      "caption-strong": {
+        "size": {
+          "value": 14
+        },
+        "line-height": {
+          "value": 18
+        }
+      },
+      "detail": {
+        "size": {
+          "value": "{space-12}"
+        },
+        "line-height": {
+          "value": "{space-16}"
+        }
+      },
+      "detail-strong": {
+        "size": {
+          "value": "{space-12}"
+        },
+        "line-height": {
+          "value": "{space-16}"
+        }
+      }
+    },
     "color": {
       "text": {
         "default": {

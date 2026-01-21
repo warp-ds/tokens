@@ -38,6 +38,12 @@
       }
     },
     "button": {
+      "radius-default": {
+        "value": 999
+      },
+      "radius-utility": {
+        "value": 999
+      },
       "primary": {
         "background": {
           "value": "{semantic.color.background.primary}"
