@@ -250,7 +250,7 @@
           "value": "{color.transparent}"
         },
         "notification": {
-          "value": "{color.red.500}"
+          "value": "{color.red.400}"
         }
       },
       "surface": {
@@ -287,13 +287,13 @@
       },
       "border": {
         "default": {
-          "value": "{color.gray.600}"
+          "value": "{color.gray.700}"
         },
         "hover": {
-          "value": "{color.gray.500}"
+          "value": "{color.gray.600}"
         },
         "active": {
-          "value": "{color.gray.400}"
+          "value": "{color.gray.500}"
         },
         "strong": {
           "value": "{color.gray.500}"
