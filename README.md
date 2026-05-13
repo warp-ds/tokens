@@ -4,15 +4,9 @@ This repo imports colour variables/tokens from Figma using Figma's API, and uses
 
 ## How to use
 
-First time do a pnpm install to make sure all packages are installed:
+Use the GitHub Actions to create a PR with updated token files:
 
-```sh
-pnpm install
-```
+- [Fetch Warp tokens](https://github.com/warp-ds/tokens/actions/workflows/fetch-warp.yml)
+- [Fetch dataviz tokens](https://github.com/warp-ds/tokens/actions/workflows/fetch-dataviz.yml)
 
-And then run the whole script:
-```sh
-pnpm build
-```
-
-Note: Never commit your FIGMA Token. Also make sure your FIGMA Token has access to the project
+If there's any changes in the tokens files the workflows will run a build, commit updated code and open a pull request for review.

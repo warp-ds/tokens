@@ -35,4 +35,3 @@ jobs:
           body: |
             Updates to data vizualization tokens fetched from Figma
             - Check diff under tokens folder to see what's changed
-          reviewers: imprashast,Skadefryd
