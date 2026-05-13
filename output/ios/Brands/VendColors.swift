@@ -1,6 +1,6 @@
 import SwiftUI
 
-// Generated on Wed, 13 May 2026 07:10:39 GMT by https://github.com/warp-ds/tokens
+// Generated on Wed, 13 May 2026 07:11:11 GMT by https://github.com/warp-ds/tokens
 struct VendColors {
     static let gray50 = Color(hex: "#fafafb")
     static let gray100 = Color(hex: "#efeff2")

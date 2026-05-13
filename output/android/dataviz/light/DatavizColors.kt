@@ -8,7 +8,7 @@ import com.schibsted.nmp.warp.theme.WarpDatavizIconColors
 import com.schibsted.nmp.warp.theme.WarpDatavizLineColors
 import com.schibsted.nmp.warp.theme.WarpDatavizTextColors
 
-// Generated on Wed, 13 May 2026 07:10:39 GMT by https://github.com/warp-ds/tokens
+// Generated on Wed, 13 May 2026 07:11:12 GMT by https://github.com/warp-ds/tokens
 
 object DatavizColors : WarpDatavizColors {
     override val chart: WarpDatavizChartColors = DatavizChartColors

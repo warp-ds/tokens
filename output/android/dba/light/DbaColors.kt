@@ -3,7 +3,7 @@ import androidx.compose.ui.graphics.Color
 import com.schibsted.nmp.warp.theme.*
 import com.schibsted.nmp.warp.theme.dataviz.DatavizColors
 
-// Generated on Wed, 13 May 2026 07:10:39 GMT by https://github.com/warp-ds/tokens
+// Generated on Wed, 13 May 2026 07:11:12 GMT by https://github.com/warp-ds/tokens
 
 internal object DbaColors : WarpColors {
     override val surface: WarpSurfaceColors = DbaSurfaceColors

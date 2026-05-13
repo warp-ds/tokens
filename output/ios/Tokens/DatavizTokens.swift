@@ -1,6 +1,6 @@
 import SwiftUI
 
-// Generated on Wed, 13 May 2026 07:10:39 GMT by https://github.com/warp-ds/tokens
+// Generated on Wed, 13 May 2026 07:11:11 GMT by https://github.com/warp-ds/tokens
 public struct DatavizTokenProvider {
     public var backgroundPrimary: Color { Color.dynamicColor(defaultColor: DatavizColors.blue600, darkModeColor: DatavizColors.blue400) }
     public var backgroundPrimaryHighlight: Color { Color.dynamicColor(defaultColor: DatavizColors.blue700, darkModeColor: DatavizColors.blue200) }
