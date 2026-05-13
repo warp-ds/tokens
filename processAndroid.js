@@ -36,6 +36,7 @@ function generateLightColorsForAndroid(uniqueBrands) {
     }
 
     try {
+      /** @type {import('style-dictionary').Config} */
       const androidConfig = {
         source: [colorTokenFilePath, semanticTokenFilePath, componentTokenFilePath],
         platforms: {
@@ -50,6 +51,9 @@ function generateLightColorsForAndroid(uniqueBrands) {
                 }Colors.kt`,
                 format: "compose-colors-format",           
                 packageName: `com.schibsted.nmp.warp.brands.${brand}`,
+                options: {
+                  fileHeader: "warpHeaderMessage",
+                },
               }
             ],
             transforms: ["attribute/cti", "name/cti/pascal", "color/hexAlpha"], // Use custom hexAlpha transform
@@ -62,10 +66,12 @@ function generateLightColorsForAndroid(uniqueBrands) {
                 brand: brand,
                 destination: "colors.xml",
                 format: "colors-xml-format",
+                options: {
+                  fileHeader: "warpHeaderMessage",
+                },
               },
             ],
           },
-
         },
       };
 
@@ -112,6 +118,7 @@ function generateDarkColorsForAndroid(uniqueBrands) {
     }
 
     try {
+      /** @type {import('style-dictionary').Config} */
       const androidConfig = {
         source: [colorTokenFilePath, semanticTokenFilePath, componentTokenFilePath],
         platforms: {
@@ -125,6 +132,9 @@ function generateDarkColorsForAndroid(uniqueBrands) {
                 }DarkColors.kt`,
                 format: "compose-colors-format-dark",           
                 packageName: `com.schibsted.nmp.warp.brands.${brand}`,
+                options: {
+                  fileHeader: "warpHeaderMessage",
+                },
               },
             ],
             transforms: ["attribute/cti", "name/cti/pascal", "color/hexAlpha"], // Use custom hexAlpha transform
@@ -137,6 +147,9 @@ function generateDarkColorsForAndroid(uniqueBrands) {
                 brand: brand,
                 destination: "colors.xml",
                 format: "colors-xml-format",
+                options: {
+                  fileHeader: "warpHeaderMessage",
+                },
               },
             ],
           },
@@ -183,6 +196,7 @@ function generateXmlIdsForAndroid() {
     }
 
     try {
+      /** @type {import('style-dictionary').Config} */
       const androidConfig = {
         source: [colorTokenFilePath, semanticTokenFilePath, componentTokenFilePath],
         platforms: {
@@ -193,6 +207,9 @@ function generateXmlIdsForAndroid() {
               {
                 destination: "ids.xml",
                 format: "colors-ids-xml-format",
+                options: {
+                  fileHeader: "warpHeaderMessage",
+                },
               },
             ],
           },

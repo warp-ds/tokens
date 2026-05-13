@@ -4,11 +4,7 @@ import fsExtra from "fs-extra";
 import path from "path";
 import "./lib/ios/transform.js";
 import "./lib/ios/format.js";
-import {
-  extractTokens,
-  toCamelCase,
-  getGeneratedDate,
-} from "./lib/helpers.js";
+import { extractTokens, toCamelCase } from "./lib/helpers.js";
 
 const tokensPath = "./tokens";
 const iosFolder = "output/ios/"; // Folder for iOS
@@ -33,6 +29,7 @@ function generateColorsForIOS(uniqueBrands) {
     }
 
     try {
+      /** @type {import('style-dictionary').Config} */
       const iosConfig = {
         source: [tokenFilePath],
         platforms: {
@@ -48,6 +45,9 @@ function generateColorsForIOS(uniqueBrands) {
                 className: `${
                   brand.charAt(0).toUpperCase() + brand.slice(1)
                 }Colors`,
+                options: {
+                  fileHeader: "warpHeaderMessage",
+                },
               },
             ],
             transforms: ["attribute/cti", "name/cti/pascal", "color/ios/hexAlpha"], // Use custom hexAlpha transform
@@ -96,6 +96,7 @@ function generateTokenProviderForIOS(uniqueBrands) {
       // console.log(`Reading colors file: ${colorFilePath}`);
       const colorTokens = JSON.parse(fs.readFileSync(colorFilePath));
 
+      /** @type {import('style-dictionary').Config} */
       const iosTokensConfig = {
         source: [lightTokenFilePath, colorFilePath], // Include colors.json in source to resolve references
         platforms: {
@@ -107,6 +108,9 @@ function generateTokenProviderForIOS(uniqueBrands) {
                 destination: `TokenProvider.swift`,
                 format: "token-provider-swift-format",
                 className: `TokenProvider`,
+                options: {
+                  fileHeader: "warpHeaderMessage",
+                },
               },
             ],
             transforms: ["attribute/cti", "name/cti/pascal", "color/ios/hexAlpha"],
@@ -153,6 +157,7 @@ function generateLightTokensForIOS(uniqueBrands) {
       // console.log(`Reading colors file: ${colorFilePath}`);
       const colorTokens = JSON.parse(fs.readFileSync(colorFilePath));
 
+      /** @type {import('style-dictionary').Config} */
       const iosTokensConfig = {
         source: [lightTokenFilePath, colorFilePath], // Include colors.json in source to resolve references
         platforms: {
@@ -168,6 +173,9 @@ function generateLightTokensForIOS(uniqueBrands) {
                 className: `${
                   brand.charAt(0).toUpperCase() + brand.slice(1)
                 }LightTokens`,
+                options: {
+                  fileHeader: "warpHeaderMessage",
+                },
               },
             ],
             transforms: ["attribute/cti", "name/cti/pascal", "color/ios/hexAlpha"],
@@ -214,6 +222,7 @@ function generateDarkTokensForIOS(uniqueBrands) {
       // console.log(`Reading colors file: ${colorFilePath}`);
       const colorTokens = JSON.parse(fs.readFileSync(colorFilePath));
 
+      /** @type {import('style-dictionary').Config} */
       const iosTokensConfig = {
         source: [darkTokenFilePath, colorFilePath], // Include colors.json in source to resolve references
         platforms: {
@@ -229,6 +238,9 @@ function generateDarkTokensForIOS(uniqueBrands) {
                 className: `${
                   brand.charAt(0).toUpperCase() + brand.slice(1)
                 }DarkTokens`,
+                options: {
+                  fileHeader: "warpHeaderMessage",
+                },
               },
             ],
             transforms: ["attribute/cti", "name/cti/pascal", "color/ios/hexAlpha"],
@@ -288,6 +300,7 @@ function generateLightColorsForIOS(uniqueBrands) {
       // console.log(`Reading colors file: ${colorFilePath}`);
       const colorTokens = JSON.parse(fs.readFileSync(colorFilePath));
 
+      /** @type {import('style-dictionary').Config} */
       const iosColorsConfig = {
         source: [lightColorFilePath, lightTokenFilePath, colorFilePath], // Include colors.json in source to resolve references
         platforms: {
@@ -303,6 +316,9 @@ function generateLightColorsForIOS(uniqueBrands) {
                 className: `${
                   brand.charAt(0).toUpperCase() + brand.slice(1)
                 }LightColors`,
+                options: {
+                  fileHeader: "warpHeaderMessage",
+                },
               },
             ],
             transforms: ["attribute/cti", "name/cti/pascal", "color/ios/hexAlpha"],
@@ -356,6 +372,7 @@ function generateDarkColorsForIOS(uniqueBrands) {
       // console.log(`Reading colors file: ${colorFilePath}`);
       const colorTokens = JSON.parse(fs.readFileSync(colorFilePath));
 
+      /** @type {import('style-dictionary').Config} */
       const iosColorsConfig = {
         source: [darkColorFilePath, darkTokenFilePath, colorFilePath], // Include colors.json in source to resolve references
         platforms: {
@@ -371,6 +388,9 @@ function generateDarkColorsForIOS(uniqueBrands) {
                 className: `${
                   brand.charAt(0).toUpperCase() + brand.slice(1)
                 }DarkColors`,
+                options: {
+                  fileHeader: "warpHeaderMessage",
+                },
               },
             ],
             transforms: ["attribute/cti", "name/cti/pascal", "color/ios/hexAlpha"],
@@ -453,7 +473,7 @@ function combineTokenProviders() {
         // Generate the combined file content
         combinedContent = `import SwiftUI
 
-// Generated on ${getGeneratedDate()} by https://github.com/warp-ds/tokens
+// Generated by https://github.com/warp-ds/tokens, do not edit
 public struct ${brandName}TokenProvider {
 ${combinedSwiftUITokens}
 }
@@ -466,7 +486,7 @@ ${combinedUITokens}
         // Generate the combined file content
         combinedContent = `import SwiftUI
 
-// Generated on ${getGeneratedDate()} by https://github.com/warp-ds/tokens
+// Generated by https://github.com/warp-ds/tokens, do not edit
 struct ${brandName}TokenProvider: TokenProvider {
 ${combinedSwiftUITokens}
 }
@@ -639,7 +659,7 @@ function combineAllColorProviders() {
   // Generate the combined file content
   const combinedContent = `import SwiftUI
 
-// Generated on ${getGeneratedDate()} by https://github.com/warp-ds/tokens
+// Generated by https://github.com/warp-ds/tokens, do not edit
 public struct ColorProvider {
     public let token: TokenProvider
     
