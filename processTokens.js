@@ -43,6 +43,7 @@ export function processAndWriteSemanticAndComponentTokens(
 				: "semantic";
 			Object.values(modeObjects).forEach((modeObject) => {
 				// Get the name of the token the variable refers to, for example "DBA/Gray/200" or "Semantic/Background/Disabled"
+				// Transforms it to the desired format with brackets and dot notation, for example "{color.gray.200}"
 				const value = extractValueForMode(
 					variable,
 					modeObject.modeId,
@@ -69,6 +70,12 @@ export function processAndWriteSemanticAndComponentTokens(
 			});
 		}
 	});
+
+	// Enrich the semantic tokens with -static and -inverted-static variants for all text and icon tokens
+	for (const [brandAndMode, values] of Object.entries(modeObjects)) {
+		const [brand, mode] = brandAndMode.split(" ");
+		console.log({ brand, mode });
+	}
 
 	// Write the files for each mode
 	Object.entries(modeObjects).map(([modeName, modeObject]) => {

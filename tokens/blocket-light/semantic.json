@@ -160,10 +160,10 @@
           "value": "{color.blue.100}"
         },
         "primary-subtle-hover": {
-          "value": "{color.blue.300}"
+          "value": "{color.blue.200}"
         },
         "primary-subtle-active": {
-          "value": "{color.blue.200}"
+          "value": "{color.blue.300}"
         },
         "secondary": {
           "value": "{color.red.600}"
