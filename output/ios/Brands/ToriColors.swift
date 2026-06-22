@@ -67,7 +67,6 @@ struct ToriColors {
     static let red700 = Color(hex: "#7d1024")
     static let red800 = Color(hex: "#520b18")
     static let red900 = Color(hex: "#27070d")
-    static let transparent = Color(hex: "#ffffff00")
     static let gray50 = Color(hex: "#f6f6f6")
     static let gray100 = Color(hex: "#f0f0f2")
     static let gray200 = Color(hex: "#dedee3")
@@ -81,6 +80,7 @@ struct ToriColors {
     static let gray850 = Color(hex: "#26262b")
     static let gray900 = Color(hex: "#1b1b1f")
     static let gray950 = Color(hex: "#121212")
+    static let transparent = Color(hex: "#ffffff00")
 }
 
 struct ToriUIColors {
@@ -149,7 +149,6 @@ struct ToriUIColors {
     static let red700 = UIColor(hex: "#7d1024")
     static let red800 = UIColor(hex: "#520b18")
     static let red900 = UIColor(hex: "#27070d")
-    static let transparent = UIColor(hex: "#ffffff00")
     static let gray50 = UIColor(hex: "#f6f6f6")
     static let gray100 = UIColor(hex: "#f0f0f2")
     static let gray200 = UIColor(hex: "#dedee3")
@@ -163,4 +162,5 @@ struct ToriUIColors {
     static let gray850 = UIColor(hex: "#26262b")
     static let gray900 = UIColor(hex: "#1b1b1f")
     static let gray950 = UIColor(hex: "#121212")
+    static let transparent = UIColor(hex: "#ffffff00")
 }

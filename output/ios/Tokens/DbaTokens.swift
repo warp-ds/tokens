@@ -13,6 +13,19 @@ struct DbaTokenProvider: TokenProvider {
     public var textDisabled: Color { Color.dynamicColor(defaultColor: DbaColors.gray300, darkModeColor: DbaColors.gray500) }
     public var textNegative: Color { Color.dynamicColor(defaultColor: DbaColors.red600, darkModeColor: DbaColors.red400) }
     public var textPositive: Color { Color.dynamicColor(defaultColor: DbaColors.green600, darkModeColor: DbaColors.green500) }
+    public var textSubtleStatic: Color { Color.dynamicColor(defaultColor: DbaColors.gray600, darkModeColor: DbaColors.gray600) }
+    public var textInvertedSubtleStatic: Color { Color.dynamicColor(defaultColor: DbaColors.gray400, darkModeColor: DbaColors.gray400) }
+    public var textPlaceholderStatic: Color { Color.dynamicColor(defaultColor: DbaColors.gray300, darkModeColor: DbaColors.gray300) }
+    public var textInvertedPlaceholderStatic: Color { Color.dynamicColor(defaultColor: DbaColors.gray500, darkModeColor: DbaColors.gray500) }
+    public var textInvertedInvertedSubtleStatic: Color { Color.dynamicColor(defaultColor: DbaColors.gray600, darkModeColor: DbaColors.gray600) }
+    public var textLinkStatic: Color { Color.dynamicColor(defaultColor: DbaColors.jeanblue600, darkModeColor: DbaColors.jeanblue600) }
+    public var textInvertedLinkStatic: Color { Color.dynamicColor(defaultColor: DbaColors.jeanblue400, darkModeColor: DbaColors.jeanblue400) }
+    public var textDisabledStatic: Color { Color.dynamicColor(defaultColor: DbaColors.gray300, darkModeColor: DbaColors.gray300) }
+    public var textInvertedDisabledStatic: Color { Color.dynamicColor(defaultColor: DbaColors.gray500, darkModeColor: DbaColors.gray500) }
+    public var textNegativeStatic: Color { Color.dynamicColor(defaultColor: DbaColors.red600, darkModeColor: DbaColors.red600) }
+    public var textInvertedNegativeStatic: Color { Color.dynamicColor(defaultColor: DbaColors.red400, darkModeColor: DbaColors.red400) }
+    public var textPositiveStatic: Color { Color.dynamicColor(defaultColor: DbaColors.green600, darkModeColor: DbaColors.green600) }
+    public var textInvertedPositiveStatic: Color { Color.dynamicColor(defaultColor: DbaColors.green500, darkModeColor: DbaColors.green500) }
     public var icon: Color { Color.dynamicColor(defaultColor: DbaColors.gray900, darkModeColor: DbaColors.white) }
     public var iconHover: Color { Color.dynamicColor(defaultColor: DbaColors.jeanblue700, darkModeColor: DbaColors.jeanblue100) }
     public var iconActive: Color { Color.dynamicColor(defaultColor: DbaColors.jeanblue800, darkModeColor: DbaColors.jeanblue200) }
@@ -37,6 +50,44 @@ struct DbaTokenProvider: TokenProvider {
     public var iconWarning: Color { Color.dynamicColor(defaultColor: DbaColors.yellow600, darkModeColor: DbaColors.yellow500) }
     public var iconInfo: Color { Color.dynamicColor(defaultColor: DbaColors.jeanblue600, darkModeColor: DbaColors.jeanblue500) }
     public var iconNotification: Color { Color.dynamicColor(defaultColor: DbaColors.white, darkModeColor: DbaColors.white) }
+    public var iconHoverStatic: Color { Color.dynamicColor(defaultColor: DbaColors.jeanblue700, darkModeColor: DbaColors.jeanblue700) }
+    public var iconInvertedHoverStatic: Color { Color.dynamicColor(defaultColor: DbaColors.gray100, darkModeColor: DbaColors.gray100) }
+    public var iconActiveStatic: Color { Color.dynamicColor(defaultColor: DbaColors.jeanblue800, darkModeColor: DbaColors.jeanblue800) }
+    public var iconInvertedActiveStatic: Color { Color.dynamicColor(defaultColor: DbaColors.gray200, darkModeColor: DbaColors.gray200) }
+    public var iconSelectedStatic: Color { Color.dynamicColor(defaultColor: DbaColors.jeanblue600, darkModeColor: DbaColors.jeanblue600) }
+    public var iconInvertedSelectedStatic: Color { Color.dynamicColor(defaultColor: DbaColors.jeanblue400, darkModeColor: DbaColors.jeanblue400) }
+    public var iconSelectedHoverStatic: Color { Color.dynamicColor(defaultColor: DbaColors.jeanblue700, darkModeColor: DbaColors.jeanblue700) }
+    public var iconInvertedSelectedHoverStatic: Color { Color.dynamicColor(defaultColor: DbaColors.jeanblue300, darkModeColor: DbaColors.jeanblue300) }
+    public var iconSelectedActiveStatic: Color { Color.dynamicColor(defaultColor: DbaColors.jeanblue800, darkModeColor: DbaColors.jeanblue800) }
+    public var iconInvertedSelectedActiveStatic: Color { Color.dynamicColor(defaultColor: DbaColors.jeanblue200, darkModeColor: DbaColors.jeanblue200) }
+    public var iconDisabledStatic: Color { Color.dynamicColor(defaultColor: DbaColors.gray300, darkModeColor: DbaColors.gray300) }
+    public var iconInvertedDisabledStatic: Color { Color.dynamicColor(defaultColor: DbaColors.gray600, darkModeColor: DbaColors.gray600) }
+    public var iconSubtleStatic: Color { Color.dynamicColor(defaultColor: DbaColors.gray600, darkModeColor: DbaColors.gray600) }
+    public var iconInvertedSubtleStatic: Color { Color.dynamicColor(defaultColor: DbaColors.gray400, darkModeColor: DbaColors.gray400) }
+    public var iconSubtleHoverStatic: Color { Color.dynamicColor(defaultColor: DbaColors.gray700, darkModeColor: DbaColors.gray700) }
+    public var iconInvertedSubtleHoverStatic: Color { Color.dynamicColor(defaultColor: DbaColors.gray300, darkModeColor: DbaColors.gray300) }
+    public var iconSubtleActiveStatic: Color { Color.dynamicColor(defaultColor: DbaColors.gray800, darkModeColor: DbaColors.gray800) }
+    public var iconInvertedSubtleActiveStatic: Color { Color.dynamicColor(defaultColor: DbaColors.gray200, darkModeColor: DbaColors.gray200) }
+    public var iconInvertedInvertedHoverStatic: Color { Color.dynamicColor(defaultColor: DbaColors.gray850, darkModeColor: DbaColors.gray850) }
+    public var iconInvertedInvertedActiveStatic: Color { Color.dynamicColor(defaultColor: DbaColors.gray800, darkModeColor: DbaColors.gray800) }
+    public var iconPrimaryStatic: Color { Color.dynamicColor(defaultColor: DbaColors.jeanblue600, darkModeColor: DbaColors.jeanblue600) }
+    public var iconInvertedPrimaryStatic: Color { Color.dynamicColor(defaultColor: DbaColors.jeanblue400, darkModeColor: DbaColors.jeanblue400) }
+    public var iconSecondaryStatic: Color { Color.dynamicColor(defaultColor: DbaColors.phthaloblue600, darkModeColor: DbaColors.phthaloblue600) }
+    public var iconInvertedSecondaryStatic: Color { Color.dynamicColor(defaultColor: DbaColors.phthaloblue300, darkModeColor: DbaColors.phthaloblue300) }
+    public var iconSecondaryHoverStatic: Color { Color.dynamicColor(defaultColor: DbaColors.phthaloblue700, darkModeColor: DbaColors.phthaloblue700) }
+    public var iconInvertedSecondaryHoverStatic: Color { Color.dynamicColor(defaultColor: DbaColors.phthaloblue200, darkModeColor: DbaColors.phthaloblue200) }
+    public var iconSecondaryActiveStatic: Color { Color.dynamicColor(defaultColor: DbaColors.phthaloblue800, darkModeColor: DbaColors.phthaloblue800) }
+    public var iconInvertedSecondaryActiveStatic: Color { Color.dynamicColor(defaultColor: DbaColors.phthaloblue100, darkModeColor: DbaColors.phthaloblue100) }
+    public var iconPositiveStatic: Color { Color.dynamicColor(defaultColor: DbaColors.green600, darkModeColor: DbaColors.green600) }
+    public var iconInvertedPositiveStatic: Color { Color.dynamicColor(defaultColor: DbaColors.green500, darkModeColor: DbaColors.green500) }
+    public var iconNegativeStatic: Color { Color.dynamicColor(defaultColor: DbaColors.red600, darkModeColor: DbaColors.red600) }
+    public var iconInvertedNegativeStatic: Color { Color.dynamicColor(defaultColor: DbaColors.red400, darkModeColor: DbaColors.red400) }
+    public var iconWarningStatic: Color { Color.dynamicColor(defaultColor: DbaColors.yellow600, darkModeColor: DbaColors.yellow600) }
+    public var iconInvertedWarningStatic: Color { Color.dynamicColor(defaultColor: DbaColors.yellow500, darkModeColor: DbaColors.yellow500) }
+    public var iconInfoStatic: Color { Color.dynamicColor(defaultColor: DbaColors.jeanblue600, darkModeColor: DbaColors.jeanblue600) }
+    public var iconInvertedInfoStatic: Color { Color.dynamicColor(defaultColor: DbaColors.jeanblue500, darkModeColor: DbaColors.jeanblue500) }
+    public var iconNotificationStatic: Color { Color.dynamicColor(defaultColor: DbaColors.white, darkModeColor: DbaColors.white) }
+    public var iconInvertedNotificationStatic: Color { Color.dynamicColor(defaultColor: DbaColors.white, darkModeColor: DbaColors.white) }
     public var background: Color { Color.dynamicColor(defaultColor: DbaColors.white, darkModeColor: DbaColors.gray900) }
     public var backgroundHover: Color { Color.dynamicColor(defaultColor: DbaColors.gray100, darkModeColor: DbaColors.gray850) }
     public var backgroundActive: Color { Color.dynamicColor(defaultColor: DbaColors.gray200, darkModeColor: DbaColors.gray800) }
@@ -152,6 +203,19 @@ struct DbaUITokenProvider: UITokenProvider {
     public var textDisabled: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.gray300, darkModeColor: DbaUIColors.gray500) }
     public var textNegative: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.red600, darkModeColor: DbaUIColors.red400) }
     public var textPositive: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.green600, darkModeColor: DbaUIColors.green500) }
+    public var textSubtleStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.gray600, darkModeColor: DbaUIColors.gray600) }
+    public var textInvertedSubtleStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.gray400, darkModeColor: DbaUIColors.gray400) }
+    public var textPlaceholderStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.gray300, darkModeColor: DbaUIColors.gray300) }
+    public var textInvertedPlaceholderStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.gray500, darkModeColor: DbaUIColors.gray500) }
+    public var textInvertedInvertedSubtleStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.gray600, darkModeColor: DbaUIColors.gray600) }
+    public var textLinkStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.jeanblue600, darkModeColor: DbaUIColors.jeanblue600) }
+    public var textInvertedLinkStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.jeanblue400, darkModeColor: DbaUIColors.jeanblue400) }
+    public var textDisabledStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.gray300, darkModeColor: DbaUIColors.gray300) }
+    public var textInvertedDisabledStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.gray500, darkModeColor: DbaUIColors.gray500) }
+    public var textNegativeStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.red600, darkModeColor: DbaUIColors.red600) }
+    public var textInvertedNegativeStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.red400, darkModeColor: DbaUIColors.red400) }
+    public var textPositiveStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.green600, darkModeColor: DbaUIColors.green600) }
+    public var textInvertedPositiveStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.green500, darkModeColor: DbaUIColors.green500) }
     public var icon: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.gray900, darkModeColor: DbaUIColors.white) }
     public var iconHover: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.jeanblue700, darkModeColor: DbaUIColors.jeanblue100) }
     public var iconActive: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.jeanblue800, darkModeColor: DbaUIColors.jeanblue200) }
@@ -176,6 +240,44 @@ struct DbaUITokenProvider: UITokenProvider {
     public var iconWarning: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.yellow600, darkModeColor: DbaUIColors.yellow500) }
     public var iconInfo: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.jeanblue600, darkModeColor: DbaUIColors.jeanblue500) }
     public var iconNotification: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.white, darkModeColor: DbaUIColors.white) }
+    public var iconHoverStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.jeanblue700, darkModeColor: DbaUIColors.jeanblue700) }
+    public var iconInvertedHoverStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.gray100, darkModeColor: DbaUIColors.gray100) }
+    public var iconActiveStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.jeanblue800, darkModeColor: DbaUIColors.jeanblue800) }
+    public var iconInvertedActiveStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.gray200, darkModeColor: DbaUIColors.gray200) }
+    public var iconSelectedStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.jeanblue600, darkModeColor: DbaUIColors.jeanblue600) }
+    public var iconInvertedSelectedStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.jeanblue400, darkModeColor: DbaUIColors.jeanblue400) }
+    public var iconSelectedHoverStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.jeanblue700, darkModeColor: DbaUIColors.jeanblue700) }
+    public var iconInvertedSelectedHoverStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.jeanblue300, darkModeColor: DbaUIColors.jeanblue300) }
+    public var iconSelectedActiveStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.jeanblue800, darkModeColor: DbaUIColors.jeanblue800) }
+    public var iconInvertedSelectedActiveStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.jeanblue200, darkModeColor: DbaUIColors.jeanblue200) }
+    public var iconDisabledStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.gray300, darkModeColor: DbaUIColors.gray300) }
+    public var iconInvertedDisabledStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.gray600, darkModeColor: DbaUIColors.gray600) }
+    public var iconSubtleStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.gray600, darkModeColor: DbaUIColors.gray600) }
+    public var iconInvertedSubtleStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.gray400, darkModeColor: DbaUIColors.gray400) }
+    public var iconSubtleHoverStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.gray700, darkModeColor: DbaUIColors.gray700) }
+    public var iconInvertedSubtleHoverStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.gray300, darkModeColor: DbaUIColors.gray300) }
+    public var iconSubtleActiveStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.gray800, darkModeColor: DbaUIColors.gray800) }
+    public var iconInvertedSubtleActiveStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.gray200, darkModeColor: DbaUIColors.gray200) }
+    public var iconInvertedInvertedHoverStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.gray850, darkModeColor: DbaUIColors.gray850) }
+    public var iconInvertedInvertedActiveStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.gray800, darkModeColor: DbaUIColors.gray800) }
+    public var iconPrimaryStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.jeanblue600, darkModeColor: DbaUIColors.jeanblue600) }
+    public var iconInvertedPrimaryStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.jeanblue400, darkModeColor: DbaUIColors.jeanblue400) }
+    public var iconSecondaryStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.phthaloblue600, darkModeColor: DbaUIColors.phthaloblue600) }
+    public var iconInvertedSecondaryStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.phthaloblue300, darkModeColor: DbaUIColors.phthaloblue300) }
+    public var iconSecondaryHoverStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.phthaloblue700, darkModeColor: DbaUIColors.phthaloblue700) }
+    public var iconInvertedSecondaryHoverStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.phthaloblue200, darkModeColor: DbaUIColors.phthaloblue200) }
+    public var iconSecondaryActiveStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.phthaloblue800, darkModeColor: DbaUIColors.phthaloblue800) }
+    public var iconInvertedSecondaryActiveStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.phthaloblue100, darkModeColor: DbaUIColors.phthaloblue100) }
+    public var iconPositiveStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.green600, darkModeColor: DbaUIColors.green600) }
+    public var iconInvertedPositiveStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.green500, darkModeColor: DbaUIColors.green500) }
+    public var iconNegativeStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.red600, darkModeColor: DbaUIColors.red600) }
+    public var iconInvertedNegativeStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.red400, darkModeColor: DbaUIColors.red400) }
+    public var iconWarningStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.yellow600, darkModeColor: DbaUIColors.yellow600) }
+    public var iconInvertedWarningStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.yellow500, darkModeColor: DbaUIColors.yellow500) }
+    public var iconInfoStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.jeanblue600, darkModeColor: DbaUIColors.jeanblue600) }
+    public var iconInvertedInfoStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.jeanblue500, darkModeColor: DbaUIColors.jeanblue500) }
+    public var iconNotificationStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.white, darkModeColor: DbaUIColors.white) }
+    public var iconInvertedNotificationStatic: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.white, darkModeColor: DbaUIColors.white) }
     public var background: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.white, darkModeColor: DbaUIColors.gray900) }
     public var backgroundHover: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.gray100, darkModeColor: DbaUIColors.gray850) }
     public var backgroundActive: UIColor { UIColor.dynamicColor(defaultColor: DbaUIColors.gray200, darkModeColor: DbaUIColors.gray800) }

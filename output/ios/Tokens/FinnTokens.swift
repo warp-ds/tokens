@@ -13,6 +13,19 @@ struct FinnTokenProvider: TokenProvider {
     public var textDisabled: Color { Color.dynamicColor(defaultColor: FinnColors.gray300, darkModeColor: FinnColors.gray500) }
     public var textNegative: Color { Color.dynamicColor(defaultColor: FinnColors.red600, darkModeColor: FinnColors.red400) }
     public var textPositive: Color { Color.dynamicColor(defaultColor: FinnColors.green600, darkModeColor: FinnColors.green500) }
+    public var textSubtleStatic: Color { Color.dynamicColor(defaultColor: FinnColors.gray600, darkModeColor: FinnColors.gray600) }
+    public var textInvertedSubtleStatic: Color { Color.dynamicColor(defaultColor: FinnColors.gray400, darkModeColor: FinnColors.gray400) }
+    public var textPlaceholderStatic: Color { Color.dynamicColor(defaultColor: FinnColors.gray300, darkModeColor: FinnColors.gray300) }
+    public var textInvertedPlaceholderStatic: Color { Color.dynamicColor(defaultColor: FinnColors.gray500, darkModeColor: FinnColors.gray500) }
+    public var textInvertedInvertedSubtleStatic: Color { Color.dynamicColor(defaultColor: FinnColors.gray600, darkModeColor: FinnColors.gray600) }
+    public var textLinkStatic: Color { Color.dynamicColor(defaultColor: FinnColors.blue600, darkModeColor: FinnColors.blue600) }
+    public var textInvertedLinkStatic: Color { Color.dynamicColor(defaultColor: FinnColors.blue400, darkModeColor: FinnColors.blue400) }
+    public var textDisabledStatic: Color { Color.dynamicColor(defaultColor: FinnColors.gray300, darkModeColor: FinnColors.gray300) }
+    public var textInvertedDisabledStatic: Color { Color.dynamicColor(defaultColor: FinnColors.gray500, darkModeColor: FinnColors.gray500) }
+    public var textNegativeStatic: Color { Color.dynamicColor(defaultColor: FinnColors.red600, darkModeColor: FinnColors.red600) }
+    public var textInvertedNegativeStatic: Color { Color.dynamicColor(defaultColor: FinnColors.red400, darkModeColor: FinnColors.red400) }
+    public var textPositiveStatic: Color { Color.dynamicColor(defaultColor: FinnColors.green600, darkModeColor: FinnColors.green600) }
+    public var textInvertedPositiveStatic: Color { Color.dynamicColor(defaultColor: FinnColors.green500, darkModeColor: FinnColors.green500) }
     public var icon: Color { Color.dynamicColor(defaultColor: FinnColors.gray900, darkModeColor: FinnColors.white) }
     public var iconHover: Color { Color.dynamicColor(defaultColor: FinnColors.blue600, darkModeColor: FinnColors.blue100) }
     public var iconActive: Color { Color.dynamicColor(defaultColor: FinnColors.blue700, darkModeColor: FinnColors.blue200) }
@@ -37,6 +50,44 @@ struct FinnTokenProvider: TokenProvider {
     public var iconWarning: Color { Color.dynamicColor(defaultColor: FinnColors.yellow600, darkModeColor: FinnColors.yellow500) }
     public var iconInfo: Color { Color.dynamicColor(defaultColor: FinnColors.aqua600, darkModeColor: FinnColors.aqua500) }
     public var iconNotification: Color { Color.dynamicColor(defaultColor: FinnColors.white, darkModeColor: FinnColors.white) }
+    public var iconHoverStatic: Color { Color.dynamicColor(defaultColor: FinnColors.blue600, darkModeColor: FinnColors.blue600) }
+    public var iconInvertedHoverStatic: Color { Color.dynamicColor(defaultColor: FinnColors.gray100, darkModeColor: FinnColors.gray100) }
+    public var iconActiveStatic: Color { Color.dynamicColor(defaultColor: FinnColors.blue700, darkModeColor: FinnColors.blue700) }
+    public var iconInvertedActiveStatic: Color { Color.dynamicColor(defaultColor: FinnColors.gray200, darkModeColor: FinnColors.gray200) }
+    public var iconSelectedStatic: Color { Color.dynamicColor(defaultColor: FinnColors.blue600, darkModeColor: FinnColors.blue600) }
+    public var iconInvertedSelectedStatic: Color { Color.dynamicColor(defaultColor: FinnColors.blue400, darkModeColor: FinnColors.blue400) }
+    public var iconSelectedHoverStatic: Color { Color.dynamicColor(defaultColor: FinnColors.blue700, darkModeColor: FinnColors.blue700) }
+    public var iconInvertedSelectedHoverStatic: Color { Color.dynamicColor(defaultColor: FinnColors.blue300, darkModeColor: FinnColors.blue300) }
+    public var iconSelectedActiveStatic: Color { Color.dynamicColor(defaultColor: FinnColors.blue800, darkModeColor: FinnColors.blue800) }
+    public var iconInvertedSelectedActiveStatic: Color { Color.dynamicColor(defaultColor: FinnColors.blue200, darkModeColor: FinnColors.blue200) }
+    public var iconDisabledStatic: Color { Color.dynamicColor(defaultColor: FinnColors.gray300, darkModeColor: FinnColors.gray300) }
+    public var iconInvertedDisabledStatic: Color { Color.dynamicColor(defaultColor: FinnColors.gray600, darkModeColor: FinnColors.gray600) }
+    public var iconSubtleStatic: Color { Color.dynamicColor(defaultColor: FinnColors.gray600, darkModeColor: FinnColors.gray600) }
+    public var iconInvertedSubtleStatic: Color { Color.dynamicColor(defaultColor: FinnColors.gray400, darkModeColor: FinnColors.gray400) }
+    public var iconSubtleHoverStatic: Color { Color.dynamicColor(defaultColor: FinnColors.gray700, darkModeColor: FinnColors.gray700) }
+    public var iconInvertedSubtleHoverStatic: Color { Color.dynamicColor(defaultColor: FinnColors.gray300, darkModeColor: FinnColors.gray300) }
+    public var iconSubtleActiveStatic: Color { Color.dynamicColor(defaultColor: FinnColors.gray800, darkModeColor: FinnColors.gray800) }
+    public var iconInvertedSubtleActiveStatic: Color { Color.dynamicColor(defaultColor: FinnColors.gray200, darkModeColor: FinnColors.gray200) }
+    public var iconInvertedInvertedHoverStatic: Color { Color.dynamicColor(defaultColor: FinnColors.gray850, darkModeColor: FinnColors.gray850) }
+    public var iconInvertedInvertedActiveStatic: Color { Color.dynamicColor(defaultColor: FinnColors.gray800, darkModeColor: FinnColors.gray800) }
+    public var iconPrimaryStatic: Color { Color.dynamicColor(defaultColor: FinnColors.blue600, darkModeColor: FinnColors.blue600) }
+    public var iconInvertedPrimaryStatic: Color { Color.dynamicColor(defaultColor: FinnColors.blue400, darkModeColor: FinnColors.blue400) }
+    public var iconSecondaryStatic: Color { Color.dynamicColor(defaultColor: FinnColors.aqua400, darkModeColor: FinnColors.aqua400) }
+    public var iconInvertedSecondaryStatic: Color { Color.dynamicColor(defaultColor: FinnColors.aqua400, darkModeColor: FinnColors.aqua400) }
+    public var iconSecondaryHoverStatic: Color { Color.dynamicColor(defaultColor: FinnColors.aqua500, darkModeColor: FinnColors.aqua500) }
+    public var iconInvertedSecondaryHoverStatic: Color { Color.dynamicColor(defaultColor: FinnColors.aqua300, darkModeColor: FinnColors.aqua300) }
+    public var iconSecondaryActiveStatic: Color { Color.dynamicColor(defaultColor: FinnColors.aqua600, darkModeColor: FinnColors.aqua600) }
+    public var iconInvertedSecondaryActiveStatic: Color { Color.dynamicColor(defaultColor: FinnColors.aqua200, darkModeColor: FinnColors.aqua200) }
+    public var iconPositiveStatic: Color { Color.dynamicColor(defaultColor: FinnColors.green600, darkModeColor: FinnColors.green600) }
+    public var iconInvertedPositiveStatic: Color { Color.dynamicColor(defaultColor: FinnColors.green500, darkModeColor: FinnColors.green500) }
+    public var iconNegativeStatic: Color { Color.dynamicColor(defaultColor: FinnColors.red600, darkModeColor: FinnColors.red600) }
+    public var iconInvertedNegativeStatic: Color { Color.dynamicColor(defaultColor: FinnColors.red400, darkModeColor: FinnColors.red400) }
+    public var iconWarningStatic: Color { Color.dynamicColor(defaultColor: FinnColors.yellow600, darkModeColor: FinnColors.yellow600) }
+    public var iconInvertedWarningStatic: Color { Color.dynamicColor(defaultColor: FinnColors.yellow500, darkModeColor: FinnColors.yellow500) }
+    public var iconInfoStatic: Color { Color.dynamicColor(defaultColor: FinnColors.aqua600, darkModeColor: FinnColors.aqua600) }
+    public var iconInvertedInfoStatic: Color { Color.dynamicColor(defaultColor: FinnColors.aqua500, darkModeColor: FinnColors.aqua500) }
+    public var iconNotificationStatic: Color { Color.dynamicColor(defaultColor: FinnColors.white, darkModeColor: FinnColors.white) }
+    public var iconInvertedNotificationStatic: Color { Color.dynamicColor(defaultColor: FinnColors.white, darkModeColor: FinnColors.white) }
     public var background: Color { Color.dynamicColor(defaultColor: FinnColors.white, darkModeColor: FinnColors.gray900) }
     public var backgroundHover: Color { Color.dynamicColor(defaultColor: FinnColors.gray100, darkModeColor: FinnColors.gray850) }
     public var backgroundActive: Color { Color.dynamicColor(defaultColor: FinnColors.gray200, darkModeColor: FinnColors.gray800) }
@@ -152,6 +203,19 @@ struct FinnUITokenProvider: UITokenProvider {
     public var textDisabled: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.gray300, darkModeColor: FinnUIColors.gray500) }
     public var textNegative: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.red600, darkModeColor: FinnUIColors.red400) }
     public var textPositive: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.green600, darkModeColor: FinnUIColors.green500) }
+    public var textSubtleStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.gray600, darkModeColor: FinnUIColors.gray600) }
+    public var textInvertedSubtleStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.gray400, darkModeColor: FinnUIColors.gray400) }
+    public var textPlaceholderStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.gray300, darkModeColor: FinnUIColors.gray300) }
+    public var textInvertedPlaceholderStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.gray500, darkModeColor: FinnUIColors.gray500) }
+    public var textInvertedInvertedSubtleStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.gray600, darkModeColor: FinnUIColors.gray600) }
+    public var textLinkStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.blue600, darkModeColor: FinnUIColors.blue600) }
+    public var textInvertedLinkStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.blue400, darkModeColor: FinnUIColors.blue400) }
+    public var textDisabledStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.gray300, darkModeColor: FinnUIColors.gray300) }
+    public var textInvertedDisabledStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.gray500, darkModeColor: FinnUIColors.gray500) }
+    public var textNegativeStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.red600, darkModeColor: FinnUIColors.red600) }
+    public var textInvertedNegativeStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.red400, darkModeColor: FinnUIColors.red400) }
+    public var textPositiveStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.green600, darkModeColor: FinnUIColors.green600) }
+    public var textInvertedPositiveStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.green500, darkModeColor: FinnUIColors.green500) }
     public var icon: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.gray900, darkModeColor: FinnUIColors.white) }
     public var iconHover: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.blue600, darkModeColor: FinnUIColors.blue100) }
     public var iconActive: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.blue700, darkModeColor: FinnUIColors.blue200) }
@@ -176,6 +240,44 @@ struct FinnUITokenProvider: UITokenProvider {
     public var iconWarning: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.yellow600, darkModeColor: FinnUIColors.yellow500) }
     public var iconInfo: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.aqua600, darkModeColor: FinnUIColors.aqua500) }
     public var iconNotification: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.white, darkModeColor: FinnUIColors.white) }
+    public var iconHoverStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.blue600, darkModeColor: FinnUIColors.blue600) }
+    public var iconInvertedHoverStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.gray100, darkModeColor: FinnUIColors.gray100) }
+    public var iconActiveStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.blue700, darkModeColor: FinnUIColors.blue700) }
+    public var iconInvertedActiveStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.gray200, darkModeColor: FinnUIColors.gray200) }
+    public var iconSelectedStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.blue600, darkModeColor: FinnUIColors.blue600) }
+    public var iconInvertedSelectedStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.blue400, darkModeColor: FinnUIColors.blue400) }
+    public var iconSelectedHoverStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.blue700, darkModeColor: FinnUIColors.blue700) }
+    public var iconInvertedSelectedHoverStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.blue300, darkModeColor: FinnUIColors.blue300) }
+    public var iconSelectedActiveStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.blue800, darkModeColor: FinnUIColors.blue800) }
+    public var iconInvertedSelectedActiveStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.blue200, darkModeColor: FinnUIColors.blue200) }
+    public var iconDisabledStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.gray300, darkModeColor: FinnUIColors.gray300) }
+    public var iconInvertedDisabledStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.gray600, darkModeColor: FinnUIColors.gray600) }
+    public var iconSubtleStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.gray600, darkModeColor: FinnUIColors.gray600) }
+    public var iconInvertedSubtleStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.gray400, darkModeColor: FinnUIColors.gray400) }
+    public var iconSubtleHoverStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.gray700, darkModeColor: FinnUIColors.gray700) }
+    public var iconInvertedSubtleHoverStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.gray300, darkModeColor: FinnUIColors.gray300) }
+    public var iconSubtleActiveStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.gray800, darkModeColor: FinnUIColors.gray800) }
+    public var iconInvertedSubtleActiveStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.gray200, darkModeColor: FinnUIColors.gray200) }
+    public var iconInvertedInvertedHoverStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.gray850, darkModeColor: FinnUIColors.gray850) }
+    public var iconInvertedInvertedActiveStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.gray800, darkModeColor: FinnUIColors.gray800) }
+    public var iconPrimaryStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.blue600, darkModeColor: FinnUIColors.blue600) }
+    public var iconInvertedPrimaryStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.blue400, darkModeColor: FinnUIColors.blue400) }
+    public var iconSecondaryStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.aqua400, darkModeColor: FinnUIColors.aqua400) }
+    public var iconInvertedSecondaryStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.aqua400, darkModeColor: FinnUIColors.aqua400) }
+    public var iconSecondaryHoverStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.aqua500, darkModeColor: FinnUIColors.aqua500) }
+    public var iconInvertedSecondaryHoverStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.aqua300, darkModeColor: FinnUIColors.aqua300) }
+    public var iconSecondaryActiveStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.aqua600, darkModeColor: FinnUIColors.aqua600) }
+    public var iconInvertedSecondaryActiveStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.aqua200, darkModeColor: FinnUIColors.aqua200) }
+    public var iconPositiveStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.green600, darkModeColor: FinnUIColors.green600) }
+    public var iconInvertedPositiveStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.green500, darkModeColor: FinnUIColors.green500) }
+    public var iconNegativeStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.red600, darkModeColor: FinnUIColors.red600) }
+    public var iconInvertedNegativeStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.red400, darkModeColor: FinnUIColors.red400) }
+    public var iconWarningStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.yellow600, darkModeColor: FinnUIColors.yellow600) }
+    public var iconInvertedWarningStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.yellow500, darkModeColor: FinnUIColors.yellow500) }
+    public var iconInfoStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.aqua600, darkModeColor: FinnUIColors.aqua600) }
+    public var iconInvertedInfoStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.aqua500, darkModeColor: FinnUIColors.aqua500) }
+    public var iconNotificationStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.white, darkModeColor: FinnUIColors.white) }
+    public var iconInvertedNotificationStatic: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.white, darkModeColor: FinnUIColors.white) }
     public var background: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.white, darkModeColor: FinnUIColors.gray900) }
     public var backgroundHover: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.gray100, darkModeColor: FinnUIColors.gray850) }
     public var backgroundActive: UIColor { UIColor.dynamicColor(defaultColor: FinnUIColors.gray200, darkModeColor: FinnUIColors.gray800) }
