@@ -14,6 +14,19 @@
     <id name="warp_text_disabled" type="color" />
     <id name="warp_text_negative" type="color" />
     <id name="warp_text_positive" type="color" />
+    <id name="warp_text_subtle_static" type="color" />
+    <id name="warp_text_inverted_subtle_static" type="color" />
+    <id name="warp_text_placeholder_static" type="color" />
+    <id name="warp_text_inverted_placeholder_static" type="color" />
+    <id name="warp_text_inverted_inverted_subtle_static" type="color" />
+    <id name="warp_text_link_static" type="color" />
+    <id name="warp_text_inverted_link_static" type="color" />
+    <id name="warp_text_disabled_static" type="color" />
+    <id name="warp_text_inverted_disabled_static" type="color" />
+    <id name="warp_text_negative_static" type="color" />
+    <id name="warp_text_inverted_negative_static" type="color" />
+    <id name="warp_text_positive_static" type="color" />
+    <id name="warp_text_inverted_positive_static" type="color" />
     <id name="warp_icon_default" type="color" />
     <id name="warp_icon_hover" type="color" />
     <id name="warp_icon_active" type="color" />
@@ -38,6 +51,44 @@
     <id name="warp_icon_warning" type="color" />
     <id name="warp_icon_info" type="color" />
     <id name="warp_icon_notification" type="color" />
+    <id name="warp_icon_hover_static" type="color" />
+    <id name="warp_icon_inverted_hover_static" type="color" />
+    <id name="warp_icon_active_static" type="color" />
+    <id name="warp_icon_inverted_active_static" type="color" />
+    <id name="warp_icon_selected_static" type="color" />
+    <id name="warp_icon_inverted_selected_static" type="color" />
+    <id name="warp_icon_selected_hover_static" type="color" />
+    <id name="warp_icon_inverted_selected_hover_static" type="color" />
+    <id name="warp_icon_selected_active_static" type="color" />
+    <id name="warp_icon_inverted_selected_active_static" type="color" />
+    <id name="warp_icon_disabled_static" type="color" />
+    <id name="warp_icon_inverted_disabled_static" type="color" />
+    <id name="warp_icon_subtle_static" type="color" />
+    <id name="warp_icon_inverted_subtle_static" type="color" />
+    <id name="warp_icon_subtle_hover_static" type="color" />
+    <id name="warp_icon_inverted_subtle_hover_static" type="color" />
+    <id name="warp_icon_subtle_active_static" type="color" />
+    <id name="warp_icon_inverted_subtle_active_static" type="color" />
+    <id name="warp_icon_inverted_inverted_hover_static" type="color" />
+    <id name="warp_icon_inverted_inverted_active_static" type="color" />
+    <id name="warp_icon_primary_static" type="color" />
+    <id name="warp_icon_inverted_primary_static" type="color" />
+    <id name="warp_icon_secondary_static" type="color" />
+    <id name="warp_icon_inverted_secondary_static" type="color" />
+    <id name="warp_icon_secondary_hover_static" type="color" />
+    <id name="warp_icon_inverted_secondary_hover_static" type="color" />
+    <id name="warp_icon_secondary_active_static" type="color" />
+    <id name="warp_icon_inverted_secondary_active_static" type="color" />
+    <id name="warp_icon_positive_static" type="color" />
+    <id name="warp_icon_inverted_positive_static" type="color" />
+    <id name="warp_icon_negative_static" type="color" />
+    <id name="warp_icon_inverted_negative_static" type="color" />
+    <id name="warp_icon_warning_static" type="color" />
+    <id name="warp_icon_inverted_warning_static" type="color" />
+    <id name="warp_icon_info_static" type="color" />
+    <id name="warp_icon_inverted_info_static" type="color" />
+    <id name="warp_icon_notification_static" type="color" />
+    <id name="warp_icon_inverted_notification_static" type="color" />
     <id name="warp_background_default" type="color" />
     <id name="warp_background_hover" type="color" />
     <id name="warp_background_active" type="color" />

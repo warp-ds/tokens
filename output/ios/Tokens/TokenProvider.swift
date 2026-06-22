@@ -13,6 +13,19 @@ public protocol TokenProvider {
     var textDisabled: Color { get }
     var textNegative: Color { get }
     var textPositive: Color { get }
+    var textSubtleStatic: Color { get }
+    var textInvertedSubtleStatic: Color { get }
+    var textPlaceholderStatic: Color { get }
+    var textInvertedPlaceholderStatic: Color { get }
+    var textInvertedInvertedSubtleStatic: Color { get }
+    var textLinkStatic: Color { get }
+    var textInvertedLinkStatic: Color { get }
+    var textDisabledStatic: Color { get }
+    var textInvertedDisabledStatic: Color { get }
+    var textNegativeStatic: Color { get }
+    var textInvertedNegativeStatic: Color { get }
+    var textPositiveStatic: Color { get }
+    var textInvertedPositiveStatic: Color { get }
     var icon: Color { get }
     var iconHover: Color { get }
     var iconActive: Color { get }
@@ -37,6 +50,44 @@ public protocol TokenProvider {
     var iconWarning: Color { get }
     var iconInfo: Color { get }
     var iconNotification: Color { get }
+    var iconHoverStatic: Color { get }
+    var iconInvertedHoverStatic: Color { get }
+    var iconActiveStatic: Color { get }
+    var iconInvertedActiveStatic: Color { get }
+    var iconSelectedStatic: Color { get }
+    var iconInvertedSelectedStatic: Color { get }
+    var iconSelectedHoverStatic: Color { get }
+    var iconInvertedSelectedHoverStatic: Color { get }
+    var iconSelectedActiveStatic: Color { get }
+    var iconInvertedSelectedActiveStatic: Color { get }
+    var iconDisabledStatic: Color { get }
+    var iconInvertedDisabledStatic: Color { get }
+    var iconSubtleStatic: Color { get }
+    var iconInvertedSubtleStatic: Color { get }
+    var iconSubtleHoverStatic: Color { get }
+    var iconInvertedSubtleHoverStatic: Color { get }
+    var iconSubtleActiveStatic: Color { get }
+    var iconInvertedSubtleActiveStatic: Color { get }
+    var iconInvertedInvertedHoverStatic: Color { get }
+    var iconInvertedInvertedActiveStatic: Color { get }
+    var iconPrimaryStatic: Color { get }
+    var iconInvertedPrimaryStatic: Color { get }
+    var iconSecondaryStatic: Color { get }
+    var iconInvertedSecondaryStatic: Color { get }
+    var iconSecondaryHoverStatic: Color { get }
+    var iconInvertedSecondaryHoverStatic: Color { get }
+    var iconSecondaryActiveStatic: Color { get }
+    var iconInvertedSecondaryActiveStatic: Color { get }
+    var iconPositiveStatic: Color { get }
+    var iconInvertedPositiveStatic: Color { get }
+    var iconNegativeStatic: Color { get }
+    var iconInvertedNegativeStatic: Color { get }
+    var iconWarningStatic: Color { get }
+    var iconInvertedWarningStatic: Color { get }
+    var iconInfoStatic: Color { get }
+    var iconInvertedInfoStatic: Color { get }
+    var iconNotificationStatic: Color { get }
+    var iconInvertedNotificationStatic: Color { get }
     var background: Color { get }
     var backgroundHover: Color { get }
     var backgroundActive: Color { get }
@@ -152,6 +203,19 @@ public protocol UITokenProvider {
     var textDisabled: UIColor { get }
     var textNegative: UIColor { get }
     var textPositive: UIColor { get }
+    var textSubtleStatic: UIColor { get }
+    var textInvertedSubtleStatic: UIColor { get }
+    var textPlaceholderStatic: UIColor { get }
+    var textInvertedPlaceholderStatic: UIColor { get }
+    var textInvertedInvertedSubtleStatic: UIColor { get }
+    var textLinkStatic: UIColor { get }
+    var textInvertedLinkStatic: UIColor { get }
+    var textDisabledStatic: UIColor { get }
+    var textInvertedDisabledStatic: UIColor { get }
+    var textNegativeStatic: UIColor { get }
+    var textInvertedNegativeStatic: UIColor { get }
+    var textPositiveStatic: UIColor { get }
+    var textInvertedPositiveStatic: UIColor { get }
     var icon: UIColor { get }
     var iconHover: UIColor { get }
     var iconActive: UIColor { get }
@@ -176,6 +240,44 @@ public protocol UITokenProvider {
     var iconWarning: UIColor { get }
     var iconInfo: UIColor { get }
     var iconNotification: UIColor { get }
+    var iconHoverStatic: UIColor { get }
+    var iconInvertedHoverStatic: UIColor { get }
+    var iconActiveStatic: UIColor { get }
+    var iconInvertedActiveStatic: UIColor { get }
+    var iconSelectedStatic: UIColor { get }
+    var iconInvertedSelectedStatic: UIColor { get }
+    var iconSelectedHoverStatic: UIColor { get }
+    var iconInvertedSelectedHoverStatic: UIColor { get }
+    var iconSelectedActiveStatic: UIColor { get }
+    var iconInvertedSelectedActiveStatic: UIColor { get }
+    var iconDisabledStatic: UIColor { get }
+    var iconInvertedDisabledStatic: UIColor { get }
+    var iconSubtleStatic: UIColor { get }
+    var iconInvertedSubtleStatic: UIColor { get }
+    var iconSubtleHoverStatic: UIColor { get }
+    var iconInvertedSubtleHoverStatic: UIColor { get }
+    var iconSubtleActiveStatic: UIColor { get }
+    var iconInvertedSubtleActiveStatic: UIColor { get }
+    var iconInvertedInvertedHoverStatic: UIColor { get }
+    var iconInvertedInvertedActiveStatic: UIColor { get }
+    var iconPrimaryStatic: UIColor { get }
+    var iconInvertedPrimaryStatic: UIColor { get }
+    var iconSecondaryStatic: UIColor { get }
+    var iconInvertedSecondaryStatic: UIColor { get }
+    var iconSecondaryHoverStatic: UIColor { get }
+    var iconInvertedSecondaryHoverStatic: UIColor { get }
+    var iconSecondaryActiveStatic: UIColor { get }
+    var iconInvertedSecondaryActiveStatic: UIColor { get }
+    var iconPositiveStatic: UIColor { get }
+    var iconInvertedPositiveStatic: UIColor { get }
+    var iconNegativeStatic: UIColor { get }
+    var iconInvertedNegativeStatic: UIColor { get }
+    var iconWarningStatic: UIColor { get }
+    var iconInvertedWarningStatic: UIColor { get }
+    var iconInfoStatic: UIColor { get }
+    var iconInvertedInfoStatic: UIColor { get }
+    var iconNotificationStatic: UIColor { get }
+    var iconInvertedNotificationStatic: UIColor { get }
     var background: UIColor { get }
     var backgroundHover: UIColor { get }
     var backgroundActive: UIColor { get }
