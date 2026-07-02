@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "type": "module",
+  "packageManager": "pnpm@11.3.0",
   "scripts": {
     "import:warp": "node importWarp.js",
     "import:dataviz": "node importDataviz.js",
