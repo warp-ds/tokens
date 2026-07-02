@@ -43,6 +43,7 @@ export function processAndWriteSemanticAndComponentTokens(
 				: "semantic";
 			Object.values(modeObjects).forEach((modeObject) => {
 				// Get the name of the token the variable refers to, for example "DBA/Gray/200" or "Semantic/Background/Disabled"
+				// Transforms it to the desired format with brackets and dot notation, for example "{color.gray.200}"
 				const value = extractValueForMode(
 					variable,
 					modeObject.modeId,
@@ -69,6 +70,79 @@ export function processAndWriteSemanticAndComponentTokens(
 			});
 		}
 	});
+
+	// Enrich the semantic tokens with -static and -inverted-static variants for all text and icon tokens
+	for (const [brandAndMode, values] of Object.entries(modeObjects)) {
+		/** @type {["FINN" | "Tori" | "DBA" | "Blocket" | "Neutral" | "Vend", "light" | "dark"]} */
+		const [brand, mode] = brandAndMode.split(" ");
+
+		// default and inverted are handled by `static` and `inverted-static` straight from Figma
+		const semanticTextTokens = [
+			"subtle",
+			"placeholder",
+			"inverted-subtle",
+			"link",
+			"disabled",
+			"negative",
+			"positive",
+		];
+		const semanticIconTokens = [
+			"hover",
+			"active",
+			"selected",
+			"selected-hover",
+			"selected-active",
+			"disabled",
+			"subtle",
+			"subtle-hover",
+			"subtle-active",
+			"inverted-hover",
+			"inverted-active",
+			"primary",
+			"secondary",
+			"secondary-hover",
+			"secondary-active",
+			"positive",
+			"negative",
+			"warning",
+			"info",
+			"notification",
+		];
+
+		for (const variant of semanticTextTokens) {
+			// Generate a <variant>-static with the same value as light-mode <variant> (f. ex link)
+			// and a inverted-<variant>-static with the same value as the dark-mode <variant>
+			const variantStaticValue = modeObjects[`${brand} light`].semantic.color.text[variant];
+			if (!variantStaticValue) {
+				console.error(`Didn't find a value for ${variant}-static`);
+			} else {
+				modeObjects[`${brand} ${mode}`].semantic.color.text[`${variant}-static`] = variantStaticValue;
+			}
+			const invertedVariantStaticValue = modeObjects[`${brand} dark`].semantic.color.text[variant];
+			if (!invertedVariantStaticValue) {
+				console.error(`Didn't find a value for inverted-${variant}-static`);
+			} else {
+				modeObjects[`${brand} ${mode}`].semantic.color.text[`inverted-${variant}-static`] = invertedVariantStaticValue;
+			}
+		}
+		
+		for (const variant of semanticIconTokens) {
+			// Generate a <variant>-static with the same value as light-mode <variant> (f. ex link)
+			// and a inverted-<variant>-static with the same value as the dark-mode <variant>
+			const variantStaticValue = modeObjects[`${brand} light`].semantic.color.icon[variant];
+			if (!variantStaticValue) {
+				console.error(`Didn't find a value for ${variant}-static`);
+			} else {
+				modeObjects[`${brand} ${mode}`].semantic.color.icon[`${variant}-static`] = variantStaticValue;
+			}
+			const invertedVariantStaticValue = modeObjects[`${brand} dark`].semantic.color.icon[variant];
+			if (!invertedVariantStaticValue) {
+				console.error(`Didn't find a value for inverted-${variant}-static`);
+			} else {
+				modeObjects[`${brand} ${mode}`].semantic.color.icon[`inverted-${variant}-static`] = invertedVariantStaticValue;
+			}
+		}
+	}
 
 	// Write the files for each mode
 	Object.entries(modeObjects).map(([modeName, modeObject]) => {

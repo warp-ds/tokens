@@ -34,6 +34,45 @@
         },
         "positive": {
           "value": "{color.green.600}"
+        },
+        "subtle-static": {
+          "value": "{color.gray.600}"
+        },
+        "inverted-subtle-static": {
+          "value": "{color.gray.400}"
+        },
+        "placeholder-static": {
+          "value": "{color.gray.300}"
+        },
+        "inverted-placeholder-static": {
+          "value": "{color.gray.500}"
+        },
+        "inverted-inverted-subtle-static": {
+          "value": "{color.gray.600}"
+        },
+        "link-static": {
+          "value": "{color.blue.600}"
+        },
+        "inverted-link-static": {
+          "value": "{color.blue.400}"
+        },
+        "disabled-static": {
+          "value": "{color.gray.300}"
+        },
+        "inverted-disabled-static": {
+          "value": "{color.gray.500}"
+        },
+        "negative-static": {
+          "value": "{color.red.600}"
+        },
+        "inverted-negative-static": {
+          "value": "{color.red.400}"
+        },
+        "positive-static": {
+          "value": "{color.green.600}"
+        },
+        "inverted-positive-static": {
+          "value": "{color.green.500}"
         }
       },
       "icon": {
@@ -107,6 +146,120 @@
           "value": "{color.aqua.600}"
         },
         "notification": {
+          "value": "{color.white}"
+        },
+        "hover-static": {
+          "value": "{color.blue.600}"
+        },
+        "inverted-hover-static": {
+          "value": "{color.gray.100}"
+        },
+        "active-static": {
+          "value": "{color.blue.700}"
+        },
+        "inverted-active-static": {
+          "value": "{color.gray.200}"
+        },
+        "selected-static": {
+          "value": "{color.blue.600}"
+        },
+        "inverted-selected-static": {
+          "value": "{color.blue.400}"
+        },
+        "selected-hover-static": {
+          "value": "{color.blue.700}"
+        },
+        "inverted-selected-hover-static": {
+          "value": "{color.blue.300}"
+        },
+        "selected-active-static": {
+          "value": "{color.blue.800}"
+        },
+        "inverted-selected-active-static": {
+          "value": "{color.blue.200}"
+        },
+        "disabled-static": {
+          "value": "{color.gray.300}"
+        },
+        "inverted-disabled-static": {
+          "value": "{color.gray.600}"
+        },
+        "subtle-static": {
+          "value": "{color.gray.600}"
+        },
+        "inverted-subtle-static": {
+          "value": "{color.gray.400}"
+        },
+        "subtle-hover-static": {
+          "value": "{color.gray.700}"
+        },
+        "inverted-subtle-hover-static": {
+          "value": "{color.gray.300}"
+        },
+        "subtle-active-static": {
+          "value": "{color.gray.800}"
+        },
+        "inverted-subtle-active-static": {
+          "value": "{color.gray.200}"
+        },
+        "inverted-inverted-hover-static": {
+          "value": "{color.gray.850}"
+        },
+        "inverted-inverted-active-static": {
+          "value": "{color.gray.800}"
+        },
+        "primary-static": {
+          "value": "{color.blue.600}"
+        },
+        "inverted-primary-static": {
+          "value": "{color.blue.400}"
+        },
+        "secondary-static": {
+          "value": "{color.aqua.400}"
+        },
+        "inverted-secondary-static": {
+          "value": "{color.aqua.400}"
+        },
+        "secondary-hover-static": {
+          "value": "{color.aqua.500}"
+        },
+        "inverted-secondary-hover-static": {
+          "value": "{color.aqua.300}"
+        },
+        "secondary-active-static": {
+          "value": "{color.aqua.600}"
+        },
+        "inverted-secondary-active-static": {
+          "value": "{color.aqua.200}"
+        },
+        "positive-static": {
+          "value": "{color.green.600}"
+        },
+        "inverted-positive-static": {
+          "value": "{color.green.500}"
+        },
+        "negative-static": {
+          "value": "{color.red.600}"
+        },
+        "inverted-negative-static": {
+          "value": "{color.red.400}"
+        },
+        "warning-static": {
+          "value": "{color.yellow.600}"
+        },
+        "inverted-warning-static": {
+          "value": "{color.yellow.500}"
+        },
+        "info-static": {
+          "value": "{color.aqua.600}"
+        },
+        "inverted-info-static": {
+          "value": "{color.aqua.500}"
+        },
+        "notification-static": {
+          "value": "{color.white}"
+        },
+        "inverted-notification-static": {
           "value": "{color.white}"
         }
       },

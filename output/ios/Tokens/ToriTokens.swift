@@ -13,6 +13,19 @@ struct ToriTokenProvider: TokenProvider {
     public var textDisabled: Color { Color.dynamicColor(defaultColor: ToriColors.gray300, darkModeColor: ToriColors.gray500) }
     public var textNegative: Color { Color.dynamicColor(defaultColor: ToriColors.red600, darkModeColor: ToriColors.red300) }
     public var textPositive: Color { Color.dynamicColor(defaultColor: ToriColors.green600, darkModeColor: ToriColors.green500) }
+    public var textSubtleStatic: Color { Color.dynamicColor(defaultColor: ToriColors.gray600, darkModeColor: ToriColors.gray600) }
+    public var textInvertedSubtleStatic: Color { Color.dynamicColor(defaultColor: ToriColors.gray400, darkModeColor: ToriColors.gray400) }
+    public var textPlaceholderStatic: Color { Color.dynamicColor(defaultColor: ToriColors.gray300, darkModeColor: ToriColors.gray300) }
+    public var textInvertedPlaceholderStatic: Color { Color.dynamicColor(defaultColor: ToriColors.gray500, darkModeColor: ToriColors.gray500) }
+    public var textInvertedInvertedSubtleStatic: Color { Color.dynamicColor(defaultColor: ToriColors.gray600, darkModeColor: ToriColors.gray600) }
+    public var textLinkStatic: Color { Color.dynamicColor(defaultColor: ToriColors.blueberry600, darkModeColor: ToriColors.blueberry600) }
+    public var textInvertedLinkStatic: Color { Color.dynamicColor(defaultColor: ToriColors.blueberry400, darkModeColor: ToriColors.blueberry400) }
+    public var textDisabledStatic: Color { Color.dynamicColor(defaultColor: ToriColors.gray300, darkModeColor: ToriColors.gray300) }
+    public var textInvertedDisabledStatic: Color { Color.dynamicColor(defaultColor: ToriColors.gray500, darkModeColor: ToriColors.gray500) }
+    public var textNegativeStatic: Color { Color.dynamicColor(defaultColor: ToriColors.red600, darkModeColor: ToriColors.red600) }
+    public var textInvertedNegativeStatic: Color { Color.dynamicColor(defaultColor: ToriColors.red300, darkModeColor: ToriColors.red300) }
+    public var textPositiveStatic: Color { Color.dynamicColor(defaultColor: ToriColors.green600, darkModeColor: ToriColors.green600) }
+    public var textInvertedPositiveStatic: Color { Color.dynamicColor(defaultColor: ToriColors.green500, darkModeColor: ToriColors.green500) }
     public var icon: Color { Color.dynamicColor(defaultColor: ToriColors.gray900, darkModeColor: ToriColors.white) }
     public var iconHover: Color { Color.dynamicColor(defaultColor: ToriColors.blueberry800, darkModeColor: ToriColors.blueberry100) }
     public var iconActive: Color { Color.dynamicColor(defaultColor: ToriColors.blueberry900, darkModeColor: ToriColors.blueberry200) }
@@ -37,6 +50,44 @@ struct ToriTokenProvider: TokenProvider {
     public var iconWarning: Color { Color.dynamicColor(defaultColor: ToriColors.yellow600, darkModeColor: ToriColors.yellow500) }
     public var iconInfo: Color { Color.dynamicColor(defaultColor: ToriColors.blue600, darkModeColor: ToriColors.blue500) }
     public var iconNotification: Color { Color.dynamicColor(defaultColor: ToriColors.white, darkModeColor: ToriColors.white) }
+    public var iconHoverStatic: Color { Color.dynamicColor(defaultColor: ToriColors.blueberry800, darkModeColor: ToriColors.blueberry800) }
+    public var iconInvertedHoverStatic: Color { Color.dynamicColor(defaultColor: ToriColors.gray100, darkModeColor: ToriColors.gray100) }
+    public var iconActiveStatic: Color { Color.dynamicColor(defaultColor: ToriColors.blueberry900, darkModeColor: ToriColors.blueberry900) }
+    public var iconInvertedActiveStatic: Color { Color.dynamicColor(defaultColor: ToriColors.gray200, darkModeColor: ToriColors.gray200) }
+    public var iconSelectedStatic: Color { Color.dynamicColor(defaultColor: ToriColors.blueberry600, darkModeColor: ToriColors.blueberry600) }
+    public var iconInvertedSelectedStatic: Color { Color.dynamicColor(defaultColor: ToriColors.blueberry400, darkModeColor: ToriColors.blueberry400) }
+    public var iconSelectedHoverStatic: Color { Color.dynamicColor(defaultColor: ToriColors.blueberry700, darkModeColor: ToriColors.blueberry700) }
+    public var iconInvertedSelectedHoverStatic: Color { Color.dynamicColor(defaultColor: ToriColors.blueberry300, darkModeColor: ToriColors.blueberry300) }
+    public var iconSelectedActiveStatic: Color { Color.dynamicColor(defaultColor: ToriColors.blueberry800, darkModeColor: ToriColors.blueberry800) }
+    public var iconInvertedSelectedActiveStatic: Color { Color.dynamicColor(defaultColor: ToriColors.blueberry200, darkModeColor: ToriColors.blueberry200) }
+    public var iconDisabledStatic: Color { Color.dynamicColor(defaultColor: ToriColors.gray300, darkModeColor: ToriColors.gray300) }
+    public var iconInvertedDisabledStatic: Color { Color.dynamicColor(defaultColor: ToriColors.gray600, darkModeColor: ToriColors.gray600) }
+    public var iconSubtleStatic: Color { Color.dynamicColor(defaultColor: ToriColors.gray600, darkModeColor: ToriColors.gray600) }
+    public var iconInvertedSubtleStatic: Color { Color.dynamicColor(defaultColor: ToriColors.gray400, darkModeColor: ToriColors.gray400) }
+    public var iconSubtleHoverStatic: Color { Color.dynamicColor(defaultColor: ToriColors.gray700, darkModeColor: ToriColors.gray700) }
+    public var iconInvertedSubtleHoverStatic: Color { Color.dynamicColor(defaultColor: ToriColors.gray300, darkModeColor: ToriColors.gray300) }
+    public var iconSubtleActiveStatic: Color { Color.dynamicColor(defaultColor: ToriColors.gray800, darkModeColor: ToriColors.gray800) }
+    public var iconInvertedSubtleActiveStatic: Color { Color.dynamicColor(defaultColor: ToriColors.gray200, darkModeColor: ToriColors.gray200) }
+    public var iconInvertedInvertedHoverStatic: Color { Color.dynamicColor(defaultColor: ToriColors.gray850, darkModeColor: ToriColors.gray850) }
+    public var iconInvertedInvertedActiveStatic: Color { Color.dynamicColor(defaultColor: ToriColors.gray800, darkModeColor: ToriColors.gray800) }
+    public var iconPrimaryStatic: Color { Color.dynamicColor(defaultColor: ToriColors.blueberry600, darkModeColor: ToriColors.blueberry600) }
+    public var iconInvertedPrimaryStatic: Color { Color.dynamicColor(defaultColor: ToriColors.blueberry400, darkModeColor: ToriColors.blueberry400) }
+    public var iconSecondaryStatic: Color { Color.dynamicColor(defaultColor: ToriColors.watermelon500, darkModeColor: ToriColors.watermelon500) }
+    public var iconInvertedSecondaryStatic: Color { Color.dynamicColor(defaultColor: ToriColors.watermelon500, darkModeColor: ToriColors.watermelon500) }
+    public var iconSecondaryHoverStatic: Color { Color.dynamicColor(defaultColor: ToriColors.watermelon600, darkModeColor: ToriColors.watermelon600) }
+    public var iconInvertedSecondaryHoverStatic: Color { Color.dynamicColor(defaultColor: ToriColors.watermelon400, darkModeColor: ToriColors.watermelon400) }
+    public var iconSecondaryActiveStatic: Color { Color.dynamicColor(defaultColor: ToriColors.watermelon700, darkModeColor: ToriColors.watermelon700) }
+    public var iconInvertedSecondaryActiveStatic: Color { Color.dynamicColor(defaultColor: ToriColors.watermelon300, darkModeColor: ToriColors.watermelon300) }
+    public var iconPositiveStatic: Color { Color.dynamicColor(defaultColor: ToriColors.green600, darkModeColor: ToriColors.green600) }
+    public var iconInvertedPositiveStatic: Color { Color.dynamicColor(defaultColor: ToriColors.green500, darkModeColor: ToriColors.green500) }
+    public var iconNegativeStatic: Color { Color.dynamicColor(defaultColor: ToriColors.red600, darkModeColor: ToriColors.red600) }
+    public var iconInvertedNegativeStatic: Color { Color.dynamicColor(defaultColor: ToriColors.red300, darkModeColor: ToriColors.red300) }
+    public var iconWarningStatic: Color { Color.dynamicColor(defaultColor: ToriColors.yellow600, darkModeColor: ToriColors.yellow600) }
+    public var iconInvertedWarningStatic: Color { Color.dynamicColor(defaultColor: ToriColors.yellow500, darkModeColor: ToriColors.yellow500) }
+    public var iconInfoStatic: Color { Color.dynamicColor(defaultColor: ToriColors.blue600, darkModeColor: ToriColors.blue600) }
+    public var iconInvertedInfoStatic: Color { Color.dynamicColor(defaultColor: ToriColors.blue500, darkModeColor: ToriColors.blue500) }
+    public var iconNotificationStatic: Color { Color.dynamicColor(defaultColor: ToriColors.white, darkModeColor: ToriColors.white) }
+    public var iconInvertedNotificationStatic: Color { Color.dynamicColor(defaultColor: ToriColors.white, darkModeColor: ToriColors.white) }
     public var background: Color { Color.dynamicColor(defaultColor: ToriColors.white, darkModeColor: ToriColors.gray900) }
     public var backgroundHover: Color { Color.dynamicColor(defaultColor: ToriColors.gray100, darkModeColor: ToriColors.gray850) }
     public var backgroundActive: Color { Color.dynamicColor(defaultColor: ToriColors.gray200, darkModeColor: ToriColors.gray800) }
@@ -152,6 +203,19 @@ struct ToriUITokenProvider: UITokenProvider {
     public var textDisabled: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.gray300, darkModeColor: ToriUIColors.gray500) }
     public var textNegative: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.red600, darkModeColor: ToriUIColors.red300) }
     public var textPositive: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.green600, darkModeColor: ToriUIColors.green500) }
+    public var textSubtleStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.gray600, darkModeColor: ToriUIColors.gray600) }
+    public var textInvertedSubtleStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.gray400, darkModeColor: ToriUIColors.gray400) }
+    public var textPlaceholderStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.gray300, darkModeColor: ToriUIColors.gray300) }
+    public var textInvertedPlaceholderStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.gray500, darkModeColor: ToriUIColors.gray500) }
+    public var textInvertedInvertedSubtleStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.gray600, darkModeColor: ToriUIColors.gray600) }
+    public var textLinkStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.blueberry600, darkModeColor: ToriUIColors.blueberry600) }
+    public var textInvertedLinkStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.blueberry400, darkModeColor: ToriUIColors.blueberry400) }
+    public var textDisabledStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.gray300, darkModeColor: ToriUIColors.gray300) }
+    public var textInvertedDisabledStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.gray500, darkModeColor: ToriUIColors.gray500) }
+    public var textNegativeStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.red600, darkModeColor: ToriUIColors.red600) }
+    public var textInvertedNegativeStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.red300, darkModeColor: ToriUIColors.red300) }
+    public var textPositiveStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.green600, darkModeColor: ToriUIColors.green600) }
+    public var textInvertedPositiveStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.green500, darkModeColor: ToriUIColors.green500) }
     public var icon: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.gray900, darkModeColor: ToriUIColors.white) }
     public var iconHover: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.blueberry800, darkModeColor: ToriUIColors.blueberry100) }
     public var iconActive: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.blueberry900, darkModeColor: ToriUIColors.blueberry200) }
@@ -176,6 +240,44 @@ struct ToriUITokenProvider: UITokenProvider {
     public var iconWarning: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.yellow600, darkModeColor: ToriUIColors.yellow500) }
     public var iconInfo: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.blue600, darkModeColor: ToriUIColors.blue500) }
     public var iconNotification: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.white, darkModeColor: ToriUIColors.white) }
+    public var iconHoverStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.blueberry800, darkModeColor: ToriUIColors.blueberry800) }
+    public var iconInvertedHoverStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.gray100, darkModeColor: ToriUIColors.gray100) }
+    public var iconActiveStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.blueberry900, darkModeColor: ToriUIColors.blueberry900) }
+    public var iconInvertedActiveStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.gray200, darkModeColor: ToriUIColors.gray200) }
+    public var iconSelectedStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.blueberry600, darkModeColor: ToriUIColors.blueberry600) }
+    public var iconInvertedSelectedStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.blueberry400, darkModeColor: ToriUIColors.blueberry400) }
+    public var iconSelectedHoverStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.blueberry700, darkModeColor: ToriUIColors.blueberry700) }
+    public var iconInvertedSelectedHoverStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.blueberry300, darkModeColor: ToriUIColors.blueberry300) }
+    public var iconSelectedActiveStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.blueberry800, darkModeColor: ToriUIColors.blueberry800) }
+    public var iconInvertedSelectedActiveStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.blueberry200, darkModeColor: ToriUIColors.blueberry200) }
+    public var iconDisabledStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.gray300, darkModeColor: ToriUIColors.gray300) }
+    public var iconInvertedDisabledStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.gray600, darkModeColor: ToriUIColors.gray600) }
+    public var iconSubtleStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.gray600, darkModeColor: ToriUIColors.gray600) }
+    public var iconInvertedSubtleStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.gray400, darkModeColor: ToriUIColors.gray400) }
+    public var iconSubtleHoverStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.gray700, darkModeColor: ToriUIColors.gray700) }
+    public var iconInvertedSubtleHoverStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.gray300, darkModeColor: ToriUIColors.gray300) }
+    public var iconSubtleActiveStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.gray800, darkModeColor: ToriUIColors.gray800) }
+    public var iconInvertedSubtleActiveStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.gray200, darkModeColor: ToriUIColors.gray200) }
+    public var iconInvertedInvertedHoverStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.gray850, darkModeColor: ToriUIColors.gray850) }
+    public var iconInvertedInvertedActiveStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.gray800, darkModeColor: ToriUIColors.gray800) }
+    public var iconPrimaryStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.blueberry600, darkModeColor: ToriUIColors.blueberry600) }
+    public var iconInvertedPrimaryStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.blueberry400, darkModeColor: ToriUIColors.blueberry400) }
+    public var iconSecondaryStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.watermelon500, darkModeColor: ToriUIColors.watermelon500) }
+    public var iconInvertedSecondaryStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.watermelon500, darkModeColor: ToriUIColors.watermelon500) }
+    public var iconSecondaryHoverStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.watermelon600, darkModeColor: ToriUIColors.watermelon600) }
+    public var iconInvertedSecondaryHoverStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.watermelon400, darkModeColor: ToriUIColors.watermelon400) }
+    public var iconSecondaryActiveStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.watermelon700, darkModeColor: ToriUIColors.watermelon700) }
+    public var iconInvertedSecondaryActiveStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.watermelon300, darkModeColor: ToriUIColors.watermelon300) }
+    public var iconPositiveStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.green600, darkModeColor: ToriUIColors.green600) }
+    public var iconInvertedPositiveStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.green500, darkModeColor: ToriUIColors.green500) }
+    public var iconNegativeStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.red600, darkModeColor: ToriUIColors.red600) }
+    public var iconInvertedNegativeStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.red300, darkModeColor: ToriUIColors.red300) }
+    public var iconWarningStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.yellow600, darkModeColor: ToriUIColors.yellow600) }
+    public var iconInvertedWarningStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.yellow500, darkModeColor: ToriUIColors.yellow500) }
+    public var iconInfoStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.blue600, darkModeColor: ToriUIColors.blue600) }
+    public var iconInvertedInfoStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.blue500, darkModeColor: ToriUIColors.blue500) }
+    public var iconNotificationStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.white, darkModeColor: ToriUIColors.white) }
+    public var iconInvertedNotificationStatic: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.white, darkModeColor: ToriUIColors.white) }
     public var background: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.white, darkModeColor: ToriUIColors.gray900) }
     public var backgroundHover: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.gray100, darkModeColor: ToriUIColors.gray850) }
     public var backgroundActive: UIColor { UIColor.dynamicColor(defaultColor: ToriUIColors.gray200, darkModeColor: ToriUIColors.gray800) }

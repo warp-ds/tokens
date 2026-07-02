@@ -13,6 +13,19 @@ struct NeutralTokenProvider: TokenProvider {
     public var textDisabled: Color { Color.dynamicColor(defaultColor: NeutralColors.gray300, darkModeColor: NeutralColors.gray500) }
     public var textNegative: Color { Color.dynamicColor(defaultColor: NeutralColors.red600, darkModeColor: NeutralColors.red400) }
     public var textPositive: Color { Color.dynamicColor(defaultColor: NeutralColors.green600, darkModeColor: NeutralColors.green400) }
+    public var textSubtleStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.gray600, darkModeColor: NeutralColors.gray600) }
+    public var textInvertedSubtleStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.gray400, darkModeColor: NeutralColors.gray400) }
+    public var textPlaceholderStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.gray300, darkModeColor: NeutralColors.gray300) }
+    public var textInvertedPlaceholderStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.gray500, darkModeColor: NeutralColors.gray500) }
+    public var textInvertedInvertedSubtleStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.gray600, darkModeColor: NeutralColors.gray600) }
+    public var textLinkStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.blue600, darkModeColor: NeutralColors.blue600) }
+    public var textInvertedLinkStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.blue400, darkModeColor: NeutralColors.blue400) }
+    public var textDisabledStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.gray300, darkModeColor: NeutralColors.gray300) }
+    public var textInvertedDisabledStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.gray500, darkModeColor: NeutralColors.gray500) }
+    public var textNegativeStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.red600, darkModeColor: NeutralColors.red600) }
+    public var textInvertedNegativeStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.red400, darkModeColor: NeutralColors.red400) }
+    public var textPositiveStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.green600, darkModeColor: NeutralColors.green600) }
+    public var textInvertedPositiveStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.green400, darkModeColor: NeutralColors.green400) }
     public var icon: Color { Color.dynamicColor(defaultColor: NeutralColors.gray900, darkModeColor: NeutralColors.white) }
     public var iconHover: Color { Color.dynamicColor(defaultColor: NeutralColors.blue700, darkModeColor: NeutralColors.blue100) }
     public var iconActive: Color { Color.dynamicColor(defaultColor: NeutralColors.blue800, darkModeColor: NeutralColors.blue200) }
@@ -37,6 +50,44 @@ struct NeutralTokenProvider: TokenProvider {
     public var iconWarning: Color { Color.dynamicColor(defaultColor: NeutralColors.orange600, darkModeColor: NeutralColors.orange500) }
     public var iconInfo: Color { Color.dynamicColor(defaultColor: NeutralColors.blue600, darkModeColor: NeutralColors.blue500) }
     public var iconNotification: Color { Color.dynamicColor(defaultColor: NeutralColors.white, darkModeColor: NeutralColors.white) }
+    public var iconHoverStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.blue700, darkModeColor: NeutralColors.blue700) }
+    public var iconInvertedHoverStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.gray100, darkModeColor: NeutralColors.gray100) }
+    public var iconActiveStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.blue800, darkModeColor: NeutralColors.blue800) }
+    public var iconInvertedActiveStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.gray200, darkModeColor: NeutralColors.gray200) }
+    public var iconSelectedStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.blue600, darkModeColor: NeutralColors.blue600) }
+    public var iconInvertedSelectedStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.blue400, darkModeColor: NeutralColors.blue400) }
+    public var iconSelectedHoverStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.blue700, darkModeColor: NeutralColors.blue700) }
+    public var iconInvertedSelectedHoverStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.blue300, darkModeColor: NeutralColors.blue300) }
+    public var iconSelectedActiveStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.blue800, darkModeColor: NeutralColors.blue800) }
+    public var iconInvertedSelectedActiveStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.blue200, darkModeColor: NeutralColors.blue200) }
+    public var iconDisabledStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.gray300, darkModeColor: NeutralColors.gray300) }
+    public var iconInvertedDisabledStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.gray600, darkModeColor: NeutralColors.gray600) }
+    public var iconSubtleStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.gray600, darkModeColor: NeutralColors.gray600) }
+    public var iconInvertedSubtleStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.gray400, darkModeColor: NeutralColors.gray400) }
+    public var iconSubtleHoverStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.gray700, darkModeColor: NeutralColors.gray700) }
+    public var iconInvertedSubtleHoverStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.gray300, darkModeColor: NeutralColors.gray300) }
+    public var iconSubtleActiveStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.gray800, darkModeColor: NeutralColors.gray800) }
+    public var iconInvertedSubtleActiveStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.gray200, darkModeColor: NeutralColors.gray200) }
+    public var iconInvertedInvertedHoverStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.gray850, darkModeColor: NeutralColors.gray850) }
+    public var iconInvertedInvertedActiveStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.gray800, darkModeColor: NeutralColors.gray800) }
+    public var iconPrimaryStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.blue600, darkModeColor: NeutralColors.blue600) }
+    public var iconInvertedPrimaryStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.blue400, darkModeColor: NeutralColors.blue400) }
+    public var iconSecondaryStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.gray900, darkModeColor: NeutralColors.gray900) }
+    public var iconInvertedSecondaryStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.white, darkModeColor: NeutralColors.white) }
+    public var iconSecondaryHoverStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.gray800, darkModeColor: NeutralColors.gray800) }
+    public var iconInvertedSecondaryHoverStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.gray100, darkModeColor: NeutralColors.gray100) }
+    public var iconSecondaryActiveStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.gray700, darkModeColor: NeutralColors.gray700) }
+    public var iconInvertedSecondaryActiveStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.gray200, darkModeColor: NeutralColors.gray200) }
+    public var iconPositiveStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.green600, darkModeColor: NeutralColors.green600) }
+    public var iconInvertedPositiveStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.green400, darkModeColor: NeutralColors.green400) }
+    public var iconNegativeStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.red600, darkModeColor: NeutralColors.red600) }
+    public var iconInvertedNegativeStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.red400, darkModeColor: NeutralColors.red400) }
+    public var iconWarningStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.orange600, darkModeColor: NeutralColors.orange600) }
+    public var iconInvertedWarningStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.orange500, darkModeColor: NeutralColors.orange500) }
+    public var iconInfoStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.blue600, darkModeColor: NeutralColors.blue600) }
+    public var iconInvertedInfoStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.blue500, darkModeColor: NeutralColors.blue500) }
+    public var iconNotificationStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.white, darkModeColor: NeutralColors.white) }
+    public var iconInvertedNotificationStatic: Color { Color.dynamicColor(defaultColor: NeutralColors.white, darkModeColor: NeutralColors.white) }
     public var background: Color { Color.dynamicColor(defaultColor: NeutralColors.white, darkModeColor: NeutralColors.gray900) }
     public var backgroundHover: Color { Color.dynamicColor(defaultColor: NeutralColors.gray100, darkModeColor: NeutralColors.gray850) }
     public var backgroundActive: Color { Color.dynamicColor(defaultColor: NeutralColors.gray200, darkModeColor: NeutralColors.gray800) }
@@ -152,6 +203,19 @@ struct NeutralUITokenProvider: UITokenProvider {
     public var textDisabled: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.gray300, darkModeColor: NeutralUIColors.gray500) }
     public var textNegative: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.red600, darkModeColor: NeutralUIColors.red400) }
     public var textPositive: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.green600, darkModeColor: NeutralUIColors.green400) }
+    public var textSubtleStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.gray600, darkModeColor: NeutralUIColors.gray600) }
+    public var textInvertedSubtleStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.gray400, darkModeColor: NeutralUIColors.gray400) }
+    public var textPlaceholderStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.gray300, darkModeColor: NeutralUIColors.gray300) }
+    public var textInvertedPlaceholderStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.gray500, darkModeColor: NeutralUIColors.gray500) }
+    public var textInvertedInvertedSubtleStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.gray600, darkModeColor: NeutralUIColors.gray600) }
+    public var textLinkStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.blue600, darkModeColor: NeutralUIColors.blue600) }
+    public var textInvertedLinkStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.blue400, darkModeColor: NeutralUIColors.blue400) }
+    public var textDisabledStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.gray300, darkModeColor: NeutralUIColors.gray300) }
+    public var textInvertedDisabledStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.gray500, darkModeColor: NeutralUIColors.gray500) }
+    public var textNegativeStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.red600, darkModeColor: NeutralUIColors.red600) }
+    public var textInvertedNegativeStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.red400, darkModeColor: NeutralUIColors.red400) }
+    public var textPositiveStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.green600, darkModeColor: NeutralUIColors.green600) }
+    public var textInvertedPositiveStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.green400, darkModeColor: NeutralUIColors.green400) }
     public var icon: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.gray900, darkModeColor: NeutralUIColors.white) }
     public var iconHover: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.blue700, darkModeColor: NeutralUIColors.blue100) }
     public var iconActive: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.blue800, darkModeColor: NeutralUIColors.blue200) }
@@ -176,6 +240,44 @@ struct NeutralUITokenProvider: UITokenProvider {
     public var iconWarning: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.orange600, darkModeColor: NeutralUIColors.orange500) }
     public var iconInfo: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.blue600, darkModeColor: NeutralUIColors.blue500) }
     public var iconNotification: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.white, darkModeColor: NeutralUIColors.white) }
+    public var iconHoverStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.blue700, darkModeColor: NeutralUIColors.blue700) }
+    public var iconInvertedHoverStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.gray100, darkModeColor: NeutralUIColors.gray100) }
+    public var iconActiveStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.blue800, darkModeColor: NeutralUIColors.blue800) }
+    public var iconInvertedActiveStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.gray200, darkModeColor: NeutralUIColors.gray200) }
+    public var iconSelectedStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.blue600, darkModeColor: NeutralUIColors.blue600) }
+    public var iconInvertedSelectedStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.blue400, darkModeColor: NeutralUIColors.blue400) }
+    public var iconSelectedHoverStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.blue700, darkModeColor: NeutralUIColors.blue700) }
+    public var iconInvertedSelectedHoverStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.blue300, darkModeColor: NeutralUIColors.blue300) }
+    public var iconSelectedActiveStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.blue800, darkModeColor: NeutralUIColors.blue800) }
+    public var iconInvertedSelectedActiveStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.blue200, darkModeColor: NeutralUIColors.blue200) }
+    public var iconDisabledStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.gray300, darkModeColor: NeutralUIColors.gray300) }
+    public var iconInvertedDisabledStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.gray600, darkModeColor: NeutralUIColors.gray600) }
+    public var iconSubtleStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.gray600, darkModeColor: NeutralUIColors.gray600) }
+    public var iconInvertedSubtleStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.gray400, darkModeColor: NeutralUIColors.gray400) }
+    public var iconSubtleHoverStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.gray700, darkModeColor: NeutralUIColors.gray700) }
+    public var iconInvertedSubtleHoverStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.gray300, darkModeColor: NeutralUIColors.gray300) }
+    public var iconSubtleActiveStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.gray800, darkModeColor: NeutralUIColors.gray800) }
+    public var iconInvertedSubtleActiveStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.gray200, darkModeColor: NeutralUIColors.gray200) }
+    public var iconInvertedInvertedHoverStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.gray850, darkModeColor: NeutralUIColors.gray850) }
+    public var iconInvertedInvertedActiveStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.gray800, darkModeColor: NeutralUIColors.gray800) }
+    public var iconPrimaryStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.blue600, darkModeColor: NeutralUIColors.blue600) }
+    public var iconInvertedPrimaryStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.blue400, darkModeColor: NeutralUIColors.blue400) }
+    public var iconSecondaryStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.gray900, darkModeColor: NeutralUIColors.gray900) }
+    public var iconInvertedSecondaryStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.white, darkModeColor: NeutralUIColors.white) }
+    public var iconSecondaryHoverStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.gray800, darkModeColor: NeutralUIColors.gray800) }
+    public var iconInvertedSecondaryHoverStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.gray100, darkModeColor: NeutralUIColors.gray100) }
+    public var iconSecondaryActiveStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.gray700, darkModeColor: NeutralUIColors.gray700) }
+    public var iconInvertedSecondaryActiveStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.gray200, darkModeColor: NeutralUIColors.gray200) }
+    public var iconPositiveStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.green600, darkModeColor: NeutralUIColors.green600) }
+    public var iconInvertedPositiveStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.green400, darkModeColor: NeutralUIColors.green400) }
+    public var iconNegativeStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.red600, darkModeColor: NeutralUIColors.red600) }
+    public var iconInvertedNegativeStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.red400, darkModeColor: NeutralUIColors.red400) }
+    public var iconWarningStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.orange600, darkModeColor: NeutralUIColors.orange600) }
+    public var iconInvertedWarningStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.orange500, darkModeColor: NeutralUIColors.orange500) }
+    public var iconInfoStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.blue600, darkModeColor: NeutralUIColors.blue600) }
+    public var iconInvertedInfoStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.blue500, darkModeColor: NeutralUIColors.blue500) }
+    public var iconNotificationStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.white, darkModeColor: NeutralUIColors.white) }
+    public var iconInvertedNotificationStatic: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.white, darkModeColor: NeutralUIColors.white) }
     public var background: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.white, darkModeColor: NeutralUIColors.gray900) }
     public var backgroundHover: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.gray100, darkModeColor: NeutralUIColors.gray850) }
     public var backgroundActive: UIColor { UIColor.dynamicColor(defaultColor: NeutralUIColors.gray200, darkModeColor: NeutralUIColors.gray800) }
