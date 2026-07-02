@@ -80,7 +80,6 @@ export function processAndWriteSemanticAndComponentTokens(
 		const semanticTextTokens = [
 			"subtle",
 			"placeholder",
-			"inverted-subtle",
 			"link",
 			"disabled",
 			"negative",
@@ -96,8 +95,6 @@ export function processAndWriteSemanticAndComponentTokens(
 			"subtle",
 			"subtle-hover",
 			"subtle-active",
-			"inverted-hover",
-			"inverted-active",
 			"primary",
 			"secondary",
 			"secondary-hover",
