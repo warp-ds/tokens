@@ -35,6 +35,21 @@
         "positive": {
           "value": "{color.green.400}"
         },
+        "inverted-placeholder": {
+          "value": "{color.gray.300}"
+        },
+        "inverted-link": {
+          "value": "{color.blue.600}"
+        },
+        "inverted-disabled": {
+          "value": "{color.gray.300}"
+        },
+        "inverted-negative": {
+          "value": "{color.red.600}"
+        },
+        "inverted-positive": {
+          "value": "{color.green.600}"
+        },
         "subtle-static": {
           "value": "{color.gray.600}"
         },
@@ -46,9 +61,6 @@
         },
         "inverted-placeholder-static": {
           "value": "{color.gray.500}"
-        },
-        "inverted-inverted-subtle-static": {
-          "value": "{color.gray.600}"
         },
         "link-static": {
           "value": "{color.blue.600}"
@@ -113,10 +125,10 @@
           "value": "{color.gray.900}"
         },
         "inverted-hover": {
-          "value": "{color.gray.850}"
+          "value": "{color.blue.700}"
         },
         "inverted-active": {
-          "value": "{color.gray.800}"
+          "value": "{color.blue.800}"
         },
         "inverted-static": {
           "value": "{color.white}"
@@ -148,17 +160,65 @@
         "notification": {
           "value": "{color.white}"
         },
+        "inverted-selected": {
+          "value": "{color.blue.600}"
+        },
+        "inverted-selected-hover": {
+          "value": "{color.blue.700}"
+        },
+        "inverted-selected-active": {
+          "value": "{color.blue.800}"
+        },
+        "inverted-disabled": {
+          "value": "{color.gray.300}"
+        },
+        "inverted-subtle": {
+          "value": "{color.gray.600}"
+        },
+        "inverted-subtle-hover": {
+          "value": "{color.gray.700}"
+        },
+        "inverted-subtle-active": {
+          "value": "{color.gray.800}"
+        },
+        "inverted-primary": {
+          "value": "{color.blue.600}"
+        },
+        "inverted-secondary": {
+          "value": "{color.gray.900}"
+        },
+        "inverted-secondary-hover": {
+          "value": "{color.gray.800}"
+        },
+        "inverted-secondary-active": {
+          "value": "{color.gray.700}"
+        },
+        "inverted-positive": {
+          "value": "{color.green.600}"
+        },
+        "inverted-negative": {
+          "value": "{color.red.600}"
+        },
+        "inverted-warning": {
+          "value": "{color.orange.600}"
+        },
+        "inverted-info": {
+          "value": "{color.blue.600}"
+        },
+        "inverted-notification": {
+          "value": "{color.white}"
+        },
         "hover-static": {
           "value": "{color.blue.700}"
         },
         "inverted-hover-static": {
-          "value": "{color.gray.100}"
+          "value": "{color.blue.100}"
         },
         "active-static": {
           "value": "{color.blue.800}"
         },
         "inverted-active-static": {
-          "value": "{color.gray.200}"
+          "value": "{color.blue.200}"
         },
         "selected-static": {
           "value": "{color.blue.600}"
@@ -201,12 +261,6 @@
         },
         "inverted-subtle-active-static": {
           "value": "{color.gray.200}"
-        },
-        "inverted-inverted-hover-static": {
-          "value": "{color.gray.850}"
-        },
-        "inverted-inverted-active-static": {
-          "value": "{color.gray.800}"
         },
         "primary-static": {
           "value": "{color.blue.600}"

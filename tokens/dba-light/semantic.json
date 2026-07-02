@@ -47,13 +47,16 @@
         "inverted-placeholder-static": {
           "value": "{color.gray.500}"
         },
-        "inverted-inverted-subtle-static": {
-          "value": "{color.gray.600}"
+        "inverted-placeholder": {
+          "value": "{color.gray.500}"
         },
         "link-static": {
           "value": "{color.jeanblue.600}"
         },
         "inverted-link-static": {
+          "value": "{color.jeanblue.400}"
+        },
+        "inverted-link": {
           "value": "{color.jeanblue.400}"
         },
         "disabled-static": {
@@ -62,16 +65,25 @@
         "inverted-disabled-static": {
           "value": "{color.gray.500}"
         },
+        "inverted-disabled": {
+          "value": "{color.gray.500}"
+        },
         "negative-static": {
           "value": "{color.red.600}"
         },
         "inverted-negative-static": {
           "value": "{color.red.400}"
         },
+        "inverted-negative": {
+          "value": "{color.red.400}"
+        },
         "positive-static": {
           "value": "{color.green.600}"
         },
         "inverted-positive-static": {
+          "value": "{color.green.500}"
+        },
+        "inverted-positive": {
           "value": "{color.green.500}"
         }
       },
@@ -113,10 +125,10 @@
           "value": "{color.white}"
         },
         "inverted-hover": {
-          "value": "{color.gray.100}"
+          "value": "{color.jeanblue.100}"
         },
         "inverted-active": {
-          "value": "{color.gray.200}"
+          "value": "{color.jeanblue.200}"
         },
         "inverted-static": {
           "value": "{color.white}"
@@ -152,18 +164,21 @@
           "value": "{color.jeanblue.700}"
         },
         "inverted-hover-static": {
-          "value": "{color.gray.100}"
+          "value": "{color.jeanblue.100}"
         },
         "active-static": {
           "value": "{color.jeanblue.800}"
         },
         "inverted-active-static": {
-          "value": "{color.gray.200}"
+          "value": "{color.jeanblue.200}"
         },
         "selected-static": {
           "value": "{color.jeanblue.600}"
         },
         "inverted-selected-static": {
+          "value": "{color.jeanblue.400}"
+        },
+        "inverted-selected": {
           "value": "{color.jeanblue.400}"
         },
         "selected-hover-static": {
@@ -172,10 +187,16 @@
         "inverted-selected-hover-static": {
           "value": "{color.jeanblue.300}"
         },
+        "inverted-selected-hover": {
+          "value": "{color.jeanblue.300}"
+        },
         "selected-active-static": {
           "value": "{color.jeanblue.800}"
         },
         "inverted-selected-active-static": {
+          "value": "{color.jeanblue.200}"
+        },
+        "inverted-selected-active": {
           "value": "{color.jeanblue.200}"
         },
         "disabled-static": {
@@ -184,10 +205,16 @@
         "inverted-disabled-static": {
           "value": "{color.gray.600}"
         },
+        "inverted-disabled": {
+          "value": "{color.gray.600}"
+        },
         "subtle-static": {
           "value": "{color.gray.600}"
         },
         "inverted-subtle-static": {
+          "value": "{color.gray.400}"
+        },
+        "inverted-subtle": {
           "value": "{color.gray.400}"
         },
         "subtle-hover-static": {
@@ -196,22 +223,25 @@
         "inverted-subtle-hover-static": {
           "value": "{color.gray.300}"
         },
+        "inverted-subtle-hover": {
+          "value": "{color.gray.300}"
+        },
         "subtle-active-static": {
           "value": "{color.gray.800}"
         },
         "inverted-subtle-active-static": {
           "value": "{color.gray.200}"
         },
-        "inverted-inverted-hover-static": {
-          "value": "{color.gray.850}"
-        },
-        "inverted-inverted-active-static": {
-          "value": "{color.gray.800}"
+        "inverted-subtle-active": {
+          "value": "{color.gray.200}"
         },
         "primary-static": {
           "value": "{color.jeanblue.600}"
         },
         "inverted-primary-static": {
+          "value": "{color.jeanblue.400}"
+        },
+        "inverted-primary": {
           "value": "{color.jeanblue.400}"
         },
         "secondary-static": {
@@ -220,10 +250,16 @@
         "inverted-secondary-static": {
           "value": "{color.phthaloblue.300}"
         },
+        "inverted-secondary": {
+          "value": "{color.phthaloblue.300}"
+        },
         "secondary-hover-static": {
           "value": "{color.phthaloblue.700}"
         },
         "inverted-secondary-hover-static": {
+          "value": "{color.phthaloblue.200}"
+        },
+        "inverted-secondary-hover": {
           "value": "{color.phthaloblue.200}"
         },
         "secondary-active-static": {
@@ -232,10 +268,16 @@
         "inverted-secondary-active-static": {
           "value": "{color.phthaloblue.100}"
         },
+        "inverted-secondary-active": {
+          "value": "{color.phthaloblue.100}"
+        },
         "positive-static": {
           "value": "{color.green.600}"
         },
         "inverted-positive-static": {
+          "value": "{color.green.500}"
+        },
+        "inverted-positive": {
           "value": "{color.green.500}"
         },
         "negative-static": {
@@ -244,10 +286,16 @@
         "inverted-negative-static": {
           "value": "{color.red.400}"
         },
+        "inverted-negative": {
+          "value": "{color.red.400}"
+        },
         "warning-static": {
           "value": "{color.yellow.600}"
         },
         "inverted-warning-static": {
+          "value": "{color.yellow.500}"
+        },
+        "inverted-warning": {
           "value": "{color.yellow.500}"
         },
         "info-static": {
@@ -256,10 +304,16 @@
         "inverted-info-static": {
           "value": "{color.jeanblue.500}"
         },
+        "inverted-info": {
+          "value": "{color.jeanblue.500}"
+        },
         "notification-static": {
           "value": "{color.white}"
         },
         "inverted-notification-static": {
+          "value": "{color.white}"
+        },
+        "inverted-notification": {
           "value": "{color.white}"
         }
       },

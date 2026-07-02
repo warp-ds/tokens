@@ -80,7 +80,6 @@ export function processAndWriteSemanticAndComponentTokens(
 		const semanticTextTokens = [
 			"subtle",
 			"placeholder",
-			"inverted-subtle",
 			"link",
 			"disabled",
 			"negative",
@@ -96,8 +95,6 @@ export function processAndWriteSemanticAndComponentTokens(
 			"subtle",
 			"subtle-hover",
 			"subtle-active",
-			"inverted-hover",
-			"inverted-active",
 			"primary",
 			"secondary",
 			"secondary-hover",
@@ -118,11 +115,28 @@ export function processAndWriteSemanticAndComponentTokens(
 			} else {
 				modeObjects[`${brand} ${mode}`].semantic.color.text[`${variant}-static`] = variantStaticValue;
 			}
+
 			const invertedVariantStaticValue = modeObjects[`${brand} dark`].semantic.color.text[variant];
 			if (!invertedVariantStaticValue) {
 				console.error(`Didn't find a value for inverted-${variant}-static`);
 			} else {
 				modeObjects[`${brand} ${mode}`].semantic.color.text[`inverted-${variant}-static`] = invertedVariantStaticValue;
+			}
+
+			// Generate a inverted-<variant> with the value for dark mode used in light mode,
+			// and light mode used in dark mode.
+			const invertedVariantDynamicValueLightTokens = modeObjects[`${brand} dark`].semantic.color.text[variant];
+			if (!invertedVariantDynamicValueLightTokens) {
+				console.error(`Didn't find a light-mode value for inverted-${variant}`);
+			} else {
+				modeObjects[`${brand} light`].semantic.color.text[`inverted-${variant}`] = invertedVariantDynamicValueLightTokens;
+			}
+
+			const invertedVariantDynamicValueDarkTokens = modeObjects[`${brand} light`].semantic.color.text[variant];
+			if (!invertedVariantDynamicValueDarkTokens) {
+				console.error(`Didn't find a dark-mode value for inverted-${variant}`);
+			} else {
+				modeObjects[`${brand} dark`].semantic.color.text[`inverted-${variant}`] = invertedVariantDynamicValueDarkTokens;
 			}
 		}
 		
@@ -140,6 +154,22 @@ export function processAndWriteSemanticAndComponentTokens(
 				console.error(`Didn't find a value for inverted-${variant}-static`);
 			} else {
 				modeObjects[`${brand} ${mode}`].semantic.color.icon[`inverted-${variant}-static`] = invertedVariantStaticValue;
+			}
+
+			// Generate a inverted-<variant> with the value for dark mode used in light mode,
+			// and light mode used in dark mode.
+			const invertedVariantDynamicValueLightTokens = modeObjects[`${brand} dark`].semantic.color.icon[variant];
+			if (!invertedVariantDynamicValueLightTokens) {
+				console.error(`Didn't find a light-mode value for inverted-${variant}`);
+			} else {
+				modeObjects[`${brand} light`].semantic.color.icon[`inverted-${variant}`] = invertedVariantDynamicValueLightTokens;
+			}
+
+			const invertedVariantDynamicValueDarkTokens = modeObjects[`${brand} light`].semantic.color.icon[variant];
+			if (!invertedVariantDynamicValueDarkTokens) {
+				console.error(`Didn't find a dark-mode value for inverted-${variant}`);
+			} else {
+				modeObjects[`${brand} dark`].semantic.color.icon[`inverted-${variant}`] = invertedVariantDynamicValueDarkTokens;
 			}
 		}
 	}
