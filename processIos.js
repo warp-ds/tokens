@@ -478,7 +478,7 @@ function combineTokenProviders() {
 				.map((token) => {
 					const lightValue = lightTokens[token];
 					const darkValue = darkTokens[token];
-					return `    public var ${token}: Color { Color.dynamicColor(defaultColor: ${lightValue}, darkModeColor: ${darkValue}) }`;
+					return `    public var ${token}: Color = Color.dynamicColor(defaultColor: ${lightValue}, darkModeColor: ${darkValue})`;
 				})
 				.join("\n");
 
@@ -487,7 +487,7 @@ function combineTokenProviders() {
 				.map((token) => {
 					const lightValue = lightUITokens[token];
 					const darkValue = darkUITokens[token];
-					return `    public var ${token}: UIColor { UIColor.dynamicColor(defaultColor: ${lightValue}, darkModeColor: ${darkValue}) }`;
+					return `    public var ${token}: UIColor = UIColor.dynamicColor(defaultColor: ${lightValue}, darkModeColor: ${darkValue})`;
 				})
 				.join("\n");
 
@@ -541,57 +541,43 @@ ${combinedUITokens}
 
 // Function to combine light and dark color providers from all brands into a single ColorProvider.swift file
 function combineAllColorProviders() {
-	// Log all the files inside the folder
 	const allFiles = fs.readdirSync(iosFolder);
-	// console.log(`Files in ${iosFolder}:`, allFiles);
 
-	// Filter the files that end with LightColors.swift and DarkColors.swift
 	const lightFiles = allFiles.filter((file) =>
 		file.endsWith("LightColors.swift"),
 	);
-	const darkFiles = allFiles.filter((file) =>
-		file.endsWith("DarkColors.swift"),
-	);
 
-	const combinedTokens = {};
-	const combinedUITokens = {};
+	// brandColorValues[brand][token] = valueExpression
+	const brandColorValues = {};
+	const brandUIColorValues = {};
+	let tokenOrder = null; // preserve order from first brand processed
 
 	lightFiles.forEach((lightFile) => {
-		const brandName = lightFile.replace("LightColors.swift", ""); // Extract the brand name
-		const darkFile = `${brandName}DarkColors.swift`; // Corresponding dark color provider file
+		const brandName = lightFile.replace("LightColors.swift", "");
+		const darkFile = `${brandName}DarkColors.swift`;
 
 		const lightFilePath = path.join(iosFolder, lightFile);
 		const darkFilePath = path.join(iosFolder, darkFile);
 
-		// console.log(`Processing brand for Colors: ${brandName}`);
-		// console.log(`Light file: ${lightFilePath}`);
-		// console.log(`Dark file: ${darkFilePath}`);
-
 		if (fs.existsSync(lightFilePath) && fs.existsSync(darkFilePath)) {
-			// Read the contents of both files
 			const lightFileContent = fs.readFileSync(lightFilePath, "utf8");
 			const darkFileContent = fs.readFileSync(darkFilePath, "utf8");
 
-			// Log the contents of the light and dark color provider files
-			// console.log(`Light File Content:\n${lightFileContent}`);
-			// console.log(`Dark File Content:\n${darkFileContent}`);
-
-			// Parse the SwiftUI properties from each file
 			const lightTokens = extractTokens(lightFileContent, "Color");
 			const darkTokens = extractTokens(darkFileContent, "Color");
+			const lightUITokens = extractTokens(lightFileContent, "UIColor");
+			const darkUITokens = extractTokens(darkFileContent, "UIColor");
 
-			// Add brands to existing property switches for each token
+			if (!tokenOrder) {
+				tokenOrder = Object.keys(lightTokens);
+			}
+
+			brandColorValues[brandName] = {};
 			Object.keys(lightTokens).forEach((token) => {
 				const lightValue = lightTokens[token];
 				const darkValue = darkTokens[token];
 
-				// If it's a semantic color reference, convert it to use the token object instead
 				if (lightValue.includes("Semantic") && darkValue.includes("Semantic")) {
-					if (!combinedTokens[token]) {
-						combinedTokens[token] = [];
-					}
-
-					// Correctly remove the `{brand}Semantic.color` part and use the token directly
 					const camelCasedLightToken = toCamelCase(
 						lightValue
 							.replace(`${brandName}Semantic.color`, "")
@@ -599,53 +585,28 @@ function combineAllColorProviders() {
 					);
 
 					if (lightValue === darkValue) {
-						combinedTokens[token].push(
-							`    case .${brandName.toLowerCase()}: return token.${camelCasedLightToken}`,
-						);
+						brandColorValues[brandName][token] = `token.${camelCasedLightToken}`;
 					} else {
 						const camelCasedDarkToken = toCamelCase(
 							darkValue
 								.replace(`${brandName}Semantic.color`, "")
 								.replace(".default", ""),
 						);
-
-						combinedTokens[token].push(
-							`    case .${brandName.toLowerCase()}: return Color.dynamicColor(defaultColor: token.${camelCasedLightToken}, darkModeColor: token.${camelCasedDarkToken})`,
-						);
+						brandColorValues[brandName][token] = `Color.dynamicColor(defaultColor: token.${camelCasedLightToken}, darkModeColor: token.${camelCasedDarkToken})`;
 					}
+				} else if (lightValue === darkValue) {
+					brandColorValues[brandName][token] = lightValue;
 				} else {
-					// For non-semantic colors, add the dynamic color values
-					if (!combinedTokens[token]) {
-						combinedTokens[token] = [];
-					}
-					if (lightValue === darkValue) {
-						combinedTokens[token].push(
-							`    case .${brandName.toLowerCase()}: return ${lightValue}`,
-						);
-					} else {
-						combinedTokens[token].push(
-							`    case .${brandName.toLowerCase()}: return Color.dynamicColor(defaultColor: ${lightValue}, darkModeColor: ${darkValue})`,
-						);
-					}
+					brandColorValues[brandName][token] = `Color.dynamicColor(defaultColor: ${lightValue}, darkModeColor: ${darkValue})`;
 				}
 			});
 
-			// Parse the UIKit properties from each file
-			const lightUITokens = extractTokens(lightFileContent, "UIColor");
-			const darkUITokens = extractTokens(darkFileContent, "UIColor");
-
-			// Add brands to existing property switches for each token (for UIColor)
+			brandUIColorValues[brandName] = {};
 			Object.keys(lightUITokens).forEach((token) => {
 				const lightValue = lightUITokens[token];
 				const darkValue = darkUITokens[token];
 
-				// If it's a semantic color reference, convert it to use the token object instead
 				if (lightValue.includes("Semantic") && darkValue.includes("Semantic")) {
-					if (!combinedUITokens[token]) {
-						combinedUITokens[token] = [];
-					}
-
-					// Correctly remove the `{brand}UISemantic.color` part and use the token directly
 					const camelCasedLightToken = toCamelCase(
 						lightValue
 							.replace(`${brandName}UISemantic.color`, "")
@@ -653,34 +614,19 @@ function combineAllColorProviders() {
 					);
 
 					if (lightValue === darkValue) {
-						combinedUITokens[token].push(
-							`    case .${brandName.toLowerCase()}: return token.${camelCasedLightToken}`,
-						);
+						brandUIColorValues[brandName][token] = `token.${camelCasedLightToken}`;
 					} else {
 						const camelCasedDarkToken = toCamelCase(
 							darkValue
 								.replace(`${brandName}UISemantic.color`, "")
 								.replace(".default", ""),
 						);
-
-						combinedUITokens[token].push(
-							`    case .${brandName.toLowerCase()}: return UIColor.dynamicColor(defaultColor: token.${camelCasedLightToken}, darkModeColor: token.${camelCasedDarkToken})`,
-						);
+						brandUIColorValues[brandName][token] = `UIColor.dynamicColor(defaultColor: token.${camelCasedLightToken}, darkModeColor: token.${camelCasedDarkToken})`;
 					}
+				} else if (lightValue === darkValue) {
+					brandUIColorValues[brandName][token] = lightValue;
 				} else {
-					// For non-semantic colors, add the dynamic color values
-					if (!combinedUITokens[token]) {
-						combinedUITokens[token] = [];
-					}
-					if (lightValue === darkValue) {
-						combinedUITokens[token].push(
-							`    case .${brandName.toLowerCase()}: return ${lightValue}`,
-						);
-					} else {
-						combinedUITokens[token].push(
-							`    case .${brandName.toLowerCase()}: return UIColor.dynamicColor(defaultColor: ${lightValue}, darkModeColor: ${darkValue})`,
-						);
-					}
+					brandUIColorValues[brandName][token] = `UIColor.dynamicColor(defaultColor: ${lightValue}, darkModeColor: ${darkValue})`;
 				}
 			});
 		} else {
@@ -688,43 +634,66 @@ function combineAllColorProviders() {
 		}
 	});
 
-	// Generate the combined file content
+	const brands = Object.keys(brandColorValues);
+	const tokens = tokenOrder || [];
+	const uiTokens = brands.length > 0 ? Object.keys(brandUIColorValues[brands[0]] || {}) : [];
+
+	const propertyDecls = tokens
+		.map((t) => `    public var ${t}: Color`)
+		.join("\n");
+
+	const uiPropertyDecls = uiTokens
+		.map((t) => `    public var ${t}: UIColor`)
+		.join("\n");
+
+	const initCases = brands
+		.map((brand) => {
+			const assignments = tokens
+				.map((t) => `            ${t} = ${brandColorValues[brand][t]}`)
+				.join("\n");
+			return `        case .${brand.toLowerCase()}:\n${assignments}`;
+		})
+		.join("\n");
+
+	const uiInitCases = brands
+		.map((brand) => {
+			const assignments = uiTokens
+				.map((t) => `            ${t} = ${brandUIColorValues[brand][t]}`)
+				.join("\n");
+			return `        case .${brand.toLowerCase()}:\n${assignments}`;
+		})
+		.join("\n");
+
 	const combinedContent = `import SwiftUI
 
 // Generated by https://github.com/warp-ds/tokens, do not edit
 public struct ColorProvider {
     public let token: TokenProvider
-    
-${Object.keys(combinedTokens)
-	.map((token) => {
-		return `    public var ${token}: Color {
+${propertyDecls}
+
+    public init(token: TokenProvider) {
+        self.token = token
         switch Warp.Theme {
-    ${combinedTokens[token].join("\n    ")}
+${initCases}
         }
-    }`;
-	})
-	.join("\n    \n")}
+    }
 }
 
 public struct UIColorProvider {
     public let token: UITokenProvider
-    
-${Object.keys(combinedUITokens)
-	.map((token) => {
-		return `    public var ${token}: UIColor {
+${uiPropertyDecls}
+
+    public init(token: UITokenProvider) {
+        self.token = token
         switch Warp.Theme {
-    ${combinedUITokens[token].join("\n    ")}
+${uiInitCases}
         }
-    }`;
-	})
-	.join("\n    \n")}
+    }
 }
 `;
 
-	// Write the combined content to a new file
 	const combinedFilePath = path.join(iosFolder, `ColorProvider.swift`);
 	fs.writeFileSync(combinedFilePath, combinedContent, "utf8");
-	// console.log(`Combined color provider created at ${combinedFilePath}`);
 
 	// Delete the original Light and Dark color provider files
 	lightFiles.forEach((lightFile) => {
@@ -734,7 +703,6 @@ ${Object.keys(combinedUITokens)
 
 		fs.unlinkSync(lightFilePath);
 		fs.unlinkSync(darkFilePath);
-		// console.log(`Deleted ${lightFile} and ${darkFile}`);
 	});
 }
 
