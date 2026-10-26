@@ -74,7 +74,7 @@ internal object NeutralBackgroundColors : WarpBackgroundColors {
     override val infoSubtle = Color(0xFFf0f7ff)
     override val infoSubtleHover = Color(0xFFc8dffa)
     override val infoSubtleActive = Color(0xFFa0c9f7)
-    override val transparent0 = Color(0xFFffffff00)
+    override val transparent0 = Color(0x00ffffff)
     override val notification = Color(0xFFe00000)
 }
 
@@ -362,4 +362,4 @@ private object NeutralPageIndicatorColors : WarpPageIndicatorColors {
     internal val Red900 = Color(0xFF240000)
     internal val White = Color(0xFFffffff)
     internal val Black = Color(0xFF000000)
-    internal val Transparent = Color(0xFFffffff00)
+    internal val Transparent = Color(0x00ffffff)

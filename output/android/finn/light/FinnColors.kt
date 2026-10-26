@@ -74,7 +74,7 @@ internal object FinnBackgroundColors : WarpBackgroundColors {
     override val infoSubtle = Color(0xFFf1f9ff)
     override val infoSubtleHover = Color(0xFFe0f6ff)
     override val infoSubtleActive = Color(0xFFb6f0ff)
-    override val transparent0 = Color(0xFFffffff00)
+    override val transparent0 = Color(0x00ffffff)
     override val notification = Color(0xFFd91f0a)
 }
 
@@ -368,4 +368,4 @@ private object FinnPageIndicatorColors : WarpPageIndicatorColors {
     internal val Red700 = Color(0xFF9e2216)
     internal val Red800 = Color(0xFF681d11)
     internal val Red900 = Color(0xFF38140b)
-    internal val Transparent = Color(0xFFffffff00)
+    internal val Transparent = Color(0x00ffffff)
