@@ -74,7 +74,7 @@ internal object BlocketBackgroundColors : WarpBackgroundColors {
     override val infoSubtle = Color(0xFFf0f7ff)
     override val infoSubtleHover = Color(0xFFc8dffa)
     override val infoSubtleActive = Color(0xFFa0c9f7)
-    override val transparent0 = Color(0xFFffffff00)
+    override val transparent0 = Color(0x00ffffff)
     override val notification = Color(0xFFe90017)
 }
 
@@ -368,4 +368,4 @@ private object BlocketPageIndicatorColors : WarpPageIndicatorColors {
     internal val Gray850 = Color(0xFF26262b)
     internal val Gray900 = Color(0xFF1b1b1f)
     internal val Gray950 = Color(0xFF121212)
-    internal val Transparent = Color(0xFFffffff00)
+    internal val Transparent = Color(0x00ffffff)
